@@ -1,0 +1,35 @@
+{
+        "desc": "This transformation will add some meaningless sentence to premise, which do not change the semantics.",
+        "examples": [
+                {
+                        "ori": {
+                                "sentence1": "I love this book",
+                                "sentence2": "This book is my favorite",
+                                "label": "1"
+                        },
+                        "trans": {
+                                "sentence1": "I hate this book",
+                                "sentence2": "This book is my favorite",
+                                "label": "0"
+                        }
+                },
+                {
+                        "ori": {
+                                "sentence1": "Sleep early every night is my key to healthy life",
+                                "sentence2": "I always sleep early at night, which is important to my health",
+                                "label": "1"
+                        },
+                        "trans": {
+                                "sentence1": "Sleep late every night is my key to healthy life",
+                                "sentence2": "I always sleep early at night, which is important to my health",
+                                "label": "0"
+                        }
+                }
+        ],
+        "contributor": [
+                {
+                        "name": "zichu fei",
+                        "github": "https://github.com/sion-zcfei"
+                }
+        ]
+}

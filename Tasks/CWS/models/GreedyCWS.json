@@ -1,0 +1,4 @@
+{
+    "desc":"GreedyCWS: Using a new balanced character-word representation mechanism to establish a more effective character combination model to overcome the low computational efficiency of the existing neural model training and work process",
+    "contributor":[{"name":"yongxin zhang", "github":"https://github.com/GC-inori"}]
+}

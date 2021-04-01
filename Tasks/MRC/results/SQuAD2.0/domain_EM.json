@@ -1,0 +1,282 @@
+[
+    {
+        "model": "BiDAF",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse",
+                "ori": 54.43600000000001,
+                "trans": 20.14,
+                "sample_num": 5129
+            },
+            {
+                "name": "ModifyPos",
+                "ori": 55.828,
+                "trans": 53.372,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbAnswer",
+                "ori": 54.781000000000006,
+                "trans": 31.275,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation",
+                "ori": 60.703,
+                "trans": 56.309,
+                "sample_num": 11492
+            },
+            {
+                "name": "PerturbQuestion-MLM",
+                "ori": 60.7,
+                "trans": 55.513000000000005,
+                "sample_num": 11491
+            }
+        ]
+    },
+    {
+        "model": "BiDAF+",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse",
+                "ori": 50.205,
+                "trans": 14.759,
+                "sample_num": 5129
+            },
+            {
+                "name": "ModifyPos",
+                "ori": 51.217,
+                "trans": 49.416000000000004,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbAnswer",
+                "ori": 50.398,
+                "trans": 28.359,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation",
+                "ori": 62.452,
+                "trans": 57.971000000000004,
+                "sample_num": 11492
+            },
+            {
+                "name": "PerturbQuestion-MLM",
+                "ori": 62.466,
+                "trans": 57.088,
+                "sample_num": 11491
+            }
+        ]
+    },
+    {
+        "model": "BiDAF+ELMo",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse",
+                "ori": 57.672,
+                "trans": 19.244,
+                "sample_num": 5129
+            },
+            {
+                "name": "ModifyPos",
+                "ori": 59.053999999999995,
+                "trans": 57.49100000000001,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbAnswer",
+                "ori": 57.913999999999994,
+                "trans": 34.154,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation",
+                "ori": 63.218,
+                "trans": 57.805,
+                "sample_num": 11492
+            },
+            {
+                "name": "PerturbQuestion-MLM",
+                "ori": 63.223,
+                "trans": 57.236000000000004,
+                "sample_num": 11491
+            }
+        ]
+    },
+    {
+        "model": "BiDAF++ELMo",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse",
+                "ori": 58.821999999999996,
+                "trans": 22.344,
+                "sample_num": 5129
+            },
+            {
+                "name": "ModifyPos",
+                "ori": 59.865,
+                "trans": 57.411,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbAnswer",
+                "ori": 58.928000000000004,
+                "trans": 33.973,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation",
+                "ori": 65.016,
+                "trans": 59.581,
+                "sample_num": 11492
+            },
+            {
+                "name": "PerturbQuestion-MLM",
+                "ori": 65.01,
+                "trans": 58.924,
+                "sample_num": 11491
+            }
+        ]
+    },
+    {
+        "model": "BERT",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse",
+                "ori": 73.66,
+                "trans": 30.552,
+                "sample_num": 5129
+            },
+            {
+                "name": "ModifyPos",
+                "ori": 74.72800000000001,
+                "trans": 72.92699999999999,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbAnswer",
+                "ori": 73.633,
+                "trans": 45.888999999999996,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation",
+                "ori": 72.668,
+                "trans": 64.68,
+                "sample_num": 11492
+            },
+            {
+                "name": "PerturbQuestion-MLM",
+                "ori": 72.666,
+                "trans": 61.213,
+                "sample_num": 11491
+            }
+        ]
+    },
+    {
+        "model": "ALBERT",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse",
+                "ori": 75.921,
+                "trans": 21.837,
+                "sample_num": 5129
+            },
+            {
+                "name": "ModifyPos",
+                "ori": 77.202,
+                "trans": 75.638,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbAnswer",
+                "ori": 75.915,
+                "trans": 46.903,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation",
+                "ori": 79.664,
+                "trans": 70.867,
+                "sample_num": 11492
+            },
+            {
+                "name": "PerturbQuestion-MLM",
+                "ori": 79.671,
+                "trans": 57.488,
+                "sample_num": 11491
+            }
+        ]
+    },
+    {
+        "model": "XLNet",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse",
+                "ori": 79.294,
+                "trans": 27.881,
+                "sample_num": 5129
+            },
+            {
+                "name": "ModifyPos",
+                "ori": 80.032,
+                "trans": 78.369,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbAnswer",
+                "ori": 79.156,
+                "trans": 53.785,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation",
+                "ori": 81.274,
+                "trans": 71.693,
+                "sample_num": 11492
+            },
+            {
+                "name": "PerturbQuestion-MLM",
+                "ori": 81.27199999999999,
+                "trans": 53.015,
+                "sample_num": 11491
+            }
+        ]
+    },
+    {
+        "model": "DistilBERT",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse",
+                "ori": 69.643,
+                "trans": 25.639,
+                "sample_num": 5129
+            },
+            {
+                "name": "ModifyPos",
+                "ori": 70.73,
+                "trans": 69.939,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbAnswer",
+                "ori": 69.594,
+                "trans": 43.118,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation",
+                "ori": 66.464,
+                "trans": 60.32899999999999,
+                "sample_num": 11492
+            },
+            {
+                "name": "PerturbQuestion-MLM",
+                "ori": 66.469,
+                "trans": 58.541000000000004,
+                "sample_num": 11491
+            }
+        ]
+    }
+]

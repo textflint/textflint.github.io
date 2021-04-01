@@ -1,0 +1,19 @@
+{
+    "desc":"Entity Swap by swaping entities with ones that can be labeled by different labels.",
+    "examples":[
+        {
+            "ori":"SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+            "trans":"SOCCER - the Richmond GET LUCKY WIN , Berlin IN SURPRISE DEFEAT ."
+        },
+        {
+            "ori":"Lloyd did not say what form the discipline would take .",
+            "trans":"Washington did not say what form the discipline would take ."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"Yiding Tan",
+            "github":"https://github.com/Tannidy"
+        }
+    ]
+}

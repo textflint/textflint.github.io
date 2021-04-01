@@ -1,0 +1,35 @@
+{
+        "desc": "This transformation will add some meaningless sentence to premise, which do not change the semantics.",
+        "examples": [
+                {
+                        "ori": {
+                                "premise": "An old man with a package poses in front of an advertisement.",
+                                "hypothesis": "A man walks by an ad.",
+                                "label": "contradiction"
+                        },
+                        "trans": {
+                                "premise": "An old man with a package poses in front of an advertisement.",
+                                "hypothesis": "A man walks by an ad. And we have to say that the sun is not moon, the moon is not sun.",
+                                "label": "contradiction"
+                        }
+                },
+                {
+                        "ori": {
+                                "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+                                "hypothesis": "A family is at the beach.",
+                                "label": "entailment"
+                        },
+                        "trans": {
+                                "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+                                "hypothesis": "A family is at the beach. And we have to say that the sun is not moon, the moon is not sun.",
+                                "label": "entailment"
+                        }
+                }
+        ],
+        "contributor": [
+                {
+                        "name": "zichu fei",
+                        "github": "https://github.com/sion-zcfei"
+                }
+        ]
+}

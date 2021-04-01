@@ -1,0 +1,19 @@
+{
+    "desc":"PerturbAnswer is a task-specific transformation of machine reading comprehension, this transformation transforms the sentence with golden answer based on specific rules.",
+    "examples":[
+        {
+            "ori":"The UK refused to sign the Social Charter and was exempt from the legislation covering Social Charter issues unless it agreed to be bound by the legislation.",
+            "trans":"The UK repudiated to signature the Social Charter and was exempt from the legislation encompassing Social Charter issues unless it consented to be related by the legislation."
+        },
+        {
+            "ori":"The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title.",
+            "trans":"The British Soccer Meeting (AFC) champ Denver Broncos defeated the State Soccer Meeting (NFC) champ Michigan Vikings 24-10 to earn their 3rd Champ Bowl rubric."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"Zexiong Pang",
+            "github":"https://github.com/pzxbjx"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+{
+    "desc":"CWS_LSTM: Chinese word segmentation combined with LSTM",
+    "contributor":[{"name":"zhihua liu", "github":"https://github.com/LzhinFdu"}]
+}

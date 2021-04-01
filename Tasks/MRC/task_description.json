@@ -1,0 +1,26 @@
+{
+    "name": "MRC",
+    "full_name": "Machine Reading Comprehension",
+    "description": "Machine Reading Comprehension is the task is to read and comprehend a given text passage, and then answer questions based on it.",
+    "available_domain": [
+        "ModifyPos",
+        "AddSentDiverse",
+        "PerturbAnswer",
+        "PerturbQuestion"
+    ],
+    "available_ut": [
+        "Typos",
+        "Ocr",
+        "Keyboard",
+        "AddPunc",
+        "SwapSyn-WordNet",
+        "SwapSyn-WordEmbedding",
+        "Contraction",
+        "Tense",
+        "InsertAdv",
+        "AppendIrr",
+        "WordCase",
+        "TwitterType",
+        "Prejudice"
+    ]
+}

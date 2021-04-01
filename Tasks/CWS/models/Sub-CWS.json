@@ -1,0 +1,4 @@
+{
+    "desc":"Sub-CWS: Based on the character-level BiLSTM-CRF, subword information is introduced into Chinese word segmentation to eliminate character ambiguity",
+    "contributor":[{"name":"zhihua liu", "github":"https://github.com/LzhinFdu"}]
+}

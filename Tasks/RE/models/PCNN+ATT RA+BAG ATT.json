@@ -1,0 +1,4 @@
+{
+    "desc":"PCNN+ATT RA+BAG ATT: Distant Supervision Relation Extraction with Intra-Bag and Inter-Bag Attentions",
+    "contributor":[{"name": "zhiheng yan", "github":"https://github.com/cooper955955"}]
+}

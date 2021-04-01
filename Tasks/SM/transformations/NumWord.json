@@ -1,0 +1,35 @@
+{
+        "desc": "This transformation will find some num words in sentences and replace them with different num word.",
+        "examples": [
+                {
+                        "ori": {
+                                "sentence1": "What I'm saying is 100 percent right",
+                                "sentence2": "I could confirm my saying as 100 percent right",
+                                "label": "1"
+                        },
+                        "trans": {
+                                "sentence1": "What I'm saying is less than 50 percent right",
+                                "sentence2": "I could confirm my saying as 100 percent right",
+                                "label": "0"
+                        }
+                },
+                {
+                        "ori": {
+                                "sentence1": "Every people has two hands",
+                                "sentence2": "There are two hands with all of us",
+                                "label": "1"
+                        },
+                        "trans": {
+                                "sentence1": "Every people has two hands",
+                                "sentence2": "There are five hands with all of us",
+                                "label": "0"
+                        }
+                }
+        ],
+        "contributor": [
+                {
+                        "name": "zichu fei",
+                        "github": "https://github.com/sion-zcfei"
+                }
+        ]
+}

@@ -1,0 +1,4 @@
+{
+    "desc":"Target Specific Transformation Networks (TNet) employs CNN as the feature extractor for this classification problem, and rely on the contextpreserving and position relevance mechanisms to maintain the advantages of previous LSTM-based models.",
+    "contributor":[{"name":"rui zheng", "github":"https://github.com/ruizheng20"}]
+}

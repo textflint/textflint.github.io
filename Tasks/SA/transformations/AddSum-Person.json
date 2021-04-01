@@ -1,0 +1,13 @@
+{"desc": "AddSummary-Person is a task-specific transformation of sentiment analysis, this transformation will identify some special person name in the sentence, and insert the summary of these entities after them (the summary content is from wikipedia).", 
+    "examples":[
+    {
+        "ori":"Brilliant and moving performances by Tom Courtenay.",
+        "trans":"Brilliant and moving performances by Tom Courtenay (Sir Thomas Daniel Courtenay (/ˈkɔːrtni/; born 25 February 1937) is an English actor of stage and screen. After studying at the Royal Academy of Dramatic Art, Courtenay achieved prominence in the 1960s with a series of acclaimed film roles, including The Loneliness of the Long Distance Runner (1962), for which he received the BAFTA Award for Most Promising Newcomer to Leading Film Roles, and Doctor Zhivago (1965), for which he received an Academy Award nomination for Best Supporting Actor. Other notable film roles during this period include Billy Liar (1963), King and Country (1964), for which he was awarded the Volpi Cup for Best Actor at the Venice Film Festival, King Rat (1965), and The Night of the Generals.)"
+    },
+    {
+        "ori":"I don't like the actor Tim Hill",
+        "trans":"I don't like the actor Tim Hill(Timothy Hill (born May 31, 1958) is an American animator, film director, screenwriter and producer.)"
+    }
+],
+
+"contributor": [{"name": "xin zhou", "github": "https://github.com/JotionJoestar"}]}

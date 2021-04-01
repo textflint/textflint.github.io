@@ -1,0 +1,4 @@
+{
+    "desc":"Develop two target dependent long short-term memory (LSTM) models, where target information is automatically taken into account.",
+    "contributor":[{"name":"rui zheng", "github":"https://github.com/ruizheng20"}]
+}

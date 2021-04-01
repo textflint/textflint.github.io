@@ -1,0 +1,19 @@
+{
+    "desc":"PerturbQuestion is a task-specific transformation of machine reading comprehension, this transformation paraphrases the question.",
+    "examples":[
+        {
+            "ori":"In what country is Normandy located?",
+            "trans":"Where does Normany exist?"
+        },
+        {
+            "ori":"Who supports Plan B?",
+            "trans":"Who is in favor of Plan B?"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"Zexiong Pang",
+            "github":"https://github.com/pzxbjx"
+        }
+    ]
+}

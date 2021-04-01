@@ -1,0 +1,19 @@
+{
+    "desc":"SwapNum is a task-specific transformation of Chinese Word Segmentation, this transformation will replace the numerals in the sentence with other numerals of similar size",
+    "examples":[
+        {
+            "ori":"总 投资 七千万 元",
+            "trans":"总 投资 七千五百四十三万一千四百二十来 元"
+        },
+        {
+            "ori":"设立 贸易性 公司 和 机构 二百一十八 家",
+            "trans":"设立 贸易性 公司 和 机构 一百七十余 家"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"yongxin zhang",
+            "github":"https://github.com/GC-inori"
+        }
+    ]
+}

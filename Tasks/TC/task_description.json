@@ -1,0 +1,10 @@
+
+{
+    "name":"TC", 
+    "full_name":"Text Classification",
+    "description":"Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics. We only chose large-scale dataset.",
+    "available_domain":[],
+    "available_ut":["Typos", "Ocr", "Keyboard", "AddPunc", "AddNeg", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SpellingError", "Contraction", "Tense", "SwapNamedEnt", "SwapNum", "InsertAdv", "MLMSuggestion", "AppendIrr", "WordCase-upper", "WordCase-lower", "WordCase-title", "TwitterType"]
+    }
+    
+    

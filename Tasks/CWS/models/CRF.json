@@ -1,0 +1,4 @@
+{
+    "desc":"CRF: a machine learning model for Chinese word segmentation using conditional random field",
+    "contributor":[{"name":"zhihua liu", "github":"https://github.com/LzhinFdu"}]
+}

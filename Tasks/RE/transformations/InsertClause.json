@@ -1,0 +1,20 @@
+{
+    "desc":"InsertClause is a transformation method which inserts entity description for head and tail entity",
+    "examples":[
+    {
+        "ori": "Shanghai is in the east of China.",
+        "trans": "Shanghai which is a municipality of China is in the east of China established in Tiananmen ."
+
+    },
+    {
+        "ori": "Trump is the president of the United States.",
+        "trans": "Trump who was born in Jamaica Hospital is the president of the United States which is a sovereign state in North America ."
+    }
+    ],
+    "contributor":[
+    {
+        "name": "Jun Zhao",
+        "github": "https://github.com/superwars"
+    }
+    ]
+}

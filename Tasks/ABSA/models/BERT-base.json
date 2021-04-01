@@ -1,0 +1,4 @@
+{
+    "desc":"Standard BERT model for sentiment analysis.",
+    "contributor":[{"name":"rui zheng", "github":"https://github.com/ruizheng20"}]
+}

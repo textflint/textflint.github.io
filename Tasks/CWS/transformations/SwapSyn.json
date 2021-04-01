@@ -1,0 +1,19 @@
+{
+    "desc":"SwapSyn is a task-specific transformation of Chinese Word Segmentation, this transformation will replace some words in the sentence with some very similar words",
+    "examples":[
+        {
+            "ori":"总 投资 七千万 元",
+            "trans":"总 入股 七千万 元"
+        },
+        {
+            "ori":"跻身 中国 五百 家 最大 私营 企业",
+            "trans":"跻身 中国 五百 家 最大 民办 企业"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"yongxin zhang",
+            "github":"https://github.com/GC-inori"
+        }
+    ]
+}

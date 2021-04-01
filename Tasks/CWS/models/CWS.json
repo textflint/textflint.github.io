@@ -1,0 +1,4 @@
+{
+    "desc":"CWS: Using gated combination neural network on characters to generate distributed representation of candidate words, and combining with LSTM for Chinese word segmentation",
+    "contributor":[{"name":"yongxin zhang", "github":"https://github.com/GC-inori"}]
+}

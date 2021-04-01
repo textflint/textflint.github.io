@@ -1,0 +1,19 @@
+{
+    "desc":"SwapContraction is a task-specific transformation of Chinese Word Segmentation, this transformation will replace some common abbreviations in the sentence with complete words with the same meaning",
+    "examples":[
+        {
+            "ori":"第二 次 访问 中国",
+            "trans":"第二 次 访问 中华人民共和国"
+        },
+        {
+            "ori":"新华社 南昌 十二月 七日 电",
+            "trans":"新华通讯社 南昌 十二月 七日 电"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"yongxin zhang",
+            "github":"https://github.com/GC-inori"
+        }
+    ]
+}

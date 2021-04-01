@@ -1,0 +1,9 @@
+{
+    "desc": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+    "contributor": [
+        {
+            "name": "Shan Qin",
+            "github": "https://github.com/shanq21"
+        }
+    ]
+}

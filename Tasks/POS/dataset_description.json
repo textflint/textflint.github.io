@@ -1,0 +1,73 @@
+[
+	{
+		"name": "WSJ",
+		"description": "A standard dataset for POS tagging is the Wall Street Journal (WSJ) portion of the Penn Treebank, containing 45 different POS tags. Sections 0-18 are used for training, sections 19-21 for development, and sections 22-24 for testing.",
+		"available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"],
+        "dataset_size": 5463,
+		"models": [{
+				"model_name": "CRF++",
+				"paper_link": "http://www.cis.upenn.edu/~pereira/papers/crf.pdf",
+				"github_link": "https://taku910.github.io/crfpp/",
+				"paper_name": "Conditional random fields: Probabilistic models for segmenting and labeling sequence data",
+				"metric": {
+					"Accuracy": 95
+				}
+			},
+			{
+				"model_name": "CNN-BILSTM-CRF",
+				"paper_link": "https://www.aclweb.org/old_anthology/P/P16/P16-1101.pdf",
+				"github_link": "https://github.com/XuezheMax/NeuroNLP2",
+				"paper_name": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+				"metric": {
+					"Accuracy": 97.54
+				}
+			},
+			{
+				"model_name": "BiLSTM-LAN",
+				"paper_link": "https://www.aclweb.org/anthology/D19-1422.pdf",
+				"github_link": "https://github.com/Nealcly/LAN",
+				"paper_name": "Hierarchically-Refined Label Attention Network for Sequence Labeling",
+				"metric": {
+					"Accuracy": 97.51
+				}
+			},
+			{
+				"model_name": "UANet",
+				"paper_link": "https://www.aclweb.org/anthology/2020.emnlp-main.181.pdf",
+				"github_link": "https://github.com/jiacheng-ye/UANet",
+				"paper_name": "Uncertainty-Aware Label Refinement for Sequence Labeling",
+				"metric": {
+					"Accuracy": 97.66
+				}
+			},
+			{
+				"model_name": "ELMo-BiLSTM-CRF",
+				"paper_link": "https://www.aclweb.org/anthology/N18-1202.pdf",
+				"github_link": "https://github.com/allenai/allennlp",
+				"paper_name": "Deep contextualized word representations",
+				"metric": {
+					"Accuracy": 97.75
+				}
+			},
+			{
+				"model_name": "Flair-BiLSTM-CRF",
+				"paper_link": "https://www.aclweb.org/anthology/C18-1139/",
+				"github_link": "https://github.com/zalandoresearch/flair",
+				"paper_name": "Contextual String Embeddings for Sequence Labeling",
+				"metric": {
+					"Accuracy": 97.75
+				}
+			},
+			{
+				"model_name": "BERT-BiLSTM-CRF",
+				"paper_link": "https://www.aclweb.org/anthology/N19-1423.pdf",
+				"github_link": "https://github.com/huggingface/transformers",
+				"paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+				"metric": {
+					"Accuracy": 97.75
+				}
+			}
+        ]
+	}
+
+]

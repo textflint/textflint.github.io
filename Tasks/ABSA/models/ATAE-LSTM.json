@@ -1,0 +1,4 @@
+{
+    "desc":"The key idea of these proposals are to learn aspect embeddings and let aspects participate in computing attention weights.",
+    "contributor":[{"name":"rui zheng", "github":"https://github.com/ruizheng20"}]
+}

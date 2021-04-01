@@ -1,0 +1,19 @@
+{
+    "desc":"RevNon: Reverse the sentiment of the non-target aspects with originally the same sentiment as target.",
+    "examples":[
+        {
+            "ori":"BEST spicy tuna roll, great asian salad.（Target: spicy tuna roll)",
+            "trans":"BEST spicy tuna roll, not great asian salad."
+        },
+        {
+            "ori":"The food was extremely tasty, creatively presented and the wine excellent. (Target: wine)",
+            "trans":"The food was extremely tasty, creatively presented but the wine not excellent."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"rui zheng",
+            "github":"https://github.com/ruizheng20"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "desc":"RndShuffle is a task-specific transformation of coreference resolution, during this transformation, a certain number of swapping will be processed, which swap the order of two adjacent sentences of the original document （the number of swapping is 20% of the number of original sentences by default）",
+    "examples":[
+        {
+            "ori":"Harsco Corp. said it obtained a $ 33.1 million export order for armored recovery vehicles and related support equipment . Harsco declined to say what country placed the order . The company said it received an order for 23 of the vehicles , which retrieve tanks and other heavy - tracked vehicles when they break down or are damaged , and an option for 16 more . Delivery is to begin in early 1991 . Harsco produces products for defense , industrial , commercial and construction markets .",
+            "trans":"Harsco declined to say what country placed the order . Harsco Corp. said it obtained a $ 33.1 million export order for armored recovery vehicles and related support equipment . The company said it received an order for 23 of the vehicles , which retrieve tanks and other heavy - tracked vehicles when they break down or are damaged , and an option for 16 more . Delivery is to begin in early 1991 . Harsco produces products for defense , industrial , commercial and construction markets ."
+        },
+        {
+            "ori":"Japan had an unadjusted trade surplus of $ 1.82 billion for the first 10 days of October , down from $ 3.16 billion a year earlier , the Finance Ministry said . The latest drop shows the narrowing in the nation 's trade gap reflected in successive full monthly reports is continuing . The report follows five - consecutive declines in full monthly figures . Imports rose sharply in the period , to $ 5.19 billion from $ 4.04 billion a year earlier , a change of 28 % . Exports during the period were $ 7.01 billion , 2.6 % below $ 7.20 billion a year ago .",
+            "trans":"Japan had an unadjusted trade surplus of $ 1.82 billion for the first 10 days of October , down from $ 3.16 billion a year earlier , the Finance Ministry said . The latest drop shows the narrowing in the nation 's trade gap reflected in successive full monthly reports is continuing . Imports rose sharply in the period , to $ 5.19 billion from $ 4.04 billion a year earlier , a change of 28 % . The report follows five - consecutive declines in full monthly figures . Exports during the period were $ 7.01 billion , 2.6 % below $ 7.20 billion a year ago ."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"chong zhang",
+            "github":"https://github.com/chongzhangFDU"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+[
+	{
+		"name": "IMDB",
+		"description": "The IMDb dataset is a binary sentiment analysis dataset consisting of 50,000 reviews from the Internet Movie Database (IMDb) labeled as positive or negative. The dataset contains an even number of positive and negative reviews. Only highly polarizing reviews are considered. A negative review has a score ≤ 4 out of 10, and a positive review has a score ≥ 7 out of 10. No more than 30 reviews are included per movie. Models are evaluated based on Accuracy.",
+		"available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut", "subpopulation"],
+		"dataset_size": 25000,
+		"models": [{
+				"model_name": "XLNET",
+				"paper_link": "https://arxiv.org/abs/1906.08237",
+				"github_link": "https://github.com/zihangdai/xlnet",
+				"paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+				"metric": {
+					"Accuracy": 96.17
+				}
+			},
+			{
+				"model_name": "BERT-Large-ITPT",
+				"paper_link": "https://arxiv.org/abs/1905.05583",
+				"github_link": "https://github.com/xuyige/BERT4doc-Classification",
+				"paper_name": "How to Fine-Tune BERT for Text Classification?",
+				"metric": {
+					"Accuracy": 95.3
+				}
+			},
+			{
+				"model_name": "ULMFIT",
+				"paper_link": "https://arxiv.org/abs/1801.06146",
+				"github_link": "https://github.com/fastai/fastai/blob/54a9e3cf4fd0fa11fc2453a5389cc9263f6f0d77/examples/ULMFit.ipynb",
+				"paper_name": "Universal Language Model Fine-tuning for Text Classification",
+				"metric": {
+					"Accuracy": 94.6
+				}
+			},
+			{
+				"model_name": "oh-lstm",
+				"paper_name": "Supervised and Semi-Supervised Text Categorization using LSTM for Region Embeddings",
+				"metric": {
+					"Accuracy": 93.86
+				},
+				"paper_link": "https://arxiv.org/abs/1602.02373",
+				"github_link": "http://riejohnson.com/cnn_download.html"
+			},
+			{
+				"model_name": "adv",
+				"paper_name": "Adversarial Training Methods for Semi-Supervised Text Classification",
+				"metric": {
+					"Accuracy": 93.26
+				},
+				"paper_link": "https://arxiv.org/abs/1605.07725",
+				"github_link": "https://github.com/tensorflow/models/tree/master/research/adversarial_text"
+			},
+			{
+				"model_name": "ssl",
+				"paper_link": "https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_46.pdf",
+				"github_link": "",
+				"paper_name": "Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function",
+				"metric": {
+					"Accuracy": 93.23
+				}
+			}
+		]
+	},
+	{
+		"name": "Yelp-Binary",
+		"description": "The Yelp Review dataset consists of more than 500,000 Yelp reviews. There is both a binary and a fine-grained (five-class) version of the dataset. Models are evaluated based on error (1 - Accuracy; lower is better).",
+		"available_transformation_type": ["ut"],
+		"models": [{
+				"model_name": "XLNET",
+				"paper_link": "https://arxiv.org/abs/1906.08237",
+				"github_link": "https://github.com/zihangdai/xlnet",
+				"paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+				"metric": {
+					"Accuracy": 97.83
+				}
+			},
+			{
+				"model_name": "BERT-Large-ITPT",
+				"paper_link": "https://arxiv.org/abs/1905.05583",
+				"github_link": "https://github.com/xuyige/BERT4doc-Classification",
+				"paper_name": "How to Fine-Tune BERT for Text Classification?",
+				"metric": {
+					"Accuracy": 98.06
+				}
+			},
+			{
+				"model_name": "ULMFIT",
+				"paper_link": "https://arxiv.org/abs/1801.06146",
+				"github_link": "https://github.com/fastai/fastai/blob/54a9e3cf4fd0fa11fc2453a5389cc9263f6f0d77/examples/ULMFit.ipynb",
+				"paper_name": "Universal Language Model Fine-tuning for Text Classification",
+				"metric": {
+					"Accuracy": 97.57
+				}
+			},
+			{
+				"model_name": "dpcnn",
+				"paper_name": "Deep Pyramid Convolutional Neural Networks for Text Categorization",
+				"metric": {
+					"Accuracy": 97.34
+				},
+				"paper_link": "https://www.aclweb.org/anthology/P17-1052/",
+				"github_link": "http://riejohnson.com/cnn_download.html"
+			},
+			{
+				"model_name": "adv",
+				"paper_name": "Adversarial Training Methods for Semi-Supervised Text Classification",
+				"metric": {
+					"Accuracy": 96.79
+				},
+				"paper_link": "https://arxiv.org/abs/1605.07725",
+				"github_link": "https://github.com/tensorflow/models/tree/master/research/adversarial_text"
+			},
+			{
+				"model_name": "ssl",
+				"paper_link": "https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_46.pdf",
+				"github_link": "",
+				"paper_name": "Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function",
+				"metric": {
+					"Accuracy": 97.57
+				}
+			}
+		]
+	}
+
+]

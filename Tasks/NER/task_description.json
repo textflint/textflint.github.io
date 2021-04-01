@@ -1,0 +1,7 @@
+{
+  "name": "NER",
+  "full_name": "Named Entity Recognition",
+  "description": "Named entity recognition is the task of tagging entities in text with their corresponding type.",
+  "available_domain": ["ConcatSent", "CrossCategory", "EntTypos", "OOV", "SwapLonger"],
+  "available_ut": ["RevNeg", "AddRmvPunc", "AppendIrr", "Contraction", "InsertAdv", "Keyboard", "MLMSuggestion", "Ocr", "SpellingError", "SwapAnt-WordNet", "SwapNum", "SwapSyn-WordEmbedding", "SwapSyn-WordNet", "Tense", "TwitterType", "Typos-random", "WordCase-lower", "WordCase-title", "WordCase-upper", "WordCase"]
+}

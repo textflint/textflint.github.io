@@ -1,0 +1,34 @@
+{
+        "name": "SM",
+        "full_name": "Semantic Matching",
+        "description": "This task need model to identify whether two sentences express the same meaning.",
+        "available_domain": [
+                "SwapWord",
+                "SwapNum",
+                "Overlap"
+        ],
+        "available_ut": [
+                "Typos",
+                "Ocr",
+                "Keyboard",
+                "AddPunc",
+                "RmvPunc",
+                "AddNeg",
+                "RmvNeg",
+                "SwapSyn-WordNet",
+                "SwapSyn-WordEmbedding",
+                "SwapAnt-WordNet",
+                "SpellingError",
+                "Contraction",
+                "Tense",
+                "SwapNamedEnt",
+                "SwapNum",
+                "InsertAdv",
+                "MLMSuggestion",
+                "AppendIrr",
+                "WordCase",
+                "TwitterType",
+                "BackTrans",
+                "Prejudge"
+        ]
+}

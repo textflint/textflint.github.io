@@ -1,0 +1,14 @@
+{
+    "desc": "AddSummary-Movie is a task-specific transformation of sentiment analysis, this transformation will identify some special movie name in the sentence, and insert the summary of these entities after them (the summary content is from wikipedia).", 
+    "examples":[
+        {
+            "ori":"Titanic is my favorite movie",
+            "trans":"Titanic(A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.) is my favorite movie"
+        },
+        {
+            "ori":"Aliens vs. Predator 2 is amazing",
+            "trans":"Aliens vs. Predator 2 (A team of scientists have tampered in a realm of space that was to remain untouched. Guarded by a squadron of mercenaries, they find themselves in the middle of a galactic war between aliens and a species known as' Predators.' ) is amazing"
+        }
+    ],
+    "contributor": [{"name": "xin zhou", "github": "https://github.com/JotionJoestar"}]
+}

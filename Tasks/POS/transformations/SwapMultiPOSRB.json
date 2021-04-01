@@ -1,0 +1,19 @@
+{
+    "desc":"It is implied by the phenomenon of conversion that some words hold multiple parts of speech. That is to say, these multi-part-of-speech words might confuse the language models in terms of POS tagging. Accordingly, we replace adverbs with words holding multiple parts of speech.",
+    "examples":[
+        {
+            "ori":"`` Such agency ` self-help ' borrowing is unauthorized and expensive , far more expensive than direct Treasury borrowing",
+            "trans":"`` Such agency ` self-help ' borrowing is unauthorized and expensive , haphazard more expensive than direct Treasury borrowing"
+        },
+        {
+            "ori":"PaineWebber also was able to gear up on thanks to the 1987 crash",
+            "trans":"PaineWebber half-and-half was able to gear up on thanks to the 1987 crash"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"jiacheng ye",
+            "github":"https://github.com/jiacheng-ye"
+        }
+    ]
+}

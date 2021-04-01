@@ -1,0 +1,35 @@
+{
+        "desc": "This transformation will find some keywords in sentences and replace them with their antonym.",
+        "examples": [
+                {
+                        "ori": {
+                                "premise": "A couple is eating outside at a table and he is pointing at something.",
+                                "hypothesis": "People are eating at a table outside.",
+                                "label": "entailment"
+                        },
+                        "trans": {
+                                "premise": "A couple is eating outside at a table and he is pointing at something.",
+                                "hypothesis": "A couple is eating inside at a table and he is pointing at something.",
+                                "label": "contradiction"
+                        }
+                },
+                {
+                        "ori": {
+                                "premise": "A woman within an orchestra is playing a violin.",
+                                "hypothesis": "A woman is playing the violin.",
+                                "label": "entailment"
+                        },
+                        "trans": {
+                                "premise": "A woman within an orchestra is playing a violin.",
+                                "hypothesis": "A man within an orchestra is playing a violin.",
+                                "label": "contradiction"
+                        }
+                }
+        ],
+        "contributor": [
+                {
+                        "name": "zichu fei",
+                        "github": "https://github.com/sion-zcfei"
+                }
+        ]
+}

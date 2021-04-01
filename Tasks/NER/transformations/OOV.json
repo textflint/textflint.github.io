@@ -1,0 +1,19 @@
+{
+    "desc":"Entity Swap by OOV entities.",
+    "examples":[
+        {
+            "ori":"SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+            "trans":"SOCCER - Fuefuki GET LUCKY WIN , Friar IN SURPRISE DEFEAT ."
+        },
+        {
+            "ori":"Bitar pulled off fine saves whenever they did .",
+            "trans":"Imani pulled off fine saves whenever they did ."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"Yiding Tan",
+            "github":"https://github.com/Tannidy"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+
+{
+    "name":"CWS", 
+    "full_name":"Chinese Word Segmentation",
+    "description":"Chinese Word Segmentation is the task of segmenting the correct words in a specific context",
+    "available_domain":["SwapName", "SwapNum", "SwapVerb", "SwapContraction", "SwapSyn", "SwapRedup", "SwapGene"],
+    "available_ut":[]
+}
+    
+    

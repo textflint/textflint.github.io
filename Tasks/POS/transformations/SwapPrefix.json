@@ -1,0 +1,19 @@
+{
+    "desc":"Swapping the prefix of one word and keeping its part of speech tag.",
+    "examples":[
+        {
+            "ori":"The RTC would be forced to delay other thrift",
+            "trans":"The RTC would be forced to delay other shrift"
+        },
+        {
+            "ori":"That is a prefixed string",
+            "trans":"That is a unfixed string"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"jiacheng ye",
+            "github":"https://github.com/jiacheng-ye"
+        }
+    ]
+}

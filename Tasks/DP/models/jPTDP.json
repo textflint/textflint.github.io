@@ -1,0 +1,4 @@
+{
+    "desc":"An improved neural network model for joint POS tagging and dependency parsing",
+    "contributor":[{"name":"qiyuan bian", "github":"https://github.com/losMerengues10"}]
+}

@@ -1,0 +1,34 @@
+{
+        "name": "NLI",
+        "full_name": "Natural Language Inference",
+        "description": "Natural language inference is the task of determining whether a \"hypothesis\" is true (entailment), false (contradiction), or undetermined (neutral) given a \"premise\".",
+        "available_domain": [
+                "SwapAnt",
+                "AddSen",
+                "NumWord",
+                "Overlap"
+        ],
+        "available_ut": [
+                "Typos",
+                "Ocr",
+                "Keyboard",
+                "AddPunc",
+                "RmvPunc",
+                "AddNeg",
+                "RmvNeg",
+                "SwapSyn-WordNet",
+                "SwapSyn-WordEmbedding",
+                "SwapAnt-WordNet",
+                "SpellingError",
+                "Contraction",
+                "Tense",
+                "SwapNamedEnt",
+                "SwapNum",
+                "InsertAdv",
+                "MLMSuggestion",
+                "AppendIrr",
+                "WordCase",
+                "TwitterType",
+                "BackTrans"
+        ]
+}

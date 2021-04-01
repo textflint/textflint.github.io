@@ -1,0 +1,9 @@
+{
+        "desc": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "contributor": [
+                {
+                        "name": "Xingwu Hu",
+                        "github": "https://github.com/anaivebird"
+                }
+        ]
+}

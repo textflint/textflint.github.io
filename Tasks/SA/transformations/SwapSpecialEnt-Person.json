@@ -1,0 +1,12 @@
+{"desc": "SpecialEntityReplace-Person is a task-specific transformation of sentiment analysis, this transformation will identify some special person name in the sentence, randomly replace it with other entity names of the same kind", 
+    "examples":[
+        {
+            "ori":"Brilliant and moving performances by Tom Courtenay.",
+            "trans":"Brilliant and moving performances by Clive Smith."
+        },
+        {
+            "ori":"I don't like the actor Tim Hill",
+            "trans":"I don't like the actor Lewis Allen"
+        }
+    ],
+    "contributor": [{"name": "xin zhou", "github": "https://github.com/JotionJoestar"}]}

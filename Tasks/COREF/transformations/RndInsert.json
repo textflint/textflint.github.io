@@ -1,0 +1,19 @@
+{
+    "desc":"RndInsert is a task-specific transformation of coreference resolution, this transformation will randomly retrieve irrelevant sentences from the corpus, and insert them into the original document （the proportion of inserted sentences and original sentences is 20% by default）",
+    "examples":[
+        {
+            "ori":"Up next is it time for Congress to step in and straighten out steroid use in professional baseball ? How about getting rid of it ? This is Hardball only on msnbc .",
+            "trans":"Up next is it time for Congress to step in and straighten out steroid use in professional baseball ? How about getting rid of it ? Eyewitnesses say the attack was caused by two men on a suicide mission . This is Hardball only on msnbc ."
+        },
+        {
+            "ori":"Dennis R. Mangino , a general manager of EniChem Americas , was named vice president of research and development , a new post at this steel company .",
+            "trans":"Dennis R. Mangino , a general manager of EniChem Americas , was named vice president of research and development , a new post at this steel company . Wang concludes : \" In a society in which individualism is important , youth is the best security . \""
+        }
+    ],
+    "contributor":[
+        {
+            "name":"chong zhang",
+            "github":"https://github.com/chongzhangFDU"
+        }
+    ]
+}

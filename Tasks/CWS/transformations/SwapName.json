@@ -1,0 +1,19 @@
+{
+    "desc":"SwapName is a task-specific transformation of Chinese Word Segmentation, this transformation will replace the last name or first name of the person in the sentence to produce some local ambiguity that has nothing to do with the sentence",
+    "examples":[
+        {
+            "ori":"我 朝 李宏维 挥手",
+            "trans":"我 朝 向宏维 挥手"
+        },
+        {
+            "ori":"寒假前 吴增强 专程到石关村小学看望",
+            "trans":"寒假前 程增强 专程到石关村小学看望"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"yongxin zhang",
+            "github":"https://github.com/GC-inori"
+        }
+    ]
+}

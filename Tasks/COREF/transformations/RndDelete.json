@@ -1,0 +1,19 @@
+{
+    "desc":"RndDelete is a task-specific transformation of coreference resolution, through this transformation, there is a possibility (20% by default) for each sentence in the original document to be deleted, and at least one sentence will be deleted; related coreference labels will also be deleted",
+    "examples":[
+        {
+            "ori":"Unidentified gunmen in north western Colombia have massacred at least twelve peasants . It 's the second such incident in as many days . Authorities say several men armed with shotguns went house to house in Guatapae in Entequia Province killing anyone they suspected of collaborating with opposing forces .",
+            "trans":"Authorities say several men armed with shotguns went house to house in Guatapae in Entequia Province killing anyone they suspected of collaborating with opposing forces ."
+        },
+        {
+            "ori":"Well Tony , President Clinton will host a meeting at the White House Saturday , with Israeli and Palestinian negotiators who are holding talks in Washington . The talks are aimed at putting the peace process back on track after three months of violence .",
+            "trans":"Well Tony , President Clinton will host a meeting at the White House Saturday , with Israeli and Palestinian negotiators who are holding talks in Washington ."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"chong zhang",
+            "github":"https://github.com/chongzhangFDU"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "desc":"Swap/delete/add random character for entities",
+    "examples":[
+        {
+            "ori":"SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+            "trans":"SOCCER - JPAAN GET LUCKY WIN , CHINAA IN SURPRISE DEFEAT ."
+        },
+        {
+            "ori":"Bitar pulled off fine saves whenever they did .",
+            "trans":"Btiar pulled off fine saves whenever they did ."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"Yiding Tan",
+            "github":"https://github.com/Tannidy"
+        }
+    ]
+}

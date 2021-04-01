@@ -1,0 +1,19 @@
+{
+    "desc":"SwapName is a task-specific transformation of Chinese Word Segmentation, this transformation will transform some of the verbs in the sentence to other forms in Chinese",
+    "examples":[
+        {
+            "ori":"欧洲 的 政治 、 经济 、 文化 、 艺术 基础 深厚 ， 很 值得 看",
+            "trans":"欧洲 的 政治 、 经济 、 文化 、 艺术 基础 深厚 ， 很 值得 看一看"
+        },
+        {
+            "ori":"以 器物 用途 分类",
+            "trans":"以 器物 用途 分 了 个 类"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"yongxin zhang",
+            "github":"https://github.com/GC-inori"
+        }
+    ]
+}

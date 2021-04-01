@@ -1,0 +1,20 @@
+{
+    "desc":"Substitute short entities to longer ones",
+    "examples":[
+        {
+            "ori":"SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .",
+            "trans":"SOCCER - Capital Cities and Tombs of the Ancient KoguryoKingdom GET LUCKY WIN , Josef von Sternberg IN SURPRISE DEFEAT ."
+        },
+        {
+            "ori":"Bitar pulled off fine saves whenever they did .",
+            "trans":"James Le Gros pulled off fine saves whenever they did ."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"Yiding Tan",
+            "github":"https://github.com/Tannidy"
+        }
+    ]
+}
+

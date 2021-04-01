@@ -1,0 +1,20 @@
+{
+    "desc":"AddSubtree is a task-specific transformation of dependency parsing, this transformation will transform the input sentence by adding a subordinate clause from WikiData.",
+    "examples":[
+        {
+            "ori":"Fidelity Investments placed new ads in newspapers yesterday, and wrote another new ad appearing today.",
+            "trans":"Fidelity Investments, headquartered in Boston, placed new ads in newspapers yesterday, and wrote another new ad appearing today."
+        },
+        {
+            "ori":"And it left mixed signals for London.",
+            "trans":"And it left mixed signals for London, which is a capital and largest city of the United Kingdom."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"qiyuan bian",
+            "github":"https://github.com/losMerengues10"
+        }
+    ]
+}
+

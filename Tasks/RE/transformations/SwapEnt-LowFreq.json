@@ -1,0 +1,20 @@
+{
+	"desc":"SwapEnt-LowFreq is a sub-transformation method from EntitySwap which replace entities in text with random same typed entities with low frequency.",
+	"examples":[
+	{
+		"ori": "Fudan University is located in Shanghai Yangpu area." ,
+		"trans": "Publication House of Vandebilt is located in Shanghai Yangpu area."
+ 	},
+	{
+		"ori": " The situation is very serious, matthias, 30, told reporters after meeting with ban in New York",
+		"trans": " The situation is very serious, Jedi Luis Fontage Alexander, 30, told reporters after meeting with ban in New York"
+	}
+	],
+	"contributor":[
+	{
+		"name": "zhiheng yan",
+		"github": "https://github.com/cooper955955"
+	}
+	]
+
+}

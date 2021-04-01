@@ -1,0 +1,452 @@
+[
+    {
+        "model": "BiDAF",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 76.043,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 77.544,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 78.759,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 75.52,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 75.77,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 74.907,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 77.178,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 78.289,
+                "sample_num": 1046
+            }
+        ]
+    },
+    {
+        "model": "BiDAF+",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 77.86,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 77.535,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 79.21600000000001,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 77.57,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 76.501,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 76.501,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 78.27600000000001,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 79.149,
+                "sample_num": 1046
+            }
+        ]
+    },
+    {
+        "model": "DrQA",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 78.27600000000001,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 78.35,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 80.68,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 77.25399999999999,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 77.03399999999999,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 76.725,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 79.15100000000001,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 79.50399999999999,
+                "sample_num": 1046
+            }
+        ]
+    },
+    {
+        "model": "R-Net",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 79.558,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 79.219,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 81.376,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 78.986,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 79.11399999999999,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 77.696,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 79.87,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 81.3,
+                "sample_num": 1046
+            }
+        ]
+    },
+    {
+        "model": "FusionNet",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 80.35,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 81.42,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 81.889,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 80.517,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 79.76,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 78.964,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 80.747,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 83.37700000000001,
+                "sample_num": 1046
+            }
+        ]
+    },
+    {
+        "model": "QANet",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 78.67699999999999,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 79.426,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 81.062,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 78.687,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 78.499,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 77.101,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 78.86,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 80.11399999999999,
+                "sample_num": 1046
+            }
+        ]
+    },
+    {
+        "model": "BERT",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 86.95200000000001,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 86.39399999999999,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 88.17200000000001,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 85.318,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 85.671,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 84.736,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 86.689,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 87.184,
+                "sample_num": 1046
+            }
+        ]
+    },
+    {
+        "model": "ALBERT",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 90.69,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 91.036,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 91.071,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 90.235,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 90.81,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 90.029,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 90.741,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 90.649,
+                "sample_num": 1046
+            }
+        ]
+    },
+    {
+        "model": "XLNet",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 89.111,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 88.73299999999999,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 89.947,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 88.97200000000001,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 88.404,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 88.229,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 89.427,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 89.016,
+                "sample_num": 1046
+            }
+        ]
+    },
+    {
+        "model": "DistilBERT",
+        "attack_results": [
+            {
+                "name": "LengthSubPopulation-0%-20%",
+                "trans": 86.363,
+                "sample_num": 2114
+            },
+            {
+                "name": "LengthSubPopulation-80%-100%",
+                "trans": 87.641,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-0%-20%",
+                "trans": 88.949,
+                "sample_num": 2114
+            },
+            {
+                "name": "LMSubPopulation-80%-100%",
+                "trans": 85.073,
+                "sample_num": 2114
+            },
+            {
+                "name": "PhraseSubPopulation-negation",
+                "trans": 84.944,
+                "sample_num": 3202
+            },
+            {
+                "name": "PhraseSubPopulation-question",
+                "trans": 85.324,
+                "sample_num": 3535
+            },
+            {
+                "name": "PrejudiceSubPopulation-man",
+                "trans": 86.184,
+                "sample_num": 2171
+            },
+            {
+                "name": "PrejudiceSubPopulation-woman",
+                "trans": 86.882,
+                "sample_num": 1046
+            }
+        ]
+    }
+]

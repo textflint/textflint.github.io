@@ -1,0 +1,20 @@
+{
+    "desc": "AddSentenceDiverse is a task-specific transformation of machine reading comprehension, this transformation generates a distractor with altered question and fake answer.",
+    "examples": [
+        {
+            "ori": "Q: In what country is Normandy located?",
+            "trans": "Distractor: D-Day is located in the country of Sri Lanka."
+        },
+        {
+            "ori": "Q: Which NFL team represented the AFC at Super Bowl 50?",
+            "trans": "Distractor: Stark Industries UNICEF squad represented the AFC at Champ Bowl 40."
+        }
+    ],
+    "contributor": [
+        {
+            "name": "Zexiong Pang",
+            "github": "https://github.com/pzxbjx"
+        }
+    ]
+}
+

@@ -1,0 +1,19 @@
+{
+    "desc":"Concatenate sentences to a longer one.",
+    "examples":[
+        {
+            "ori":"All four teams are level with one point each from one game. [SEP] RUGBY UNION - CUTTITTA BACK FOR ITALY AFTER A YEAR.",
+            "trans":"All four teams are level with one point each from one game. RUGBY UNION - CUTTITTA BACK FOR ITALY AFTER A YEAR."
+        },
+        {
+            "ori":"FREESTYLE SKIING-WORLD CUP MOGUL RESULTS . [SEP] TIGNES , France 1996-12-06 [SEP] Results of the World Cup",
+            "trans":"FREESTYLE SKIING-WORLD CUP MOGUL RESULTS. TIGNES , France 1996-12-06 Results of the World Cup"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"Yiding Tan",
+            "github":"https://github.com/Tannidy"
+        }
+    ]
+}

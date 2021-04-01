@@ -1,0 +1,5332 @@
+[
+    {
+        "model": "BiDAF",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 79.03,
+                "trans": 76.067,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 78.993,
+                "trans": 72.937,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 79.018,
+                "trans": 67.679,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 79.018,
+                "trans": 63.614,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 79.006,
+                "trans": 76.29899999999999,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 79.03,
+                "trans": 75.204,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 76.806,
+                "trans": 72.97800000000001,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 76.815,
+                "trans": 67.928,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 76.815,
+                "trans": 64.075,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 76.822,
+                "trans": 76.054,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 76.822,
+                "trans": 75.406,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 78.42399999999999,
+                "trans": 75.793,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 76.398,
+                "trans": 75.423,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 76.376,
+                "trans": 73.90100000000001,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 76.38,
+                "trans": 67.684,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 76.38,
+                "trans": 63.32899999999999,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 76.398,
+                "trans": 69.6,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 76.398,
+                "trans": 69.62899999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 76.347,
+                "trans": 76.172,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 76.388,
+                "trans": 75.218,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 76.398,
+                "trans": 74.768,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 76.398,
+                "trans": 70.747,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 76.398,
+                "trans": 73.321,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 76.398,
+                "trans": 72.193,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 79.012,
+                "trans": 69.531,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 76.822,
+                "trans": 69.13,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 78.008,
+                "trans": 70.012,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 77.833,
+                "trans": 65.37899999999999,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 78.102,
+                "trans": 61.851000000000006,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 76.822,
+                "trans": 63.596000000000004,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 76.8,
+                "trans": 69.567,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 76.878,
+                "trans": 69.306,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 76.822,
+                "trans": 68.597,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 76.822,
+                "trans": 64.337,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 76.804,
+                "trans": 67.118,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 76.822,
+                "trans": 66.251,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 78.87899999999999,
+                "trans": 69.609,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 76.822,
+                "trans": 69.624,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 76.937,
+                "trans": 66.913,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 76.957,
+                "trans": 62.855,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 76.943,
+                "trans": 59.603,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 76.785,
+                "trans": 69.992,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 76.82300000000001,
+                "trans": 69.057,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 76.822,
+                "trans": 68.967,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 76.822,
+                "trans": 64.139,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 76.845,
+                "trans": 67.72800000000001,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 76.822,
+                "trans": 66.327,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 76.821,
+                "trans": 73.222,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 76.867,
+                "trans": 68.188,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 76.855,
+                "trans": 64.429,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 79.08,
+                "trans": 75.771,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 76.877,
+                "trans": 75.369,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 76.868,
+                "trans": 72.946,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 76.87899999999999,
+                "trans": 67.286,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 76.898,
+                "trans": 63.617,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 76.821,
+                "trans": 75.459,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 76.877,
+                "trans": 74.658,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 76.877,
+                "trans": 70.543,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 76.905,
+                "trans": 73.52199999999999,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 76.877,
+                "trans": 72.271,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 76.806,
+                "trans": 72.116,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 76.815,
+                "trans": 67.569,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 76.815,
+                "trans": 63.538999999999994,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 76.796,
+                "trans": 75.101,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 79.05,
+                "trans": 70.569,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 76.822,
+                "trans": 70.589,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 76.903,
+                "trans": 68.402,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 76.885,
+                "trans": 62.879,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 76.918,
+                "trans": 59.792,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 76.771,
+                "trans": 71.063,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 76.822,
+                "trans": 70.03399999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 76.827,
+                "trans": 68.43,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 76.834,
+                "trans": 67.725,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 78.964,
+                "trans": 73.649,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 76.83,
+                "trans": 73.637,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 76.83,
+                "trans": 71.35600000000001,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 76.873,
+                "trans": 66.342,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 76.888,
+                "trans": 62.758,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 76.79899999999999,
+                "trans": 74.092,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 76.83,
+                "trans": 73.068,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 76.83,
+                "trans": 70.661,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 78.957,
+                "trans": 72.893,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 76.822,
+                "trans": 72.435,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 76.79,
+                "trans": 69.585,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 76.825,
+                "trans": 64.39399999999999,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 76.844,
+                "trans": 60.727,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 76.79899999999999,
+                "trans": 72.672,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 76.822,
+                "trans": 71.572,
+                "sample_num": 9868
+            }
+        ]
+    },
+    {
+        "model": "BiDAF+",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 80.48100000000001,
+                "trans": 77.814,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 80.473,
+                "trans": 75.348,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 80.529,
+                "trans": 61.61,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 80.529,
+                "trans": 50.972,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 80.355,
+                "trans": 77.84899999999999,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 80.48100000000001,
+                "trans": 77.432,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 78.145,
+                "trans": 74.70100000000001,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 78.171,
+                "trans": 62.543,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 78.171,
+                "trans": 51.905,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 78.09,
+                "trans": 77.282,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 78.09,
+                "trans": 77.108,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 80.342,
+                "trans": 77.977,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 77.764,
+                "trans": 76.773,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 77.889,
+                "trans": 75.366,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 77.876,
+                "trans": 61.827,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 77.876,
+                "trans": 51.083999999999996,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 77.764,
+                "trans": 71.056,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 77.764,
+                "trans": 71.666,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 77.744,
+                "trans": 77.296,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 77.767,
+                "trans": 76.782,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 77.764,
+                "trans": 76.329,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 77.764,
+                "trans": 71.945,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 77.764,
+                "trans": 75.195,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 77.764,
+                "trans": 73.35600000000001,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 80.422,
+                "trans": 70.908,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 78.09,
+                "trans": 70.294,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 78.795,
+                "trans": 70.595,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 78.475,
+                "trans": 60.9,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 78.78,
+                "trans": 51.07899999999999,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 78.09,
+                "trans": 64.352,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 78.029,
+                "trans": 70.656,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 78.125,
+                "trans": 70.69,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 78.09,
+                "trans": 69.733,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 78.09,
+                "trans": 65.027,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 78.10600000000001,
+                "trans": 68.796,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 78.09,
+                "trans": 67.02,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 80.237,
+                "trans": 71.02600000000001,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 78.09,
+                "trans": 70.595,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 78.223,
+                "trans": 67.721,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 78.274,
+                "trans": 58.766999999999996,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 78.258,
+                "trans": 49.073,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 77.98899999999999,
+                "trans": 71.006,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 78.096,
+                "trans": 70.749,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 78.09,
+                "trans": 69.89399999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 78.09,
+                "trans": 65.495,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 78.098,
+                "trans": 69.167,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 78.09,
+                "trans": 67.229,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 78.096,
+                "trans": 74.854,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 78.153,
+                "trans": 62.868,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 78.126,
+                "trans": 52.153999999999996,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 80.23100000000001,
+                "trans": 77.589,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 78.148,
+                "trans": 77.14699999999999,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 78.172,
+                "trans": 74.781,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 78.153,
+                "trans": 62.42,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 78.12,
+                "trans": 51.881,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 78.04,
+                "trans": 77.493,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 78.148,
+                "trans": 76.54899999999999,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 78.148,
+                "trans": 71.50399999999999,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 78.115,
+                "trans": 75.385,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 78.148,
+                "trans": 73.712,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 78.145,
+                "trans": 73.893,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 78.171,
+                "trans": 62.148999999999994,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 78.171,
+                "trans": 50.838,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 78.046,
+                "trans": 76.75399999999999,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 80.33,
+                "trans": 71.782,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 78.09,
+                "trans": 71.444,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 78.138,
+                "trans": 68.94800000000001,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 78.179,
+                "trans": 58.751999999999995,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 78.23899999999999,
+                "trans": 49.343,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 78.01100000000001,
+                "trans": 71.528,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 78.09,
+                "trans": 70.837,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 78.145,
+                "trans": 70.028,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 78.11399999999999,
+                "trans": 68.472,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 80.416,
+                "trans": 76.329,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 78.105,
+                "trans": 75.574,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 78.102,
+                "trans": 73.168,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 78.241,
+                "trans": 60.754,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 78.264,
+                "trans": 50.402,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 78.013,
+                "trans": 75.944,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 78.105,
+                "trans": 74.843,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 78.105,
+                "trans": 72.37899999999999,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 80.411,
+                "trans": 74.32300000000001,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 78.09,
+                "trans": 73.61,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 78.072,
+                "trans": 70.503,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 78.111,
+                "trans": 59.534,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 78.175,
+                "trans": 49.56100000000001,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 78.024,
+                "trans": 73.641,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 78.09,
+                "trans": 73.131,
+                "sample_num": 9868
+            }
+        ]
+    },
+    {
+        "model": "DrQA",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 81.175,
+                "trans": 78.69800000000001,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 81.168,
+                "trans": 75.182,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 81.195,
+                "trans": 63.994,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 81.195,
+                "trans": 48.016999999999996,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 81.109,
+                "trans": 79.12100000000001,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 81.175,
+                "trans": 78.721,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 79.16,
+                "trans": 75.171,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 79.154,
+                "trans": 63.468999999999994,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 79.154,
+                "trans": 50.525,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 79.175,
+                "trans": 78.255,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 79.175,
+                "trans": 78.082,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 80.885,
+                "trans": 77.85300000000001,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 78.704,
+                "trans": 77.574,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 78.686,
+                "trans": 75.358,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 78.721,
+                "trans": 62.148999999999994,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 78.721,
+                "trans": 49.537,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 78.704,
+                "trans": 71.77,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 78.704,
+                "trans": 72.186,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 78.74600000000001,
+                "trans": 78.005,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 78.77600000000001,
+                "trans": 77.71300000000001,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 78.704,
+                "trans": 77.438,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 78.704,
+                "trans": 71.855,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 78.704,
+                "trans": 74.833,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 78.704,
+                "trans": 73.55,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 81.124,
+                "trans": 72.38600000000001,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 79.175,
+                "trans": 71.639,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 79.929,
+                "trans": 70.205,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 79.949,
+                "trans": 61.771,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 80.32300000000001,
+                "trans": 49.103,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 79.175,
+                "trans": 65.973,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 79.145,
+                "trans": 71.803,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 79.184,
+                "trans": 71.812,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 79.175,
+                "trans": 71.443,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 79.175,
+                "trans": 66.47399999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 79.204,
+                "trans": 69.12,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 79.175,
+                "trans": 68.07600000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 81.163,
+                "trans": 72.416,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 79.175,
+                "trans": 71.78699999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 79.183,
+                "trans": 68.418,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 79.17699999999999,
+                "trans": 60.196999999999996,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 79.15899999999999,
+                "trans": 46.68600000000001,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 79.133,
+                "trans": 72.084,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 79.19,
+                "trans": 71.858,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 79.175,
+                "trans": 71.752,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 79.175,
+                "trans": 66.612,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 79.202,
+                "trans": 69.811,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 79.175,
+                "trans": 68.661,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 79.131,
+                "trans": 75.312,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 79.158,
+                "trans": 63.795,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 79.133,
+                "trans": 50.821999999999996,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 81.008,
+                "trans": 78.515,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 79.199,
+                "trans": 77.976,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 79.197,
+                "trans": 74.96600000000001,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 79.161,
+                "trans": 62.953,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 79.179,
+                "trans": 50.138999999999996,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 79.163,
+                "trans": 78.178,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 79.199,
+                "trans": 77.601,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 79.199,
+                "trans": 72.042,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 79.225,
+                "trans": 75.32,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 79.199,
+                "trans": 74.589,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 79.16,
+                "trans": 74.61399999999999,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 79.154,
+                "trans": 63.545,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 79.154,
+                "trans": 50.312,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 79.17,
+                "trans": 77.902,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 81.15,
+                "trans": 73.112,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 79.175,
+                "trans": 71.987,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 79.194,
+                "trans": 68.90899999999999,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 79.191,
+                "trans": 59.731,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 79.227,
+                "trans": 46.783,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 79.112,
+                "trans": 72.358,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 79.175,
+                "trans": 72.04,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 79.207,
+                "trans": 69.608,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 79.176,
+                "trans": 69.132,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 81.126,
+                "trans": 75.935,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 79.176,
+                "trans": 75.232,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 79.175,
+                "trans": 71.952,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 79.185,
+                "trans": 61.028,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 79.18,
+                "trans": 48.06100000000001,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 79.141,
+                "trans": 75.301,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 79.176,
+                "trans": 74.99,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 79.176,
+                "trans": 71.861,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 81.145,
+                "trans": 75.27,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 79.175,
+                "trans": 74.066,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 79.123,
+                "trans": 70.87899999999999,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 79.112,
+                "trans": 60.306999999999995,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 79.16,
+                "trans": 47.551,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 79.125,
+                "trans": 74.265,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 79.175,
+                "trans": 73.914,
+                "sample_num": 9868
+            }
+        ]
+    },
+    {
+        "model": "R-Net",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 81.899,
+                "trans": 78.62899999999999,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 81.949,
+                "trans": 70.08,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 81.944,
+                "trans": 52.68600000000001,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 81.944,
+                "trans": 20.437,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 81.866,
+                "trans": 79.214,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 81.899,
+                "trans": 78.479,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 79.906,
+                "trans": 70.863,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 79.872,
+                "trans": 51.06100000000001,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 79.872,
+                "trans": 16.217,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 79.816,
+                "trans": 78.866,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 79.816,
+                "trans": 78.732,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 81.808,
+                "trans": 79.092,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 79.62100000000001,
+                "trans": 78.432,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 79.678,
+                "trans": 72.149,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 79.689,
+                "trans": 50.897,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 79.689,
+                "trans": 17.574,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 79.62100000000001,
+                "trans": 73.329,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 79.62100000000001,
+                "trans": 73.42399999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 79.73,
+                "trans": 79.045,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 79.656,
+                "trans": 78.023,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 79.62100000000001,
+                "trans": 77.933,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 79.62100000000001,
+                "trans": 73.577,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 79.62100000000001,
+                "trans": 76.458,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 79.62100000000001,
+                "trans": 75.00399999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 81.833,
+                "trans": 73.01100000000001,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 79.816,
+                "trans": 72.987,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 80.727,
+                "trans": 67.51100000000001,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 80.77199999999999,
+                "trans": 51.66,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 80.804,
+                "trans": 21.213,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 79.816,
+                "trans": 67.77199999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 79.755,
+                "trans": 73.673,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 79.874,
+                "trans": 73.225,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 79.816,
+                "trans": 72.885,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 79.816,
+                "trans": 68.582,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 79.89,
+                "trans": 71.189,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 79.816,
+                "trans": 69.696,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 81.767,
+                "trans": 73.377,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 79.816,
+                "trans": 73.24,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 79.87899999999999,
+                "trans": 65.152,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 79.867,
+                "trans": 49.412,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 79.96,
+                "trans": 19.084,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 79.78,
+                "trans": 73.55,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 79.889,
+                "trans": 73.226,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 79.816,
+                "trans": 73.033,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 79.816,
+                "trans": 68.535,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 79.872,
+                "trans": 71.065,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 79.816,
+                "trans": 69.82,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 79.83800000000001,
+                "trans": 71.153,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 79.907,
+                "trans": 52.078,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 79.889,
+                "trans": 19.669,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 81.72800000000001,
+                "trans": 78.53399999999999,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 79.887,
+                "trans": 78.512,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 79.931,
+                "trans": 70.45100000000001,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 79.874,
+                "trans": 51.577,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 79.84899999999999,
+                "trans": 19.441,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 79.87,
+                "trans": 78.517,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 79.887,
+                "trans": 78.09100000000001,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 79.887,
+                "trans": 73.929,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 79.83,
+                "trans": 76.116,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 79.887,
+                "trans": 75.15899999999999,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 79.906,
+                "trans": 69.703,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 79.872,
+                "trans": 51.291000000000004,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 79.872,
+                "trans": 16.564,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 79.8,
+                "trans": 78.467,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 81.891,
+                "trans": 74.139,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 79.816,
+                "trans": 73.80199999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 79.928,
+                "trans": 66.377,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 79.914,
+                "trans": 49.203,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 79.969,
+                "trans": 19.22,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 79.809,
+                "trans": 74.357,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 79.816,
+                "trans": 73.47800000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 79.92,
+                "trans": 71.751,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 79.833,
+                "trans": 70.791,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 81.843,
+                "trans": 76.529,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 79.83,
+                "trans": 76.62100000000001,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 79.902,
+                "trans": 68.067,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 79.908,
+                "trans": 50.343,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 79.952,
+                "trans": 19.236,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 79.792,
+                "trans": 76.94800000000001,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 79.83,
+                "trans": 76.311,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 79.83,
+                "trans": 73.007,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 81.835,
+                "trans": 75.717,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 79.816,
+                "trans": 75.017,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 79.858,
+                "trans": 66.669,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 79.86399999999999,
+                "trans": 49.828,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 79.922,
+                "trans": 19.264,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 79.805,
+                "trans": 75.36399999999999,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 79.816,
+                "trans": 74.852,
+                "sample_num": 9868
+            }
+        ]
+    },
+    {
+        "model": "FusionNet",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 83.302,
+                "trans": 81.122,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 83.32799999999999,
+                "trans": 76.898,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 83.34200000000001,
+                "trans": 68.557,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 83.34200000000001,
+                "trans": 40.602,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 83.245,
+                "trans": 81.334,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 83.302,
+                "trans": 80.751,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 81.253,
+                "trans": 76.635,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 81.251,
+                "trans": 67.786,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 81.251,
+                "trans": 42.663000000000004,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 81.222,
+                "trans": 80.222,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 81.222,
+                "trans": 80.283,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 83.236,
+                "trans": 81.138,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 80.922,
+                "trans": 80.363,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 80.999,
+                "trans": 77.365,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 80.977,
+                "trans": 67.709,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 80.977,
+                "trans": 41.963,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 80.922,
+                "trans": 74.617,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 80.922,
+                "trans": 74.407,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 80.985,
+                "trans": 80.558,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 80.964,
+                "trans": 80.098,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 80.922,
+                "trans": 79.958,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 80.922,
+                "trans": 74.648,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 80.922,
+                "trans": 78.01,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 80.922,
+                "trans": 76.692,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 83.22200000000001,
+                "trans": 74.874,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 81.222,
+                "trans": 74.327,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 82.09299999999999,
+                "trans": 72.408,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 81.777,
+                "trans": 66.089,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 82.04799999999999,
+                "trans": 42.402,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 81.222,
+                "trans": 69.069,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 81.195,
+                "trans": 74.538,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 81.23,
+                "trans": 74.59899999999999,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 81.222,
+                "trans": 74.094,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 81.222,
+                "trans": 69.51100000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 81.233,
+                "trans": 72.484,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 81.222,
+                "trans": 71.535,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 83.227,
+                "trans": 75.436,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 81.222,
+                "trans": 74.382,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 81.202,
+                "trans": 70.428,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 81.19800000000001,
+                "trans": 63.949,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 81.211,
+                "trans": 40.461999999999996,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 81.152,
+                "trans": 74.729,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 81.221,
+                "trans": 74.564,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 81.222,
+                "trans": 74.391,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 81.222,
+                "trans": 69.497,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 81.232,
+                "trans": 72.663,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 81.222,
+                "trans": 71.532,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 81.217,
+                "trans": 76.57600000000001,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 81.253,
+                "trans": 68.069,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 81.212,
+                "trans": 43.75899999999999,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 83.09100000000001,
+                "trans": 80.988,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 81.249,
+                "trans": 80.062,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 81.295,
+                "trans": 76.53,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 81.278,
+                "trans": 67.578,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 81.274,
+                "trans": 42.781000000000006,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 81.205,
+                "trans": 80.464,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 81.249,
+                "trans": 79.608,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 81.249,
+                "trans": 74.913,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 81.25399999999999,
+                "trans": 78.25399999999999,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 81.249,
+                "trans": 77.161,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 81.253,
+                "trans": 76.388,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 81.251,
+                "trans": 67.942,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 81.251,
+                "trans": 43.489,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 81.203,
+                "trans": 80.047,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 83.28,
+                "trans": 75.708,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 81.222,
+                "trans": 74.78399999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 81.296,
+                "trans": 70.983,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 81.30199999999999,
+                "trans": 63.506,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 81.294,
+                "trans": 40.593,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 81.18,
+                "trans": 75.242,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 81.222,
+                "trans": 74.531,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 81.229,
+                "trans": 72.808,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 81.223,
+                "trans": 72.403,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 83.28,
+                "trans": 78.942,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 81.223,
+                "trans": 77.947,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 81.245,
+                "trans": 74.108,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 81.24,
+                "trans": 65.452,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 81.278,
+                "trans": 41.544,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 81.18,
+                "trans": 78.202,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 81.223,
+                "trans": 78.04,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 81.223,
+                "trans": 75.139,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 83.21799999999999,
+                "trans": 77.707,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 81.222,
+                "trans": 77.021,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 81.195,
+                "trans": 72.91,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 81.17399999999999,
+                "trans": 64.47,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 81.253,
+                "trans": 41.353,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 81.178,
+                "trans": 77.153,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 81.222,
+                "trans": 76.861,
+                "sample_num": 9868
+            }
+        ]
+    },
+    {
+        "model": "QANet",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 81.15899999999999,
+                "trans": 78.295,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 81.12100000000001,
+                "trans": 71.528,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 81.1,
+                "trans": 52.823,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 81.1,
+                "trans": 18.047,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 81.078,
+                "trans": 78.804,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 81.15899999999999,
+                "trans": 77.926,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 79.253,
+                "trans": 71.491,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 79.25,
+                "trans": 51.207,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 79.25,
+                "trans": 14.792,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 79.235,
+                "trans": 78.19,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 79.235,
+                "trans": 77.964,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 81.829,
+                "trans": 79.34,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 80.016,
+                "trans": 78.559,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 79.97800000000001,
+                "trans": 73.267,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 80.065,
+                "trans": 49.853,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 80.065,
+                "trans": 15.0,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 80.016,
+                "trans": 72.566,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 80.016,
+                "trans": 72.77199999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 80.102,
+                "trans": 79.527,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 80.117,
+                "trans": 79.07,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 80.016,
+                "trans": 78.652,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 80.016,
+                "trans": 73.667,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 80.016,
+                "trans": 76.825,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 80.016,
+                "trans": 75.335,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 81.024,
+                "trans": 71.417,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 79.235,
+                "trans": 70.763,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 79.972,
+                "trans": 67.671,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 79.694,
+                "trans": 51.935,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 79.903,
+                "trans": 18.075,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 79.235,
+                "trans": 65.66199999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 79.187,
+                "trans": 71.535,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 79.247,
+                "trans": 71.498,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 79.235,
+                "trans": 70.663,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 79.235,
+                "trans": 66.403,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 79.23,
+                "trans": 68.929,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 79.235,
+                "trans": 68.237,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 80.99600000000001,
+                "trans": 71.085,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 79.235,
+                "trans": 70.722,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 79.355,
+                "trans": 64.999,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 79.294,
+                "trans": 49.288000000000004,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 79.367,
+                "trans": 16.701,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 79.181,
+                "trans": 71.65899999999999,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 79.205,
+                "trans": 71.212,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 79.235,
+                "trans": 70.62899999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 79.235,
+                "trans": 66.44,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 79.252,
+                "trans": 69.507,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 79.235,
+                "trans": 68.313,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 79.237,
+                "trans": 72.061,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 79.293,
+                "trans": 52.247,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 79.279,
+                "trans": 16.831,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 81.02,
+                "trans": 77.883,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 79.242,
+                "trans": 77.843,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 79.252,
+                "trans": 71.665,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 79.222,
+                "trans": 51.426,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 79.23899999999999,
+                "trans": 16.682000000000002,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 79.243,
+                "trans": 78.206,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 79.242,
+                "trans": 77.52600000000001,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 79.242,
+                "trans": 72.691,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 79.227,
+                "trans": 75.93,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 79.242,
+                "trans": 75.111,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 79.253,
+                "trans": 71.09100000000001,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 79.25,
+                "trans": 51.386,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 79.25,
+                "trans": 14.794,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 79.23,
+                "trans": 77.945,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 81.031,
+                "trans": 72.418,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 79.235,
+                "trans": 72.197,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 79.27,
+                "trans": 66.282,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 79.291,
+                "trans": 49.148,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 79.312,
+                "trans": 16.542,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 79.186,
+                "trans": 72.608,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 79.235,
+                "trans": 71.97800000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 79.281,
+                "trans": 70.3,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 79.236,
+                "trans": 69.633,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 81.098,
+                "trans": 76.98899999999999,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 79.236,
+                "trans": 75.78699999999999,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 79.232,
+                "trans": 69.60600000000001,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 79.282,
+                "trans": 50.626999999999995,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 79.291,
+                "trans": 16.607,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 79.181,
+                "trans": 76.375,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 79.236,
+                "trans": 75.555,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 79.236,
+                "trans": 73.235,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 81.14699999999999,
+                "trans": 75.277,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 79.235,
+                "trans": 74.848,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 79.193,
+                "trans": 68.327,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 79.207,
+                "trans": 50.006,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 79.241,
+                "trans": 16.802,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 79.181,
+                "trans": 75.207,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 79.235,
+                "trans": 74.635,
+                "sample_num": 9868
+            }
+        ]
+    },
+    {
+        "model": "BERT",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 88.947,
+                "trans": 86.243,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 88.971,
+                "trans": 86.315,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 88.99799999999999,
+                "trans": 86.699,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 88.99799999999999,
+                "trans": 86.35700000000001,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 88.882,
+                "trans": 86.324,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 88.947,
+                "trans": 86.117,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 87.11399999999999,
+                "trans": 86.34100000000001,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 87.133,
+                "trans": 86.209,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 87.133,
+                "trans": 86.24799999999999,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 87.09200000000001,
+                "trans": 86.32700000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 87.09200000000001,
+                "trans": 86.24700000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 89.22,
+                "trans": 86.78399999999999,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 87.036,
+                "trans": 86.03,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 87.07799999999999,
+                "trans": 86.49600000000001,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 87.133,
+                "trans": 86.57799999999999,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 87.133,
+                "trans": 86.57799999999999,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 87.036,
+                "trans": 81.831,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 87.036,
+                "trans": 81.587,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 87.03399999999999,
+                "trans": 86.304,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 87.146,
+                "trans": 86.162,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 87.036,
+                "trans": 86.11399999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 87.036,
+                "trans": 81.393,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 87.036,
+                "trans": 83.448,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 87.036,
+                "trans": 83.551,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 88.94200000000001,
+                "trans": 80.098,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 87.09200000000001,
+                "trans": 80.727,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 88.26899999999999,
+                "trans": 82.56,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 88.01799999999999,
+                "trans": 82.881,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 88.01,
+                "trans": 82.744,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 87.09200000000001,
+                "trans": 75.654,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 87.06700000000001,
+                "trans": 81.005,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 87.12899999999999,
+                "trans": 80.774,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 87.09200000000001,
+                "trans": 81.122,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 87.09200000000001,
+                "trans": 75.52,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 87.12200000000001,
+                "trans": 77.932,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 87.09200000000001,
+                "trans": 77.74,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 88.855,
+                "trans": 80.428,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 87.09200000000001,
+                "trans": 80.583,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 87.15,
+                "trans": 81.005,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 87.113,
+                "trans": 81.065,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 87.12200000000001,
+                "trans": 81.087,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 87.05799999999999,
+                "trans": 81.128,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 87.115,
+                "trans": 80.775,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 87.09200000000001,
+                "trans": 81.078,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 87.09200000000001,
+                "trans": 75.036,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 87.115,
+                "trans": 78.102,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 87.09200000000001,
+                "trans": 77.817,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 87.09100000000001,
+                "trans": 86.523,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 87.14,
+                "trans": 86.494,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 87.09899999999999,
+                "trans": 86.584,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 88.86399999999999,
+                "trans": 86.12799999999999,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 87.124,
+                "trans": 85.87700000000001,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 87.14299999999999,
+                "trans": 86.23899999999999,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 87.156,
+                "trans": 86.316,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 87.15799999999999,
+                "trans": 86.15100000000001,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 87.113,
+                "trans": 86.098,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 87.124,
+                "trans": 86.094,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 87.124,
+                "trans": 80.71,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 87.12100000000001,
+                "trans": 83.585,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 87.124,
+                "trans": 83.40100000000001,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 87.11399999999999,
+                "trans": 86.444,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 87.133,
+                "trans": 86.508,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 87.133,
+                "trans": 86.71700000000001,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 87.085,
+                "trans": 86.34100000000001,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 88.92399999999999,
+                "trans": 79.933,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 87.09200000000001,
+                "trans": 80.408,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 87.12100000000001,
+                "trans": 80.747,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 87.167,
+                "trans": 80.582,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 87.182,
+                "trans": 80.896,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 87.06700000000001,
+                "trans": 80.405,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 87.09200000000001,
+                "trans": 80.391,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 87.117,
+                "trans": 77.969,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 87.09,
+                "trans": 77.462,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 88.934,
+                "trans": 83.31299999999999,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 87.101,
+                "trans": 83.56,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 87.09299999999999,
+                "trans": 83.87100000000001,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 87.145,
+                "trans": 83.749,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 87.14,
+                "trans": 83.955,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 87.088,
+                "trans": 83.652,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 87.101,
+                "trans": 83.662,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 87.101,
+                "trans": 80.73,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 88.932,
+                "trans": 83.083,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 87.09200000000001,
+                "trans": 83.008,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 87.06700000000001,
+                "trans": 83.551,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 87.06700000000001,
+                "trans": 83.346,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 87.126,
+                "trans": 83.61200000000001,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 87.07700000000001,
+                "trans": 83.3,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 87.09200000000001,
+                "trans": 83.025,
+                "sample_num": 9868
+            }
+        ]
+    },
+    {
+        "model": "ALBERT",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 92.11,
+                "trans": 89.829,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 92.111,
+                "trans": 90.109,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 92.156,
+                "trans": 90.052,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 92.156,
+                "trans": 90.02600000000001,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 92.096,
+                "trans": 89.93299999999999,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 92.11,
+                "trans": 89.74799999999999,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 91.213,
+                "trans": 90.119,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 91.23700000000001,
+                "trans": 89.88,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 91.23700000000001,
+                "trans": 89.95700000000001,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 91.23299999999999,
+                "trans": 90.061,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 91.23299999999999,
+                "trans": 89.88,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 92.98899999999999,
+                "trans": 90.088,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 91.815,
+                "trans": 90.055,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 91.772,
+                "trans": 90.26,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 91.81,
+                "trans": 90.271,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 91.81,
+                "trans": 90.271,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 91.815,
+                "trans": 85.89399999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 91.815,
+                "trans": 86.06,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 91.881,
+                "trans": 90.186,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 91.84299999999999,
+                "trans": 89.68299999999999,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 91.815,
+                "trans": 90.29799999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 91.815,
+                "trans": 85.711,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 91.815,
+                "trans": 86.95100000000001,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 91.815,
+                "trans": 87.90799999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 92.09700000000001,
+                "trans": 84.794,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 91.23299999999999,
+                "trans": 85.131,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 91.667,
+                "trans": 86.432,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 91.76899999999999,
+                "trans": 86.581,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 91.676,
+                "trans": 86.557,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 91.23299999999999,
+                "trans": 80.66,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 91.242,
+                "trans": 85.31200000000001,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 91.23100000000001,
+                "trans": 84.74799999999999,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 91.23299999999999,
+                "trans": 85.279,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 91.23299999999999,
+                "trans": 80.717,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 91.256,
+                "trans": 82.61200000000001,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 91.23299999999999,
+                "trans": 82.56,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 92.084,
+                "trans": 85.40100000000001,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 91.23299999999999,
+                "trans": 85.225,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 91.25200000000001,
+                "trans": 85.756,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 91.242,
+                "trans": 85.588,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 91.274,
+                "trans": 85.667,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 91.23200000000001,
+                "trans": 85.555,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 91.235,
+                "trans": 85.289,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 91.23299999999999,
+                "trans": 85.448,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 91.23299999999999,
+                "trans": 80.429,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 91.255,
+                "trans": 82.804,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 91.23299999999999,
+                "trans": 82.55,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 91.228,
+                "trans": 90.04799999999999,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 91.271,
+                "trans": 90.148,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 91.26,
+                "trans": 90.068,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 92.096,
+                "trans": 89.552,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 91.24799999999999,
+                "trans": 89.675,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 91.243,
+                "trans": 89.887,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 91.25,
+                "trans": 90.09899999999999,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 91.266,
+                "trans": 90.039,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 91.25200000000001,
+                "trans": 89.77600000000001,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 91.24799999999999,
+                "trans": 89.63799999999999,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 91.24799999999999,
+                "trans": 85.139,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 91.243,
+                "trans": 86.912,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 91.24799999999999,
+                "trans": 87.075,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 91.213,
+                "trans": 90.12299999999999,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 91.23700000000001,
+                "trans": 90.117,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 91.23700000000001,
+                "trans": 90.14399999999999,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 91.24,
+                "trans": 89.93299999999999,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 92.072,
+                "trans": 84.34,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 91.23299999999999,
+                "trans": 84.98299999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 91.213,
+                "trans": 85.287,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 91.225,
+                "trans": 85.02600000000001,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 91.265,
+                "trans": 85.11,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 91.24700000000001,
+                "trans": 85.10700000000001,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 91.23299999999999,
+                "trans": 85.051,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 91.259,
+                "trans": 82.444,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 91.23200000000001,
+                "trans": 82.544,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 92.098,
+                "trans": 86.991,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 91.236,
+                "trans": 86.96700000000001,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 91.206,
+                "trans": 87.37799999999999,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 91.228,
+                "trans": 87.258,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 91.241,
+                "trans": 87.251,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 91.245,
+                "trans": 87.03200000000001,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 91.236,
+                "trans": 87.22200000000001,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 91.236,
+                "trans": 84.55,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 92.11200000000001,
+                "trans": 86.913,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 91.23299999999999,
+                "trans": 87.28,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 91.181,
+                "trans": 87.462,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 91.214,
+                "trans": 87.819,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 91.235,
+                "trans": 87.554,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 91.25,
+                "trans": 87.319,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 91.23299999999999,
+                "trans": 87.265,
+                "sample_num": 9868
+            }
+        ]
+    },
+    {
+        "model": "XLNet",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 90.20200000000001,
+                "trans": 88.87799999999999,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 90.196,
+                "trans": 84.963,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 90.21799999999999,
+                "trans": 82.7,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 90.212,
+                "trans": 39.486999999999995,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 90.163,
+                "trans": 89.177,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 90.20200000000001,
+                "trans": 89.094,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 89.44,
+                "trans": 85.85,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 89.44,
+                "trans": 82.99600000000001,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 89.44,
+                "trans": 37.734,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 89.435,
+                "trans": 89.02600000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 89.435,
+                "trans": 89.031,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 90.527,
+                "trans": 88.665,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 89.741,
+                "trans": 89.381,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 89.736,
+                "trans": 87.25399999999999,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 89.73299999999999,
+                "trans": 83.428,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 89.73299999999999,
+                "trans": 41.541000000000004,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 89.741,
+                "trans": 85.64399999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 89.741,
+                "trans": 86.39399999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 89.74700000000001,
+                "trans": 89.307,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 89.806,
+                "trans": 89.204,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 89.741,
+                "trans": 89.428,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 89.741,
+                "trans": 85.51299999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 89.741,
+                "trans": 86.506,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 89.741,
+                "trans": 86.92299999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 90.205,
+                "trans": 85.415,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 89.435,
+                "trans": 85.706,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 89.391,
+                "trans": 82.619,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 89.44200000000001,
+                "trans": 80.566,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 89.604,
+                "trans": 39.866,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 89.435,
+                "trans": 83.266,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 89.40899999999999,
+                "trans": 86.10700000000001,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 89.42399999999999,
+                "trans": 85.906,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 89.435,
+                "trans": 85.948,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 89.435,
+                "trans": 82.545,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 89.46700000000001,
+                "trans": 83.589,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 89.435,
+                "trans": 83.76,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 90.234,
+                "trans": 85.855,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 89.435,
+                "trans": 85.351,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 89.348,
+                "trans": 82.104,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 89.34899999999999,
+                "trans": 78.711,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 89.338,
+                "trans": 40.021,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 89.397,
+                "trans": 86.04299999999999,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 89.425,
+                "trans": 85.992,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 89.435,
+                "trans": 85.971,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 89.435,
+                "trans": 82.811,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 89.465,
+                "trans": 83.795,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 89.435,
+                "trans": 83.97,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 89.417,
+                "trans": 85.814,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 89.45200000000001,
+                "trans": 83.009,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 89.413,
+                "trans": 41.793,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 90.26899999999999,
+                "trans": 88.882,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 89.458,
+                "trans": 89.04700000000001,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 89.475,
+                "trans": 85.759,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 89.471,
+                "trans": 83.037,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 89.45100000000001,
+                "trans": 41.521,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 89.43299999999999,
+                "trans": 88.961,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 89.458,
+                "trans": 89.009,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 89.458,
+                "trans": 86.113,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 89.462,
+                "trans": 86.12799999999999,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 89.458,
+                "trans": 87.20700000000001,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 89.44,
+                "trans": 85.95100000000001,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 89.44,
+                "trans": 83.132,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 89.44,
+                "trans": 40.954,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 89.417,
+                "trans": 89.205,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 90.152,
+                "trans": 85.383,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 89.435,
+                "trans": 85.505,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 89.47200000000001,
+                "trans": 81.626,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 89.441,
+                "trans": 79.178,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 89.485,
+                "trans": 40.056,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 89.40100000000001,
+                "trans": 85.83200000000001,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 89.435,
+                "trans": 85.977,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 89.47399999999999,
+                "trans": 83.601,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 89.434,
+                "trans": 83.914,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 90.236,
+                "trans": 86.436,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 89.44,
+                "trans": 86.454,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 89.42299999999999,
+                "trans": 82.744,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 89.447,
+                "trans": 80.202,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 89.431,
+                "trans": 40.738,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 89.415,
+                "trans": 86.62100000000001,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 89.44,
+                "trans": 86.92299999999999,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 89.44,
+                "trans": 84.515,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 90.23899999999999,
+                "trans": 86.853,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 89.435,
+                "trans": 86.785,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 89.37299999999999,
+                "trans": 83.294,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 89.36,
+                "trans": 80.277,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 89.43700000000001,
+                "trans": 40.218,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 89.416,
+                "trans": 87.00399999999999,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 89.435,
+                "trans": 87.18700000000001,
+                "sample_num": 9868
+            }
+        ]
+    },
+    {
+        "model": "DistilBERT",
+        "attack_results": [
+            {
+                "name": "InsertAdv_AppendIrr",
+                "ori": 88.87799999999999,
+                "trans": 86.415,
+                "sample_num": 7052
+            },
+            {
+                "name": "InsertAdv_WordCase-lower",
+                "ori": 88.92399999999999,
+                "trans": 86.744,
+                "sample_num": 7028
+            },
+            {
+                "name": "InsertAdv_WordCase-title",
+                "ori": 88.948,
+                "trans": 86.83200000000001,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_WordCase-upper",
+                "ori": 88.948,
+                "trans": 86.73700000000001,
+                "sample_num": 7012
+            },
+            {
+                "name": "InsertAdv_AddPunc-add-bracket",
+                "ori": 88.882,
+                "trans": 87.059,
+                "sample_num": 6988
+            },
+            {
+                "name": "InsertAdv_TwitterType-random",
+                "ori": 88.87799999999999,
+                "trans": 86.279,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr_WordCase-lower",
+                "ori": 87.02799999999999,
+                "trans": 85.90700000000001,
+                "sample_num": 9801
+            },
+            {
+                "name": "AppendIrr_WordCase-title",
+                "ori": 87.04,
+                "trans": 86.15899999999999,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_WordCase-upper",
+                "ori": 87.04,
+                "trans": 86.145,
+                "sample_num": 9764
+            },
+            {
+                "name": "AppendIrr_AddPunc-add-bracket",
+                "ori": 87.001,
+                "trans": 86.024,
+                "sample_num": 9868
+            },
+            {
+                "name": "AppendIrr_TwitterType-random",
+                "ori": 87.001,
+                "trans": 85.98100000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Contraction_InsertAdv",
+                "ori": 89.124,
+                "trans": 87.176,
+                "sample_num": 2250
+            },
+            {
+                "name": "Contraction_AppendIrr",
+                "ori": 87.113,
+                "trans": 86.12200000000001,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_WordCase-lower",
+                "ori": 87.12299999999999,
+                "trans": 86.469,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_WordCase-title",
+                "ori": 87.149,
+                "trans": 86.514,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_WordCase-upper",
+                "ori": 87.149,
+                "trans": 86.514,
+                "sample_num": 3482
+            },
+            {
+                "name": "Contraction_Keyboard",
+                "ori": 87.113,
+                "trans": 81.204,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Ocr",
+                "ori": 87.113,
+                "trans": 81.05199999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_AddPunc-add-bracket",
+                "ori": 87.13,
+                "trans": 86.641,
+                "sample_num": 3500
+            },
+            {
+                "name": "Contraction_Tense",
+                "ori": 87.18299999999999,
+                "trans": 86.279,
+                "sample_num": 3510
+            },
+            {
+                "name": "Contraction_TwitterType-random",
+                "ori": 87.113,
+                "trans": 86.303,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_Typos-random",
+                "ori": 87.113,
+                "trans": 80.892,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordEmbedding",
+                "ori": 87.113,
+                "trans": 83.57,
+                "sample_num": 3521
+            },
+            {
+                "name": "Contraction_SwapSyn-WordNet",
+                "ori": 87.113,
+                "trans": 83.198,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard_InsertAdv",
+                "ori": 88.831,
+                "trans": 79.991,
+                "sample_num": 7094
+            },
+            {
+                "name": "Keyboard_AppendIrr",
+                "ori": 87.001,
+                "trans": 79.835,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_WordCase-lower",
+                "ori": 87.85799999999999,
+                "trans": 81.86399999999999,
+                "sample_num": 5614
+            },
+            {
+                "name": "Keyboard_WordCase-title",
+                "ori": 87.62200000000001,
+                "trans": 82.007,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_WordCase-upper",
+                "ori": 87.89299999999999,
+                "trans": 82.087,
+                "sample_num": 5618
+            },
+            {
+                "name": "Keyboard_Ocr",
+                "ori": 87.001,
+                "trans": 74.572,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_AddPunc-add-bracket",
+                "ori": 87.007,
+                "trans": 80.428,
+                "sample_num": 9780
+            },
+            {
+                "name": "Keyboard_Tense",
+                "ori": 87.001,
+                "trans": 80.08800000000001,
+                "sample_num": 9742
+            },
+            {
+                "name": "Keyboard_TwitterType-random",
+                "ori": 87.001,
+                "trans": 80.42399999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_Typos-random",
+                "ori": 87.001,
+                "trans": 74.913,
+                "sample_num": 9868
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordEmbedding",
+                "ori": 87.037,
+                "trans": 77.503,
+                "sample_num": 9855
+            },
+            {
+                "name": "Keyboard_SwapSyn-WordNet",
+                "ori": 87.001,
+                "trans": 76.873,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_InsertAdv",
+                "ori": 88.758,
+                "trans": 80.408,
+                "sample_num": 7099
+            },
+            {
+                "name": "Ocr_AppendIrr",
+                "ori": 87.001,
+                "trans": 80.044,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_WordCase-lower",
+                "ori": 86.993,
+                "trans": 80.607,
+                "sample_num": 9270
+            },
+            {
+                "name": "Ocr_WordCase-title",
+                "ori": 86.958,
+                "trans": 80.72800000000001,
+                "sample_num": 9223
+            },
+            {
+                "name": "Ocr_WordCase-upper",
+                "ori": 86.992,
+                "trans": 80.691,
+                "sample_num": 9210
+            },
+            {
+                "name": "Ocr_AddPunc-add-bracket",
+                "ori": 87.00200000000001,
+                "trans": 80.45100000000001,
+                "sample_num": 9775
+            },
+            {
+                "name": "Ocr_Tense",
+                "ori": 86.999,
+                "trans": 80.23100000000001,
+                "sample_num": 9748
+            },
+            {
+                "name": "Ocr_TwitterType-random",
+                "ori": 87.001,
+                "trans": 80.33800000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_Typos-random",
+                "ori": 87.001,
+                "trans": 75.108,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr_SwapSyn-WordEmbedding",
+                "ori": 87.03399999999999,
+                "trans": 77.906,
+                "sample_num": 9857
+            },
+            {
+                "name": "Ocr_SwapSyn-WordNet",
+                "ori": 87.001,
+                "trans": 77.12899999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-lower",
+                "ori": 87.04299999999999,
+                "trans": 86.44200000000001,
+                "sample_num": 9720
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-title",
+                "ori": 87.094,
+                "trans": 86.506,
+                "sample_num": 9684
+            },
+            {
+                "name": "AddPunc-add-bracket_WordCase-upper",
+                "ori": 87.04700000000001,
+                "trans": 86.619,
+                "sample_num": 9674
+            },
+            {
+                "name": "Tense_InsertAdv",
+                "ori": 88.68799999999999,
+                "trans": 86.07,
+                "sample_num": 7338
+            },
+            {
+                "name": "Tense_AppendIrr",
+                "ori": 87.01899999999999,
+                "trans": 85.64399999999999,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_WordCase-lower",
+                "ori": 87.04299999999999,
+                "trans": 86.079,
+                "sample_num": 9707
+            },
+            {
+                "name": "Tense_WordCase-title",
+                "ori": 87.04799999999999,
+                "trans": 86.141,
+                "sample_num": 9667
+            },
+            {
+                "name": "Tense_WordCase-upper",
+                "ori": 87.036,
+                "trans": 86.01100000000001,
+                "sample_num": 9663
+            },
+            {
+                "name": "Tense_AddPunc-add-bracket",
+                "ori": 87.01799999999999,
+                "trans": 86.197,
+                "sample_num": 9725
+            },
+            {
+                "name": "Tense_TwitterType-random",
+                "ori": 87.01899999999999,
+                "trans": 86.07,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_Typos-random",
+                "ori": 87.01899999999999,
+                "trans": 80.098,
+                "sample_num": 9805
+            },
+            {
+                "name": "Tense_SwapSyn-WordEmbedding",
+                "ori": 87.024,
+                "trans": 83.164,
+                "sample_num": 9795
+            },
+            {
+                "name": "Tense_SwapSyn-WordNet",
+                "ori": 87.01899999999999,
+                "trans": 82.927,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random_WordCase-lower",
+                "ori": 87.02799999999999,
+                "trans": 86.34700000000001,
+                "sample_num": 9801
+            },
+            {
+                "name": "TwitterType-random_WordCase-title",
+                "ori": 87.04,
+                "trans": 86.199,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_WordCase-upper",
+                "ori": 87.04,
+                "trans": 86.13799999999999,
+                "sample_num": 9764
+            },
+            {
+                "name": "TwitterType-random_AddPunc-add-bracket",
+                "ori": 86.994,
+                "trans": 86.045,
+                "sample_num": 9826
+            },
+            {
+                "name": "Typos-random_InsertAdv",
+                "ori": 88.836,
+                "trans": 80.2,
+                "sample_num": 7065
+            },
+            {
+                "name": "Typos-random_AppendIrr",
+                "ori": 87.001,
+                "trans": 80.29899999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_WordCase-lower",
+                "ori": 87.03299999999999,
+                "trans": 80.46600000000001,
+                "sample_num": 9745
+            },
+            {
+                "name": "Typos-random_WordCase-title",
+                "ori": 87.069,
+                "trans": 80.301,
+                "sample_num": 9735
+            },
+            {
+                "name": "Typos-random_WordCase-upper",
+                "ori": 87.087,
+                "trans": 80.27199999999999,
+                "sample_num": 9720
+            },
+            {
+                "name": "Typos-random_AddPunc-add-bracket",
+                "ori": 87.00399999999999,
+                "trans": 80.25399999999999,
+                "sample_num": 9777
+            },
+            {
+                "name": "Typos-random_TwitterType-random",
+                "ori": 87.001,
+                "trans": 79.84899999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordEmbedding",
+                "ori": 87.039,
+                "trans": 77.719,
+                "sample_num": 9850
+            },
+            {
+                "name": "Typos-random_SwapSyn-WordNet",
+                "ori": 87.0,
+                "trans": 77.408,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_InsertAdv",
+                "ori": 88.89299999999999,
+                "trans": 83.575,
+                "sample_num": 7021
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AppendIrr",
+                "ori": 87.01,
+                "trans": 83.04299999999999,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-lower",
+                "ori": 87.015,
+                "trans": 83.479,
+                "sample_num": 9752
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-title",
+                "ori": 87.031,
+                "trans": 83.398,
+                "sample_num": 9708
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_WordCase-upper",
+                "ori": 87.05799999999999,
+                "trans": 83.805,
+                "sample_num": 9707
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_AddPunc-add-bracket",
+                "ori": 87.024,
+                "trans": 83.46,
+                "sample_num": 9776
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_TwitterType-random",
+                "ori": 87.01,
+                "trans": 83.463,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordEmbedding_SwapSyn-WordNet",
+                "ori": 87.01,
+                "trans": 80.415,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet_InsertAdv",
+                "ori": 88.757,
+                "trans": 82.945,
+                "sample_num": 7235
+            },
+            {
+                "name": "SwapSyn-WordNet_AppendIrr",
+                "ori": 87.001,
+                "trans": 82.471,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-lower",
+                "ori": 86.96600000000001,
+                "trans": 83.25200000000001,
+                "sample_num": 9724
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-title",
+                "ori": 86.97399999999999,
+                "trans": 83.131,
+                "sample_num": 9628
+            },
+            {
+                "name": "SwapSyn-WordNet_WordCase-upper",
+                "ori": 87.023,
+                "trans": 82.911,
+                "sample_num": 9760
+            },
+            {
+                "name": "SwapSyn-WordNet_AddPunc-add-bracket",
+                "ori": 87.007,
+                "trans": 83.295,
+                "sample_num": 9777
+            },
+            {
+                "name": "SwapSyn-WordNet_TwitterType-random",
+                "ori": 87.001,
+                "trans": 82.698,
+                "sample_num": 9868
+            }
+        ]
+    }
+]

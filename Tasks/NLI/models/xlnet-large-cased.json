@@ -1,0 +1,9 @@
+{
+        "desc": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+        "contributor": [
+                {
+                        "name": "Bolin zhu",
+                        "github": "https://github.com/blzhu0823"
+                }
+        ]
+}

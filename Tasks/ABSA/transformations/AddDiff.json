@@ -1,0 +1,19 @@
+{
+    "desc":"AddDiff: Add aspects with the opposite sentiment from the target aspect.",
+    "examples":[
+        {
+            "ori":"BEST spicy tuna roll, great asian salad.（Target: spicy tuna roll)",           
+             "trans":"BEST spicy tuna roll, great asian salad, but this small place is packed, on a cold day, the seating by the entrance way can be pretty drafty and bad service."
+        },
+        {
+            "ori":"The food was extremely tasty, creatively presented and the wine excellent. (Target: wine)",
+            "trans":"The food was extremely tasty, creatively presented and the wine excellent, but yeah, sometimes the service can be slow, a lentil dish was salty beyond edibility and the red curry is weak and tasteless."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"rui zheng",
+            "github":"https://github.com/ruizheng20"
+        }
+    ]
+}

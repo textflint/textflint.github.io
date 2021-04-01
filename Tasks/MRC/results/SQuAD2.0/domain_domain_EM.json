@@ -1,0 +1,474 @@
+[
+    {
+        "model": "BiDAF",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse_ModifyPos",
+                "ori": 56.424,
+                "trans": 20.346,
+                "sample_num": 4335
+            },
+            {
+                "name": "AddSentDiverse_PerturbAnswer",
+                "ori": 55.07899999999999,
+                "trans": 6.6370000000000005,
+                "sample_num": 4686
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_AddSentDiverse",
+                "ori": 41.828,
+                "trans": 12.194,
+                "sample_num": 5109
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_ModifyPos",
+                "ori": 42.826,
+                "trans": 41.559,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_PerturbAnswer",
+                "ori": 41.778,
+                "trans": 23.814,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-MLM_AddSentDiverse",
+                "ori": 38.622,
+                "trans": 9.385,
+                "sample_num": 5168
+            },
+            {
+                "name": "PerturbQuestion-MLM_ModifyPos",
+                "ori": 39.925,
+                "trans": 38.736999999999995,
+                "sample_num": 5052
+            },
+            {
+                "name": "PerturbQuestion-MLM_PerturbAnswer",
+                "ori": 38.997,
+                "trans": 22.315,
+                "sample_num": 5521
+            },
+            {
+                "name": "PerturbAnswer_ModifyPos",
+                "ori": 56.731,
+                "trans": 29.85,
+                "sample_num": 4546
+            }
+        ]
+    },
+    {
+        "model": "BiDAF+",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse_ModifyPos",
+                "ori": 52.272,
+                "trans": 13.195,
+                "sample_num": 4335
+            },
+            {
+                "name": "AddSentDiverse_PerturbAnswer",
+                "ori": 51.343999999999994,
+                "trans": 5.058,
+                "sample_num": 4686
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_AddSentDiverse",
+                "ori": 40.634,
+                "trans": 9.454,
+                "sample_num": 5109
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_ModifyPos",
+                "ori": 41.302,
+                "trans": 39.343,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_PerturbAnswer",
+                "ori": 40.438,
+                "trans": 23.125999999999998,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-MLM_AddSentDiverse",
+                "ori": 36.765,
+                "trans": 7.237,
+                "sample_num": 5168
+            },
+            {
+                "name": "PerturbQuestion-MLM_ModifyPos",
+                "ori": 37.47,
+                "trans": 36.817,
+                "sample_num": 5052
+            },
+            {
+                "name": "PerturbQuestion-MLM_PerturbAnswer",
+                "ori": 36.95,
+                "trans": 22.006999999999998,
+                "sample_num": 5521
+            },
+            {
+                "name": "PerturbAnswer_ModifyPos",
+                "ori": 52.42,
+                "trans": 28.003,
+                "sample_num": 4546
+            }
+        ]
+    },
+    {
+        "model": "BiDAF+ELMo",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse_ModifyPos",
+                "ori": 59.423,
+                "trans": 24.89,
+                "sample_num": 4335
+            },
+            {
+                "name": "AddSentDiverse_PerturbAnswer",
+                "ori": 58.451,
+                "trans": 6.53,
+                "sample_num": 4686
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_AddSentDiverse",
+                "ori": 45.665,
+                "trans": 12.37,
+                "sample_num": 5109
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_ModifyPos",
+                "ori": 46.349,
+                "trans": 44.845,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_PerturbAnswer",
+                "ori": 45.273,
+                "trans": 26.603,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-MLM_AddSentDiverse",
+                "ori": 43.595,
+                "trans": 9.965,
+                "sample_num": 5168
+            },
+            {
+                "name": "PerturbQuestion-MLM_ModifyPos",
+                "ori": 44.913000000000004,
+                "trans": 43.765,
+                "sample_num": 5052
+            },
+            {
+                "name": "PerturbQuestion-MLM_PerturbAnswer",
+                "ori": 43.778,
+                "trans": 26.372,
+                "sample_num": 5521
+            },
+            {
+                "name": "PerturbAnswer_ModifyPos",
+                "ori": 59.81100000000001,
+                "trans": 34.25,
+                "sample_num": 4546
+            }
+        ]
+    },
+    {
+        "model": "BiDAF++ELMo",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse_ModifyPos",
+                "ori": 60.876999999999995,
+                "trans": 20.576999999999998,
+                "sample_num": 4335
+            },
+            {
+                "name": "AddSentDiverse_PerturbAnswer",
+                "ori": 59.966,
+                "trans": 7.789,
+                "sample_num": 4686
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_AddSentDiverse",
+                "ori": 46.604,
+                "trans": 14.132,
+                "sample_num": 5109
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_ModifyPos",
+                "ori": 47.793,
+                "trans": 45.102,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_PerturbAnswer",
+                "ori": 46.468999999999994,
+                "trans": 27.146,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-MLM_AddSentDiverse",
+                "ori": 41.912,
+                "trans": 10.894,
+                "sample_num": 5168
+            },
+            {
+                "name": "PerturbQuestion-MLM_ModifyPos",
+                "ori": 42.716,
+                "trans": 41.231,
+                "sample_num": 5052
+            },
+            {
+                "name": "PerturbQuestion-MLM_PerturbAnswer",
+                "ori": 42.093999999999994,
+                "trans": 24.451999999999998,
+                "sample_num": 5521
+            },
+            {
+                "name": "PerturbAnswer_ModifyPos",
+                "ori": 61.153,
+                "trans": 32.512,
+                "sample_num": 4546
+            }
+        ]
+    },
+    {
+        "model": "BERT",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse_ModifyPos",
+                "ori": 75.825,
+                "trans": 33.287,
+                "sample_num": 4335
+            },
+            {
+                "name": "AddSentDiverse_PerturbAnswer",
+                "ori": 74.456,
+                "trans": 10.777000000000001,
+                "sample_num": 4686
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_AddSentDiverse",
+                "ori": 73.596,
+                "trans": 19.847,
+                "sample_num": 5109
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_ModifyPos",
+                "ori": 74.72800000000001,
+                "trans": 54.858000000000004,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_PerturbAnswer",
+                "ori": 73.633,
+                "trans": 34.607,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-MLM_AddSentDiverse",
+                "ori": 73.665,
+                "trans": 12.752,
+                "sample_num": 5168
+            },
+            {
+                "name": "PerturbQuestion-MLM_ModifyPos",
+                "ori": 74.723,
+                "trans": 43.092,
+                "sample_num": 5052
+            },
+            {
+                "name": "PerturbQuestion-MLM_PerturbAnswer",
+                "ori": 73.628,
+                "trans": 28.835,
+                "sample_num": 5521
+            },
+            {
+                "name": "PerturbAnswer_ModifyPos",
+                "ori": 75.627,
+                "trans": 45.227,
+                "sample_num": 4546
+            }
+        ]
+    },
+    {
+        "model": "ALBERT",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse_ModifyPos",
+                "ori": 77.832,
+                "trans": 22.86,
+                "sample_num": 4335
+            },
+            {
+                "name": "AddSentDiverse_PerturbAnswer",
+                "ori": 76.633,
+                "trans": 7.256,
+                "sample_num": 4686
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_AddSentDiverse",
+                "ori": 75.925,
+                "trans": 12.899000000000001,
+                "sample_num": 5109
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_ModifyPos",
+                "ori": 77.202,
+                "trans": 56.93600000000001,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_PerturbAnswer",
+                "ori": 75.915,
+                "trans": 35.73,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-MLM_AddSentDiverse",
+                "ori": 75.89,
+                "trans": 9.791,
+                "sample_num": 5168
+            },
+            {
+                "name": "PerturbQuestion-MLM_ModifyPos",
+                "ori": 77.217,
+                "trans": 49.386,
+                "sample_num": 5052
+            },
+            {
+                "name": "PerturbQuestion-MLM_PerturbAnswer",
+                "ori": 75.928,
+                "trans": 33.617,
+                "sample_num": 5521
+            },
+            {
+                "name": "PerturbAnswer_ModifyPos",
+                "ori": 78.003,
+                "trans": 46.238,
+                "sample_num": 4546
+            }
+        ]
+    },
+    {
+        "model": "XLNet",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse_ModifyPos",
+                "ori": 81.176,
+                "trans": 31.073,
+                "sample_num": 4335
+            },
+            {
+                "name": "AddSentDiverse_PerturbAnswer",
+                "ori": 80.09,
+                "trans": 10.03,
+                "sample_num": 4686
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_AddSentDiverse",
+                "ori": 79.389,
+                "trans": 17.127,
+                "sample_num": 5109
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_ModifyPos",
+                "ori": 80.032,
+                "trans": 60.993,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_PerturbAnswer",
+                "ori": 79.156,
+                "trans": 41.452,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-MLM_AddSentDiverse",
+                "ori": 79.373,
+                "trans": 12.442,
+                "sample_num": 5168
+            },
+            {
+                "name": "PerturbQuestion-MLM_ModifyPos",
+                "ori": 80.028,
+                "trans": 46.18,
+                "sample_num": 5052
+            },
+            {
+                "name": "PerturbQuestion-MLM_PerturbAnswer",
+                "ori": 79.152,
+                "trans": 35.193000000000005,
+                "sample_num": 5521
+            },
+            {
+                "name": "PerturbAnswer_ModifyPos",
+                "ori": 80.972,
+                "trans": 53.168,
+                "sample_num": 4546
+            }
+        ]
+    },
+    {
+        "model": "DistilBERT",
+        "attack_results": [
+            {
+                "name": "AddSentDiverse_ModifyPos",
+                "ori": 71.557,
+                "trans": 26.851,
+                "sample_num": 4335
+            },
+            {
+                "name": "AddSentDiverse_PerturbAnswer",
+                "ori": 70.337,
+                "trans": 10.265,
+                "sample_num": 4686
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_AddSentDiverse",
+                "ori": 69.446,
+                "trans": 16.168,
+                "sample_num": 5109
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_ModifyPos",
+                "ori": 70.73,
+                "trans": 53.453,
+                "sample_num": 5053
+            },
+            {
+                "name": "PerturbQuestion-BackTranslation_PerturbAnswer",
+                "ori": 69.594,
+                "trans": 33.013000000000005,
+                "sample_num": 5522
+            },
+            {
+                "name": "PerturbQuestion-MLM_AddSentDiverse",
+                "ori": 69.62100000000001,
+                "trans": 10.913,
+                "sample_num": 5168
+            },
+            {
+                "name": "PerturbQuestion-MLM_ModifyPos",
+                "ori": 70.744,
+                "trans": 46.001999999999995,
+                "sample_num": 5052
+            },
+            {
+                "name": "PerturbQuestion-MLM_PerturbAnswer",
+                "ori": 69.607,
+                "trans": 28.165,
+                "sample_num": 5521
+            },
+            {
+                "name": "PerturbAnswer_ModifyPos",
+                "ori": 71.469,
+                "trans": 43.313,
+                "sample_num": 4546
+            }
+        ]
+    }
+]

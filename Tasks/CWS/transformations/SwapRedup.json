@@ -1,0 +1,19 @@
+{
+    "desc":"SwapRedup is a task-specific transformation of Chinese Word Segmentation, this transformation will transform some suitable words in the sentence into repetitive words or words in the form of 'ABAB' in Chinese",
+    "examples":[
+        {
+            "ori":"飞船 在 太空 顺利 的 完成 了 太阳能 翻板 展开",
+            "trans":"飞船 在 太空 顺顺利利 的 完成 了 太阳能 翻板 展开"
+        },
+        {
+            "ori":"着重 讨论 美国 提出 的 以 巴 和谈 新 的 妥协 方案",
+            "trans":"着重 讨论讨论 美国 提出 的 以 巴 和谈 新 的 妥协 方案"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"yongxin zhang",
+            "github":"https://github.com/GC-inori"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "desc":"RevTgt: reverse the sentiment of the target aspect.",
+    "examples":[
+        {
+            "ori":"BEST spicy tuna roll, great asian salad. (Target: spicy tuna roll)",
+            "trans":"BAD spicy tuna roll, great asian salad."
+        },
+        {
+            "ori":"The food was extremely tasty, creatively presented and the wine excellent. (Target: food)",
+            "trans":"The food was extremely tasteless, not creatively presented and the wine excellent."
+        }
+    ],
+    "contributor":[
+        {
+            "name":"rui zheng",
+            "github":"https://github.com/ruizheng20"
+        }
+    ]
+}

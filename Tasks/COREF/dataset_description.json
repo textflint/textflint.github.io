@@ -1,0 +1,45 @@
+[
+	{
+		"name": "Ontonotes",
+		"description": "OntoNotes Release 5.0",
+		"available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut", "subpopulation"],
+		"models": [
+			{
+				"model_name": "c2f+ELMo",
+				"paper_link": "https://www.aclweb.org/anthology/N18-2108",
+				"github_link": "https://github.com/kentonl/e2e-coref",
+				"paper_name": "Higher-order Coreference Resolution with Coarse-to-fine Inference",
+				"metric": {
+					"Accuracy": 72.39
+				}
+			},
+			{
+				"model_name": "e2e+ELMo",
+				"paper_link": "https://www.aclweb.org/anthology/D17-1018/",
+				"github_link": "https://github.com/kentonl/e2e-coref/releases/tag/e2e",
+				"paper_name": "End-to-end Neural Coreference Resolution",
+				"metric": {
+					"Accuracy": 67.23
+				}
+			},
+			{
+				"model_name": "c2f+BERT",
+				"paper_link": "https://www.aclweb.org/anthology/D19-1588",
+				"github_link": "https://github.com/mandarjoshi90/coref",
+				"paper_name": "BERT for Coreference Resolution: Baselines and Analysis",
+				"metric": {
+					"Accuracy": 74.74 
+				}
+			},
+			{
+				"model_name": "c2f+SpanBERT",
+				"paper_link": "https://www.aclweb.org/anthology/2020.tacl-1.5",
+				"github_link": "https://github.com/mandarjoshi90/coref",
+				"paper_name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+				"metric": {
+					"Accuracy": 77.41 
+				}
+			}
+		]
+	}
+]

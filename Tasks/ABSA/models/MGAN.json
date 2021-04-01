@@ -1,0 +1,4 @@
+{
+    "desc":"Multi-grained attention network (MGAN) uses a fine-grained attention mechanism, which can capture the word-level interaction between aspect and context.",
+    "contributor":[{"name":"rui zheng", "github":"https://github.com/ruizheng20"}]
+}

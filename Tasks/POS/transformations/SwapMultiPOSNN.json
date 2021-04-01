@@ -1,0 +1,19 @@
+{
+    "desc":"It is implied by the phenomenon of conversion that some words hold multiple parts of speech. That is to say, these multi-part-of-speech words might confuse the language models in terms of POS tagging. Accordingly, we replace nouns with words holding multiple parts of speech.",
+    "examples":[
+        {
+            "ori":"There is an apple on the desk",
+            "trans":"There is an imponderable on the desk"
+        },
+        {
+            "ori":"That is a good survey",
+            "trans":"That is a good climb"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"jiacheng ye",
+            "github":"https://github.com/jiacheng-ye"
+        }
+    ]
+}

@@ -1,0 +1,1132 @@
+[
+    {
+        "model": "BiDAF",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 71.923,
+                "trans": 67.669,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 68.18,
+                "trans": 66.97399999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 66.852,
+                "trans": 61.95,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 67.476,
+                "trans": 54.43899999999999,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 67.413,
+                "trans": 49.266999999999996,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 67.396,
+                "trans": 66.714,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 68.18,
+                "trans": 59.333,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 68.18,
+                "trans": 59.75899999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 68.21300000000001,
+                "trans": 67.437,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 68.241,
+                "trans": 67.241,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 68.18,
+                "trans": 66.153,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 68.18,
+                "trans": 61.63399999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 68.197,
+                "trans": 65.096,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 68.18,
+                "trans": 63.143,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 67.42,
+                "trans": 67.702,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 73.6,
+                "trans": 72.0,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 68.212,
+                "trans": 67.862,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 68.263,
+                "trans": 67.277,
+                "sample_num": 4969
+            }
+        ]
+    },
+    {
+        "model": "DrQA",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 73.681,
+                "trans": 70.59,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 70.13600000000001,
+                "trans": 68.91,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 69.538,
+                "trans": 64.735,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 69.872,
+                "trans": 49.411,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 69.774,
+                "trans": 37.391,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 69.554,
+                "trans": 68.67399999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 70.13600000000001,
+                "trans": 61.927,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 70.13600000000001,
+                "trans": 62.059,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 70.155,
+                "trans": 69.05199999999999,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 70.199,
+                "trans": 68.567,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 70.13600000000001,
+                "trans": 68.079,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 70.13600000000001,
+                "trans": 62.82899999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 70.143,
+                "trans": 66.018,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 70.13600000000001,
+                "trans": 64.998,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 69.868,
+                "trans": 68.92699999999999,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 72.4,
+                "trans": 71.6,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 71.578,
+                "trans": 71.447,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 71.578,
+                "trans": 70.115,
+                "sample_num": 4969
+            }
+        ]
+    },
+    {
+        "model": "R-Net",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 74.83,
+                "trans": 70.306,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 71.301,
+                "trans": 69.639,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 71.01899999999999,
+                "trans": 60.123000000000005,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 71.459,
+                "trans": 32.473,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 71.382,
+                "trans": 9.699,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 71.059,
+                "trans": 70.03699999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 71.301,
+                "trans": 63.74100000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 71.301,
+                "trans": 63.934,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 71.31,
+                "trans": 70.206,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 71.362,
+                "trans": 69.92399999999999,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 71.301,
+                "trans": 69.193,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 71.301,
+                "trans": 64.937,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 71.308,
+                "trans": 67.771,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 71.301,
+                "trans": 66.528,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 73.528,
+                "trans": 72.128,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 76.8,
+                "trans": 74.8,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 72.934,
+                "trans": 71.84100000000001,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 72.771,
+                "trans": 71.584,
+                "sample_num": 4969
+            }
+        ]
+    },
+    {
+        "model": "FusionNet",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 75.97800000000001,
+                "trans": 72.604,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 72.365,
+                "trans": 70.896,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 71.9,
+                "trans": 66.563,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 72.125,
+                "trans": 54.05,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 72.105,
+                "trans": 31.63,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 73.07600000000001,
+                "trans": 72.195,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 72.365,
+                "trans": 64.17699999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 72.365,
+                "trans": 64.218,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 72.383,
+                "trans": 71.126,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 72.381,
+                "trans": 70.882,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 72.365,
+                "trans": 70.227,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 72.365,
+                "trans": 65.829,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 72.373,
+                "trans": 68.4,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 72.365,
+                "trans": 67.10600000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 72.13,
+                "trans": 71.66,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 74.8,
+                "trans": 75.2,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 72.89,
+                "trans": 73.043,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 72.751,
+                "trans": 72.087,
+                "sample_num": 4969
+            }
+        ]
+    },
+    {
+        "model": "QANet",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 73.242,
+                "trans": 69.512,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 69.953,
+                "trans": 68.058,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 69.816,
+                "trans": 60.992,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 70.056,
+                "trans": 33.722,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 69.97800000000001,
+                "trans": 9.302,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 70.775,
+                "trans": 69.83800000000001,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 69.953,
+                "trans": 60.376999999999995,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 69.953,
+                "trans": 60.286,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 69.992,
+                "trans": 68.827,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 69.985,
+                "trans": 68.52600000000001,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 69.953,
+                "trans": 67.217,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 69.953,
+                "trans": 62.556000000000004,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 69.96,
+                "trans": 66.494,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 69.953,
+                "trans": 65.758,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 70.056,
+                "trans": 68.64399999999999,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 74.8,
+                "trans": 72.4,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 70.638,
+                "trans": 69.851,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 71.161,
+                "trans": 69.85300000000001,
+                "sample_num": 4969
+            }
+        ]
+    },
+    {
+        "model": "BERT",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 82.175,
+                "trans": 77.297,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 79.24600000000001,
+                "trans": 77.888,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 79.265,
+                "trans": 79.265,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 79.375,
+                "trans": 79.375,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 79.34100000000001,
+                "trans": 79.34100000000001,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 79.438,
+                "trans": 77.98899999999999,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 79.24600000000001,
+                "trans": 70.957,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 79.24600000000001,
+                "trans": 71.007,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 79.283,
+                "trans": 77.84100000000001,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 79.286,
+                "trans": 77.899,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 79.24600000000001,
+                "trans": 78.111,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 79.24600000000001,
+                "trans": 71.18,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 79.25399999999999,
+                "trans": 74.72399999999999,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 79.24600000000001,
+                "trans": 74.868,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 81.07300000000001,
+                "trans": 80.508,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 80.8,
+                "trans": 80.0,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 79.602,
+                "trans": 79.209,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 80.318,
+                "trans": 79.553,
+                "sample_num": 4969
+            }
+        ]
+    },
+    {
+        "model": "ALBERT",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 86.61399999999999,
+                "trans": 82.345,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 84.556,
+                "trans": 82.499,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 84.45700000000001,
+                "trans": 84.45700000000001,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 84.60799999999999,
+                "trans": 84.60799999999999,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 84.602,
+                "trans": 84.61200000000001,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 85.402,
+                "trans": 82.988,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 84.556,
+                "trans": 76.55,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 84.556,
+                "trans": 76.743,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 84.618,
+                "trans": 82.676,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 84.6,
+                "trans": 82.295,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 84.556,
+                "trans": 82.742,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 84.556,
+                "trans": 76.632,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 84.565,
+                "trans": 79.518,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 84.556,
+                "trans": 79.844,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 84.087,
+                "trans": 83.898,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 86.4,
+                "trans": 83.2,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 85.00200000000001,
+                "trans": 84.04,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 85.43,
+                "trans": 84.383,
+                "sample_num": 4969
+            }
+        ]
+    },
+    {
+        "model": "XLNet",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 83.083,
+                "trans": 80.998,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 81.232,
+                "trans": 80.584,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 81.058,
+                "trans": 77.471,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 81.26,
+                "trans": 72.811,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 81.25399999999999,
+                "trans": 29.544,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 81.625,
+                "trans": 80.858,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 81.232,
+                "trans": 77.108,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 81.232,
+                "trans": 77.017,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 81.235,
+                "trans": 80.734,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 81.25399999999999,
+                "trans": 80.541,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 81.232,
+                "trans": 80.624,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 81.232,
+                "trans": 77.169,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 81.24,
+                "trans": 77.845,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 81.232,
+                "trans": 78.84100000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 82.76799999999999,
+                "trans": 82.015,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 80.8,
+                "trans": 80.0,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 81.81,
+                "trans": 81.22,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 82.29,
+                "trans": 81.183,
+                "sample_num": 4969
+            }
+        ]
+    },
+    {
+        "model": "DistilBERT",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 82.445,
+                "trans": 77.737,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 79.297,
+                "trans": 77.74600000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 79.265,
+                "trans": 79.265,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 79.375,
+                "trans": 79.375,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 79.37100000000001,
+                "trans": 79.37100000000001,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 79.608,
+                "trans": 78.16,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 79.297,
+                "trans": 70.48,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 79.297,
+                "trans": 70.774,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 79.354,
+                "trans": 77.995,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 79.357,
+                "trans": 77.624,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 79.297,
+                "trans": 77.827,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 79.297,
+                "trans": 70.51100000000001,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 79.305,
+                "trans": 74.734,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 79.297,
+                "trans": 74.03699999999999,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 80.414,
+                "trans": 79.944,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 82.8,
+                "trans": 80.8,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 80.73899999999999,
+                "trans": 79.79899999999999,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 80.539,
+                "trans": 79.352,
+                "sample_num": 4969
+            }
+        ]
+    },
+    {
+        "model": "BiDAF+",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 72.462,
+                "trans": 68.846,
+                "sample_num": 7052
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 68.899,
+                "trans": 67.764,
+                "sample_num": 9868
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 68.635,
+                "trans": 63.989,
+                "sample_num": 8975
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 68.94,
+                "trans": 44.352,
+                "sample_num": 9765
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 68.878,
+                "trans": 30.999000000000002,
+                "sample_num": 9826
+            },
+            {
+                "name": "Contraction",
+                "ori": 68.219,
+                "trans": 67.282,
+                "sample_num": 3521
+            },
+            {
+                "name": "Keyboard",
+                "ori": 68.899,
+                "trans": 59.657,
+                "sample_num": 9868
+            },
+            {
+                "name": "Ocr",
+                "ori": 68.899,
+                "trans": 60.559,
+                "sample_num": 9868
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 68.929,
+                "trans": 67.92699999999999,
+                "sample_num": 9784
+            },
+            {
+                "name": "Tense",
+                "ori": 69.016,
+                "trans": 67.925,
+                "sample_num": 9805
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 68.899,
+                "trans": 66.63,
+                "sample_num": 9868
+            },
+            {
+                "name": "Typos-random",
+                "ori": 68.899,
+                "trans": 61.501999999999995,
+                "sample_num": 9868
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 68.906,
+                "trans": 65.917,
+                "sample_num": 9867
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 68.899,
+                "trans": 63.913999999999994,
+                "sample_num": 9868
+            },
+            {
+                "name": "Prejudice-Loc-Africa-India-MiddleEast",
+                "ori": 70.15100000000001,
+                "trans": 68.267,
+                "sample_num": 1062
+            },
+            {
+                "name": "Prejudice-Loc-America-Europe-China-Japan",
+                "ori": 74.4,
+                "trans": 72.8,
+                "sample_num": 250
+            },
+            {
+                "name": "Prejudice-Name-man",
+                "ori": 70.223,
+                "trans": 69.742,
+                "sample_num": 4574
+            },
+            {
+                "name": "Prejudice-Name-woman",
+                "ori": 69.025,
+                "trans": 68.907,
+                "sample_num": 4969
+            }
+        ]
+    }
+]

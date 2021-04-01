@@ -1,0 +1,12 @@
+{"desc": "SpecialEntityReplace is a task-specific transformation of sentiment analysis, this transformation will identify some special movie name in the sentence, randomly replace it with other movie name.", 
+    "examples":[
+        {
+            "ori":"Titanic is my favorite movie",
+            "trans":"The Boys Club is my favorite movie"
+        },
+        {
+            "ori":"Aliens vs. Predator 2 is amazing",
+            "trans":"Web of Seduction is amazing"
+        }
+    ],
+    "contributor": [{"name": "xin zhou", "github": "https://github.com/JotionJoestar"}]}

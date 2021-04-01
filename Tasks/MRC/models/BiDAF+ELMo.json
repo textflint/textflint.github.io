@@ -1,0 +1,9 @@
+{
+    "desc": "BiDAF with ELMo pre-trained word embeddings",
+    "contributor": [
+        {
+            "name": "Zexiong Pang",
+            "github": "https://github.com/pzxbjx"
+        }
+    ]
+}

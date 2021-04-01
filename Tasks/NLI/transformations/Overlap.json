@@ -1,0 +1,35 @@
+{
+        "desc": "This method generate some data by some template, whose hypotheis and premise have many overlap but different meaning.",
+        "examples": [
+                {
+                        "ori": {
+                                "premise": null,
+                                "hypothesis": null,
+                                "label": null
+                        },
+                        "trans": {
+                                "premise": "The tourists supported the doctors and the manager.",
+                                "hypothesis": "The tourists supported the doctors.",
+                                "label": "entailment"
+                        }
+                },
+                {
+                        "ori": {
+                                "premise": null,
+                                "hypothesis": null,
+                                "label": null
+                        },
+                        "trans": {
+                                "premise": "The tourists encouraged the student.",
+                                "hypothesis": "The student encouraged the tourists.",
+                                "label": "non-entailment"
+                        }
+                }
+        ],
+        "contributor": [
+                {
+                        "name": "zichu fei",
+                        "github": "https://github.com/sion-zcfei"
+                }
+        ]
+}

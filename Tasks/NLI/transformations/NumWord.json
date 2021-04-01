@@ -1,0 +1,35 @@
+{
+        "desc": "This transformation will find some num words in sentences and replace them with different num word.",
+        "examples": [
+                {
+                        "ori": {
+                                "premise": "3 young man in hoods standing in the middle of a quiet street facing the camera.",
+                                "hypothesis": "Three hood wearing people pose for a picture.",
+                                "label": "entailment"
+                        },
+                        "trans": {
+                                "premise": "2 young man in hoods standing in the middle of a quiet street facing the camera.",
+                                "hypothesis": "3 young man in hoods standing in the middle of a quiet street facing the camera.",
+                                "label": "contradiction"
+                        }
+                },
+                {
+                        "ori": {
+                                "premise": "A crowd of people looking up at 3 people on the edge of the roof of a building.",
+                                "hypothesis": "The crowd is calling for help for the people on the roof.",
+                                "label": "neutral"
+                        },
+                        "trans": {
+                                "premise": "A crowd of people looking up at more than 3 people on the edge of the roof of a building.",
+                                "hypothesis": "A crowd of people looking up at 3 people on the edge of the roof of a building.",
+                                "label": "contradiction"
+                        }
+                }
+        ],
+        "contributor": [
+                {
+                        "name": "zichu fei",
+                        "github": "https://github.com/sion-zcfei"
+                }
+        ]
+}

@@ -1,0 +1,19 @@
+{
+    "desc":"SwapTriplePos-Age is a transformation method specially designed for age relation. It paraphrases the sentence and keeps the original age relation between the entity pairs.",
+    "examples":[
+    {
+        "ori": "Allen waits was also convicted of illegal drug activity , and bribing police to turn a blind eye to her crimes , earlier press reports said , and he was 46 year old at that time .",
+        "trans": "Allen waits , 46 , was also convicted of illegal drug activity , and bribing police to turn a blind eye to her crimes , earlier press reports said ."
+    },
+    {
+        "ori": "Jupp , 46 , worked for the military 's forensic explosive laboratory and suffered severe burns when a crude bomb spontaneously exploded during the tests on Aug. 14 , 2002 .",
+        "trans": "Jupp worked for the military 's forensic explosive laboratory and suffered severe burns when a crude bomb spontaneously exploded during the tests on Aug. 14 , 2002 , and he was 46 year old at that time ."
+    }
+    ],
+    "contributor":[
+    {
+        "name": "Jun Zhao",
+        "github": "https://github.com/superwars"
+    }
+    ]
+}

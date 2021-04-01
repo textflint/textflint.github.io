@@ -1,0 +1,19 @@
+{
+    "desc":"SwapName is a task-specific transformation of Chinese Word Segmentation, this transformation will transform some of the verbs in the sentence to other forms in Chinese",
+    "examples":[
+        {
+            "ori":"报告 还 建议 国防部 投入 更 多 的 人力 和 物力 资源",
+            "trans":"报告 还 建议 国防 部门 投入 更 多 的 人力 和 物力 资源"
+        },
+        {
+            "ori":"会 给 患 心脏病 的 人 带来 潜在 的 危害",
+            "trans":"会 给 患 心脏 疾病 的 人 带来 潜在 的 危害"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"yongxin zhang",
+            "github":"https://github.com/GC-inori"
+        }
+    ]
+}

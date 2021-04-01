@@ -1,0 +1,19 @@
+{
+    "desc":"SwapTriplePos-Employee is a transformation method specially designed for employee relation. It deletes the TITLE description of each employee and keeps the original employee relation between the entity pairs.",
+    "examples":[
+    {
+        "ori": "Tim Cook, the director of Apple, was graduated from Auburn University.",
+        "trans": "Tim Cook of Apple was graduated from Auburn University."
+    },
+            {
+        "ori": "`` We will continue to work closely with our colleagues affected by today 's announcement to help them through these changes over the coming year , '' said Mark Fisher , group integration director at Lloyds .",
+        "trans": "`` We will continue to work closely with our colleagues affected by today 's announcement to help them through these changes over the coming year , '' said Mark Fisher at Lloyds ."
+    }
+    ],
+    "contributor":[
+    {
+        "name": "Ruotian Ma",
+        "github": "https://github.com/gungunXD"
+    }
+    ]
+}

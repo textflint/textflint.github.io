@@ -1,0 +1,19 @@
+{
+    "desc":"SpecialWordDoubleDenial is a task-specific transformation of sentiment analysis, this transformation will find some special words in the sentence and replace them with double negation",
+    "examples":[
+        {
+            "ori":"The leading actor is good",
+            "trans":"The leading actor is not bad"
+        },
+        {
+            "ori":"I like this film",
+            "trans":"I don't refuse this film"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"xin zhou",
+            "github":"https://github.com/JotionJoestar"
+        }
+    ]
+}

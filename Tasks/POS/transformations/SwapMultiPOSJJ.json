@@ -1,0 +1,19 @@
+{
+    "desc":"It is implied by the phenomenon of conversion that some words hold multiple parts of speech. That is to say, these multi-part-of-speech words might confuse the language models in terms of POS tagging. Accordingly, we replace adjectives with words holding multiple parts of speech.",
+    "examples":[
+        {
+            "ori":"`` That secrecy leads to a proposal like the one from Ways and Means , which seems to me sort of draconian , '' he said ",
+            "trans":"`` That secrecy leads to a proposal like the one from Ways and Means , which seems to me sort of slick , '' he said "
+        },
+        {
+            "ori":"The complex financing plan in the S&L bailout law includes raising $ 30 billion from debt issued by the newly created RTC ",
+            "trans":"The grownup financing plan in the S&L bailout law includes raising $ 30 billion from debt issued by the newly created RTC "
+        }
+    ],
+    "contributor":[
+        {
+            "name":"jiacheng ye",
+            "github":"https://github.com/jiacheng-ye"
+        }
+    ]
+}

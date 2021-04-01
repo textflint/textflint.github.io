@@ -1,0 +1,4 @@
+{
+    "desc":"MCCWS: Use a unified model with transformer encoder to perform Multi-Criteria Chinese word segmentation based on output tags",
+    "contributor":[{"name":"zhihua liu", "github":"https://github.com/LzhinFdu"}]
+}

@@ -1,0 +1,20 @@
+{
+	"desc":"SwapEnt-SamEtype is a sub-transformation method from EntitySwap which replace entities in text with random entities with the same type.",
+	"examples":[
+	{
+		"ori": "Fudan University is located in Shanghai Yangpu area.",
+		"trans": "CCTV is located in Shanghai Yangpu area."
+ 	},
+	{
+		"ori": "The situation is very serious, matthias, 30, told reporters after meeting with ban in New York",
+		"trans": "The situation is very serious, John, 30, told reporters after meeting with ban in New York"
+	}
+	],
+	"contributor":[
+	{
+		"name": "zhiheng yan",
+		"github": "https://github.com/cooper955955"
+	}
+	]
+
+}

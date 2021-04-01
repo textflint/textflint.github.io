@@ -1,0 +1,4 @@
+{
+    "desc":"BMM: a machine learning model for Chinese word segmentation using backward maximum matching algorithm",
+    "contributor":[{"name":"zhihua liu", "github":"https://github.com/LzhinFdu"}]
+}

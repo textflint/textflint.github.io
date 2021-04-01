@@ -1,0 +1,19 @@
+{
+    "desc":"SwapTriplePos-Birth is a transformation method specially designed for birth relation. It paraphrases the sentence and keeps the original birth relation between the entity pairs.",
+    "examples":[
+        {
+            "ori": "John was born in 1938 and graduated from Fudan University.",
+            "trans": "Born in 1938, John was graduated from Fudan University."
+        },
+            {
+        "ori": "Ross, born in California, worked for Intel at 1933.",
+        "trans": "Born in California, John worked for Intel at 1933."
+    }
+    ],
+    "contributor":[
+    {
+        "name": "ruotian ma",
+        "github": "https://github.com/gungunXD"
+    }
+    ]
+}

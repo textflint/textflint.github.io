@@ -1,0 +1,714 @@
+[
+    {
+        "model": "BiDAF",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 67.321,
+                "trans": 66.449,
+                "sample_num": 9836
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 63.21,
+                "trans": 62.693000000000005,
+                "sample_num": 11492
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 63.81399999999999,
+                "trans": 63.099,
+                "sample_num": 11041
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 63.38399999999999,
+                "trans": 60.788999999999994,
+                "sample_num": 11437
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 63.3,
+                "trans": 57.922,
+                "sample_num": 11468
+            },
+            {
+                "name": "Contraction",
+                "ori": 63.29,
+                "trans": 63.228,
+                "sample_num": 4351
+            },
+            {
+                "name": "Keyboard",
+                "ori": 63.21,
+                "trans": 60.506,
+                "sample_num": 11492
+            },
+            {
+                "name": "Ocr",
+                "ori": 63.21,
+                "trans": 60.506,
+                "sample_num": 11492
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 63.28,
+                "trans": 63.481,
+                "sample_num": 11462
+            },
+            {
+                "name": "Tense",
+                "ori": 63.21,
+                "trans": 62.997,
+                "sample_num": 11425
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 63.21,
+                "trans": 63.38399999999999,
+                "sample_num": 11492
+            },
+            {
+                "name": "Typos-random",
+                "ori": 63.21,
+                "trans": 60.448,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 63.21,
+                "trans": 61.147,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 63.21,
+                "trans": 61.312,
+                "sample_num": 11492
+            }
+        ]
+    },
+    {
+        "model": "BiDAF+",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 68.086,
+                "trans": 67.461,
+                "sample_num": 9836
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 65.08,
+                "trans": 64.743,
+                "sample_num": 11492
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 65.308,
+                "trans": 64.961,
+                "sample_num": 11041
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 65.22399999999999,
+                "trans": 59.623999999999995,
+                "sample_num": 11437
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 65.165,
+                "trans": 56.574,
+                "sample_num": 11468
+            },
+            {
+                "name": "Contraction",
+                "ori": 65.766,
+                "trans": 65.703,
+                "sample_num": 4351
+            },
+            {
+                "name": "Keyboard",
+                "ori": 65.08,
+                "trans": 62.452,
+                "sample_num": 11492
+            },
+            {
+                "name": "Ocr",
+                "ori": 65.08,
+                "trans": 62.29600000000001,
+                "sample_num": 11492
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 65.15,
+                "trans": 65.11399999999999,
+                "sample_num": 11462
+            },
+            {
+                "name": "Tense",
+                "ori": 65.134,
+                "trans": 65.023,
+                "sample_num": 11425
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 65.08,
+                "trans": 64.97399999999999,
+                "sample_num": 11492
+            },
+            {
+                "name": "Typos-random",
+                "ori": 65.08,
+                "trans": 62.395,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 65.08,
+                "trans": 63.466,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 65.08,
+                "trans": 63.738,
+                "sample_num": 11492
+            }
+        ]
+    },
+    {
+        "model": "BiDAF+ELMo",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 68.532,
+                "trans": 67.581,
+                "sample_num": 9836
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 65.937,
+                "trans": 65.538,
+                "sample_num": 11492
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 66.34100000000001,
+                "trans": 65.069,
+                "sample_num": 11041
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 66.053,
+                "trans": 60.028,
+                "sample_num": 11437
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 65.983,
+                "trans": 54.123000000000005,
+                "sample_num": 11468
+            },
+            {
+                "name": "Contraction",
+                "ori": 66.178,
+                "trans": 66.36399999999999,
+                "sample_num": 4351
+            },
+            {
+                "name": "Keyboard",
+                "ori": 65.937,
+                "trans": 63.531000000000006,
+                "sample_num": 11492
+            },
+            {
+                "name": "Ocr",
+                "ori": 65.937,
+                "trans": 63.394,
+                "sample_num": 11492
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 65.937,
+                "trans": 65.718,
+                "sample_num": 11462
+            },
+            {
+                "name": "Tense",
+                "ori": 66.008,
+                "trans": 65.699,
+                "sample_num": 11425
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 65.937,
+                "trans": 65.533,
+                "sample_num": 11492
+            },
+            {
+                "name": "Typos-random",
+                "ori": 65.937,
+                "trans": 63.442,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 65.937,
+                "trans": 63.933,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 65.937,
+                "trans": 63.802,
+                "sample_num": 11492
+            }
+        ]
+    },
+    {
+        "model": "BiDAF++ELMo",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 69.53699999999999,
+                "trans": 69.277,
+                "sample_num": 9836
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 67.921,
+                "trans": 67.833,
+                "sample_num": 11492
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 68.025,
+                "trans": 67.235,
+                "sample_num": 11041
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 68.012,
+                "trans": 64.90899999999999,
+                "sample_num": 11437
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 67.998,
+                "trans": 59.706,
+                "sample_num": 11468
+            },
+            {
+                "name": "Contraction",
+                "ori": 68.209,
+                "trans": 68.113,
+                "sample_num": 4351
+            },
+            {
+                "name": "Keyboard",
+                "ori": 67.921,
+                "trans": 65.257,
+                "sample_num": 11492
+            },
+            {
+                "name": "Ocr",
+                "ori": 67.921,
+                "trans": 65.02199999999999,
+                "sample_num": 11492
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 67.95,
+                "trans": 67.82,
+                "sample_num": 11462
+            },
+            {
+                "name": "Tense",
+                "ori": 67.96,
+                "trans": 67.883,
+                "sample_num": 11425
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 67.921,
+                "trans": 67.365,
+                "sample_num": 11492
+            },
+            {
+                "name": "Typos-random",
+                "ori": 67.921,
+                "trans": 64.77199999999999,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 67.921,
+                "trans": 65.797,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 67.921,
+                "trans": 65.862,
+                "sample_num": 11492
+            }
+        ]
+    },
+    {
+        "model": "BERT",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 76.10300000000001,
+                "trans": 74.887,
+                "sample_num": 9836
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 75.952,
+                "trans": 76.009,
+                "sample_num": 11492
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 75.883,
+                "trans": 75.883,
+                "sample_num": 11041
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 75.988,
+                "trans": 75.988,
+                "sample_num": 11437
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 75.955,
+                "trans": 75.955,
+                "sample_num": 11468
+            },
+            {
+                "name": "Contraction",
+                "ori": 76.805,
+                "trans": 76.645,
+                "sample_num": 4351
+            },
+            {
+                "name": "Keyboard",
+                "ori": 75.952,
+                "trans": 72.631,
+                "sample_num": 11492
+            },
+            {
+                "name": "Ocr",
+                "ori": 75.952,
+                "trans": 72.359,
+                "sample_num": 11492
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 75.94800000000001,
+                "trans": 76.296,
+                "sample_num": 11462
+            },
+            {
+                "name": "Tense",
+                "ori": 76.046,
+                "trans": 75.88600000000001,
+                "sample_num": 11425
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 75.952,
+                "trans": 75.953,
+                "sample_num": 11492
+            },
+            {
+                "name": "Typos-random",
+                "ori": 75.952,
+                "trans": 72.374,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 75.952,
+                "trans": 72.571,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 75.952,
+                "trans": 73.476,
+                "sample_num": 11492
+            }
+        ]
+    },
+    {
+        "model": "ALBERT",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 83.544,
+                "trans": 82.355,
+                "sample_num": 9836
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 82.62299999999999,
+                "trans": 82.52600000000001,
+                "sample_num": 11492
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 82.655,
+                "trans": 82.655,
+                "sample_num": 11041
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 82.67399999999999,
+                "trans": 82.67399999999999,
+                "sample_num": 11437
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 82.641,
+                "trans": 82.639,
+                "sample_num": 11468
+            },
+            {
+                "name": "Contraction",
+                "ori": 83.551,
+                "trans": 83.20700000000001,
+                "sample_num": 4351
+            },
+            {
+                "name": "Keyboard",
+                "ori": 82.62299999999999,
+                "trans": 78.453,
+                "sample_num": 11492
+            },
+            {
+                "name": "Ocr",
+                "ori": 82.62299999999999,
+                "trans": 78.031,
+                "sample_num": 11492
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 82.62799999999999,
+                "trans": 82.54,
+                "sample_num": 11462
+            },
+            {
+                "name": "Tense",
+                "ori": 82.675,
+                "trans": 82.6,
+                "sample_num": 11425
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 82.62299999999999,
+                "trans": 82.48,
+                "sample_num": 11492
+            },
+            {
+                "name": "Typos-random",
+                "ori": 82.62299999999999,
+                "trans": 78.28,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 82.62299999999999,
+                "trans": 77.928,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 82.62299999999999,
+                "trans": 79.438,
+                "sample_num": 11492
+            }
+        ]
+    },
+    {
+        "model": "XLNet",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 85.20200000000001,
+                "trans": 83.506,
+                "sample_num": 9836
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 85.046,
+                "trans": 84.38799999999999,
+                "sample_num": 11492
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 84.978,
+                "trans": 82.70299999999999,
+                "sample_num": 11041
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 85.075,
+                "trans": 80.988,
+                "sample_num": 11437
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 85.044,
+                "trans": 63.72,
+                "sample_num": 11468
+            },
+            {
+                "name": "Contraction",
+                "ori": 86.1,
+                "trans": 85.271,
+                "sample_num": 4351
+            },
+            {
+                "name": "Keyboard",
+                "ori": 85.046,
+                "trans": 82.277,
+                "sample_num": 11492
+            },
+            {
+                "name": "Ocr",
+                "ori": 85.046,
+                "trans": 81.821,
+                "sample_num": 11492
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 85.045,
+                "trans": 84.825,
+                "sample_num": 11462
+            },
+            {
+                "name": "Tense",
+                "ori": 85.10799999999999,
+                "trans": 84.51700000000001,
+                "sample_num": 11425
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 85.046,
+                "trans": 84.679,
+                "sample_num": 11492
+            },
+            {
+                "name": "Typos-random",
+                "ori": 85.046,
+                "trans": 81.908,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 85.046,
+                "trans": 80.518,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 85.046,
+                "trans": 82.186,
+                "sample_num": 11492
+            }
+        ]
+    },
+    {
+        "model": "DistilBERT",
+        "attack_results": [
+            {
+                "name": "InsertAdv",
+                "ori": 69.885,
+                "trans": 68.937,
+                "sample_num": 9836
+            },
+            {
+                "name": "AppendIrr",
+                "ori": 69.695,
+                "trans": 69.233,
+                "sample_num": 11492
+            },
+            {
+                "name": "WordCase-lower",
+                "ori": 69.479,
+                "trans": 69.479,
+                "sample_num": 11041
+            },
+            {
+                "name": "WordCase-title",
+                "ori": 69.73,
+                "trans": 69.73,
+                "sample_num": 11437
+            },
+            {
+                "name": "WordCase-upper",
+                "ori": 69.717,
+                "trans": 69.706,
+                "sample_num": 11468
+            },
+            {
+                "name": "Contraction",
+                "ori": 71.223,
+                "trans": 70.30199999999999,
+                "sample_num": 4351
+            },
+            {
+                "name": "Keyboard",
+                "ori": 69.695,
+                "trans": 67.138,
+                "sample_num": 11492
+            },
+            {
+                "name": "Ocr",
+                "ori": 69.695,
+                "trans": 66.697,
+                "sample_num": 11492
+            },
+            {
+                "name": "AddPunc-add-bracket",
+                "ori": 69.67699999999999,
+                "trans": 69.563,
+                "sample_num": 11462
+            },
+            {
+                "name": "Tense",
+                "ori": 69.714,
+                "trans": 69.493,
+                "sample_num": 11425
+            },
+            {
+                "name": "TwitterType-random",
+                "ori": 69.695,
+                "trans": 69.655,
+                "sample_num": 11492
+            },
+            {
+                "name": "Typos-random",
+                "ori": 69.695,
+                "trans": 67.07,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordEmbedding",
+                "ori": 69.695,
+                "trans": 67.293,
+                "sample_num": 11492
+            },
+            {
+                "name": "SwapSyn-WordNet",
+                "ori": 69.695,
+                "trans": 67.913,
+                "sample_num": 11492
+            }
+        ]
+    }
+]

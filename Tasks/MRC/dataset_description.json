@@ -1,0 +1,212 @@
+[
+	{
+		"name": "SQuAD1.1",
+		"description": "Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable. SQuAD1.1, the previous version of the SQuAD dataset, contains 100,000+ question-answer pairs on 500+ articles.",
+		"available_transformation_type": [
+			"domain",
+			"ut",
+			"domain_domain",
+			"domain_ut",
+			"ut_ut",
+			"subpopulation"
+		],
+		"dataset_size": 87599,
+		"models": [
+			{
+				"model_name": "BiDAF",
+				"paper_link": "https://arxiv.org/pdf/1611.01603.pdf",
+				"github_link": "https://github.com/galsang/BiDAF-pytorch",
+				"paper_name": "Bidirectional Attention Flow for Machine Comprehension",
+				"metric": {
+					"EM": 66.85,
+					"F1": 76.6
+				}
+			},
+			{
+				"model_name": "BiDAF+",
+				"paper_link": "https://arxiv.org/pdf/1611.01603.pdf",
+				"github_link": "https://github.com/sogou/SogouMRCToolkit",
+				"paper_name": "Bidirectional Attention Flow for Machine Comprehension",
+				"metric": {
+					"EM": 68.1,
+					"F1": 77.7
+				}
+			},
+			{
+				"model_name": "DrQA",
+				"paper_link": "https://arxiv.org/pdf/1704.00051.pdf",
+				"github_link": "https://github.com/hitvoice/DrQA",
+				"paper_name": "Reading Wikipedia to Answer Open-Domain Questions",
+				"metric": {
+					"EM": 69.1,
+					"F1": 78.7
+				}
+			},
+			{
+				"model_name": "R-Net",
+				"paper_link": "https://www.aclweb.org/anthology/P17-1018.pdf",
+				"github_link": "https://github.com/matthew-z/R-net",
+				"paper_name": "Gated Self-Matching Networks for Reading Comprehension and Question Answering",
+				"metric": {
+					"EM": 71.0,
+					"F1": 79.7
+				}
+			},
+			{
+				"model_name": "FusionNet",
+				"paper_link": "https://arxiv.org/pdf/1711.07341.pdf",
+				"github_link": "https://github.com/momohuang/FusionNet-NLI",
+				"paper_name": "FUSIONNET: FUSING VIA FULLY-AWARE ATTENTION WITH APPLICATION TO MACHINE COMPREHENSION",
+				"metric": {
+					"EM": 71.7,
+					"F1": 80.9
+				}
+			},
+			{
+				"model_name": "QANet",
+				"paper_link": "https://arxiv.org/pdf/1804.09541.pdf",
+				"github_link": "https://github.com/BangLiu/QANet-PyTorch",
+				"paper_name": "QANET: COMBINING LOCAL CONVOLUTION WITH GLOBAL SELF-ATTENTION FOR READING COMPREHENSION",
+				"metric": {
+					"EM": 70.3,
+					"F1": 80.2
+				}
+			},
+			{
+				"model_name": "BERT",
+				"paper_link": "https://arxiv.org/pdf/1810.04805.pdf",
+				"github_link": "https://github.com/huggingface/transformers",
+				"paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+				"metric": {
+					"EM": 78.9,
+					"F1": 86.9
+				}
+			},
+			{
+				"model_name": "ALBERT",
+				"paper_link": "https://arxiv.org/pdf/1909.11942.pdf",
+				"github_link": "https://github.com/huggingface/transformers",
+				"paper_name": "ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS",
+				"metric": {
+					"EM": 83.9,
+					"F1": 90.8
+				}
+			},
+			{
+				"model_name": "DistilBERT",
+				"paper_link": "https://arxiv.org/pdf/1910.01108.pdf",
+				"github_link": "https://github.com/huggingface/transformers",
+				"paper_name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+				"metric": {
+					"EM": 76.2,
+					"F1": 85.2
+				}
+			},
+			{
+				"model_name": "XLNet",
+				"paper_link": "https://arxiv.org/pdf/1906.08237.pdf",
+				"github_link": "https://github.com/huggingface/transformers",
+				"paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+				"metric": {
+					"EM": 81.1,
+					"F1": 89.3
+				}
+			}
+		]
+	},
+	{
+		"name": "SQuAD2.0",
+		"description": "Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable. SQuAD2.0 combines the 100,000 questions in SQuAD1.1 with over 50,000 unanswerable questions written adversarially by crowdworkers to look similar to answerable ones. To do well on SQuAD2.0, systems must not only answer questions when possible, but also determine when no answer is supported by the paragraph and abstain from answering.",
+		"available_transformation_type": [
+			"domain",
+			"ut",
+			"domain_domain",
+			"domain_ut",
+			"ut_ut",
+			"subpopulation"
+		],
+		"dataset_size": 130319,
+		"models": [
+			{
+				"model_name": "BiDAF",
+				"paper_link": "https://arxiv.org/pdf/1611.01603.pdf",
+				"github_link": "https://github.com/galsang/BiDAF-pytorch",
+				"paper_name": "Bidirectional Attention Flow for Machine Comprehension",
+				"metric": {
+					"EM": 61.4,
+					"F1": 64.5
+				}
+			},
+			{
+				"model_name": "BiDAF+ELMo",
+				"paper_link": "https://arxiv.org/pdf/1611.01603.pdf",
+				"github_link": "https://github.com/sogou/SogouMRCToolkit",
+				"paper_name": "Bidirectional Attention Flow for Machine Comprehension",
+				"metric": {
+					"EM": 62.57,
+					"F1": 65.38
+				}
+			},
+			{
+				"model_name": "BiDAF+",
+				"paper_link": "https://arxiv.org/pdf/1611.01603.pdf",
+				"github_link": "https://github.com/sogou/SogouMRCToolkit",
+				"paper_name": "Bidirectional Attention Flow for Machine Comprehension",
+				"metric": {
+					"EM": 61.75,
+					"F1": 65.01
+				}
+			},
+			{
+				"model_name": "BiDAF++ELMo",
+				"paper_link": "https://arxiv.org/pdf/1611.01603.pdf",
+				"github_link": "https://github.com/sogou/SogouMRCToolkit",
+				"paper_name": "Bidirectional Attention Flow for Machine Comprehension",
+				"metric": {
+					"EM": 64.8,
+					"F1": 67.91
+				}
+			},
+			{
+				"model_name": "BERT",
+				"paper_link": "https://arxiv.org/pdf/1810.04805.pdf",
+				"github_link": "https://github.com/huggingface/transformers",
+				"paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+				"metric": {
+					"EM": 72.36,
+					"F1": 75.82
+				}
+			},
+			{
+				"model_name": "ALBERT",
+				"paper_link": "https://arxiv.org/pdf/1909.11942.pdf",
+				"github_link": "https://github.com/huggingface/transformers",
+				"paper_name": "ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS",
+				"metric": {
+					"EM": 79.39,
+					"F1": 82.49
+				}
+			},
+			{
+				"model_name": "DistilBERT",
+				"paper_link": "https://arxiv.org/pdf/1910.01108.pdf",
+				"github_link": "https://github.com/huggingface/transformers",
+				"paper_name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+				"metric": {
+					"EM": 66.26,
+					"F1": 69.68
+				}
+			},
+			{
+				"model_name": "XLNet",
+				"paper_link": "https://arxiv.org/pdf/1906.08237.pdf",
+				"github_link": "https://github.com/huggingface/transformers",
+				"paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+				"metric": {
+					"EM": 81.01,
+					"F1": 85.00
+				}
+			}
+		]
+	}
+]

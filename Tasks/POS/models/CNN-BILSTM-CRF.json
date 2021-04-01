@@ -1,0 +1,4 @@
+{
+    "desc":"End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+    "contributor":[{"name":"jiacheng ye", "github":"https://github.com/jiacheng-ye"}]
+}
