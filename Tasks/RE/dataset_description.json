@@ -2,59 +2,60 @@
   {
       "name": "Tacred",
       "description":  "Tacred is a relation extraction dataset with around 15,000 sentences",
-      "available_transformation_type":  ["doman", "ut", "domain_domain", "domain_ut", "ut_ut", "subpopulation"],
+      "available_transformation_type":  ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"],
+      "dataset_size": 15509,
       "models": [{
-      "model_name": "LSTM-ATT",
-      "paper_link": "https://www.aclweb.org/anthology/D17-1004.pdf",
-      "github_link":"https://github.com/yuhaozhang/tacred-relation",
-      "paper_name":"Position-aware Attention and Supervised Data Improve Slot Filling",
-      "metric":{
-          "F1":65.4
-          }
-        },
-        {"model_name": "GCN",
-        "paper_link":"https://www.aclweb.org/anthology/D18-1244.pdf",
-        "github_link":"https://github.com/qipeng/gcn-over-pruned-trees",
-        "paper_name": "Graph Convolution over Pruned Dependency Trees Improves Relation Extraction",
-        "metric":{
-        "F1": 62.03
-        }
-        },
-          {"model_name": "AGGCN",
-          "paper_link": "https://www.aclweb.org/anthology/P19-1024.pdf",
-          "github_link":"https://github.com/Cartus/AGGCN",
-          "paper_name":"Attention Guided Graph Convolutional Networks for Relation Extraction",
-          "metric":{
-          "F1": 67.41
-          }
-        },
-          {"model_name":"BERT-base-uncased",
-          "paper_link":"https://arxiv.org/abs/1810.04805",
-          "github_link":"https://github.com/huggingface/transformers",
-          "paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-          "metric":{
-              "F1": "68.01"
-          }
-        },
-          {"model_name":"BERT-large-uncased",
-          "paper_link":"https://arxiv.org/abs/1810.04805",
-          "github_link":"https://github.com/huggingface/transformers",
-          "paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-          "metric":{
-              "F1": "67.73"
-          }
-        }
+	"model_name": "LSTM-ATT",
+	"paper_link": "https://www.aclweb.org/anthology/D17-1004.pdf",
+	"github_link":"https://github.com/yuhaozhang/tacred-relation",
+	"paper_name":"Position-aware Attention and Supervised Data Improve Slot Filling",
+	"metric":{
+      "F1":65.4
+	}
+},
+	{"model_name": "GCN",
+	"paper_link":"https://www.aclweb.org/anthology/D18-1244.pdf",
+	"github_link":"https://github.com/qipeng/gcn-over-pruned-trees",
+	"paper_name": "Graph Convolution over Pruned Dependency Trees Improves Relation Extraction",
+	"metric":{
+	"F1": 62.03
+	}
+},
+	{"model_name": "AGGCN",
+	"paper_link": "https://www.aclweb.org/anthology/P19-1024.pdf",
+	"github_link":"https://github.com/Cartus/AGGCN",
+	"paper_name":"Attention Guided Graph Convolutional Networks for Relation Extraction",
+	"metric":{
+	"F1": 67.41
+	}
+},
+	{"model_name":"BERT-base-uncased",
+	"paper_link":"https://arxiv.org/abs/1810.04805",
+	"github_link":"https://github.com/huggingface/transformers",
+	"paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+	"metric":{
+      "F1": "68.01"
+	}
+},
+	{"model_name":"BERT-large-uncased",
+	"paper_link":"https://arxiv.org/abs/1810.04805",
+	"github_link":"https://github.com/huggingface/transformers",
+	"paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+	"metric":{
+      "F1": "67.73"
+	}
+}
         ]},
         {
           "name": "NYT",
           "description": "NYT is a distantly supervised relation extraction dataset with around 172,000 sentences",
+          "dataset_size": 172448,
           "available_transformation_type": [
             "domain",
             "ut",
             "domain_domain",
             "domain_ut",
-            "ut_ut",
-            "subpopulation"
+            "ut_ut"
           ],
           "models": [
             {

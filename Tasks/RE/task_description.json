@@ -2,6 +2,6 @@
 "name":"RE",
 "full_name":"Relation Extraction",
 "description":"Relation extraction aims to classify relation types of given entity pairs in text",
-"available_domain":["SwapEnt-LowFreq", "SwapEnt-MultiType", "SwapEnt-samEtype", "SwapTriplePos-Age", "SwapTriplePos-Birth", "SwapTriplePos-Employee", "InsertClause"],
+"available_domain":["SwapEnt-LowFreq","SwapEnt-MultiType","SwapEnt-SamEtype","SwapTriplePos-Age","SwapTriplePos-Employee","SwapTriplePos-Birth","InsertClause"],
 "available_ut":["Typos", "Ocr", "Keyboard", "AddPunc", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SwapAnt-WordNet", "SpellingError", "Contraction", "Tense", "InsertAdv", "MLMSuggestion", "AppendIrr", "WordCase-upper", "TwitterType"]
 }
