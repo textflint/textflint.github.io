@@ -4,7 +4,7 @@ TextFlint is an unified Multilingual Robustness Evaluation Toolkit for Natural L
 
 ***
 
-This repository contains all code and data used to build the TextFlint website, hosted here: https://www.textflint.com
+This repository contains all code and data used to build the TextFlint website, hosted here: https://www.textflint.io
 
 ## Adding or modifying results
 TextFlint allows you to upload evaluation results on new models or transformations. You can now edit files directly in GitHub to create pull requests. **Please follow the instructions blow**, We will check the correctness of the results. If the data is correct, it will be synchronized to the website in a few days.
