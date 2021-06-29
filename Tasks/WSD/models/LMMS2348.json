@@ -1,0 +1,9 @@
+{
+ "desc": "use contextualized outputs of BERT to create sense embeddings for each sense in WordNet",
+ "contributor": [
+  {
+   "name": "jingyi liu",
+   "github": "https://github.com/Jeansix"
+  }
+ ]
+}

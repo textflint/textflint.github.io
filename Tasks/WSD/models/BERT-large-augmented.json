@@ -1,0 +1,9 @@
+{
+ "desc": "construct context-gloss pairs and fine-tune BERT using the gloss selection objective on SemCor",
+ "contributor": [
+  {
+   "name": "jingyi liu",
+   "github": "https://github.com/Jeansix"
+  }
+ ]
+}

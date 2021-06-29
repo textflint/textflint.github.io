@@ -1,0 +1,19 @@
+{
+ "desc": "SwapTarget_syn: Replace target word with its Synonym according to WordNet",
+ "examples": [
+  {
+   "ori": "He theorized that in the eye cancer , an infant inherited a damaged copy of a gene from one parent and a normal copy from the other .(Target:theorize,eye,cancer,infant,inherit,damaged,copy,gene,parent,normal,copy)",
+   "trans": "He hypothesise that in the optic malignant neoplastic disease , an baby inherited a damaged copy of a cistron from one parent and a normal copy from the other ."
+  },
+  {
+   "ori": "Case Studies Each national report contains a portfolio of between 25 and 30 initiatives which best present policies and practices to improve the recruitment , training and development of ageing workers in both the work place and the community .(Target:Case Studies,national,report,contain,portfolio,initiative,present,policy,practice,improve,recruitment,training,development,age,worker,work,place,community)",
+   "trans": "Case Studies Each national study incorporate a portfolio of between 25 and 30 opening which best represent policies and pattern to ameliorate the enlisting , grooming and development of ageing workers in both the employment place and the community ."
+  }
+ ],
+ "contributor": [
+  {
+   "name": "jingyi liu",
+   "github": "https://github.com/Jeansix"
+  }
+ ]
+}

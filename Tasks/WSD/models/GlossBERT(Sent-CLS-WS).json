@@ -1,0 +1,9 @@
+{
+ "desc": "construct context-gloss pairs and fine-tune BERT on a sentence-pair classification task",
+ "contributor": [
+  {
+   "name": "jingyi liu",
+   "github": "https://github.com/Jeansix"
+  }
+ ]
+}

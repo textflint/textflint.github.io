@@ -1,0 +1,9 @@
+{
+ "desc": "independently embed context and gloss and jointly optimized in the same representation space",
+ "contributor": [
+  {
+   "name": "jingyi liu",
+   "github": "https://github.com/Jeansix"
+  }
+ ]
+}

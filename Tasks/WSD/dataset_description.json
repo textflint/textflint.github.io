@@ -1,0 +1,338 @@
+[
+ {
+  "name": "SensEval2",
+  "description": "This dataset consists of 2282 sense annotations, including nouns, verbs, adverbs and adjectives.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 242,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 79.4
+    }
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 79.8
+    }
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 81.0
+    }
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 77.7
+    }
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 76.3
+    }
+   }
+  ]
+ },
+ {
+  "name": "SensEval3",
+  "description": "This datasets is divided in three documents from three different domains (editorial, news story and fiction), totaling 1850 sense annotations.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 252,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 77.4
+    }
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 77.8
+    }
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 79.0
+    }
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 75.9
+    }
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 75.6
+    }
+   }
+  ]
+ },
+ {
+  "name": "SemEval2007",
+  "description": "This is the smallest among the five datasets, containing 455 sense annotations for nouns and verbs only.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 135,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 74.5
+    }
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 72.7
+    }
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 75.2
+    }
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 72.1
+    }
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 68.1
+    }
+   }
+  ]
+ },
+ {
+  "name": "SemEval2013",
+  "description": "This dataset includes thirteen documents from various domains. In this case the original sense inventory was WordNet 3.0, which is the same that we use for all datasets. The number of sense annotations is 1644, although only nouns are considered.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 306,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 79.7
+    }
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 79.7
+    }
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 80.7
+    }
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 76.8
+    }
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 75.1
+    }
+   }
+  ]
+ },
+ {
+  "name": "SemEval2015",
+  "description": "This is the most recent WSD dataset available to date. It consists of 1022 sense annotations in four documents coming from three heterogeneous domains: biomedical, mathematics/computing and social issues.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 138,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 81.7
+    }
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 84.4
+    }
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 81.8
+    }
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 79.3
+    }
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 77.0
+    }
+   }
+  ]
+ },
+ {
+  "name": "ALL",
+  "description": "This dataset is the concatenations of all SensEval2,SensEval3,SemEval2007,SemEval2013 and SemEval2015 as a single evaluation dataset",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 1173,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 79.0
+    }
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 79.5
+    }
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 80.1
+    }
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 76.9
+    }
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 75.4
+    }
+   }
+  ]
+ }
+]

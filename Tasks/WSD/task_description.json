@@ -1,0 +1,28 @@
+{
+ "name": "WSD",
+ "full_name": "Word Sense Disambiguation",
+ "description": "Word Sense Disambiguation(WSD) is a task that aims to find the most suitable sense for each target word in a given context.",
+ "available_domain": [
+  "SwapTarget_syn"
+ ],
+ "available_ut": [
+  "Contraction",
+  "AppendIrr",
+  "InsertAdv",
+  "Keyboard",
+  "MLMSuggestion",
+  "Ocr",
+  "Punctuation",
+  "ReverseNeg",
+  "SpellingError",
+  "SwapAntWordNet",
+  "SwapNamedEnt",
+  "SwapNum",
+  "SwapSynWordEmbedding",
+  "SwapSynWordNet",
+  "Tense",
+  "TwitterType_random",
+  "Typos_random",
+  "WordCase_upper"
+ ]
+}
