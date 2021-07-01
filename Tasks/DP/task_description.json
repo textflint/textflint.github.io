@@ -3,7 +3,6 @@
     "name":"DP", 
     "full_name":"Dependency Parsing",
     "description":"Dependency parsing is the task of extracting a dependency parse of a sentence that represents its grammatical structure and defines the relationships between “head” words and words, which modify those heads.",
-    "available_domain":["AddSubtree", "RemoveSubtree"],
-    "available_ut":["Typos", "Ocr", "Keyboard", "AddPunc", "RmvPunc", "AddNeg", "RmvNeg", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SwapAnt-WordNet", "SpellingError", "Contraction", "Tense", "SwapNamedEnt", "SwapNum", "InsertAdv", "MLMSuggestion", "AppendIrr", "WordCase", "TwitterType"]
+    "available_domain":["AddSubTree", "DeleteSubTree"],
+    "available_ut":["Typos", "Ocr", "Keyboard", "AddPunc", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SwapAnt-WordNet", "SpellingError", "Contraction", "Tense", "SwapNamedEnt", "SwapNum", "InsertAdv", "MLMSuggestion", "AppendIrr", "WordCase", "TwitterType"]
     }
-    

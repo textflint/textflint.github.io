@@ -1,11 +1,10 @@
 
 {
-    "name":"POS",
-    "full_name":"Part-of-speech tagging",
-    "description":"Part-of-speech tagging (POS tagging) is the task of tagging a word in a text with its part of speech. A part of speech is a category of words with similar grammatical properties. Common English parts of speech are noun, verb, adjective, adverb, pronoun, preposition, conjunction, etc.",
-    "available_domain":["SwapMultiPOSNN", "SwapMultiPOSJJ", "SwapMultiPOSVB", "SwapMultiPOSRB","SwapPrefix"],
-    "available_ut":["InsertAdv", "AppendIrr", "WordCase-lower", "WordCase-title", "WordCase-upper", "Contraction", "SwapNamedEnt", "Keyboard", "MLMSuggestion", "SwapNum", "Ocr", "AddPunc", "RevNeg", "SpellingError", "TwitterType", "Typos", "SwapSyn-WordEmbedding", "SwapAnt-WordNet", "SwapSyn-WordNet",
-      "Prejudice_Loc_Africa_India_Middle East", "Prejudice_Loc_America_Europe_China_Japan", "Prejudice_Name_man", "Prejudice_Name_woman"]
+  "name":"POS",
+  "full_name":"Part-of-speech tagging",
+  "description":"Part-of-speech tagging (POS tagging) is the task of tagging a word in a text with its part of speech. A part of speech is a category of words with similar grammatical properties. Common English parts of speech are noun, verb, adjective, adverb, pronoun, preposition, conjunction, etc.",
+  "available_domain":["SwapMultiPOS-NN", "SwapMultiPOS-JJ", "SwapMultiPOS-VB", "SwapMultiPOS-RB","SwapPrefix"],
+  "available_ut":["InsertAdv", "AppendIrr", "WordCase-lower", "WordCase-title", "WordCase-upper", "Contraction", "SwapNamedEnt", "Keyboard", "MLMSuggestion", "SwapNum", "Ocr", "AddPunc", "RevNeg", "SpellingError", "TwitterType", "Typos", "SwapSyn-WordEmbedding", "SwapAnt-WordNet", "SwapSyn-WordNet"]
 }
-    
-    
+  
+  

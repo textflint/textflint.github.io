@@ -4,7 +4,7 @@
         "description": "Natural language inference is the task of determining whether a \"hypothesis\" is true (entailment), false (contradiction), or undetermined (neutral) given a \"premise\".",
         "available_domain": [
                 "SwapAnt",
-                "AddSen",
+                "AddSent",
                 "NumWord",
                 "Overlap"
         ],
@@ -13,12 +13,8 @@
                 "Ocr",
                 "Keyboard",
                 "AddPunc",
-                "RmvPunc",
-                "AddNeg",
-                "RmvNeg",
                 "SwapSyn-WordNet",
                 "SwapSyn-WordEmbedding",
-                "SwapAnt-WordNet",
                 "SpellingError",
                 "Contraction",
                 "Tense",

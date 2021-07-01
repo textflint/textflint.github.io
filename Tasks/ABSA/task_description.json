@@ -4,7 +4,7 @@
     "full_name":"Aspect-Based Sentiment Analysis",
     "description":"Aspect-based sentiment analysis (ABSA) is an advanced sentiment analysis task that aims to classify the sentiment towards a specific aspect.",
     "available_domain":["RevTgt", "RevNon", "AddDiff"],
-    "available_ut":["Typos", "Ocr", "Keyboard", "AddPunc", "RmvPunc", "AddNeg", "RmvNeg", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SpellingError", "Contraction", "Tense", "SwapNamedEnt", "SwapNum", "InsertAdv", "MLMSuggestion", "AppendIrr", "WordCase", 
+    "available_ut":["Typos", "Ocr", "Keyboard", "AddPunc", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SpellingError", "Contraction", "Tense", "SwapNamedEnt", "SwapNum", "InsertAdv", "MLMSuggestion", "AppendIrr", "WordCase", 
 "TwitterType"]
     }
     
