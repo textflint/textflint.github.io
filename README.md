@@ -54,7 +54,7 @@ Find the model to which the evaluation result belong (If it's a new model,  fill
     * ori: Evaluation result before transformation
     * trans: Evaluation result after transformation
     * sample_num: Number of data that can be transformed
-    * ori_download_link: Download link of dataset before transformation
+    * ori_download_link: Download link of dataset before transformation, please provide available download link, or contact us 
     * trans_download_link: Download link of dataset after transformation
     * contributor: 
       * key: Name of contributor
@@ -113,3 +113,14 @@ The transformation description files are in the `./Tasks/{your_task}/transformat
   * name: Name of contributor
   * github: Github homepage link of contributor
 
+## How to add human evaluation
+Please follow the same standard as https://www.textflint.com/human_evaluation for the human evaluation. The human evaluation files are in the `./Tasks/{your_task}/human_evaluations` folder. Create a json file named by your transformation, and finish the JSON file by imitating the fields below.
+<em>your_transformation_name.json</em>
+```json
+{
+    "ori_list": [3.9, 4.0, 4.030100334, 4.0], 
+    "trans_list": [3.84, 4.0, 3.806666667, 4.0]
+}
+```
+* ori_list: Human evaluation results of data **before** transformation. The elements in the array represent each other in turn: the mean of grammar score, the median of grammar score, the mean of plausibility score, the median of plausibility score.
+* trans_list: Human evaluation results of data **after** transformation. The elements in the array represent each other in turn: the mean of grammar score, the median of grammar score, the mean of plausibility score, the median of plausibility score.
