@@ -11,7 +11,95 @@ TextFlint allows you to upload evaluation results on new models or transformatio
 
 # Contributing to TextFlint
 
-Thanks for contributing to TextFlint! Here are some guidelines to get your pull request accepted. You can now edit files directly in GitHub to create pull requests. All data is in the folder `./Tasks`.
+Thanks for contributing to TextFlint! Here are some guidelines to get your pull request accepted. You can now edit files directly in GitHub to create pull requests. All data is in the folder `./Tasks`. Each task requires at least three JSON files (`dataset_description.json`, `task_description.json` and `paper_list.json`)  and four folders (`human_evaluation`, `models`, `results` and `transformations`)
+
+
+## How to add dataset description
+The dataset description are in the `./Tasks/{your_task}/dataset_description.json`.  Open the JSON file, following fields will be shown.
+```json
+[
+	{
+		"name": "SemEval2014-Restaurant",
+		"description": "The standard SemEval2014-Restaurant dataset consists of 3,452 training, 150 validation, and 1,120 test English sentences from the restaurant reviews. Our task-specfic transformations are based on SemEval2014-Restaurant-TOWE, which provides opinion words and their position. The test set of SemEval2014-Restaurant-TOWE owns 492 different sentences (847 aspect terms).",
+		"available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"],
+		"dataset_size": 1120,
+		"models": 
+        [
+            {
+				"model_name": "LCF-BERT",
+				"paper_link": "https://www.researchgate.net/publication/335238076_LCF_A_Local_Context_Focus_Mechanism_for_Aspect-Based_Sentiment_Classification",
+				"github_link": "https://github.com/yangheng95/LC-ABSA",
+                "dockerhub_link":"", 
+				"paper_name": "LCF: A Local Context Focus Mechanism for Aspect-Based Sentiment Classification",
+				"metric": 
+                        {
+                            "Accuracy": 84.82,
+                            "Macro-F1": 76.99
+                        }
+			}
+        ]
+    }
+]
+```
+This file stores all datasets used on the current task and their information, fill in the following information for each dataset
+* name: Name of the dataset
+* description: Description of the dataset
+* available_transformation_type: The type of transformation that can be performed on this dataset. You can only choose from **domain**, **ut**, **domain_domain**, **domain_ut**, **ut_ut**
+* dataset_size: The number of samples in the dataset
+* models: The information of models that are evaluated on the dataset
+  * model_name: Short name of the model
+  * paper_name: The corresponding paper of the model
+  * paper_link: The avaliable link of the paper
+  * github_link: The code link of the paper
+  * dockerhub_link: The dockerhub link of the model
+  * metric: Evaluation metric used in the datasets, the names of metric need to be consistent across all files
+
+
+
+## How to add task desctiotion
+The task description are in the `./Tasks/{your_task}/task_description.json`.  Open the JSON file, following fields will be shown.
+```json
+{
+"name":"SA",
+"full_name":"Sentiment Analysis",
+"description":"Sentiment analysis is the task of classifying the polarity of a given text.",
+"available_domain":["SwapSpecialEnt-Movie", "SwapSpecialEnt-Person", "AddSum-Movie", "AddSum-Person", "DoubleDenial"],
+"available_ut":["Typos", "Ocr", "Keyboard", "AddPunc", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SpellingError", "Contraction", "Tense", "SwapNamedEnt", "SwapNum", "InsertAdv", "MLMSuggestion", "AppendIrr", "WordCase-upper", "WordCase-lower", "WordCase-title", "TwitterType"]
+}
+```
+* name: Short name of the task
+* full_name: Full name of the task
+* description: A brief description of the task
+* available_domain: Task Specific transformations that can be performed on the task, the names of transformation need to be consistent across all files.
+* available_ut:  Universal transformations of the task, the names of transformation need to be consistent across all files.
+
+## How to add paper list
+The task description are in the `./Tasks/{your_task}/paper_list.json`.  This file contains all the papers we have referred to for this task. Open the JSON file, following fields will be shown.
+
+```json
+{
+"header":[
+"paper",
+"code",
+"imdb",
+"yelp"
+],
+"content":[
+{
+"paper":"[ACL 2019] Sentiment Classification Using Document Embeddings Trained with Cosine Similarity",
+"code":"https://github.com/tanthongtan/dv-cosine",
+"imdb":"Yes",
+"yelp":"No"
+},
+```
+* header: The first two items must be "paper" and "code", the remaining items are the names of the datasets.
+* content: The information about the papers
+	* paper: Follow this format  <em> [Conference Year] Paper Name <em>
+	* code: Link of the code
+	* dataset1: If the model is evaluated on the dataset1, enter Yes, otherwise enter No
+	* dataset2: Same as dataset1
+
+
 
 ## How to add evaluation result
 
@@ -45,6 +133,7 @@ The result files are in the  `./Tasks/{your_task}/results/{your_data}` folder. A
     }
 ]
 ```
+
 
 Find the model to which the evaluation result belong (If it's a new model,  fill in all the fields above and insert it after the other models), add this result to <em>attack_results</em> field, followed by other transformation. The meanings of the attack_results field is as follows. **Make sure the added files follow the JSON strictly.**
 

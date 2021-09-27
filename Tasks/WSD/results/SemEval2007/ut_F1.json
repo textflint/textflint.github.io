@@ -167,34 +167,34 @@
      "github": "https://github.com/Jeansix"
     }
    },
-   "TwitterType_random": {
+   "TwitterType": {
     "ori": 74.5,
     "trans": 74.5,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "Typos_random": {
+   "Typos": {
     "ori": 74.5,
     "trans": 72.3,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "WordCase_upper": {
+   "WordCase-upper": {
     "ori": 74.5,
     "trans": 74.5,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase_upper.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase_upper.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase-upper.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase-upper.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
@@ -370,34 +370,34 @@
      "github": "https://github.com/Jeansix"
     }
    },
-   "TwitterType_random": {
+   "TwitterType": {
     "ori": 74.73,
     "trans": 76.48,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "Typos_random": {
+   "Typos": {
     "ori": 74.73,
     "trans": 73.41,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "WordCase_upper": {
+   "WordCase-upper": {
     "ori": 74.73,
     "trans": 63.52,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase_upper.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase_upper.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase-upper.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase-upper.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
@@ -573,34 +573,34 @@
      "github": "https://github.com/Jeansix"
     }
    },
-   "TwitterType_random": {
+   "TwitterType": {
     "ori": 68.1,
     "trans": 68.1,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "Typos_random": {
+   "Typos": {
     "ori": 68.1,
     "trans": 64.8,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "WordCase_upper": {
+   "WordCase-upper": {
     "ori": 68.1,
     "trans": 57.6,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase_upper.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase_upper.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase-upper.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase-upper.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
@@ -776,34 +776,34 @@
      "github": "https://github.com/Jeansix"
     }
    },
-   "TwitterType_random": {
+   "TwitterType": {
     "ori": 72.1,
     "trans": 71.2,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "Typos_random": {
+   "Typos": {
     "ori": 72.1,
     "trans": 69.0,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "WordCase_upper": {
+   "WordCase-upper": {
     "ori": 72.1,
     "trans": 72.1,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase_upper.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase_upper.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase-upper.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase-upper.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
@@ -979,34 +979,34 @@
      "github": "https://github.com/Jeansix"
     }
    },
-   "TwitterType_random": {
+   "TwitterType": {
     "ori": 72.7,
     "trans": 71.9,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_TwitterType.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_TwitterType.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "Typos_random": {
+   "Typos": {
     "ori": 72.7,
     "trans": 68.6,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos_random.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos_random.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_Typos.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_Typos.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
     }
    },
-   "WordCase_upper": {
+   "WordCase-upper": {
     "ori": 72.7,
     "trans": 72.7,
     "sample_num": 120,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase_upper.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase_upper.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_WordCase-upper.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_WordCase-upper.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
