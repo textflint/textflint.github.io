@@ -94,7 +94,7 @@ The task description are in the `./Tasks/{your_task}/paper_list.json`.  This fil
 ```
 * header: The first two items must be "paper" and "code", the remaining items are the names of the datasets.
 * content: The information about the papers
-	* paper: Follow this format  <em> [Conference Year] Paper Name <em>
+	* paper: Follow this format  <em> [Conference Year] Paper Name </em>
 	* code: Link of the code
 	* dataset1: If the model is evaluated on the dataset1, enter Yes, otherwise enter No
 	* dataset2: Same as dataset1
