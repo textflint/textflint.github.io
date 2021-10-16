@@ -1013,5 +1013,411 @@
     }
    }
   }
+ },
+ {
+  "model": "SparseLMMS+WNGC",
+  "attack_results": {
+   "Contraction": {
+    "ori": 77.5,
+    "trans": 77.4,
+    "sample_num": 239,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Contraction.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Contraction.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "AppendIrr": {
+    "ori": 76.7,
+    "trans": 76.4,
+    "sample_num": 1093,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_AppendIrr.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_AppendIrr.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "InsertAdv": {
+    "ori": 76.6,
+    "trans": 76.4,
+    "sample_num": 1043,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_InsertAdv.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_InsertAdv.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Keyboard": {
+    "ori": 76.7,
+    "trans": 76.0,
+    "sample_num": 1073,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Keyboard.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Keyboard.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "MLMSuggestion": {
+    "ori": 76.7,
+    "trans": 76.5,
+    "sample_num": 1060,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_MLMSuggestion.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_MLMSuggestion.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Ocr": {
+    "ori": 76.8,
+    "trans": 75.6,
+    "sample_num": 1061,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Ocr.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Ocr.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Punctuation": {
+    "ori": 76.7,
+    "trans": 76.8,
+    "sample_num": 1092,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Punctuation.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Punctuation.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "ReverseNeg": {
+    "ori": 76.5,
+    "trans": 76.6,
+    "sample_num": 983,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_ReverseNeg.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_ReverseNeg.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SpellingError": {
+    "ori": 76.8,
+    "trans": 76.3,
+    "sample_num": 1045,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SpellingError.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SpellingError.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapAntWordNet": {
+    "ori": 75.3,
+    "trans": 75.3,
+    "sample_num": 336,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapAntWordNet.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapAntWordNet.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapNamedEnt": {
+    "ori": 76.1,
+    "trans": 76.4,
+    "sample_num": 239,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapNamedEnt.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapNamedEnt.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapNum": {
+    "ori": 78.1,
+    "trans": 78.2,
+    "sample_num": 130,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapNum.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapNum.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapSynWordEmbedding": {
+    "ori": 76.8,
+    "trans": 76.9,
+    "sample_num": 765,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapSynWordEmbedding.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapSynWordEmbedding.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapSynWordNet": {
+    "ori": 76.8,
+    "trans": 76.5,
+    "sample_num": 996,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapSynWordNet.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapSynWordNet.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Tense": {
+    "ori": 77.3,
+    "trans": 77.5,
+    "sample_num": 598,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Tense.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Tense.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "TwitterType": {
+    "ori": 76.7,
+    "trans": 76.8,
+    "sample_num": 1093,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_TwitterType.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_TwitterType.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Typos": {
+    "ori": 76.8,
+    "trans": 75.9,
+    "sample_num": 1066,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Typos.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Typos.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "WordCase-upper": {
+    "ori": 76.7,
+    "trans": 73.8,
+    "sample_num": 1093,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_WordCase-upper.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_WordCase-upper.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   }
+  }
+ },
+ {
+  "model": "SemCor+WNGC,hypernyms",
+  "attack_results": {
+   "Contraction": {
+    "ori": 78.66,
+    "trans": 78.74,
+    "sample_num": 239,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Contraction.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Contraction.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "AppendIrr": {
+    "ori": 79.0,
+    "trans": 78.17,
+    "sample_num": 1093,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_AppendIrr.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_AppendIrr.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "InsertAdv": {
+    "ori": 78.95,
+    "trans": 78.36,
+    "sample_num": 1043,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_InsertAdv.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_InsertAdv.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Keyboard": {
+    "ori": 78.99,
+    "trans": 77.58,
+    "sample_num": 1073,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Keyboard.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Keyboard.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "MLMSuggestion": {
+    "ori": 78.97,
+    "trans": 78.59,
+    "sample_num": 1060,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_MLMSuggestion.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_MLMSuggestion.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Ocr": {
+    "ori": 79.02,
+    "trans": 77.7,
+    "sample_num": 1061,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Ocr.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Ocr.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Punctuation": {
+    "ori": 78.99,
+    "trans": 78.94,
+    "sample_num": 1092,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Punctuation.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Punctuation.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "ReverseNeg": {
+    "ori": 78.9,
+    "trans": 78.11,
+    "sample_num": 983,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_ReverseNeg.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_ReverseNeg.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SpellingError": {
+    "ori": 79.03,
+    "trans": 77.34,
+    "sample_num": 1045,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SpellingError.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SpellingError.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapAntWordNet": {
+    "ori": 78.18,
+    "trans": 78.09,
+    "sample_num": 336,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapAntWordNet.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapAntWordNet.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapNamedEnt": {
+    "ori": 77.85,
+    "trans": 77.35,
+    "sample_num": 239,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapNamedEnt.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapNamedEnt.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapNum": {
+    "ori": 80.47,
+    "trans": 80.19,
+    "sample_num": 130,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapNum.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapNum.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapSynWordEmbedding": {
+    "ori": 78.98,
+    "trans": 78.76,
+    "sample_num": 765,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapSynWordEmbedding.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapSynWordEmbedding.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "SwapSynWordNet": {
+    "ori": 78.92,
+    "trans": 78.05,
+    "sample_num": 996,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_SwapSynWordNet.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_SwapSynWordNet.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Tense": {
+    "ori": 80.26,
+    "trans": 79.53,
+    "sample_num": 598,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Tense.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Tense.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "TwitterType": {
+    "ori": 79.0,
+    "trans": 78.4,
+    "sample_num": 1093,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_TwitterType.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_TwitterType.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "Typos": {
+    "ori": 79.08,
+    "trans": 77.34,
+    "sample_num": 1066,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_Typos.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_Typos.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   },
+   "WordCase-upper": {
+    "ori": 79.0,
+    "trans": 75.04,
+    "sample_num": 1093,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/ori_WordCase-upper.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/ALL/trans_WordCase-upper.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   }
+  }
  }
 ]

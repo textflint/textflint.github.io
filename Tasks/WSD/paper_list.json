@@ -1,0 +1,88 @@
+{
+ "header": [
+  "paper",
+  "code",
+  "SensEval+SemEval",
+  "WiC-TSV"
+ ],
+ "content": [
+  {
+   "paper": "[ACL 2019] Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+   "code": "https://github.com/danlou/LMMS",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[EMNLP 2019] GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+   "code": "https://github.com/HSLCY/GlossBERT",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[ACL 2020] Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+   "code": "https://github.com/SapienzaNLP/ewiser",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[ACL 2020] Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+   "code": "https://github.com/facebookresearch/wsd-biencoders",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[EMNLP-findings 2020] Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+   "code": "https://github.com/BPYap/BERT-WSD",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[ACL 2019] Zero-shot Word Sense Disambiguation using Sense Definition Embeddings",
+   "code": "https://github.com/malllabiisc/EWISE",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[EMNLP 2020] Sparsity Makes Sense: Word Sense Disambiguation Using Sparse Contextualized Word Representations",
+   "code": "https://github.com/begab/sparsity_makes_sense/commit/900636",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[ACL 2018] Incorporating Glosses into Neural Word Sense Disambiguation",
+   "code": "https://github.com/luofuli/word-sense-disambiguation",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[GWC 2019] Sense Vocabulary Compression through the Semantic Knowledge of WordNet for Neural Word Sense Disambiguation",
+   "code": "https://github.com/getalp/disambiguate",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[Arxiv 2019] Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized Embeddings",
+   "code": "https://github.com/uhh-lt/bert-sense",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  },
+  {
+   "paper": "[ACL 2020] SenseBERT: Driving Some Sense into BERT",
+   "code": "https://github.com/AI21Labs/sense-bert",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "Yes"
+  },
+  {
+   "paper": "[EMNLP 2020] With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word Sense Disambiguation",
+   "code": null,
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "Yes"
+  },
+  {
+   "paper": "[IJCNLP 2019] Improved Word Sense Disambiguation Using Pre-Trained Contextualized Word Representations",
+   "code": "https://github.com/nusnlp/contextemb-wsd",
+   "SensEval+SemEval": "Yes",
+   "WiC-TSV": "No"
+  }
+ ]
+}
