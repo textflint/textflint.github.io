@@ -2,12 +2,12 @@
  {
   "model": "BEM",
   "attack_results": {
-   "SwapTarget_syn": {
+   "SwapTarget-syn": {
     "ori": 77.3,
     "trans": 75.7,
     "sample_num": 297,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget_syn.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget_syn.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
@@ -18,12 +18,12 @@
  {
   "model": "EWISER",
   "attack_results": {
-   "SwapTarget_syn": {
+   "SwapTarget-syn": {
     "ori": 78.86,
     "trans": 77.11,
     "sample_num": 297,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget_syn.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget_syn.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
@@ -34,12 +34,12 @@
  {
   "model": "LMMS2348",
   "attack_results": {
-   "SwapTarget_syn": {
+   "SwapTarget-syn": {
     "ori": 75.5,
     "trans": 72.5,
     "sample_num": 297,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget_syn.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget_syn.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
@@ -50,12 +50,12 @@
  {
   "model": "GlossBERT(Sent-CLS-WS)",
   "attack_results": {
-   "SwapTarget_syn": {
+   "SwapTarget-syn": {
     "ori": 75.9,
     "trans": 71.8,
     "sample_num": 297,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget_syn.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget_syn.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"
@@ -66,12 +66,12 @@
  {
   "model": "BERT-large-augmented",
   "attack_results": {
-   "SwapTarget_syn": {
+   "SwapTarget-syn": {
     "ori": 77.8,
     "trans": 74.7,
     "sample_num": 297,
-    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget_syn.json",
-    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget_syn.json",
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
      "name": "jingyi liu",
      "github": "https://github.com/Jeansix"

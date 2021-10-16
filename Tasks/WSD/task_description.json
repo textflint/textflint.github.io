@@ -3,7 +3,7 @@
  "full_name": "Word Sense Disambiguation",
  "description": "Word Sense Disambiguation(WSD) is a task that aims to find the most suitable sense for each target word in a given context.",
  "available_domain": [
-  "SwapTarget_syn"
+  "SwapTarget-syn"
  ],
  "available_ut": [
   "Contraction",
@@ -21,8 +21,8 @@
   "SwapSynWordEmbedding",
   "SwapSynWordNet",
   "Tense",
-  "TwitterType_random",
-  "Typos_random",
-  "WordCase_upper"
+  "TwitterType",
+  "Typos",
+  "WordCase-upper"
  ]
 }

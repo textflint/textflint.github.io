@@ -4,7 +4,7 @@
     "full_name":"Coreference Resolution",
     "description":"Coreference resolution is the task of finding all expressions that refer to the same entity in a text. It is an important step for a lot of higher level NLP tasks that involve natural language understanding such as document summarization, question answering, and information extraction.",
     "available_domain":["RndConcat", "RndDelete", "RndInsert", "RndRepeat", "RndReplace", "RndShuffle"],
-    "available_ut":["Typos", "Ocr", "Keyboard", "AddPunc", "AddNeg", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SwapAnt-WordNet", "SpellingError", "Contraction", "Tense", "SwapNamedEnt", "SwapNum", "InsertAdv", "MLMSuggestion", "AppendIrr", "WordCase-title", "WordCase-upper", "WordCase-lower", "TwitterType"]
+    "available_ut":["Typos", "Ocr", "Keyboard", "AddPunc", "RevNeg", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SwapAnt-WordNet", "SpellingError", "Contraction", "Tense", "SwapNamedEnt", "SwapNum", "InsertAdv", "MLMSuggestion", "AppendIrr", "WordCase-title", "WordCase-upper", "WordCase-lower", "TwitterType"]
     }
     
     
