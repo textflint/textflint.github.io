@@ -1,0 +1,9 @@
+{
+ "desc": "introduce an information theory inspired algorithm for creating sparse contextualized word representations",
+ "contributor": [
+  {
+   "name": "jingyi liu",
+   "github": "https://github.com/Jeansix"
+  }
+ ]
+}

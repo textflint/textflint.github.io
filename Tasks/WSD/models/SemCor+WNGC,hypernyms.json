@@ -1,0 +1,9 @@
+{
+ "desc": "reduce the number of output classes by exploiting the semantic relationships between different senses",
+ "contributor": [
+  {
+   "name": "jingyi liu",
+   "github": "https://github.com/Jeansix"
+  }
+ ]
+}

@@ -1,1 +1,488 @@
-[{"name": "SensEval2", "description": "This dataset consists of 2282 sense annotations, including nouns, verbs, adverbs and adjectives.", "available_transformation_type": ["domain", "ut"], "dataset_size": 242, "models": [{"model_name": "BEM", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/", "github_link": "https://github.com/facebookresearch/wsd-biencoders", "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders", "metric": {"F1": 79.4}, "dockerhub_link": ""}, {"model_name": "BERT-large-augmented", "paper_link": "https://arxiv.org/abs/2009.11795", "github_link": "https://github.com/BPYap/BERT-WSD", "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences", "metric": {"F1": 79.8}, "dockerhub_link": ""}, {"model_name": "EWISER", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/", "github_link": "https://github.com/SapienzaNLP/ewiser", "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information", "metric": {"F1": 81.0}, "dockerhub_link": ""}, {"model_name": "GlossBERT(Sent-CLS-WS)", "paper_link": "https://arxiv.org/abs/1908.07245", "github_link": "https://github.com/HSLCY/GlossBERT", "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge", "metric": {"F1": 77.7}, "dockerhub_link": ""}, {"model_name": "LMMS2348", "paper_link": "https://www.aclweb.org/anthology/P19-1569/", "github_link": "https://github.com/danlou/LMMS", "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation", "metric": {"F1": 76.3}, "dockerhub_link": ""}]}, {"name": "SensEval3", "description": "This datasets is divided in three documents from three different domains (editorial, news story and fiction), totaling 1850 sense annotations.", "available_transformation_type": ["domain", "ut"], "dataset_size": 252, "models": [{"model_name": "BEM", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/", "github_link": "https://github.com/facebookresearch/wsd-biencoders", "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders", "metric": {"F1": 77.4}, "dockerhub_link": ""}, {"model_name": "BERT-large-augmented", "paper_link": "https://arxiv.org/abs/2009.11795", "github_link": "https://github.com/BPYap/BERT-WSD", "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences", "metric": {"F1": 77.8}, "dockerhub_link": ""}, {"model_name": "EWISER", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/", "github_link": "https://github.com/SapienzaNLP/ewiser", "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information", "metric": {"F1": 79.0}, "dockerhub_link": ""}, {"model_name": "GlossBERT(Sent-CLS-WS)", "paper_link": "https://arxiv.org/abs/1908.07245", "github_link": "https://github.com/HSLCY/GlossBERT", "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge", "metric": {"F1": 75.9}, "dockerhub_link": ""}, {"model_name": "LMMS2348", "paper_link": "https://www.aclweb.org/anthology/P19-1569/", "github_link": "https://github.com/danlou/LMMS", "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation", "metric": {"F1": 75.6}, "dockerhub_link": ""}]}, {"name": "SemEval2007", "description": "This is the smallest among the five datasets, containing 455 sense annotations for nouns and verbs only.", "available_transformation_type": ["domain", "ut"], "dataset_size": 135, "models": [{"model_name": "BEM", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/", "github_link": "https://github.com/facebookresearch/wsd-biencoders", "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders", "metric": {"F1": 74.5}, "dockerhub_link": ""}, {"model_name": "BERT-large-augmented", "paper_link": "https://arxiv.org/abs/2009.11795", "github_link": "https://github.com/BPYap/BERT-WSD", "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences", "metric": {"F1": 72.7}, "dockerhub_link": ""}, {"model_name": "EWISER", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/", "github_link": "https://github.com/SapienzaNLP/ewiser", "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information", "metric": {"F1": 75.2}, "dockerhub_link": ""}, {"model_name": "GlossBERT(Sent-CLS-WS)", "paper_link": "https://arxiv.org/abs/1908.07245", "github_link": "https://github.com/HSLCY/GlossBERT", "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge", "metric": {"F1": 72.1}, "dockerhub_link": ""}, {"model_name": "LMMS2348", "paper_link": "https://www.aclweb.org/anthology/P19-1569/", "github_link": "https://github.com/danlou/LMMS", "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation", "metric": {"F1": 68.1}, "dockerhub_link": ""}]}, {"name": "SemEval2013", "description": "This dataset includes thirteen documents from various domains. In this case the original sense inventory was WordNet 3.0, which is the same that we use for all datasets. The number of sense annotations is 1644, although only nouns are considered.", "available_transformation_type": ["domain", "ut"], "dataset_size": 306, "models": [{"model_name": "BEM", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/", "github_link": "https://github.com/facebookresearch/wsd-biencoders", "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders", "metric": {"F1": 79.7}, "dockerhub_link": ""}, {"model_name": "BERT-large-augmented", "paper_link": "https://arxiv.org/abs/2009.11795", "github_link": "https://github.com/BPYap/BERT-WSD", "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences", "metric": {"F1": 79.7}, "dockerhub_link": ""}, {"model_name": "EWISER", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/", "github_link": "https://github.com/SapienzaNLP/ewiser", "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information", "metric": {"F1": 80.7}, "dockerhub_link": ""}, {"model_name": "GlossBERT(Sent-CLS-WS)", "paper_link": "https://arxiv.org/abs/1908.07245", "github_link": "https://github.com/HSLCY/GlossBERT", "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge", "metric": {"F1": 76.8}, "dockerhub_link": ""}, {"model_name": "LMMS2348", "paper_link": "https://www.aclweb.org/anthology/P19-1569/", "github_link": "https://github.com/danlou/LMMS", "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation", "metric": {"F1": 75.1}, "dockerhub_link": ""}]}, {"name": "SemEval2015", "description": "This is the most recent WSD dataset available to date. It consists of 1022 sense annotations in four documents coming from three heterogeneous domains: biomedical, mathematics/computing and social issues.", "available_transformation_type": ["domain", "ut"], "dataset_size": 138, "models": [{"model_name": "BEM", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/", "github_link": "https://github.com/facebookresearch/wsd-biencoders", "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders", "metric": {"F1": 81.7}, "dockerhub_link": ""}, {"model_name": "BERT-large-augmented", "paper_link": "https://arxiv.org/abs/2009.11795", "github_link": "https://github.com/BPYap/BERT-WSD", "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences", "metric": {"F1": 84.4}, "dockerhub_link": ""}, {"model_name": "EWISER", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/", "github_link": "https://github.com/SapienzaNLP/ewiser", "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information", "metric": {"F1": 81.8}, "dockerhub_link": ""}, {"model_name": "GlossBERT(Sent-CLS-WS)", "paper_link": "https://arxiv.org/abs/1908.07245", "github_link": "https://github.com/HSLCY/GlossBERT", "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge", "metric": {"F1": 79.3}, "dockerhub_link": ""}, {"model_name": "LMMS2348", "paper_link": "https://www.aclweb.org/anthology/P19-1569/", "github_link": "https://github.com/danlou/LMMS", "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation", "metric": {"F1": 77.0}, "dockerhub_link": ""}]}, {"name": "ALL", "description": "This dataset is the concatenations of all SensEval2,SensEval3,SemEval2007,SemEval2013 and SemEval2015 as a single evaluation dataset", "available_transformation_type": ["domain", "ut"], "dataset_size": 1173, "models": [{"model_name": "BEM", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/", "github_link": "https://github.com/facebookresearch/wsd-biencoders", "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders", "metric": {"F1": 79.0}, "dockerhub_link": ""}, {"model_name": "BERT-large-augmented", "paper_link": "https://arxiv.org/abs/2009.11795", "github_link": "https://github.com/BPYap/BERT-WSD", "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences", "metric": {"F1": 79.5}, "dockerhub_link": ""}, {"model_name": "EWISER", "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/", "github_link": "https://github.com/SapienzaNLP/ewiser", "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information", "metric": {"F1": 80.1}, "dockerhub_link": ""}, {"model_name": "GlossBERT(Sent-CLS-WS)", "paper_link": "https://arxiv.org/abs/1908.07245", "github_link": "https://github.com/HSLCY/GlossBERT", "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge", "metric": {"F1": 76.9}, "dockerhub_link": ""}, {"model_name": "LMMS2348", "paper_link": "https://www.aclweb.org/anthology/P19-1569/", "github_link": "https://github.com/danlou/LMMS", "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation", "metric": {"F1": 75.4}, "dockerhub_link": ""}]}]
+[
+ {
+  "name": "SensEval2",
+  "description": "This dataset consists of 2282 sense annotations, including nouns, verbs, adverbs and adjectives.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 242,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 79.4
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-blevins2020moving/images/sha256-f0cfc68b7bea0bc7dfc8e6766a5962874773da25836806a7dd4aaac3490c2b2a?context=explore"
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 79.8
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-yap2020adapting/images/sha256-51de58b4241ef9b79b393743a5b3e945c70e5cdca6b8d7fd6623c9cc9941fcd5?context=explore"
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 81.0
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-bevilacqua2020breaking/images/sha256-9186288b5806a60e44f5af703903244f19f11ff03fde0df762e68ebb27b9a197?context=explore"
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 77.7
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-huang2019glossbert/images/sha256-bae2f091bafb81013cffe8381245fe93e0ca8aaf3fc1188f75e8807996d62c99?context=explore"
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 76.3
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-loureiro2019language/images/sha256-bfd9371cd722bcebf919af12b4259632e280773f0c746e6b68dcb84f27e23c78?context=explore"
+   },
+   {
+    "model_name": "SemCor+WNGC,hypernyms",
+    "paper_link": "https://arxiv.org/abs/1905.05677",
+    "github_link": "https://github.com/getalp/disambiguate",
+    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "metric": {
+     "F1": 79.7
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-arXiv-vial2019sense/images/sha256-bbdbc7ab45074114b498361241ccb180a887e28539156fbfa85c7a99f0b36a52?context=explore"
+   },
+   {
+    "model_name": "SparseLMMS+WNGC",
+    "paper_link": "https://aclanthology.org/2020.emnlp-main.683/",
+    "github_link": "https://github.com/begab/sparsity_makes_sense",
+    "paper_name": "Sparsity Makes Sense: Word Sense Disambiguation Using Sparse Contextualized Word Representations",
+    "metric": {
+     "F1": 78.0
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   }
+  ]
+ },
+ {
+  "name": "SensEval3",
+  "description": "This datasets is divided in three documents from three different domains (editorial, news story and fiction), totaling 1850 sense annotations.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 252,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 77.4
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-blevins2020moving/images/sha256-f0cfc68b7bea0bc7dfc8e6766a5962874773da25836806a7dd4aaac3490c2b2a?context=explore"
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 77.8
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-yap2020adapting/images/sha256-51de58b4241ef9b79b393743a5b3e945c70e5cdca6b8d7fd6623c9cc9941fcd5?context=explore"
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 79.0
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-bevilacqua2020breaking/images/sha256-9186288b5806a60e44f5af703903244f19f11ff03fde0df762e68ebb27b9a197?context=explore"
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 75.9
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-huang2019glossbert/images/sha256-bae2f091bafb81013cffe8381245fe93e0ca8aaf3fc1188f75e8807996d62c99?context=explore"
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 75.6
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-loureiro2019language/images/sha256-bfd9371cd722bcebf919af12b4259632e280773f0c746e6b68dcb84f27e23c78?context=explore"
+   },
+   {
+    "model_name": "SemCor+WNGC,hypernyms",
+    "paper_link": "https://arxiv.org/abs/1905.05677",
+    "github_link": "https://github.com/getalp/disambiguate",
+    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "metric": {
+     "F1": 77.8
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-arXiv-vial2019sense/images/sha256-bbdbc7ab45074114b498361241ccb180a887e28539156fbfa85c7a99f0b36a52?context=explore"
+   },
+   {
+    "model_name": "SparseLMMS+WNGC",
+    "paper_link": "https://aclanthology.org/2020.emnlp-main.683/",
+    "github_link": "https://github.com/begab/sparsity_makes_sense",
+    "paper_name": "Sparsity Makes Sense: Word Sense Disambiguation Using Sparse Contextualized Word Representations",
+    "metric": {
+     "F1": 77.3
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   }
+  ]
+ },
+ {
+  "name": "SemEval2007",
+  "description": "This is the smallest among the five datasets, containing 455 sense annotations for nouns and verbs only.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 135,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 74.5
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-blevins2020moving/images/sha256-f0cfc68b7bea0bc7dfc8e6766a5962874773da25836806a7dd4aaac3490c2b2a?context=explore"
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 72.7
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-yap2020adapting/images/sha256-51de58b4241ef9b79b393743a5b3e945c70e5cdca6b8d7fd6623c9cc9941fcd5?context=explore"
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 75.2
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-bevilacqua2020breaking/images/sha256-9186288b5806a60e44f5af703903244f19f11ff03fde0df762e68ebb27b9a197?context=explore"
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 72.1
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-huang2019glossbert/images/sha256-bae2f091bafb81013cffe8381245fe93e0ca8aaf3fc1188f75e8807996d62c99?context=explore"
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 68.1
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-loureiro2019language/images/sha256-bfd9371cd722bcebf919af12b4259632e280773f0c746e6b68dcb84f27e23c78?context=explore"
+   },
+   {
+    "model_name": "SemCor+WNGC,hypernyms",
+    "paper_link": "https://arxiv.org/abs/1905.05677",
+    "github_link": "https://github.com/getalp/disambiguate",
+    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "metric": {
+     "F1": 73.4
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-arXiv-vial2019sense/images/sha256-bbdbc7ab45074114b498361241ccb180a887e28539156fbfa85c7a99f0b36a52?context=explore"
+   },
+   {
+    "model_name": "SparseLMMS+WNGC",
+    "paper_link": "https://aclanthology.org/2020.emnlp-main.683/",
+    "github_link": "https://github.com/begab/sparsity_makes_sense",
+    "paper_name": "Sparsity Makes Sense: Word Sense Disambiguation Using Sparse Contextualized Word Representations",
+    "metric": {
+     "F1": 68.4
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   }
+  ]
+ },
+ {
+  "name": "SemEval2013",
+  "description": "This dataset includes thirteen documents from various domains. In this case the original sense inventory was WordNet 3.0, which is the same that we use for all datasets. The number of sense annotations is 1644, although only nouns are considered.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 306,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 79.7
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-blevins2020moving/images/sha256-f0cfc68b7bea0bc7dfc8e6766a5962874773da25836806a7dd4aaac3490c2b2a?context=explore"
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 79.7
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-yap2020adapting/images/sha256-51de58b4241ef9b79b393743a5b3e945c70e5cdca6b8d7fd6623c9cc9941fcd5?context=explore"
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 80.7
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-bevilacqua2020breaking/images/sha256-9186288b5806a60e44f5af703903244f19f11ff03fde0df762e68ebb27b9a197?context=explore"
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 76.8
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-huang2019glossbert/images/sha256-bae2f091bafb81013cffe8381245fe93e0ca8aaf3fc1188f75e8807996d62c99?context=explore"
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 75.1
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-loureiro2019language/images/sha256-bfd9371cd722bcebf919af12b4259632e280773f0c746e6b68dcb84f27e23c78?context=explore"
+   },
+   {
+    "model_name": "SemCor+WNGC,hypernyms",
+    "paper_link": "https://arxiv.org/abs/1905.05677",
+    "github_link": "https://github.com/getalp/disambiguate",
+    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "metric": {
+     "F1": 78.7
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-arXiv-vial2019sense/images/sha256-bbdbc7ab45074114b498361241ccb180a887e28539156fbfa85c7a99f0b36a52?context=explore"
+   },
+   {
+    "model_name": "SparseLMMS+WNGC",
+    "paper_link": "https://aclanthology.org/2020.emnlp-main.683/",
+    "github_link": "https://github.com/begab/sparsity_makes_sense",
+    "paper_name": "Sparsity Makes Sense: Word Sense Disambiguation Using Sparse Contextualized Word Representations",
+    "metric": {
+     "F1": 76.1
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   }
+  ]
+ },
+ {
+  "name": "SemEval2015",
+  "description": "This is the most recent WSD dataset available to date. It consists of 1022 sense annotations in four documents coming from three heterogeneous domains: biomedical, mathematics/computing and social issues.",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 138,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 81.7
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-blevins2020moving/images/sha256-f0cfc68b7bea0bc7dfc8e6766a5962874773da25836806a7dd4aaac3490c2b2a?context=explore"
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 84.4
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-yap2020adapting/images/sha256-51de58b4241ef9b79b393743a5b3e945c70e5cdca6b8d7fd6623c9cc9941fcd5?context=explore"
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 81.8
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-bevilacqua2020breaking/images/sha256-9186288b5806a60e44f5af703903244f19f11ff03fde0df762e68ebb27b9a197?context=explore"
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 79.3
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-huang2019glossbert/images/sha256-bae2f091bafb81013cffe8381245fe93e0ca8aaf3fc1188f75e8807996d62c99?context=explore"
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 77.0
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-loureiro2019language/images/sha256-bfd9371cd722bcebf919af12b4259632e280773f0c746e6b68dcb84f27e23c78?context=explore"
+   },
+   {
+    "model_name": "SemCor+WNGC,hypernyms",
+    "paper_link": "https://arxiv.org/abs/1905.05677",
+    "github_link": "https://github.com/getalp/disambiguate",
+    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "metric": {
+     "F1": 82.6
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-arXiv-vial2019sense/images/sha256-bbdbc7ab45074114b498361241ccb180a887e28539156fbfa85c7a99f0b36a52?context=explore"
+   },
+   {
+    "model_name": "SparseLMMS+WNGC",
+    "paper_link": "https://aclanthology.org/2020.emnlp-main.683/",
+    "github_link": "https://github.com/begab/sparsity_makes_sense",
+    "paper_name": "Sparsity Makes Sense: Word Sense Disambiguation Using Sparse Contextualized Word Representations",
+    "metric": {
+     "F1": 76.8
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   }
+  ]
+ },
+ {
+  "name": "ALL",
+  "description": "This dataset is the concatenations of all SensEval2,SensEval3,SemEval2007,SemEval2013 and SemEval2015 as a single evaluation dataset",
+  "available_transformation_type": [
+   "domain",
+   "ut"
+  ],
+  "dataset_size": 1173,
+  "models": [
+   {
+    "model_name": "BEM",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.95/",
+    "github_link": "https://github.com/facebookresearch/wsd-biencoders",
+    "paper_name": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders",
+    "metric": {
+     "F1": 79.0
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-blevins2020moving/images/sha256-f0cfc68b7bea0bc7dfc8e6766a5962874773da25836806a7dd4aaac3490c2b2a?context=explore"
+   },
+   {
+    "model_name": "BERT-large-augmented",
+    "paper_link": "https://arxiv.org/abs/2009.11795",
+    "github_link": "https://github.com/BPYap/BERT-WSD",
+    "paper_name": "Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences",
+    "metric": {
+     "F1": 79.5
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-yap2020adapting/images/sha256-51de58b4241ef9b79b393743a5b3e945c70e5cdca6b8d7fd6623c9cc9941fcd5?context=explore"
+   },
+   {
+    "model_name": "EWISER",
+    "paper_link": "https://www.aclweb.org/anthology/2020.acl-main.255/",
+    "github_link": "https://github.com/SapienzaNLP/ewiser",
+    "paper_name": "Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information",
+    "metric": {
+     "F1": 80.1
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-bevilacqua2020breaking/images/sha256-9186288b5806a60e44f5af703903244f19f11ff03fde0df762e68ebb27b9a197?context=explore"
+   },
+   {
+    "model_name": "GlossBERT(Sent-CLS-WS)",
+    "paper_link": "https://arxiv.org/abs/1908.07245",
+    "github_link": "https://github.com/HSLCY/GlossBERT",
+    "paper_name": "GlossBERT: BERT for Word Sense Disambiguation with Gloss Knowledge",
+    "metric": {
+     "F1": 76.9
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-huang2019glossbert/images/sha256-bae2f091bafb81013cffe8381245fe93e0ca8aaf3fc1188f75e8807996d62c99?context=explore"
+   },
+   {
+    "model_name": "LMMS2348",
+    "paper_link": "https://www.aclweb.org/anthology/P19-1569/",
+    "github_link": "https://github.com/danlou/LMMS",
+    "paper_name": "Language Modelling Makes Sense: Propagating Representations through WordNet for Full-Coverage Word Sense Disambiguation",
+    "metric": {
+     "F1": 75.4
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-loureiro2019language/images/sha256-bfd9371cd722bcebf919af12b4259632e280773f0c746e6b68dcb84f27e23c78?context=explore"
+   },
+   {
+    "model_name": "SemCor+WNGC,hypernyms",
+    "paper_link": "https://arxiv.org/abs/1905.05677",
+    "github_link": "https://github.com/getalp/disambiguate",
+    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "metric": {
+     "F1": 79.0
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-arXiv-vial2019sense/images/sha256-bbdbc7ab45074114b498361241ccb180a887e28539156fbfa85c7a99f0b36a52?context=explore"
+   },
+   {
+    "model_name": "SparseLMMS+WNGC",
+    "paper_link": "https://aclanthology.org/2020.emnlp-main.683/",
+    "github_link": "https://github.com/begab/sparsity_makes_sense",
+    "paper_name": "Sparsity Makes Sense: Word Sense Disambiguation Using Sparse Contextualized Word Representations",
+    "metric": {
+     "F1": 76.6
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   }
+  ]
+ }
+]

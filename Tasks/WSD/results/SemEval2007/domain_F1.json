@@ -5,7 +5,7 @@
    "SwapTarget-syn": {
     "ori": 74.7,
     "trans": 68.3,
-    "sample_num": 120,
+    "sample_num": 108,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_SwapTarget-syn.json",
     "contributor": {
@@ -17,11 +17,11 @@
  },
  {
   "model": "EWISER",
-  "attack_resulSwapTarget-synts": {
-   "": {
+  "attack_results": {
+   "SwapTarget-syn": {
     "ori": 74.43,
     "trans": 73.06,
-    "sample_num": 120,
+    "sample_num": 108,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_SwapTarget-syn.json",
     "contributor": {
@@ -37,7 +37,7 @@
    "SwapTarget-syn": {
     "ori": 68.5,
     "trans": 61.4,
-    "sample_num": 120,
+    "sample_num": 108,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_SwapTarget-syn.json",
     "contributor": {
@@ -53,7 +53,7 @@
    "SwapTarget-syn": {
     "ori": 71.7,
     "trans": 64.6,
-    "sample_num": 120,
+    "sample_num": 108,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_SwapTarget-syn.json",
     "contributor": {
@@ -69,7 +69,39 @@
    "SwapTarget-syn": {
     "ori": 72.8,
     "trans": 68.7,
-    "sample_num": 120,
+    "sample_num": 108,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_SwapTarget-syn.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_SwapTarget-syn.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   }
+  }
+ },
+ {
+  "model": "SparseLMMS+WNGC",
+  "attack_results": {
+   "SwapTarget-syn": {
+    "ori": 68.5,
+    "trans": 69.4,
+    "sample_num": 108,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_SwapTarget-syn.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_SwapTarget-syn.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   }
+  }
+ },
+ {
+  "model": "SemCor+WNGC,hypernyms",
+  "attack_results": {
+   "SwapTarget-syn": {
+    "ori": 73.52,
+    "trans": 68.26,
+    "sample_num": 108,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SemEval2007/trans_SwapTarget-syn.json",
     "contributor": {
