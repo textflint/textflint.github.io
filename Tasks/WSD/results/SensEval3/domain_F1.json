@@ -5,7 +5,7 @@
    "SwapTarget-syn": {
     "ori": 77.3,
     "trans": 75.7,
-    "sample_num": 297,
+    "sample_num": 285,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
@@ -21,7 +21,7 @@
    "SwapTarget-syn": {
     "ori": 78.86,
     "trans": 77.11,
-    "sample_num": 297,
+    "sample_num": 285,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
@@ -37,7 +37,7 @@
    "SwapTarget-syn": {
     "ori": 75.5,
     "trans": 72.5,
-    "sample_num": 297,
+    "sample_num": 285,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
@@ -53,7 +53,7 @@
    "SwapTarget-syn": {
     "ori": 75.9,
     "trans": 71.8,
-    "sample_num": 297,
+    "sample_num": 285,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
@@ -69,7 +69,39 @@
    "SwapTarget-syn": {
     "ori": 77.8,
     "trans": 74.7,
-    "sample_num": 297,
+    "sample_num": 285,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   }
+  }
+ },
+ {
+  "model": "SparseLMMS+WNGC",
+  "attack_results": {
+   "SwapTarget-syn": {
+    "ori": 77.4,
+    "trans": 76.4,
+    "sample_num": 285,
+    "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
+    "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
+    "contributor": {
+     "name": "jingyi liu",
+     "github": "https://github.com/Jeansix"
+    }
+   }
+  }
+ },
+ {
+  "model": "SemCor+WNGC,hypernyms",
+  "attack_results": {
+   "SwapTarget-syn": {
+    "ori": 77.71,
+    "trans": 75.69,
+    "sample_num": 285,
     "ori_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/ori_SwapTarget-syn.json",
     "trans_download_link": "https://www.textflint.com/static/Tasks/WSD/trans_dataset/SensEval3/trans_SwapTarget-syn.json",
     "contributor": {
