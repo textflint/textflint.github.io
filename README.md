@@ -11,7 +11,7 @@ TextFlint allows you to upload evaluation results on new models or transformatio
 
 # Contributing to TextFlint
 
-Thanks for contributing to TextFlint! Here are some guidelines to get your pull request accepted. You can now edit files directly in GitHub to create pull requests. All data is in the folder `./Tasks`. Each task requires at least three JSON files (`dataset_description.json`, `task_description.json` and `paper_list.json`)  and four folders (`human_evaluation`, `models`, `results` and `transformations`)
+Thanks for contributing to TextFlint! Here are some guidelines to get your pull request accepted. You can now edit files directly in GitHub to create pull requests. All data is in the folder `./Tasks`. Each task requires at least three JSON files (`dataset_description.json`, `task_description.json` and `paper_list.json`), four folders (`human_evaluation`, `models`, `results` and `transformations`) and a picture of the task in (`./media/logos/task_logo/{task_name}.jpg`), the picture should be less than 20kb.
 
 
 ## How to add dataset description
@@ -29,7 +29,7 @@ The dataset description are in the `./Tasks/{your_task}/dataset_description.json
 				"model_name": "LCF-BERT",
 				"paper_link": "https://www.researchgate.net/publication/335238076_LCF_A_Local_Context_Focus_Mechanism_for_Aspect-Based_Sentiment_Classification",
 				"github_link": "https://github.com/yangheng95/LC-ABSA",
-                "dockerhub_link":"", 
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/ABSA-AppliedScience-zeng2019lcf/images/sha256-e8437267241ba4570a31a3af2974f83faaf66fb8e8ba76ef59b2bed2aed75d2d?context=explore", 
 				"paper_name": "LCF: A Local Context Focus Mechanism for Aspect-Based Sentiment Classification",
 				"metric": 
                         {
