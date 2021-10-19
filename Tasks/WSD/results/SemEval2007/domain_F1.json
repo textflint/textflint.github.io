@@ -17,8 +17,8 @@
  },
  {
   "model": "EWISER",
-  "attack_resulSwapTarget-synts": {
-   "": {
+  "attack_results": {
+   "SwapTarget-syn": {
     "ori": 74.43,
     "trans": 73.06,
     "sample_num": 108,
