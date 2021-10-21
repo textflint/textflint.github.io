@@ -1,1 +1,2477 @@
-[{"model": "BiDAF", "attack_results": {"InsertAdv": {"ori": 67.321, "trans": 66.449, "sample_num": 9836, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AppendIrr": {"ori": 63.21, "trans": 62.693000000000005, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-lower": {"ori": 63.81399999999999, "trans": 63.099, "sample_num": 11041, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-title": {"ori": 63.38399999999999, "trans": 60.788999999999994, "sample_num": 11437, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-upper": {"ori": 63.3, "trans": 57.922, "sample_num": 11468, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Contraction": {"ori": 63.29, "trans": 63.228, "sample_num": 4351, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Keyboard": {"ori": 63.21, "trans": 60.506, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Ocr": {"ori": 63.21, "trans": 60.506, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddPunc-add-bracket": {"ori": 63.28, "trans": 63.481, "sample_num": 11462, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Tense": {"ori": 63.21, "trans": 62.997, "sample_num": 11425, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "TwitterType-random": {"ori": 63.21, "trans": 63.38399999999999, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Typos-random": {"ori": 63.21, "trans": 60.448, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordEmbedding": {"ori": 63.21, "trans": 61.147, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordNet": {"ori": 63.21, "trans": 61.312, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "BiDAF+", "attack_results": {"InsertAdv": {"ori": 68.086, "trans": 67.461, "sample_num": 9836, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AppendIrr": {"ori": 65.08, "trans": 64.743, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-lower": {"ori": 65.308, "trans": 64.961, "sample_num": 11041, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-title": {"ori": 65.22399999999999, "trans": 59.623999999999995, "sample_num": 11437, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-upper": {"ori": 65.165, "trans": 56.574, "sample_num": 11468, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Contraction": {"ori": 65.766, "trans": 65.703, "sample_num": 4351, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Keyboard": {"ori": 65.08, "trans": 62.452, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Ocr": {"ori": 65.08, "trans": 62.29600000000001, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddPunc-add-bracket": {"ori": 65.15, "trans": 65.11399999999999, "sample_num": 11462, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Tense": {"ori": 65.134, "trans": 65.023, "sample_num": 11425, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "TwitterType-random": {"ori": 65.08, "trans": 64.97399999999999, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Typos-random": {"ori": 65.08, "trans": 62.395, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordEmbedding": {"ori": 65.08, "trans": 63.466, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordNet": {"ori": 65.08, "trans": 63.738, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "BiDAF+ELMo", "attack_results": {"InsertAdv": {"ori": 68.532, "trans": 67.581, "sample_num": 9836, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AppendIrr": {"ori": 65.937, "trans": 65.538, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-lower": {"ori": 66.34100000000001, "trans": 65.069, "sample_num": 11041, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-title": {"ori": 66.053, "trans": 60.028, "sample_num": 11437, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-upper": {"ori": 65.983, "trans": 54.123000000000005, "sample_num": 11468, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Contraction": {"ori": 66.178, "trans": 66.36399999999999, "sample_num": 4351, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Keyboard": {"ori": 65.937, "trans": 63.531000000000006, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Ocr": {"ori": 65.937, "trans": 63.394, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddPunc-add-bracket": {"ori": 65.937, "trans": 65.718, "sample_num": 11462, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Tense": {"ori": 66.008, "trans": 65.699, "sample_num": 11425, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "TwitterType-random": {"ori": 65.937, "trans": 65.533, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Typos-random": {"ori": 65.937, "trans": 63.442, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordEmbedding": {"ori": 65.937, "trans": 63.933, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordNet": {"ori": 65.937, "trans": 63.802, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "BiDAF++ELMo", "attack_results": {"InsertAdv": {"ori": 69.53699999999999, "trans": 69.277, "sample_num": 9836, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AppendIrr": {"ori": 67.921, "trans": 67.833, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-lower": {"ori": 68.025, "trans": 67.235, "sample_num": 11041, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-title": {"ori": 68.012, "trans": 64.90899999999999, "sample_num": 11437, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-upper": {"ori": 67.998, "trans": 59.706, "sample_num": 11468, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Contraction": {"ori": 68.209, "trans": 68.113, "sample_num": 4351, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Keyboard": {"ori": 67.921, "trans": 65.257, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Ocr": {"ori": 67.921, "trans": 65.02199999999999, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddPunc-add-bracket": {"ori": 67.95, "trans": 67.82, "sample_num": 11462, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Tense": {"ori": 67.96, "trans": 67.883, "sample_num": 11425, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "TwitterType-random": {"ori": 67.921, "trans": 67.365, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Typos-random": {"ori": 67.921, "trans": 64.77199999999999, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordEmbedding": {"ori": 67.921, "trans": 65.797, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordNet": {"ori": 67.921, "trans": 65.862, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "BERT", "attack_results": {"InsertAdv": {"ori": 76.10300000000001, "trans": 74.887, "sample_num": 9836, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AppendIrr": {"ori": 75.952, "trans": 76.009, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-lower": {"ori": 75.883, "trans": 75.883, "sample_num": 11041, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-title": {"ori": 75.988, "trans": 75.988, "sample_num": 11437, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-upper": {"ori": 75.955, "trans": 75.955, "sample_num": 11468, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Contraction": {"ori": 76.805, "trans": 76.645, "sample_num": 4351, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Keyboard": {"ori": 75.952, "trans": 72.631, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Ocr": {"ori": 75.952, "trans": 72.359, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddPunc-add-bracket": {"ori": 75.94800000000001, "trans": 76.296, "sample_num": 11462, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Tense": {"ori": 76.046, "trans": 75.88600000000001, "sample_num": 11425, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "TwitterType-random": {"ori": 75.952, "trans": 75.953, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Typos-random": {"ori": 75.952, "trans": 72.374, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordEmbedding": {"ori": 75.952, "trans": 72.571, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordNet": {"ori": 75.952, "trans": 73.476, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "ALBERT", "attack_results": {"InsertAdv": {"ori": 83.544, "trans": 82.355, "sample_num": 9836, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AppendIrr": {"ori": 82.62299999999999, "trans": 82.52600000000001, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-lower": {"ori": 82.655, "trans": 82.655, "sample_num": 11041, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-title": {"ori": 82.67399999999999, "trans": 82.67399999999999, "sample_num": 11437, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-upper": {"ori": 82.641, "trans": 82.639, "sample_num": 11468, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Contraction": {"ori": 83.551, "trans": 83.20700000000001, "sample_num": 4351, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Keyboard": {"ori": 82.62299999999999, "trans": 78.453, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Ocr": {"ori": 82.62299999999999, "trans": 78.031, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddPunc-add-bracket": {"ori": 82.62799999999999, "trans": 82.54, "sample_num": 11462, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Tense": {"ori": 82.675, "trans": 82.6, "sample_num": 11425, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "TwitterType-random": {"ori": 82.62299999999999, "trans": 82.48, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Typos-random": {"ori": 82.62299999999999, "trans": 78.28, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordEmbedding": {"ori": 82.62299999999999, "trans": 77.928, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordNet": {"ori": 82.62299999999999, "trans": 79.438, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "XLNet", "attack_results": {"InsertAdv": {"ori": 85.20200000000001, "trans": 83.506, "sample_num": 9836, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AppendIrr": {"ori": 85.046, "trans": 84.38799999999999, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-lower": {"ori": 84.978, "trans": 82.70299999999999, "sample_num": 11041, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-title": {"ori": 85.075, "trans": 80.988, "sample_num": 11437, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-upper": {"ori": 85.044, "trans": 63.72, "sample_num": 11468, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Contraction": {"ori": 86.1, "trans": 85.271, "sample_num": 4351, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Keyboard": {"ori": 85.046, "trans": 82.277, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Ocr": {"ori": 85.046, "trans": 81.821, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddPunc-add-bracket": {"ori": 85.045, "trans": 84.825, "sample_num": 11462, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Tense": {"ori": 85.10799999999999, "trans": 84.51700000000001, "sample_num": 11425, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "TwitterType-random": {"ori": 85.046, "trans": 84.679, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Typos-random": {"ori": 85.046, "trans": 81.908, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordEmbedding": {"ori": 85.046, "trans": 80.518, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordNet": {"ori": 85.046, "trans": 82.186, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "DistilBERT", "attack_results": {"InsertAdv": {"ori": 69.885, "trans": 68.937, "sample_num": 9836, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AppendIrr": {"ori": 69.695, "trans": 69.233, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-lower": {"ori": 69.479, "trans": 69.479, "sample_num": 11041, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-title": {"ori": 69.73, "trans": 69.73, "sample_num": 11437, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "WordCase-upper": {"ori": 69.717, "trans": 69.706, "sample_num": 11468, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Contraction": {"ori": 71.223, "trans": 70.30199999999999, "sample_num": 4351, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Keyboard": {"ori": 69.695, "trans": 67.138, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Ocr": {"ori": 69.695, "trans": 66.697, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddPunc-add-bracket": {"ori": 69.67699999999999, "trans": 69.563, "sample_num": 11462, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Tense": {"ori": 69.714, "trans": 69.493, "sample_num": 11425, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "TwitterType-random": {"ori": 69.695, "trans": 69.655, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "Typos-random": {"ori": 69.695, "trans": 67.07, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordEmbedding": {"ori": 69.695, "trans": 67.293, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "SwapSyn-WordNet": {"ori": 69.695, "trans": 67.913, "sample_num": 11492, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}]
+[
+    {
+        "model": "BERT",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 76.103,
+                "trans": 74.887,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AppendIrr": {
+                "ori": 75.952,
+                "trans": 76.009,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 75.883,
+                "trans": 75.883,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-title": {
+                "ori": 75.988,
+                "trans": 75.988,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 75.955,
+                "trans": 75.955,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Contraction": {
+                "ori": 76.805,
+                "trans": 76.645,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Keyboard": {
+                "ori": 75.952,
+                "trans": 72.631,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Ocr": {
+                "ori": 75.952,
+                "trans": 72.359,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 75.948,
+                "trans": 76.296,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Tense": {
+                "ori": 76.046,
+                "trans": 75.886,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 75.952,
+                "trans": 75.953,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Typos-random": {
+                "ori": 75.952,
+                "trans": 72.374,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 75.952,
+                "trans": 72.571,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 75.952,
+                "trans": 73.476,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SpellingError": {
+                "ori": 75.921,
+                "trans": 73.029,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 75.585,
+                "trans": 74.315,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 69.456,
+                "trans": 71.47,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 75.738,
+                "trans": 75.002,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 74.647,
+                "trans": 73.587,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 75.709,
+                "trans": 74.978,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "ALBERT",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 83.544,
+                "trans": 82.355,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AppendIrr": {
+                "ori": 82.623,
+                "trans": 82.526,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 82.655,
+                "trans": 82.655,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-title": {
+                "ori": 82.674,
+                "trans": 82.674,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 82.641,
+                "trans": 82.639,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Contraction": {
+                "ori": 83.551,
+                "trans": 83.207,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Keyboard": {
+                "ori": 82.623,
+                "trans": 78.453,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Ocr": {
+                "ori": 82.623,
+                "trans": 78.031,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 82.628,
+                "trans": 82.54,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Tense": {
+                "ori": 82.675,
+                "trans": 82.6,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 82.623,
+                "trans": 82.48,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Typos-random": {
+                "ori": 82.623,
+                "trans": 78.28,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 82.623,
+                "trans": 77.928,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 82.623,
+                "trans": 79.438,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SpellingError": {
+                "ori": 82.666,
+                "trans": 78.918,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 82.289,
+                "trans": 80.784,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 80.542,
+                "trans": 75.637,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 82.759,
+                "trans": 80.832,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 82.599,
+                "trans": 80.301,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 82.556,
+                "trans": 81.573,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "DistilBERT",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 69.885,
+                "trans": 68.937,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AppendIrr": {
+                "ori": 69.695,
+                "trans": 69.233,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 69.479,
+                "trans": 69.479,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-title": {
+                "ori": 69.73,
+                "trans": 69.73,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 69.717,
+                "trans": 69.706,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Contraction": {
+                "ori": 71.223,
+                "trans": 70.302,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Keyboard": {
+                "ori": 69.695,
+                "trans": 67.138,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Ocr": {
+                "ori": 69.695,
+                "trans": 66.697,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 69.677,
+                "trans": 69.563,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Tense": {
+                "ori": 69.714,
+                "trans": 69.493,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 69.695,
+                "trans": 69.655,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Typos-random": {
+                "ori": 69.695,
+                "trans": 67.07,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 69.695,
+                "trans": 67.293,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 69.695,
+                "trans": 67.913,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SpellingError": {
+                "ori": 69.646,
+                "trans": 67.826,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 70.399,
+                "trans": 69.618,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 66.316,
+                "trans": 68.941,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 69.637,
+                "trans": 70.032,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 68.855,
+                "trans": 68.804,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 70.688,
+                "trans": 70.221,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "XLNet",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 85.202,
+                "trans": 83.506,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AppendIrr": {
+                "ori": 85.046,
+                "trans": 84.388,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 84.978,
+                "trans": 82.703,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-title": {
+                "ori": 85.075,
+                "trans": 80.988,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 85.044,
+                "trans": 63.72,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Contraction": {
+                "ori": 86.1,
+                "trans": 85.271,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Keyboard": {
+                "ori": 85.046,
+                "trans": 82.277,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Ocr": {
+                "ori": 85.046,
+                "trans": 81.821,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 85.045,
+                "trans": 84.825,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Tense": {
+                "ori": 85.108,
+                "trans": 84.517,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 85.046,
+                "trans": 84.679,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Typos-random": {
+                "ori": 85.046,
+                "trans": 81.908,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 85.046,
+                "trans": 80.518,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 85.046,
+                "trans": 82.186,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SpellingError": {
+                "ori": 85.064,
+                "trans": 82.689,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 83.951,
+                "trans": 81.878,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 83.066,
+                "trans": 81.193,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 84.9,
+                "trans": 82.483,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 85.103,
+                "trans": 82.01,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 84.12,
+                "trans": 82.039,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "SpanBERT",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 88.042,
+                "trans": 85.932,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AppendIrr": {
+                "ori": 87.667,
+                "trans": 87.045,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 87.67,
+                "trans": 82.664,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-title": {
+                "ori": 87.732,
+                "trans": 82.371,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 87.67,
+                "trans": 51.75,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Contraction": {
+                "ori": 88.272,
+                "trans": 87.995,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Keyboard": {
+                "ori": 87.667,
+                "trans": 85.19,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Ocr": {
+                "ori": 87.667,
+                "trans": 84.83,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 87.685,
+                "trans": 87.358,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Tense": {
+                "ori": 87.708,
+                "trans": 87.604,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 87.667,
+                "trans": 87.478,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Typos-random": {
+                "ori": 87.667,
+                "trans": 84.894,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 87.667,
+                "trans": 83.094,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 87.667,
+                "trans": 85.187,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "SpellingError": {
+                "ori": 87.661,
+                "trans": 85.004,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 87.318,
+                "trans": 86.627,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 86.157,
+                "trans": 83.327,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 87.694,
+                "trans": 85.595,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 87.258,
+                "trans": 83.996,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 87.423,
+                "trans": 85.513,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "BiDAF",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 67.321,
+                "trans": 66.449,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "AppendIrr": {
+                "ori": 63.21,
+                "trans": 62.693,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 63.814,
+                "trans": 63.099,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-title": {
+                "ori": 63.384,
+                "trans": 60.789,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 63.3,
+                "trans": 57.922,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Contraction": {
+                "ori": 63.29,
+                "trans": 63.228,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Keyboard": {
+                "ori": 63.21,
+                "trans": 60.506,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Ocr": {
+                "ori": 63.21,
+                "trans": 60.506,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 63.28,
+                "trans": 63.481,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Tense": {
+                "ori": 63.21,
+                "trans": 62.997,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 63.21,
+                "trans": 63.384,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Typos-random": {
+                "ori": 63.21,
+                "trans": 60.448,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 63.21,
+                "trans": 61.147,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 63.21,
+                "trans": 61.312,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SpellingError": {
+                "ori": 61.215,
+                "trans": 58.201,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 59.92,
+                "trans": 59.529,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 61.791,
+                "trans": 61.12,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 60.804,
+                "trans": 60.27,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 61.465,
+                "trans": 61.349,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 59.867,
+                "trans": 59.637,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "BiDAF+",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 68.086,
+                "trans": 67.461,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "AppendIrr": {
+                "ori": 65.08,
+                "trans": 64.743,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 65.308,
+                "trans": 64.961,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-title": {
+                "ori": 65.224,
+                "trans": 59.624,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 65.165,
+                "trans": 56.574,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Contraction": {
+                "ori": 65.766,
+                "trans": 65.703,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Keyboard": {
+                "ori": 65.08,
+                "trans": 62.452,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Ocr": {
+                "ori": 65.08,
+                "trans": 62.296,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 65.15,
+                "trans": 65.114,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Tense": {
+                "ori": 65.134,
+                "trans": 65.023,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 65.08,
+                "trans": 64.974,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Typos-random": {
+                "ori": 65.08,
+                "trans": 62.395,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 65.08,
+                "trans": 63.466,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 65.08,
+                "trans": 63.738,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SpellingError": {
+                "ori": 65.325,
+                "trans": 62.862,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 64.896,
+                "trans": 64.533,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 61.402,
+                "trans": 60.954,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 64.688,
+                "trans": 64.544,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 64.776,
+                "trans": 64.016,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 65.024,
+                "trans": 64.686,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "BiDAF+ELMo",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 68.532,
+                "trans": 67.581,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "AppendIrr": {
+                "ori": 65.937,
+                "trans": 65.538,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 66.341,
+                "trans": 65.069,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-title": {
+                "ori": 66.053,
+                "trans": 60.028,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 65.983,
+                "trans": 54.123,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Contraction": {
+                "ori": 66.178,
+                "trans": 66.364,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Keyboard": {
+                "ori": 65.937,
+                "trans": 63.531,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Ocr": {
+                "ori": 65.937,
+                "trans": 63.394,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 65.937,
+                "trans": 65.718,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Tense": {
+                "ori": 66.008,
+                "trans": 65.699,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 65.937,
+                "trans": 65.533,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Typos-random": {
+                "ori": 65.937,
+                "trans": 63.442,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 65.937,
+                "trans": 63.933,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 65.937,
+                "trans": 63.802,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SpellingError": {
+                "ori": 63.749,
+                "trans": 60.596,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 61.659,
+                "trans": 61.257,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 61.711,
+                "trans": 60.79,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 62.627,
+                "trans": 62.423,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 63.027,
+                "trans": 62.622,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 61.805,
+                "trans": 61.53,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "BiDAF++ELMo",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 69.537,
+                "trans": 69.277,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "AppendIrr": {
+                "ori": 67.921,
+                "trans": 67.833,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 68.025,
+                "trans": 67.235,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-title": {
+                "ori": 68.012,
+                "trans": 64.909,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 67.998,
+                "trans": 59.706,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Contraction": {
+                "ori": 68.209,
+                "trans": 68.113,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Keyboard": {
+                "ori": 67.921,
+                "trans": 65.257,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Ocr": {
+                "ori": 67.921,
+                "trans": 65.022,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 67.95,
+                "trans": 67.82,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Tense": {
+                "ori": 67.96,
+                "trans": 67.883,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 67.921,
+                "trans": 67.365,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Typos-random": {
+                "ori": 67.921,
+                "trans": 64.772,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 67.921,
+                "trans": 65.797,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 67.921,
+                "trans": 65.862,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "SpellingError": {
+                "ori": 67.827,
+                "trans": 65.206,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 68.276,
+                "trans": 66.118,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 64.987,
+                "trans": 64.358,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 67.157,
+                "trans": 66.58,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 66.632,
+                "trans": 65.667,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 68.291,
+                "trans": 66.484,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "DeBERTa",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 89.087,
+                "trans": 86.564,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "AppendIrr": {
+                "ori": 87.722,
+                "trans": 87.148,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 87.743,
+                "trans": 83.233,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "WordCase-title": {
+                "ori": 87.818,
+                "trans": 84.604,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 87.732,
+                "trans": 68.918,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Contraction": {
+                "ori": 87.183,
+                "trans": 86.685,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Keyboard": {
+                "ori": 87.722,
+                "trans": 83.169,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Ocr": {
+                "ori": 87.722,
+                "trans": 82.768,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 87.72,
+                "trans": 87.542,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Tense": {
+                "ori": 87.767,
+                "trans": 87.008,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 87.722,
+                "trans": 87.551,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Typos-random": {
+                "ori": 87.722,
+                "trans": 83.431,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 87.722,
+                "trans": 78.991,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 87.722,
+                "trans": 83.773,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "SpellingError": {
+                "ori": 85.774,
+                "trans": 83.349,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 82.98,
+                "trans": 82.06,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 84.01,
+                "trans": 82.85,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 85.24,
+                "trans": 83.23,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 85.39,
+                "trans": 81.83,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 83.164,
+                "trans": 82.328,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            }
+        }
+    },
+    {
+        "model": "UNet",
+        "attack_results": {
+            "InsertAdv": {
+                "ori": 75.263,
+                "trans": 74.283,
+                "sample_num": 9836,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_InsertAdv.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_InsertAdv.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "AppendIrr": {
+                "ori": 73.403,
+                "trans": 73.181,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AppendIrr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AppendIrr.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "WordCase-lower": {
+                "ori": 73.536,
+                "trans": 72.016,
+                "sample_num": 11041,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-lower.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-lower.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "WordCase-title": {
+                "ori": 73.534,
+                "trans": 68.507,
+                "sample_num": 11437,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-title.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-title.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "WordCase-upper": {
+                "ori": 73.503,
+                "trans": 60.632,
+                "sample_num": 11468,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_WordCase-upper.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_WordCase-upper.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Contraction": {
+                "ori": 73.598,
+                "trans": 73.5,
+                "sample_num": 4351,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Contraction.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Contraction.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Keyboard": {
+                "ori": 73.483,
+                "trans": 70.134,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Keyboard.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Keyboard.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Ocr": {
+                "ori": 73.454,
+                "trans": 70.114,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Ocr.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Ocr.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "AddPunc-add-bracket": {
+                "ori": 73.505,
+                "trans": 73.282,
+                "sample_num": 11462,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_AddPunc-add-bracket.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_AddPunc-add-bracket.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Tense": {
+                "ori": 73.518,
+                "trans": 73.513,
+                "sample_num": 11425,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Tense.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Tense.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "TwitterType-random": {
+                "ori": 73.449,
+                "trans": 73.147,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_TwitterType-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_TwitterType-random.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Typos-random": {
+                "ori": 73.404,
+                "trans": 70.197,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Typos-random.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Typos-random.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "SwapSyn-WordEmbedding": {
+                "ori": 73.423,
+                "trans": 70.221,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordEmbedding.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "SwapSyn-WordNet": {
+                "ori": 73.461,
+                "trans": 71.124,
+                "sample_num": 11492,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SwapSyn-WordNet.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SwapSyn-WordNet.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "SpellingError": {
+                "ori": 73.713,
+                "trans": 70.417,
+                "sample_num": 11461,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_SpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_SpellingError.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Loc-Africa-India-MiddleEast": {
+                "ori": 70.99,
+                "trans": 70.6,
+                "sample_num": 1454,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Africa-India-MiddleEast.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Loc-America-Europe-China-Japan": {
+                "ori": 70.16,
+                "trans": 68.5,
+                "sample_num": 260,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-America-Europe-China-Japan.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-America-Europe-China-Japan.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Name-man": {
+                "ori": 74.05,
+                "trans": 73.05,
+                "sample_num": 4868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-man.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-man.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Name-woman": {
+                "ori": 73.39,
+                "trans": 72.38,
+                "sample_num": 5816,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Name-woman.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Name-woman.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "Prejudice-Loc-Af": {
+                "ori": 71.284,
+                "trans": 70.389,
+                "sample_num": 1482,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/ori_Prejudice-Loc-Af.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD2.0/trans_Prejudice-Loc-Af.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            }
+        }
+    }
+]

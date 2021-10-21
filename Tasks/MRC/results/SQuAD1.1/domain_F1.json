@@ -1,1 +1,962 @@
-[{"model": "BiDAF", "attack_results": {"ModifyPos": {"ori": 78.085, "trans": 77.518, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 77.446, "trans": 26.069000000000003, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 77.5, "trans": 63.762, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 0.0, "trans": 0.0, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 77.457, "trans": 71.013, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "BiDAF+", "attack_results": {"ModifyPos": {"ori": 78.91, "trans": 76.722, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 78.212, "trans": 26.603, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 78.237, "trans": 64.54899999999999, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 0.0, "trans": 0.0, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 78.245, "trans": 71.933, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "DrQA", "attack_results": {"ModifyPos": {"ori": 80.199, "trans": 78.669, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 79.615, "trans": 40.561, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 79.523, "trans": 64.85, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 0.0, "trans": 0.0, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 79.516, "trans": 72.358, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "R-Net", "attack_results": {"ModifyPos": {"ori": 80.563, "trans": 78.957, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 79.827, "trans": 30.625, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 79.872, "trans": 66.132, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 0.0, "trans": 0.0, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 79.83, "trans": 73.135, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "FusionNet", "attack_results": {"ModifyPos": {"ori": 82.005, "trans": 80.377, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 81.281, "trans": 39.334, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 81.439, "trans": 67.492, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 0.0, "trans": 0.0, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 81.399, "trans": 74.307, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "QANet", "attack_results": {"ModifyPos": {"ori": 79.98100000000001, "trans": 79.791, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 79.32300000000001, "trans": 22.090999999999998, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 79.446, "trans": 67363.0, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 0.0, "trans": 0.0, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 79.417, "trans": 72.12, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "BERT", "attack_results": {"ModifyPos": {"ori": 87.676, "trans": 87.24700000000001, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 87.09, "trans": 32.47, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 87.13, "trans": 75.4, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 87.09200000000001, "trans": 79.373, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 87.09, "trans": 79.393, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "ALBERT", "attack_results": {"ModifyPos": {"ori": 91.76100000000001, "trans": 90.82, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 91.265, "trans": 40.448, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 91.257, "trans": 80.518, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 91.23299999999999, "trans": 82.734, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 91.23299999999999, "trans": 75.587, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "XLNet", "attack_results": {"ModifyPos": {"ori": 89.806, "trans": 88.94, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 89.50299999999999, "trans": 37.477, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 89.45, "trans": 80.14699999999999, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 89.435, "trans": 82.083, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 89.434, "trans": 78.135, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}, {"model": "DistilBERT", "attack_results": {"ModifyPos": {"ori": 87.55799999999999, "trans": 86.689, "sample_num": 9011, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "AddSentDiverse": {"ori": 87.104, "trans": 29.598000000000003, "sample_num": 9292, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbAnswer": {"ori": 87.035, "trans": 74.916, "sample_num": 9833, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-BackTranslation": {"ori": 87.001, "trans": 78.50399999999999, "sample_num": 9868, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}, "PerturbQuestion-MLM": {"ori": 87.01, "trans": 78.93, "sample_num": 9867, "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json", "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json", "contributor": {"name": "Shan Qin", "github": "https://github.com/shanq21"}}}}]
+[
+    {
+        "model": "BERT",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 87.09,
+                "trans": 32.47,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "ModifyPos": {
+                "ori": 87.676,
+                "trans": 87.247,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 87.13,
+                "trans": 75.4,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 87.092,
+                "trans": 79.373,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 87.09,
+                "trans": 79.393,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "ALBERT",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 91.265,
+                "trans": 40.448,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "ModifyPos": {
+                "ori": 91.761,
+                "trans": 90.82,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 91.257,
+                "trans": 80.518,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 91.233,
+                "trans": 82.734,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 91.233,
+                "trans": 75.587,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "DistilBERT",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 87.104,
+                "trans": 29.598,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "ModifyPos": {
+                "ori": 87.558,
+                "trans": 86.689,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 87.035,
+                "trans": 74.916,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 87.001,
+                "trans": 78.504,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 87.01,
+                "trans": 78.93,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "XLNet",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 89.503,
+                "trans": 37.477,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "ModifyPos": {
+                "ori": 89.806,
+                "trans": 88.94,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 89.45,
+                "trans": 80.147,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 89.435,
+                "trans": 82.083,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 89.434,
+                "trans": 78.135,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "LUKE",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 95.149,
+                "trans": 57.455,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "ModifyPos": {
+                "ori": 95.567,
+                "trans": 94.93,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 95.137,
+                "trans": 87.425,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 95.134,
+                "trans": 87.929,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 95.134,
+                "trans": 76.436,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "SpanBERT",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 94.186,
+                "trans": 50.895,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "ModifyPos": {
+                "ori": 94.63,
+                "trans": 94.169,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 94.146,
+                "trans": 86.557,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 94.131,
+                "trans": 86.49,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 94.13,
+                "trans": 84.519,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "RMReader",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 81.936,
+                "trans": 32.253,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "ModifyPos": {
+                "ori": 82.626,
+                "trans": 81.791,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 82.046,
+                "trans": 69.043,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 82.033,
+                "trans": 73.9,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 82.035,
+                "trans": 75.197,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Shan Qin",
+                    "github": "https://github.com/shanq21"
+                }
+            }
+        }
+    },
+    {
+        "model": "BiDAF",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 77.446,
+                "trans": 26.069,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "ModifyPos": {
+                "ori": 78.085,
+                "trans": 77.518,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 77.5,
+                "trans": 63.762,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 77.323,
+                "trans": 68.527,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 77.457,
+                "trans": 71.013,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "BiDAF+",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 78.212,
+                "trans": 26.603,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "ModifyPos": {
+                "ori": 78.91,
+                "trans": 76.722,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 78.237,
+                "trans": 64.549,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 78.335,
+                "trans": 70.612,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 78.245,
+                "trans": 71.933,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "DrQA",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 79.615,
+                "trans": 40.561,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "ModifyPos": {
+                "ori": 80.199,
+                "trans": 78.669,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 79.523,
+                "trans": 64.85,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 79.492,
+                "trans": 70.853,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 79.516,
+                "trans": 72.358,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "R-Net",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 79.827,
+                "trans": 30.625,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "ModifyPos": {
+                "ori": 80.563,
+                "trans": 78.957,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 79.872,
+                "trans": 66.132,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 79.636,
+                "trans": 71.449,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 79.83,
+                "trans": 73.135,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "FusionNet",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 81.281,
+                "trans": 39.334,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "ModifyPos": {
+                "ori": 82.005,
+                "trans": 80.377,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 81.439,
+                "trans": 67.492,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 81.622,
+                "trans": 73.062,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 81.399,
+                "trans": 74.307,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "QANet",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 79.323,
+                "trans": 22.091,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "ModifyPos": {
+                "ori": 79.981,
+                "trans": 79.791,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 79.446,
+                "trans": 67363.0,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 80.191,
+                "trans": 71.999,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 79.417,
+                "trans": 72.12,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Zexiong Pang",
+                    "github": "https://github.com/pzxbjx"
+                }
+            }
+        }
+    },
+    {
+        "model": "SRU",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 77.756,
+                "trans": 36.619,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "ModifyPos": {
+                "ori": 78.313,
+                "trans": 77.308,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 77.677,
+                "trans": 61.333,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 77.625,
+                "trans": 69.348,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 77.633,
+                "trans": 69.41,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            }
+        }
+    },
+    {
+        "model": "FastQA",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 76.331,
+                "trans": 33.531,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "ModifyPos": {
+                "ori": 77.002,
+                "trans": 75.609,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 76.318,
+                "trans": 61.924,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 76.289,
+                "trans": 67.891,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 76.296,
+                "trans": 68.061,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            }
+        }
+    },
+    {
+        "model": "DeBERTa",
+        "attack_results": {
+            "AddSentDiverse": {
+                "ori": 93.689,
+                "trans": 46.436,
+                "sample_num": 9292,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_AddSentDiverse.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_AddSentDiverse.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "ModifyPos": {
+                "ori": 94.067,
+                "trans": 93.49,
+                "sample_num": 9011,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_ModifyPos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_ModifyPos.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "PerturbAnswer": {
+                "ori": 93.663,
+                "trans": 85.893,
+                "sample_num": 9833,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbAnswer.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbAnswer.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "PerturbQuestion-BackTranslation": {
+                "ori": 93.64,
+                "trans": 86.303,
+                "sample_num": 9868,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-BackTranslation.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-BackTranslation.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            },
+            "PerturbQuestion-MLM": {
+                "ori": 93.639,
+                "trans": 75.809,
+                "sample_num": 9867,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/ori_PerturbQuestion-MLM.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/MRC/trans_dataset/SQuAD1.1/trans_PerturbQuestion-MLM.json",
+                "contributor": {
+                    "name": "Jun Zhao",
+                    "github": "https://github.com/superwars"
+                }
+            }
+        }
+    }
+]
