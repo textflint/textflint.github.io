@@ -186,7 +186,7 @@
                     "EM": 78.9,
                     "F1": 86.3
                 },
-                "dockerhub_link": ""
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/MRC-IJCAI-hu2017reinforced/images/sha256-5a8089fa4cb6e8fb2d15352c550164c0e9780d22697c1124362e002178056769?context=explore"
             }
         ]
     },
