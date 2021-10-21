@@ -1,4 +1,4 @@
 {
-    "desc":"End-to-end Neural Coreference Resolution",
+    "desc":"Higher-order Coreference Resolution with Coarse-to-fine Inference",
     "contributor":[{"name":"chong zhang", "github":"https://github.com/chongzhangFDU"}]
 }
