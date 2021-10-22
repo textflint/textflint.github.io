@@ -1,0 +1,223 @@
+[
+  {
+    "model": "LAL",
+    "attack_results": {
+      "AddSubTree": {
+        "ori": 96.05,
+        "trans": 93.57,
+        "sample_num": 1003,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      },
+      "DeleteSubTree": {
+        "ori": 96.44,
+        "trans": 96.0,
+        "sample_num": 1143,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      }
+    }
+  },
+  {
+    "model": "HPSG-BERT",
+    "attack_results": {
+      "AddSubTree": {
+        "ori": 95.21,
+        "trans": 91.96,
+        "sample_num": 1003,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      },
+      "DeleteSubTree": {
+        "ori": 95.56,
+        "trans": 94.84,
+        "sample_num": 1143,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      }
+    }
+  },
+  {
+    "model": "HPSG-CWT",
+    "attack_results": {
+      "AddSubTree": {
+        "ori": 94.45,
+        "trans": 89.99,
+        "sample_num": 1003,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      },
+      "DeleteSubTree": {
+        "ori": 94.76,
+        "trans": 94.26,
+        "sample_num": 1143,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      }
+    }
+  },
+  {
+    "model": "jPTDP",
+    "attack_results": {
+      "AddSubTree": {
+        "ori": 89.9,
+        "trans": 86.05,
+        "sample_num": 1003,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      },
+      "DeleteSubTree": {
+        "ori": 90.43,
+        "trans": 90.06,
+        "sample_num": 1143,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      }
+    }
+  },
+  {
+    "model": "crf2o",
+    "attack_results": {
+      "AddSubTree": {
+        "ori": 93.93,
+        "trans": 90.05,
+        "sample_num": 1003,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      },
+      "DeleteSubTree": {
+        "ori": 94.52,
+        "trans": 94.06,
+        "sample_num": 1143,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      }
+    }
+  },
+  {
+    "model": "biaffine",
+    "attack_results": {
+      "AddSubTree": {
+        "ori": 93.81,
+        "trans": 89.9,
+        "sample_num": 1003,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      },
+      "DeleteSubTree": {
+        "ori": 94.26,
+        "trans": 93.84,
+        "sample_num": 1143,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      }
+    }
+  },
+  {
+    "model": "biaffine-roberta",
+    "attack_results": {
+      "AddSubTree": {
+        "ori": 95.23,
+        "trans": 93.38,
+        "sample_num": 1003,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      },
+      "DeleteSubTree": {
+        "ori": 95.5,
+        "trans": 95.15,
+        "sample_num": 1143,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      }
+    }
+  },
+  {
+    "model": "stackptr",
+    "attack_results": {
+      "DeleteSubTree": {
+        "ori": 90.19,
+        "trans": 90.7,
+        "sample_num": 1143,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      }
+    }
+  },
+  {
+    "model": "bist_parser",
+    "attack_results": {
+      "DeleteSubTree": {
+        "ori": 91.43,
+        "trans": 91.86,
+        "sample_num": 1143,
+        "ori_download_link": "",
+        "trans_download_link": "",
+        "contributor": {
+          "name": "qiyuan bian",
+          "github": "https://github.com/losMerengues10"
+        }
+      }
+    }
+  }
+]
