@@ -1,4 +1,4 @@
 {
-    "desc":"Left-to-Right Dependency Parsing with Pointer Networks",
+    "desc":"Deep Biaffine Attention for Neural Dependency Parsing, based on RoBERTa",
     "contributor":[{"name":"qiyuan bian", "github":"https://github.com/losMerengues10"}]
 }
