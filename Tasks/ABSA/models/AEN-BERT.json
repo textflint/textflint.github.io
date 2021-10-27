@@ -1,0 +1,4 @@
+{
+    "desc":"Attentional Encoder Network (AEN) eschews recurrence and employs attention based encoders for the modeling between context and target. This method also apply pretrained BERT.",
+    "contributor":[{"name":"rui zheng", "github":"https://github.com/ruizheng20"}]
+}
