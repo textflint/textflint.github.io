@@ -1,0 +1,9 @@
+{
+        "desc": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+        "contributor": [
+                {
+                        "name": "Xingwu Hu",
+                        "github": "https://github.com/anaivebird"
+                }
+        ]
+}
