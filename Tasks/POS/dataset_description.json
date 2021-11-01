@@ -1,1 +1,126 @@
-[{"name": "WSJ", "description": "A standard dataset for POS tagging is the Wall Street Journal (WSJ) portion of the Penn Treebank, containing 45 different POS tags. Sections 0-18 are used for training, sections 19-21 for development, and sections 22-24 for testing.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"], "dataset_size": 5463, "models": [{"model_name": "CRF++", "paper_link": "http://www.cis.upenn.edu/~pereira/papers/crf.pdf", "github_link": "https://taku910.github.io/crfpp/", "paper_name": "Conditional random fields: Probabilistic models for segmenting and labeling sequence data", "metric": {"Accuracy": 95}, "dockerhub_link": ""}, {"model_name": "CNN-BILSTM-CRF", "paper_link": "https://www.aclweb.org/old_anthology/P/P16/P16-1101.pdf", "github_link": "https://github.com/XuezheMax/NeuroNLP2", "paper_name": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF", "metric": {"Accuracy": 97.54}, "dockerhub_link": ""}, {"model_name": "BiLSTM-LAN", "paper_link": "https://www.aclweb.org/anthology/D19-1422.pdf", "github_link": "https://github.com/Nealcly/LAN", "paper_name": "Hierarchically-Refined Label Attention Network for Sequence Labeling", "metric": {"Accuracy": 97.51}, "dockerhub_link": ""}, {"model_name": "UANet", "paper_link": "https://www.aclweb.org/anthology/2020.emnlp-main.181.pdf", "github_link": "https://github.com/jiacheng-ye/UANet", "paper_name": "Uncertainty-Aware Label Refinement for Sequence Labeling", "metric": {"Accuracy": 97.66}, "dockerhub_link": ""}, {"model_name": "ELMo-BiLSTM-CRF", "paper_link": "https://www.aclweb.org/anthology/N18-1202.pdf", "github_link": "https://github.com/allenai/allennlp", "paper_name": "Deep contextualized word representations", "metric": {"Accuracy": 97.75}, "dockerhub_link": ""}, {"model_name": "Flair-BiLSTM-CRF", "paper_link": "https://www.aclweb.org/anthology/C18-1139/", "github_link": "https://github.com/zalandoresearch/flair", "paper_name": "Contextual String Embeddings for Sequence Labeling", "metric": {"Accuracy": 97.75}, "dockerhub_link": ""}, {"model_name": "BERT-BiLSTM-CRF", "paper_link": "https://www.aclweb.org/anthology/N19-1423.pdf", "github_link": "https://github.com/huggingface/transformers", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 97.75}, "dockerhub_link": ""}]}]
+[
+  {
+    "name": "WSJ",
+    "description": "A standard dataset for POS tagging is the Wall Street Journal (WSJ) portion of the Penn Treebank, containing 45 different POS tags. Sections 0-18 are used for training, sections 19-21 for development, and sections 22-24 for testing.",
+    "available_transformation_type": [
+      "domain",
+      "ut",
+      "domain_domain",
+      "domain_ut",
+      "ut_ut"
+    ],
+    "dataset_size": 5463,
+    "models": [
+      {
+        "model_name": "CRF++",
+        "paper_link": "http://www.cis.upenn.edu/~pereira/papers/crf.pdf",
+        "github_link": "https://taku910.github.io/crfpp/",
+        "paper_name": "Conditional random fields: Probabilistic models for segmenting and labeling sequence data",
+        "metric": {
+          "Accuracy": 95
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-ICML-lafferty2001conditional/images/sha256-1cd38f277d151c4d1401d0d123a84351056ef44673145a16a0ada29fa38e49f2?context=explore"
+      },
+      {
+        "model_name": "CNN-BILSTM-CRF",
+        "paper_link": "https://www.aclweb.org/old_anthology/P/P16/P16-1101.pdf",
+        "github_link": "https://github.com/XuezheMax/NeuroNLP2",
+        "paper_name": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+        "metric": {
+          "Accuracy": 97.54
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-ACL-ma2016end-CNN-new/images/sha256-0b4c49162a8521727496ccc6731c85828dd55850d590760446025b5c486ae6cc?context=explore"
+      },
+      {
+        "model_name": "BiLSTM-LAN",
+        "paper_link": "https://www.aclweb.org/anthology/D19-1422.pdf",
+        "github_link": "https://github.com/Nealcly/LAN",
+        "paper_name": "Hierarchically-Refined Label Attention Network for Sequence Labeling",
+        "metric": {
+          "Accuracy": 97.51
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-EMNLP-cui2019hierarchically-new/images/sha256-6a4eea683308cffd5cf30fec51b6d848a79d0e7a7974698971c9ab9029434cea?context=explore"
+      },
+      {
+        "model_name": "UANet",
+        "paper_link": "https://www.aclweb.org/anthology/2020.emnlp-main.181.pdf",
+        "github_link": "https://github.com/jiacheng-ye/UANet",
+        "paper_name": "Uncertainty-Aware Label Refinement for Sequence Labeling",
+        "metric": {
+          "Accuracy": 97.66
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-EMNLP-gui2020uncertainty-new/images/sha256-28dbd4afeb3e67e4ece667793e909308cafac22aa9cc4995726ef64749c883c5?context=explore"
+      },
+      {
+        "model_name": "ELMo-BiLSTM-CRF",
+        "paper_link": "https://www.aclweb.org/anthology/N18-1202.pdf",
+        "github_link": "https://github.com/allenai/allennlp",
+        "paper_name": "Deep contextualized word representations",
+        "metric": {
+          "Accuracy": 97.75
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-NAACL-peters2018deep-new/images/sha256-c70dee70fab7543e2bbce223bbe951088963ee02603f15c4fba78d1094df92e4?context=explore"
+      },
+      {
+        "model_name": "Flair-BiLSTM-CRF",
+        "paper_link": "https://www.aclweb.org/anthology/C18-1139/",
+        "github_link": "https://github.com/zalandoresearch/flair",
+        "paper_name": "Contextual String Embeddings for Sequence Labeling",
+        "metric": {
+          "Accuracy": 97.75
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-COLING-akbik2018contextual-new/images/sha256-2f0c5f4b617d0aceba6ca5fdc821a58763038ffc5e4744749e9f6db058d52b49?context=explore"
+      },
+      {
+        "model_name": "BERT-BiLSTM-CRF",
+        "paper_link": "https://www.aclweb.org/anthology/N19-1423.pdf",
+        "github_link": "https://github.com/huggingface/transformers",
+        "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "metric": {
+          "Accuracy": 97.75
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-ACL-devlin2018bert-new/images/sha256-2058ed20c925d2913f965a034f77aee419ae063cc1471eb9b565080a68915c98?context=explore"
+      },
+      {
+        "model_name": "LM-LSTM-CRF",
+        "paper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/12006/11865",
+        "github_link": "https://github.com/LiyuanLucasLiu/LM-LSTM-CRF",
+        "paper_name": "Empower Sequence Labeling with Task-Aware Neural Language Model",
+        "metric": {
+          "Accuracy": 97.3
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-AAAI-liu2018empower/images/sha256-92ab51de45b1eec6e17ff1f2d7f217c125af3e8207e7e33c085ed81e78e0ba21?context=explore"
+      },
+      {
+        "model_name": "meta-tagger",
+        "paper_link": "https://aclanthology.org/P18-1246.pdf",
+        "github_link": "https://github.com/google/meta_tagger",
+        "paper_name": "Morphosyntactic Tagging with a Meta-BiLSTM Model over Context Sensitive Token Encodings",
+        "metric": {
+          "Accuracy": 97.49
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-ACL-bohnet2018morphosyntactic/images/sha256-00dc402e6ee4e3c8e2c933cc22ce217a0969041ab3993e7b52ff95d32beec170?context=explore"
+      },
+      {
+        "model_name": "S-LSTM",
+        "paper_link": "https://arxiv.org/pdf/1805.02474.pdf",
+        "github_link": "https://github.com/leuchine/S-LSTM",
+        "paper_name": "Sentence-State LSTM for Text Representation",
+        "metric": {
+          "Accuracy": 97.27
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-ACL-zhang2018sentence/images/sha256-4a5ed2b8324cc9d54f4391475ddbc9376bd0ef39684072a5b3bf1710f36aba46?context=explore"
+      },
+      {
+        "model_name": "BiLSTM-aux",
+        "paper_link": "https://arxiv.org/pdf/1604.05529.pdf",
+        "github_link": "https://github.com/bplank/bilstm-aux",
+        "paper_name": "Multilingual Part-of-Speech Tagging with Bidirectional Long Short-Term Memory Models and Auxiliary Loss",
+        "metric": {
+          "Accuracy": 97.26
+        },
+        "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/POS-ACL-plank2016multilingual/images/sha256-26dc26b71a849603bfaba88c39da3b3a6c5423ef681caf213493bd97bada9fd3?context=explore"
+      }
+    ]
+  }
+]
