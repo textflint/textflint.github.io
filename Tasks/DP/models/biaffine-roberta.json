@@ -1,0 +1,4 @@
+{
+    "desc":"Deep Biaffine Attention for Neural Dependency Parsing, based on RoBERTa",
+    "contributor":[{"name":"qiyuan bian", "github":"https://github.com/losMerengues10"}]
+}

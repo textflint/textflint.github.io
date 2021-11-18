@@ -1,0 +1,9 @@
+{
+        "desc": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+        "contributor": [
+                {
+                        "name": "Xingwu Hu",
+                        "github": "https://github.com/anaivebird"
+                }
+        ]
+}

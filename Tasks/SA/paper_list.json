@@ -1,1 +1,1960 @@
-{"header": ["paper", "code", "imdb", "yelp"], "content": [{"paper": "[ACL 2019] Sentiment Classification Using Document Embeddings Trained with Cosine Similarity", "code": "https://github.com/tanthongtan/dv-cosine", "imdb": "Yes", "yelp": "No"}, {"paper": "[NeurlPS 2019] XLNet: Generalized Autoregressive Pretraining for Language Understanding", "code": "https://github.com/zihangdai/xlnet", "imdb": "Yes", "yelp": "Yes"}, {"paper": "[NeurlPS 2019] Unsupervised Data Augmentation for Consistency Training", "code": "https://github.com/google-research/uda", "imdb": "Yes", "yelp": "Yes"}, {"paper": "[AAAI 2019] Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function", "code": "https://github.com/DevSinghSachan/ssl_text_classification", "imdb": "Yes", "yelp": "No"}, {"paper": "[ACL 2018] Universal Language Model Fine-tuning for Text Classification", "code": "https://github.com/fastai/fastai", "imdb": "Yes", "yelp": "Yes"}, {"paper": "[ICLR 2018] Contextual Explanation Networks ", "code": "https://github.com/alshedivat/cen", "imdb": "Yes", "yelp": "No"}, {"paper": "[ICML 2016] Supervised and Semi-Supervised Text Categorization using LSTM for Region Embeddings", "code": "http://riejohnson.com/cnn download.html", "imdb": "Yes", "yelp": "No"}, {"paper": "[ICIR 2017] Adversarial Training Methods for Semi-Supervised Text Classification", "code": "https://github.com/tensorflow/models", "imdb": "Yes", "yelp": "No"}, {"paper": "[NeurIPS 2019] DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", "code": "https://github.com/huggingface/transformers", "imdb": "Yes", "yelp": "No"}, {"paper": "[NeurIPS 2017] Learned in Translation: Contextualized Word Vectors", "code": "https://github.com/salesforce/cove", "imdb": "Yes", "yelp": "No"}, {"paper": "[COLING 2018] Task-oriented Word Embedding for Text Classification", "code": "https://github.com/qianliu0708/ToWE", "imdb": "Yes", "yelp": "No"}, {"paper": "[AAAI 2019] Long Short-Term Memory with Dynamic Skip Connections", "code": "https://github.com/lecholin/DynamicLSTM", "imdb": "Yes", "yelp": "No"}, {"paper": "[ICLR 2021] Coupled Oscillatory Recurrent Neural Network (coRNN): An accurate and (gradient) stable architecture for learning long time dependencies", "code": "https://github.com/tk-rusch/coRNN", "imdb": "Yes", "yelp": "No"}, {"paper": "[ACL 2018] Sentence-State LSTM for Text Representation", "code": "https://github.com/leuchine/S-LSTM", "imdb": "Yes", "yelp": "No"}, {"paper": "[COLING 2018 ] Information Aggregation via Dynamic Routing for Sequence Encoding", "code": "https://github.com/FudanNLP/Capsule4TextClassification", "imdb": "Yes", "yelp": "Yes"}, {"paper": "[ACL 2017] Deep Pyramid Convolutional Neural Networks for Text Categorization", "code": "http://riejohnson.com/cnn download.html", "imdb": "No", "yelp": "Yes"}, {"paper": "[ACL 2018] Disconnected Recurrent Neural Networks for Text Categorization", "code": null, "imdb": "No", "yelp": "Yes"}, {"paper": "[NeurIPS 2015] Character-level Convolutional Networks for Text Classification", "code": "https://github.com/gaussic/text-classification-cnn-rnn", "imdb": "No", "yelp": "Yes"}, {"paper": "[NAACL 2019] Rethinking Complex Neural Network Architectures for Document Classification", "code": null, "imdb": "Yes", "yelp": "Yes"}, {"paper": "[AAAI 2015] Recurrent Convolutional Neural Networks for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2016] Hierarchical Attention Networks for Document Classification", "code": null, "imdb": "Yes", "yelp": "Yes"}, {"paper": "[ACL 2020]Contextualized Weak Supervision for Text Classification", "code": "https://github.com/dheeraj7596/ConWea", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Every Document Owns Its Structure: Inductive Text Classification via Graph Neural Networks", "code": "https://github.com/CRIPAC-DIG/TextING", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Text Classification with Negative Supervision", "code": "https://github.com/facebookresearch/SentEval", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Dynamic Memory Induction Networks for Few-Shot Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Hierarchy-Aware Global Model for Hierarchical Text Classification", "code": "https://github.com/Alibaba-NLP/HiAGM", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]GAN-BERT: Generative Adversarial Learning for Robust Text Classification with a Bunch of Labeled Examples", "code": "https://github.com/crux82/ganbert", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]MixText: Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised\nText Classification", "code": "https://github.com/GT-SALT/MixText", "imdb": "Yes", "yelp": "No"}, {"paper": "[ACL 2020]Efficient Strategies for Hierarchical Text Classification: External Knowledge and Auxiliary Tasks", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Zero-shot Text Classification via Reinforced Self-training", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]KinGDOM: Knowledge-Guided DOMain Adaptation for Sentiment Analysis", "code": "https://github.com/declare-lab/kingdom", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Understanding Attention for Text Classification", "code": "https://github.com/richardsun-voyager/UAFTC", "imdb": "Yes", "yelp": "No"}, {"paper": "[ACL 2020]CH-SIMS: A Chinese Multimodal Sentiment Analysis Dataset with Fine-grained Annotation of Modality", "code": "https://github.com/thuiar/MMSA", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Adversarial and Domain-Aware BERT for Cross-Domain Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis", "code": "https://github.com/baidu/Senta", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Demographics Should Not Be the Reason of Toxicity: Mitigating Discrimination in Text Classifications with\nInstance Weighting", "code": "https://github.com/ghzhang233/Non-Discrimination-Learning-for-Text-Classification", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Tchebycheff Procedure for Multi-task Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2020]Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?", "code": "https://github.com/yala/text_nn", "imdb": "No", "yelp": "Yes"}, {"paper": "[ACL 2020]Discrete Latent Variable Representations for Low-Resource Text Classification", "code": "https://github.com/shuningjin/discrete-text-rep", "imdb": "No", "yelp": "Yes"}, {"paper": "[ACL 2020]Generating Hierarchical Explanations on Text Classification via Feature Interaction Detection", "code": "https://github.com/UVa-NLP/HEDGE", "imdb": "Yes", "yelp": "No"}, {"paper": "[ACL 2020]Feature Projection for Improved Text Classification", "code": "https://github.com/Qqinmaster/FP-Net/", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2019]Towards Unsupervised Text Classification Leveraging Experts and Word Embeddings", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2019]Text Categorization by Learning Predominant Sense of Words as Auxiliary Task", "code": "https://github.com/ShimShim46/TRF", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2019]Stochastic Tokenization with a Language Model for Neural Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2019]Tree Communication Models for Sentiment Analysis", "code": "https://github.com/fred2008/TCMSA", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2019]An Investigation of Transfer Learning-Based Sentiment Analysis in Japanese", "code": "https://github.com/dennybritz/sentiment-analysis", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2019]Towards Explainable NLP: A Generative Explanation Framework for Text Classification", "code": "https://github.com/quankiquanki/", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2019]Variational Pretraining for Semi-supervised Text Classification", "code": "http://github.com/allenai/vampire", "imdb": "Yes", "yelp": "No"}, {"paper": "[ACL 2019]Incorporating Priors with Feature Attribution on Text Classification", "code": "https://github.com/conversationai/", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2019]Hierarchical Transfer Learning for Multi-label Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2019]Large-Scale Multi-Label Text Classification on EU Legislation", "code": "https://github.com/iliaschalkidis/lmtc-eurlex57k.git", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2018]Joint Embedding of Words and Labels for Text Classification", "code": "https://github.com/guoyinwang/LEAM", "imdb": "No", "yelp": "Yes"}, {"paper": "[ACL 2018]A Helping Hand: Transfer Learning for Deep Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2017]Adversarial Multi-task Learning for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2017]Context-Dependent Sentiment Analysis in User-Generated Videos", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2017]Neural Discourse Structure for Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2017]Cross-lingual Distillation for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2016]Cross-domain Text Classification with Multiple Domains and Disparate Label Sets", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2016]Evaluating Sentiment Analysis in the Context of Securities Trading", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2015]Learning to Adapt Credible Knowledge in Cross-lingual Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2015]Topic Modeling based Sentiment Analysis on Social Media for Stock Market Prediction", "code": "https://github.com/gohsyi/tslda", "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2015]Deep Unordered Composition Rivals Syntactic Methods for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2015]Text Categorization as a Graph Classification Problem", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2014]Context-aware Learning for Sentence-level Sentiment Analysis with Posterior Regularization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2014]New Word Detection for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2014]ReNew: A Semi-Supervised Framework for Generating Domain-Specific Lexicons and Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2014]Linguistic Structured Sparsity in Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2013]The Haves and the Have-Nots: Leveraging Unlabelled Corpora for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2013]Bridging Languages through Etymology: The case of cross language text categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2013]Utterance-Level Multimodal Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2012]Modeling Topic Dependencies in Hierarchical Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2011]Learning Word Vectors for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2010]Cross-Language Text Classification Using Structural Correspondence Learning", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2010]A Study of Information Retrieval Weighting Schemes for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2009]Discovering the Discriminative Views: Measuring Term Weights for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2009]A Framework of Feature Selection Methods for Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2007]Structured Models for Fine-to-Coarse Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2006]A Study on Automatically Extracted Keywords in Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2006]A Comparison and Semi-Quantitative Analysis of Words and Character-Bigrams as\nFeatures in Chinese Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2006]Exploiting Comparable Corpora and Bilingual Dictionaries for Cross-Language Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2004]Learning with Unlabeled Data for Text Categorization Using a Bootstrapping and a Feature Projection Technique", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[ACL 2004]A Sentimental Education: Sentiment Analysis Using Subjectivity Summarization Based on Minimum Cuts", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2020]A Diagnostic Study of Explainability Techniques for Text Classification", "code": "https://github.com/copenlu/xai-benchmark", "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2020]Task-oriented Domain-specific Meta-Embedding for Text Classification", "code": "https://github.com/CongBao/AutoencodedMetaEmbedding", "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2020]Be More with Less: Hypergraph Attention Networks for Inductive Text Classification", "code": "https://github.com/kaize0409/HyperGAT", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2020]BAE: BERT-based Adversarial Examples for Text Classification", "code": "https://github.com/QData/TextAttack/blob/master/textattack/attack_recipes/bae_garg_2019.py", "imdb": "Yes", "yelp": "Yes"}, {"paper": "[EMNLP 2020]Adversarial Self-Supervised Data-Free Distillation for Text Classification", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2020]Less is More: Attention Supervision with Counterfactuals for Text Classification", "code": "https://github.com/Jianbo-Lab/LCShapley", "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2020]HSCNN: A Hybrid-Siamese Convolutional Neural Network for Extremely Imbalanced Multi-label Text\nClassification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2020]An Empirical Study on Large-Scale Multi-Label Text Classification Including Few and Zero-Shot\nLabels", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2020]META: Metadata-Empowered Weak Supervision for Text Classification", "code": "https://github.com/dheeraj7596/META", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2020]Towards More Accurate Uncertainty Estimation In Text Classification", "code": null, "imdb": "Yes", "yelp": "Yes"}, {"paper": "[EMNLP 2020]Sentiment Analysis of Tweets using Heterogeneous Multi-layer Network Representation and Embedding", "code": "https://github.com/gloitongbam/SA_Hetero_Net", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2020]Text Classification Using Label Names Only: A Language Model Self-Training Approach", "code": "https://github.com/yumeng5/LOTClass", "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2020]A structure-enhanced graph convolutional network for sentiment analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2020]Balancing via Generation for Multi-Class Text Classification Improvement", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2020]Multi-pretraining for Large-scale Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2020]Assessing Robustness of Text Classification through Maximal Safe Radius Computation", "code": "https://github.com/EmanueleLM/MCTS", "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2020]Identifying Spurious Correlations for Robust Text Classification", "code": "https://github.com/tapilab/emnlp-2020-spurious", "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2020]Cross-Lingual Text Classification with Minimal Resources by Transferring a Sparse Teacher", "code": "https://github.com/gkaramanolakis/clts", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2020]Denoising Multi-Source Weak Supervision for Neural Text Classification", "code": "https://github.com/weakrules/Denoise-multi-weak-sources", "imdb": "Yes", "yelp": "Yes"}, {"paper": "[EMNLP 2020]A Shared-Private Representation Model with Coarse-to-Fine Extraction for Target Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Hierarchical Text Classification with Reinforced Label Assignment", "code": "https://github.com/morningmoni/HiLAP", "imdb": "No", "yelp": "Yes"}, {"paper": "[EMNLP 2019]Investigating Capsule Network and Semantic Feature on Hyperplanes for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Label-Specific Document Representation for Multi-Label Text Classification", "code": "https://github.com/EMNLP2019LSAN/", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Hierarchical Attention Prototypical Networks for Few-Shot Text Classification", "code": "https://github.com/thunlp/FewRel", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Many Faces of Feature Importance: Comparing Built-in and Post-hoc Feature Importance in Text\nClassification", "code": "https://github.com/BoulderDS/feature-importance", "imdb": "No", "yelp": "Yes"}, {"paper": "[EMNLP 2019]Enhancing Local Feature Extraction with Global Representation for Neural Text Classification", "code": "https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/Research/EMNLP2019-GELE. \u201cGELE\u201d is the abbreviation for Global Encoder andLocal Encoder, i.e.,\nEncoder1 and Encoder2 respectively", "imdb": "No", "yelp": "Yes"}, {"paper": "[EMNLP 2019]Latent-Variable Generative Models for Data-Efficient Text Classification", "code": null, "imdb": "No", "yelp": "Yes"}, {"paper": "[EMNLP 2019]Investigating Dynamic Routing in Tree-Structured LSTM for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Text Level Graph Neural Network for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Delta-training: Simple Semi-Supervised Text Classification using Pretrained Word Embeddings", "code": null, "imdb": "Yes", "yelp": "Yes"}, {"paper": "[EMNLP 2019]Out-of-Domain Detection for Low-Resource Text Classification Tasks", "code": "https://github.com/SLAD-ml/few-shot-ood", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Cross-Cultural Transfer Learning for Text Classification", "code": "https://github.com/facebookresearch/", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Combining Unsupervised Pre-training and Annotator Rationales to Improve Low-shot Text Classification", "code": "https://github.com/mihaela-bornea/", "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2019]ProSeqo: Projection Sequence Networks for On-Device Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Induction Networks for Few-Shot Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Topics to Avoid: Demoting Latent Confounds in Text Classification", "code": "https://github.com/Sachin19/adversarial-classify", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Learning to Discriminate Perturbations for Blocking Adversarial Attacks in Text Classification", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2019]Human-grounded Evaluations of Explanation Methods for Text Classification", "code": "https://github.com/plkumjorn/CNNAnalysis", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Adversarial Reprogramming of Text Classification Neural Networks", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2019]Learning Explicit and Implicit Structures for Targeted Sentiment Analysis", "code": "https://github.com/Kyubyong/", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Shallow Domain Adaptive Embeddings for Sentiment Analysis", "code": "https://github.com/naacl18sublong/", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Sequential Learning of Convolutional Features for Effective Text Classification", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2019]A Robust Self-Learning Framework for Cross-Lingual Text Classification", "code": "https://github.com/google-research/bert/blob/master/multilingual.md", "imdb": "No", "yelp": "Yes"}, {"paper": "[EMNLP 2019]EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks", "code": "http://github.com/jasonwei20/eda_nlp", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Metric Learning for Dynamic Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2019]Assessing the Efficacy of Clinical Sentiment Analysis and Topic\nExtraction in Psychiatric Readmission Risk Prediction", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2018]Self-Governing Neural Networks for On-Device Short Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2018]HFT-CNN: Learning Hierarchical Category Structure for Multi-label Short Text Categorization", "code": "https://github.com/facebookresearch/fastText", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2018]Self-Governing Neural Networks for On-Device Short Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2018]Improving the results of string kernels in sentiment analysis and Arabic\ndialect identification by adapting them to your test set", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2018]Investigating Capsule Networks with Dynamic Routing for Text Classification", "code": "https://github.com/andyweizhao/capsule_text_classification", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2018]Topic Memory Networks for Short Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2018]Contextual Inter-modal Attention for Multi-modal Sentiment Analysis", "code": "https://github.com/A2Zadeh/", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2018]Multi-Task Label Embedding for Text Classification", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[EMNLP 2018]Semantic-Unit-Based Dilated Convolution for Multi-Label Text Classification", "code": "https://github.com/lancopku/SU4MLC", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2018]Joint Learning for Targeted Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2017]A Cognition Based Attention Model for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2017]Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2017]Refining Word Embeddings for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2017]A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2017]Tensor Fusion Network for Multimodal Sentiment Analysis", "code": "https://github.com/A2Zadeh/TensorFusionNetwork", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2017]Initializing Convolutional Filters with Semantic Features for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2016]Deep Multi-Task Learning with Shared Memory for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2016]Rationale-Augmented Convolutional Neural Networks for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2016]Context-Sensitive Lexicon Features for Neural Sentiment Analysis", "code": "https://github.com/zeeeyang/lexicon_rnn", "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2016]Regularizing Text Categorization with Clusters of Words", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Cross Lingual Sentiment Analysis using Modified BRAE", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Joint Prediction for Entity/Event-Level Sentiment Analysis using Probabilistic Soft Logic Models", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Learning a Deep Hybrid Model for Semi-Supervised Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Detecting Risks in the Banking System by Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Convolutional Sentence Kernel from Word Embeddings for Short Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Learning Timeline Difference for Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Multi-label Text Categorization with Joint Learning Predictions-as-Features Method", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Better Document-level Sentiment Analysis from RST Discourse Parsing", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Social Media Text Classification under Negative Covariate Shift", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Adjective Intensity and Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Deep Convolutional Neural Network Textual Features and Multiple Kernel\nLearning for Utterance-level Multimodal Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2015]Reinforcing the Topic of Embeddings with Theta Pure Dependence for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2014]Sentiment Analysis on the People\u2019s Daily", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2014]A Joint Segmentation and Classification Framework for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2014]Muli-label Text Categorization with Hidden Components", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2013]Sentiment Analysis: How to Derive Prior Polarities from SentiWordNet", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2013]Semi-Supervised Representation Learning for Cross-Lingual Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2013]Exploring Demographic Language Variations to Improve Multilingual Sentiment Analysis in Social\nMedia", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2012]Why Question Answering using Sentiment Analysis and Word Classes", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2011]Compositional Matrix-Space Models for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2010]Holistic Sentiment Analysis Across Languages: Multilingual Supervised Latent Dirichlet Allocation", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2010]Negative Training Data Can be Harmful to Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2010]Cross Language Text Classification by Model Translation and Semi-Supervised Learning", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2009]Sentiment Analysis of Conditional Sentences", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2009]Topic-wise, Sentiment-wise, or Otherwise? Identifying the Hidden\nDimension for Unsupervised Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2008]Using Bilingual Knowledge and Ensemble Techniques for Unsupervised Chinese Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2008]Learning with Compositional Semantics as Structural Inference for Subsentential Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2008]Soft-Supervised Learning for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2007]Scalable Term Selection for Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[EMNLP 2007]Building Lexicon for Sentiment Analysis from Massive Collection of HTML Documents", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2019]Multi-task Learning for Multi-modal Emotion Recognition and Sentiment Analysis", "code": "https://github.com/A2Zadeh/", "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2019]Integrating Semantic Knowledge to Tackle Zero-shot Text Classification", "code": "https://github.com/JingqingZ/KG4ZeroShotText", "imdb": "Yes", "yelp": "No"}, {"paper": "[NAACL 2019]Adaptive Convolution for Text Classification", "code": null, "imdb": "No", "yelp": "Yes"}, {"paper": "[NAACL 2019]Text Classification with Few Examples using Controlled Generalization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2019]An Effective Label Noise Model for DNN Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2019]How Large a Vocabulary Does Text Classification Need? A Variational Approach to Vocabulary Selection", "code": "https://github.com/wenhuchen/", "imdb": "No", "yelp": "Yes"}, {"paper": "[NAACL 2018]Comparing Automatic and Human Evaluation of Local Explanations for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2018]Diverse Few-Shot Text Classification with Multiple Metrics", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2018]Early Text Classification Using Multi-Resolution Concept Representations", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2018]Multinomial Adversarial Networks for Multi-Domain Text Classification", "code": "https://github.com/ccsasuke/man", "imdb": "Yes", "yelp": "No"}, {"paper": "[NAACL 2018]Sentiment Analysis: It\u2019s Complicated!", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2016]Breaking the Closed World Assumption in Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2016]Sequential Short-Text Classification with Recurrent and Convolutional Neural Networks", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2016]Bilingual Word Embeddings from Parallel and Non-parallel Corpora for Cross-Language Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2015]Effective Use of Word Order for Text Categorization with Convolutional Neural Networks", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2015]Active Learning with Rationales for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2015]Cross-lingual Text Classification Using Topic-Dependent Word Probabilities", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2015]Do We Really Need Lexical Information? Towards a Top-down Approach to Sentiment Analysis of Product\nReviews", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2013]Mining User Relations from Online Discussions using Sentiment Analysis and Probabilistic Matrix\nFactorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2013]Discourse Connectors for Latent Subjectivity in Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2007]Using \u201cAnnotator Rationales\u201d to Improve Machine Learning for Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[NAACL 2003]Language and Task Independent Text Categorization with Simple Language Models", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Making the Best Use of Review Summary for Sentiment Analysis", "code": "https://github.com/RingoS/sentiment-review-summary", "imdb": "Yes", "yelp": "No"}, {"paper": "[COLING 2020]Weighed Domain-Invariant Representation Learning for Cross-domain Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Improving Sentiment Analysis over non-English Tweets using Multilingual\nTransformers and Automatic Translation for Data-Augmentation", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]SentiX: A Sentiment-Aware Pre-Trained Model for Cross-Domain Sentiment Analysis", "code": "https://github.com/12190143/SentiX", "imdb": "Yes", "yelp": "Yes"}, {"paper": "[COLING 2020]Arabizi Language Models for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Financial Sentiment Analysis: An Investigation into Common Mistakes and Silver Bullets", "code": null, "imdb": "No", "yelp": "Yes"}, {"paper": "[COLING 2020]Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]SWAFN: Sentimental Words Aware Fusion Network for Multimodal Sentiment Analysis", "code": "https://github.com/gdufsnlp/SWAFN", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Ad Lingua: Text Classification Improves Symbolism Prediction in Image Advertisements", "code": "https://github.com/mayu-ot/ads2018", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Task-Aware Representation of Sentences for Generic Text Classification", "code": null, "imdb": "No", "yelp": "Yes"}, {"paper": "[COLING 2020]MEISD: A Multimodal Multi-Label Emotion, Intensity and Sentiment Dialogue Dataset for Emotion\nRecognition and Sentiment Analysis in Conversations", "code": "http://github.com/lowerquality/gentle", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Sentiment Analysis for Emotional Speech Synthesis in a News Dialogue System", "code": "https://github.com/ku-nlp/jumanpp8", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi", "code": "https://github.com/Andrews2017/KINNEWS-and-KIRNEWS-Corpus", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Go Simple and Pre-Train on Domain-Specific Corpora: On the Role of Training Data for Text Classification", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[COLING 2020]Few-Shot Text Classification with Edge-Labeling Graph Neural Network-Based Prototypical Network", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Automatically Identifying Words That Can Serve as Labels for Few-Shot Text Classification", "code": "https://github.com/timoschick/pet", "imdb": "No", "yelp": "Yes"}, {"paper": "[COLING 2020]Generating Plausible Counterfactual Explanations for Deep Transformers in Financial Text\nClassification", "code": "https://github.com/YangLinyi/Explainable-Financial-Text-Classification", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Text Classification by Contrastive Learning and Cross-lingual Data Augmentation for Alzheimer\u2019s\nDisease Detection", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Multilingual Epidemiological Text Classification: A Comparative Study", "code": "https://github.com/NewsEye/event-detection/tree/master/event-detection-daniel", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Pointing to Select: A Fast Pointer-LSTM for Long Text Classification", "code": "https://github.com/ht1221/leap-lstm", "imdb": "No", "yelp": "Yes"}, {"paper": "[COLING 2020]XED: A Multilingual Dataset for Sentiment Analysis and Emotion Detection", "code": "https://github.com/Helsinki-NLP/XED", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2020]Improving Document-Level Sentiment Analysis with User and Product Context", "code": "https://github.com/lyuchenyang/Document-level-Sentiment-Analysis-with-User-and-Product-Context", "imdb": "Yes", "yelp": "Yes"}, {"paper": "[COLING 2018]RuSentiment: An Enriched Sentiment Analysis Dataset for Social Media in Russian", "code": "http://text-machine.cs.uml.edu/projects/rusentiment/", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2018]Projecting Embeddings for Domain Adaption: Joint Modeling of Sentiment Analysis in Diverse Domains", "code": "https://github.com/jbarnesspain/domain_blse", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2018]A Lexicon-Based Supervised Attention Model for Neural Sentiment Analysis", "code": null, "imdb": "Yes", "yelp": "Yes"}, {"paper": "[COLING 2018]Encoding Sentiment Information into Word Vectors for Sentiment Analysis", "code": "https://github.com/yezhejack/SentiNet", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2018]Bringing replication and reproduction together with generalisability in NLP: Three reproduction studies for Target Dependent Sentiment Analysis", "code": "https://github.com/bluemonk482/tdparse10", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2018]Twitter corpus of Resource-Scarce Languages for Sentiment Analysis and MultilingualEmoji Prediction", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2018]A Pseudo Label based Dataless Naive Bayes Algorithm for Text Classification with Seed Words", "code": "https://github.com/ly233/Seed-Guided-Topic-Model", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2018]Adaptive Learning of Local Semantic and Global Structure Representations for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2018]Learning What to Share: Leaky Multi-Task Network for Text Classification", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[COLING 2018]Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich\nLanguages: A Case Study from Modern Hebrew", "code": "https://github.com/omilab/", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2018]Expressively vulgar: The socio-dynamics of vulgarity and its effects on sentiment analysis in social\nmedia", "code": "https://github.com/ericholgate/vulgartwitter", "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2018]Simple Algorithms For Sentiment Analysis On Sentiment Rich, Data Poor Domains.", "code": "https://github.com/yoonkim/CNN_sentence", "imdb": "Yes", "yelp": "Yes"}, {"paper": "[COLING 2016]A Hybrid Deep Learning Architecture for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2016]Weighted Neural Bag-of-n-grams Model: New Baselines for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2016]Robust Text Classification for Sparsely Labelled Data Using Multi-level Embeddings", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2016]Combination of Convolutional and Recurrent Neural Network for Sentiment Analysis of Short Texts", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2016]Towards Sub-Word Level Compositions for Sentiment Analysis of Hindi-English Code Mixed Text", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2016]SenticNet 4: A Semantic Resource for Sentiment Analysis Based on Conceptual Primitives", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2016]Political News Sentiment Analysis for Under-resourced Languages", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2016]Text Classification Improved by Integrating Bidirectional LSTM with Two-dimensional Max Pooling", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2014]Deep Convolutional Neural Networks for Sentiment Analysis of Short Texts", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2014]Political Tendency Identification in Twitter using Sentiment Analysis Techniques", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2014]Modeling Review Argumentation for Robust Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2014]Reducing Over-Weighting in Supervised Term Weighting for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2014]A context-based model for Sentiment Analysis in Twitter", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2012]Sentiment Analysis in Twitter with Lightweight Discourse Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2010]Enhancing Cross Document Coreference of Web Documents with Context\nSimilarity and Very Large Scale Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2008]Active Learning with Sampling by Uncertainty and Density for Word Sense\nDisambiguation and Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2004]Using Bag-of-Concepts to Improve the Performance of Support Vector Machines in Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2004]Deeper Sentiment Analysis Using Machine Translation Technology", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2004]Query Translation by Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2004]Correcting Category Errors in Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2002]Text Categorization using Feature Projections", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2002]Automatic Text Categorization using the Importance of Sentences", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[COLING 2002]Multi-Dimensional Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2020]Dataless Short Text Classification Based on Biterm Topic Model and Word Embeddings", "code": "https://github.com/yumeng5/WeSTClass5", "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2020]Generalized Zero-Shot Text Classification for ICD Coding", "code": "https://github.com/csong27/gzsl text", "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2019]Leap-LSTM: Enhancing Long Short-Term Memory for Text Categorization", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2019]Quantum-Inspired Interactive Networks for Conversational Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2019]Recurrent Neural Network for Text Classification with Hierarchical Multiscale Dense Connections", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2019]Dynamically Route Hierarchical Structure Representation to Attentive Capsule for Text\nClassification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2018]Deep Text Classification Can be Fooled", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2018]Beyond Polarity: Interpretable Financial Sentiment Analysis with Hierarchical Query-driven\nAttention", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2018]Densely Connected CNN with Multi-scale Feature Attention for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2018]Instance Weighting with Applications to Cross-domain Text Classification\nvia Trading off Sample Selection Bias and Variance", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2018]Transformable Convolutional Neural Network for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2013]Concept Learning for Cross-Domain Text Classification: A General Probabilistic Framework", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2011]Bi-Weighting Domain Adaptation for Cross-Language Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2011]Short Text Classification Improved by Learning Multi-Granularity Topics", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2005]Feature Generation for Text Categorization Using World Knowledge", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[IJCAI 2005]Beyond TFIDF Weighting for Text Categorization in the Vector Space Model", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2020] Adversarial Training Based Multi-Source Unsupervised Domain Adaptation for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2020] Word-level Contextual Sentiment Analysis with Interpretability", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2019]A Radical-Aware Attention-Based Model for Chinese Text Classification", "code": "https://github.com/hqtao/A-Radical-aware-Attention-based-Model-for-Chinese-Text-Classification", "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2019]Online Embedding Compression for Text Classification Using Low Rank\nMatrix Factorization", "code": "https://github.com/anishacharya/Online-Embedding-Compression-AAAI-2019", "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2019]Deep Short Text Classification with Knowledge Powered Attention", "code": "https://github.com/AIRobotZhang/STCKA", "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2019]Explicit Interaction Model towards Text Classification", "code": "https://github.com/NonvolatileMemory/AAAI 2019 EXAM", "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2019]Weakly-Supervised Hierarchical Text Classification", "code": "https://github.com/CogComp/cogcomp-nlp/tree/master/", "imdb": "No", "yelp": "Yes"}, {"paper": "[AAAI 2019]Better Fine-Tuning via Instance Weighting for Text Classification", "code": null, "imdb": "No", "yelp": "Yes"}, {"paper": "[AAAI 2019]Adaptive Region Embedding for Text Classification", "code": null, "imdb": "No", "yelp": "Yes"}, {"paper": "[AAAI 2019]Graph Convolutional Networks for Text Classification", "code": "https://github.com/yao8839836/text gcn", "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2019]Video-Based Sentiment Analysis with hvnLBP-TOP Feature and bi-LSTM", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2019]Incorporating Context-Relevant Knowledge into Convolutional Neural\nNetworks for Short Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2018]Sentiment Analysis via Deep Hybrid Textual-Crowd Learning Model", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2018]SenticNet 5: Discovering Conceptual Primitives for Sentiment Analysis by\nMeans of Context Embeddings", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2018]Cross-Lingual Propagation for Deep Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2018]Cognition-Cognizant Sentiment Analysis with Multitask Subjectivity\nSummarization Based on Annotators' Gaze Behavior", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[AAAI 2018]Learning Structured Representation for Text Classification via\nReinforcement Learning", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2018]Vertical Domain Text Classification: Towards Understanding IT Tickets\nUsing Deep Neural Networks", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2017]Visual Sentiment Analysis by Attending on Local Image Regions", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2017]Improving Multi-Document Summarization via Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2017]Variational Autoencoder for Semi-Supervised Text Classification", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[AAAI 2017]Unsupervised Sentiment Analysis with Signed Social Networks", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2017]Learning Latent Sentiment Scopes for Entity-Level Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2016]Robust Text Classification in the Presence of Confounding Bias", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[AAAI 2016]Semisupervised Autoencoder for Sentiment Analysis", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[AAAI 2016]Text Classification with Heterogeneous Information Network Kernels", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2016]Semi-Supervised Multinomial Naive Bayes for Text Classification by\nLeveraging Word-Level Statistical Constraint", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2016]Gated Neural Networks for Targeted Sentiment Analysis", "code": "https://github.com/SUTDNLP/NNTargetedSentiment", "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2015]Robust Image Sentiment Analysis Using Progressively Trained and Domain\nTransferred Deep Networks", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2015]AffectiveSpace 2: Enabling Affective Intuition for Concept-Level\nSentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2015]Dataless Text Classification with Descriptive LDA", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2014]Source Free Transfer Learning for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2014]Acquiring Commonsense Knowledge for Sentiment Analysis through Human\nComputation", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2014]SenticNet 3: A Common and Common-Sense Knowledge Base for\nCognition-Driven Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2014]Adaptive Multi-Compositionality for Recursive Neural Models with\nApplications to Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2014]On Dataless Hierarchical Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2014]Semi-Supervised Matrix Completion for Cross-Lingual Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2014]SUIT: A Supervised User-Item Based Topic Model for Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2013]From Semantic to Emotional Space in Probabilistic Sense Sentiment\nAnalysis", "code": null, "imdb": "Yes", "yelp": "No"}, {"paper": "[AAAI 2013]Exploring the Contribution of Unlabeled Data in Financial Sentiment\nAnalysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2012]Topic Correlation Analysis for Cross-Domain Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2012]Emoticon Smoothed Language Models for Twitter Sentiment Analysis", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2011]Partially Supervised Text Classification with Multi-Level Examples", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2011]Transfer Learning for Multiple-Domain Sentiment Analysis \u2014 Identifying\nDomain Dependent/Independent Word Polarity", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2011]The Stock Sonar \u2014 Sentiment Analysis of Stocks Based on a Hybrid\nApproach", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2010]Sentiment Analysis with Global Topics and Local Dependency", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2010]Sentiment Analysis with Global Topics and Local Dependency", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2008]An Effective and Robust Method for Short Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2007]Transferring Naive Bayes Classifiers for Text Classification", "code": null, "imdb": "No", "yelp": "No"}, {"paper": "[AAAI 2004]Text Classification by Labeling Words", "code": null, "imdb": "No", "yelp": "No"}]}
+{
+    "header":[
+        "paper",
+        "code",
+        "imdb",
+        "yelp"
+    ],
+    "content":[
+        {
+            "paper":"[ACL 2019] Sentiment Classification Using Document Embeddings Trained with Cosine Similarity",
+            "code":"https://github.com/tanthongtan/dv-cosine",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NeurlPS 2019] XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "code":"https://github.com/zihangdai/xlnet",
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[NeurlPS 2019] Unsupervised Data Augmentation for Consistency Training",
+            "code":"https://github.com/google-research/uda",
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[AAAI 2019] Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function",
+            "code":"https://github.com/DevSinghSachan/ssl_text_classification",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2018] Universal Language Model Fine-tuning for Text Classification",
+            "code":"https://github.com/fastai/fastai",
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[ICLR 2018] Contextual Explanation Networks ",
+            "code":"https://github.com/alshedivat/cen",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ICML 2016] Supervised and Semi-Supervised Text Categorization using LSTM for Region Embeddings",
+            "code":"http://riejohnson.com/cnn download.html",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ICIR 2017] Adversarial Training Methods for Semi-Supervised Text Classification",
+            "code":"https://github.com/tensorflow/models",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NeurIPS 2019] DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+            "code":"https://github.com/huggingface/transformers",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NeurIPS 2017] Learned in Translation: Contextualized Word Vectors",
+            "code":"https://github.com/salesforce/cove",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018] Task-oriented Word Embedding for Text Classification",
+            "code":"https://github.com/qianliu0708/ToWE",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2019] Long Short-Term Memory with Dynamic Skip Connections",
+            "code":"https://github.com/lecholin/DynamicLSTM",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ICLR 2021] Coupled Oscillatory Recurrent Neural Network (coRNN): An accurate and (gradient) stable architecture for learning long time dependencies",
+            "code":"https://github.com/tk-rusch/coRNN",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2018] Sentence-State LSTM for Text Representation",
+            "code":"https://github.com/leuchine/S-LSTM",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018 ] Information Aggregation via Dynamic Routing for Sequence Encoding",
+            "code":"https://github.com/FudanNLP/Capsule4TextClassification",
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[ACL 2017] Deep Pyramid Convolutional Neural Networks for Text Categorization",
+            "code":"http://riejohnson.com/cnn download.html",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[ACL 2018] Disconnected Recurrent Neural Networks for Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[NeurIPS 2015] Character-level Convolutional Networks for Text Classification",
+            "code":"https://github.com/gaussic/text-classification-cnn-rnn",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[NAACL 2019] Rethinking Complex Neural Network Architectures for Document Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[AAAI 2015] Recurrent Convolutional Neural Networks for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2016] Hierarchical Attention Networks for Document Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[ACL 2020]Contextualized Weak Supervision for Text Classification",
+            "code":"https://github.com/dheeraj7596/ConWea",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Every Document Owns Its Structure: Inductive Text Classification via Graph Neural Networks",
+            "code":"https://github.com/CRIPAC-DIG/TextING",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Text Classification with Negative Supervision",
+            "code":"https://github.com/facebookresearch/SentEval",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Dynamic Memory Induction Networks for Few-Shot Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Hierarchy-Aware Global Model for Hierarchical Text Classification",
+            "code":"https://github.com/Alibaba-NLP/HiAGM",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]GAN-BERT: Generative Adversarial Learning for Robust Text Classification with a Bunch of Labeled Examples",
+            "code":"https://github.com/crux82/ganbert",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]MixText: Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised\nText Classification",
+            "code":"https://github.com/GT-SALT/MixText",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Efficient Strategies for Hierarchical Text Classification: External Knowledge and Auxiliary Tasks",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Zero-shot Text Classification via Reinforced Self-training",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]KinGDOM: Knowledge-Guided DOMain Adaptation for Sentiment Analysis",
+            "code":"https://github.com/declare-lab/kingdom",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Understanding Attention for Text Classification",
+            "code":"https://github.com/richardsun-voyager/UAFTC",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]CH-SIMS: A Chinese Multimodal Sentiment Analysis Dataset with Fine-grained Annotation of Modality",
+            "code":"https://github.com/thuiar/MMSA",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Adversarial and Domain-Aware BERT for Cross-Domain Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis",
+            "code":"https://github.com/baidu/Senta",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Demographics Should Not Be the Reason of Toxicity: Mitigating Discrimination in Text Classifications with\nInstance Weighting",
+            "code":"https://github.com/ghzhang233/Non-Discrimination-Learning-for-Text-Classification",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Tchebycheff Procedure for Multi-task Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?",
+            "code":"https://github.com/yala/text_nn",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[ACL 2020]Discrete Latent Variable Representations for Low-Resource Text Classification",
+            "code":"https://github.com/shuningjin/discrete-text-rep",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[ACL 2020]Generating Hierarchical Explanations on Text Classification via Feature Interaction Detection",
+            "code":"https://github.com/UVa-NLP/HEDGE",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2020]Feature Projection for Improved Text Classification",
+            "code":"https://github.com/Qqinmaster/FP-Net/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]Towards Unsupervised Text Classification Leveraging Experts and Word Embeddings",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]Text Categorization by Learning Predominant Sense of Words as Auxiliary Task",
+            "code":"https://github.com/ShimShim46/TRF",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]Stochastic Tokenization with a Language Model for Neural Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]Tree Communication Models for Sentiment Analysis",
+            "code":"https://github.com/fred2008/TCMSA",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]An Investigation of Transfer Learning-Based Sentiment Analysis in Japanese",
+            "code":"https://github.com/dennybritz/sentiment-analysis",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]Towards Explainable NLP: A Generative Explanation Framework for Text Classification",
+            "code":"https://github.com/quankiquanki/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]Variational Pretraining for Semi-supervised Text Classification",
+            "code":"http://github.com/allenai/vampire",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]Incorporating Priors with Feature Attribution on Text Classification",
+            "code":"https://github.com/conversationai/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]Hierarchical Transfer Learning for Multi-label Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2019]Large-Scale Multi-Label Text Classification on EU Legislation",
+            "code":"https://github.com/iliaschalkidis/lmtc-eurlex57k.git",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2018]Joint Embedding of Words and Labels for Text Classification",
+            "code":"https://github.com/guoyinwang/LEAM",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[ACL 2018]A Helping Hand: Transfer Learning for Deep Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2017]Adversarial Multi-task Learning for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2017]Context-Dependent Sentiment Analysis in User-Generated Videos",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2017]Neural Discourse Structure for Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2017]Cross-lingual Distillation for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2016]Cross-domain Text Classification with Multiple Domains and Disparate Label Sets",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2016]Evaluating Sentiment Analysis in the Context of Securities Trading",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2015]Learning to Adapt Credible Knowledge in Cross-lingual Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2015]Topic Modeling based Sentiment Analysis on Social Media for Stock Market Prediction",
+            "code":"https://github.com/gohsyi/tslda",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2015]Deep Unordered Composition Rivals Syntactic Methods for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2015]Text Categorization as a Graph Classification Problem",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2014]Context-aware Learning for Sentence-level Sentiment Analysis with Posterior Regularization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2014]New Word Detection for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2014]ReNew: A Semi-Supervised Framework for Generating Domain-Specific Lexicons and Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2014]Linguistic Structured Sparsity in Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2013]The Haves and the Have-Nots: Leveraging Unlabelled Corpora for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2013]Bridging Languages through Etymology: The case of cross language text categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2013]Utterance-Level Multimodal Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2012]Modeling Topic Dependencies in Hierarchical Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2011]Learning Word Vectors for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2010]Cross-Language Text Classification Using Structural Correspondence Learning",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2010]A Study of Information Retrieval Weighting Schemes for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2009]Discovering the Discriminative Views: Measuring Term Weights for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2009]A Framework of Feature Selection Methods for Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2007]Structured Models for Fine-to-Coarse Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2006]A Study on Automatically Extracted Keywords in Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2006]A Comparison and Semi-Quantitative Analysis of Words and Character-Bigrams as\nFeatures in Chinese Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2006]Exploiting Comparable Corpora and Bilingual Dictionaries for Cross-Language Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2004]Learning with Unlabeled Data for Text Categorization Using a Bootstrapping and a Feature Projection Technique",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[ACL 2004]A Sentimental Education: Sentiment Analysis Using Subjectivity Summarization Based on Minimum Cuts",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]A Diagnostic Study of Explainability Techniques for Text Classification",
+            "code":"https://github.com/copenlu/xai-benchmark",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Task-oriented Domain-specific Meta-Embedding for Text Classification",
+            "code":"https://github.com/CongBao/AutoencodedMetaEmbedding",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Be More with Less: Hypergraph Attention Networks for Inductive Text Classification",
+            "code":"https://github.com/kaize0409/HyperGAT",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]BAE: BERT-based Adversarial Examples for Text Classification",
+            "code":"https://github.com/QData/TextAttack/blob/master/textattack/attack_recipes/bae_garg_2019.py",
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2020]Adversarial Self-Supervised Data-Free Distillation for Text Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Less is More: Attention Supervision with Counterfactuals for Text Classification",
+            "code":"https://github.com/Jianbo-Lab/LCShapley",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]HSCNN: A Hybrid-Siamese Convolutional Neural Network for Extremely Imbalanced Multi-label Text\nClassification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]An Empirical Study on Large-Scale Multi-Label Text Classification Including Few and Zero-Shot\nLabels",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]META: Metadata-Empowered Weak Supervision for Text Classification",
+            "code":"https://github.com/dheeraj7596/META",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Towards More Accurate Uncertainty Estimation In Text Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2020]Sentiment Analysis of Tweets using Heterogeneous Multi-layer Network Representation and Embedding",
+            "code":"https://github.com/gloitongbam/SA_Hetero_Net",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Text Classification Using Label Names Only: A Language Model Self-Training Approach",
+            "code":"https://github.com/yumeng5/LOTClass",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]A structure-enhanced graph convolutional network for sentiment analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Balancing via Generation for Multi-Class Text Classification Improvement",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Multi-pretraining for Large-scale Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Assessing Robustness of Text Classification through Maximal Safe Radius Computation",
+            "code":"https://github.com/EmanueleLM/MCTS",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Identifying Spurious Correlations for Robust Text Classification",
+            "code":"https://github.com/tapilab/emnlp-2020-spurious",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Cross-Lingual Text Classification with Minimal Resources by Transferring a Sparse Teacher",
+            "code":"https://github.com/gkaramanolakis/clts",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2020]Denoising Multi-Source Weak Supervision for Neural Text Classification",
+            "code":"https://github.com/weakrules/Denoise-multi-weak-sources",
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2020]A Shared-Private Representation Model with Coarse-to-Fine Extraction for Target Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Hierarchical Text Classification with Reinforced Label Assignment",
+            "code":"https://github.com/morningmoni/HiLAP",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2019]Investigating Capsule Network and Semantic Feature on Hyperplanes for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Label-Specific Document Representation for Multi-Label Text Classification",
+            "code":"https://github.com/EMNLP2019LSAN/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Hierarchical Attention Prototypical Networks for Few-Shot Text Classification",
+            "code":"https://github.com/thunlp/FewRel",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Many Faces of Feature Importance: Comparing Built-in and Post-hoc Feature Importance in Text\nClassification",
+            "code":"https://github.com/BoulderDS/feature-importance",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2019]Enhancing Local Feature Extraction with Global Representation for Neural Text Classification",
+            "code":"https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/Research/EMNLP2019-GELE. \u201cGELE\u201d is the abbreviation for Global Encoder andLocal Encoder, i.e.,\nEncoder1 and Encoder2 respectively",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2019]Latent-Variable Generative Models for Data-Efficient Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2019]Investigating Dynamic Routing in Tree-Structured LSTM for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Text Level Graph Neural Network for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Delta-training: Simple Semi-Supervised Text Classification using Pretrained Word Embeddings",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2019]Out-of-Domain Detection for Low-Resource Text Classification Tasks",
+            "code":"https://github.com/SLAD-ml/few-shot-ood",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Cross-Cultural Transfer Learning for Text Classification",
+            "code":"https://github.com/facebookresearch/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Combining Unsupervised Pre-training and Annotator Rationales to Improve Low-shot Text Classification",
+            "code":"https://github.com/mihaela-bornea/",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]ProSeqo: Projection Sequence Networks for On-Device Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Induction Networks for Few-Shot Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Topics to Avoid: Demoting Latent Confounds in Text Classification",
+            "code":"https://github.com/Sachin19/adversarial-classify",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Learning to Discriminate Perturbations for Blocking Adversarial Attacks in Text Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Human-grounded Evaluations of Explanation Methods for Text Classification",
+            "code":"https://github.com/plkumjorn/CNNAnalysis",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Adversarial Reprogramming of Text Classification Neural Networks",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Learning Explicit and Implicit Structures for Targeted Sentiment Analysis",
+            "code":"https://github.com/Kyubyong/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Shallow Domain Adaptive Embeddings for Sentiment Analysis",
+            "code":"https://github.com/naacl18sublong/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Sequential Learning of Convolutional Features for Effective Text Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]A Robust Self-Learning Framework for Cross-Lingual Text Classification",
+            "code":"https://github.com/google-research/bert/blob/master/multilingual.md",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2019]EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks",
+            "code":"http://github.com/jasonwei20/eda_nlp",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Metric Learning for Dynamic Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2019]Assessing the Efficacy of Clinical Sentiment Analysis and Topic\nExtraction in Psychiatric Readmission Risk Prediction",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]Self-Governing Neural Networks for On-Device Short Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]HFT-CNN: Learning Hierarchical Category Structure for Multi-label Short Text Categorization",
+            "code":"https://github.com/facebookresearch/fastText",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]Self-Governing Neural Networks for On-Device Short Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]Improving the results of string kernels in sentiment analysis and Arabic\ndialect identification by adapting them to your test set",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]Investigating Capsule Networks with Dynamic Routing for Text Classification",
+            "code":"https://github.com/andyweizhao/capsule_text_classification",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]Topic Memory Networks for Short Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]Contextual Inter-modal Attention for Multi-modal Sentiment Analysis",
+            "code":"https://github.com/A2Zadeh/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]Multi-Task Label Embedding for Text Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]Semantic-Unit-Based Dilated Convolution for Multi-Label Text Classification",
+            "code":"https://github.com/lancopku/SU4MLC",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2018]Joint Learning for Targeted Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2017]A Cognition Based Attention Model for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2017]Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2017]Refining Word Embeddings for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2017]A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2017]Tensor Fusion Network for Multimodal Sentiment Analysis",
+            "code":"https://github.com/A2Zadeh/TensorFusionNetwork",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2017]Initializing Convolutional Filters with Semantic Features for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2016]Deep Multi-Task Learning with Shared Memory for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2016]Rationale-Augmented Convolutional Neural Networks for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2016]Context-Sensitive Lexicon Features for Neural Sentiment Analysis",
+            "code":"https://github.com/zeeeyang/lexicon_rnn",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2016]Regularizing Text Categorization with Clusters of Words",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Cross Lingual Sentiment Analysis using Modified BRAE",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Joint Prediction for Entity/Event-Level Sentiment Analysis using Probabilistic Soft Logic Models",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Learning a Deep Hybrid Model for Semi-Supervised Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Detecting Risks in the Banking System by Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Convolutional Sentence Kernel from Word Embeddings for Short Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Learning Timeline Difference for Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Multi-label Text Categorization with Joint Learning Predictions-as-Features Method",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Better Document-level Sentiment Analysis from RST Discourse Parsing",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Social Media Text Classification under Negative Covariate Shift",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Adjective Intensity and Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Deep Convolutional Neural Network Textual Features and Multiple Kernel\nLearning for Utterance-level Multimodal Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2015]Reinforcing the Topic of Embeddings with Theta Pure Dependence for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2014]Sentiment Analysis on the People\u2019s Daily",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2014]A Joint Segmentation and Classification Framework for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2014]Muli-label Text Categorization with Hidden Components",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2013]Sentiment Analysis: How to Derive Prior Polarities from SentiWordNet",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2013]Semi-Supervised Representation Learning for Cross-Lingual Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2013]Exploring Demographic Language Variations to Improve Multilingual Sentiment Analysis in Social\nMedia",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2012]Why Question Answering using Sentiment Analysis and Word Classes",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2011]Compositional Matrix-Space Models for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2010]Holistic Sentiment Analysis Across Languages: Multilingual Supervised Latent Dirichlet Allocation",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2010]Negative Training Data Can be Harmful to Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2010]Cross Language Text Classification by Model Translation and Semi-Supervised Learning",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2009]Sentiment Analysis of Conditional Sentences",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2009]Topic-wise, Sentiment-wise, or Otherwise? Identifying the Hidden\nDimension for Unsupervised Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2008]Using Bilingual Knowledge and Ensemble Techniques for Unsupervised Chinese Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2008]Learning with Compositional Semantics as Structural Inference for Subsentential Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2008]Soft-Supervised Learning for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2007]Scalable Term Selection for Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[EMNLP 2007]Building Lexicon for Sentiment Analysis from Massive Collection of HTML Documents",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2019]Multi-task Learning for Multi-modal Emotion Recognition and Sentiment Analysis",
+            "code":"https://github.com/A2Zadeh/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2019]Integrating Semantic Knowledge to Tackle Zero-shot Text Classification",
+            "code":"https://github.com/JingqingZ/KG4ZeroShotText",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2019]Adaptive Convolution for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[NAACL 2019]Text Classification with Few Examples using Controlled Generalization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2019]An Effective Label Noise Model for DNN Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2019]How Large a Vocabulary Does Text Classification Need? A Variational Approach to Vocabulary Selection",
+            "code":"https://github.com/wenhuchen/",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[NAACL 2018]Comparing Automatic and Human Evaluation of Local Explanations for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2018]Diverse Few-Shot Text Classification with Multiple Metrics",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2018]Early Text Classification Using Multi-Resolution Concept Representations",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2018]Multinomial Adversarial Networks for Multi-Domain Text Classification",
+            "code":"https://github.com/ccsasuke/man",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2018]Sentiment Analysis: It\u2019s Complicated!",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2016]Breaking the Closed World Assumption in Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2016]Sequential Short-Text Classification with Recurrent and Convolutional Neural Networks",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2016]Bilingual Word Embeddings from Parallel and Non-parallel Corpora for Cross-Language Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2015]Effective Use of Word Order for Text Categorization with Convolutional Neural Networks",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2015]Active Learning with Rationales for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2015]Cross-lingual Text Classification Using Topic-Dependent Word Probabilities",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2015]Do We Really Need Lexical Information? Towards a Top-down Approach to Sentiment Analysis of Product\nReviews",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2013]Mining User Relations from Online Discussions using Sentiment Analysis and Probabilistic Matrix\nFactorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2013]Discourse Connectors for Latent Subjectivity in Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2007]Using \u201cAnnotator Rationales\u201d to Improve Machine Learning for Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[NAACL 2003]Language and Task Independent Text Categorization with Simple Language Models",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Making the Best Use of Review Summary for Sentiment Analysis",
+            "code":"https://github.com/RingoS/sentiment-review-summary",
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Weighed Domain-Invariant Representation Learning for Cross-domain Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Improving Sentiment Analysis over non-English Tweets using Multilingual\nTransformers and Automatic Translation for Data-Augmentation",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]SentiX: A Sentiment-Aware Pre-Trained Model for Cross-Domain Sentiment Analysis",
+            "code":"https://github.com/12190143/SentiX",
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[COLING 2020]Arabizi Language Models for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Financial Sentiment Analysis: An Investigation into Common Mistakes and Silver Bullets",
+            "code":null,
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[COLING 2020]Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]SWAFN: Sentimental Words Aware Fusion Network for Multimodal Sentiment Analysis",
+            "code":"https://github.com/gdufsnlp/SWAFN",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Ad Lingua: Text Classification Improves Symbolism Prediction in Image Advertisements",
+            "code":"https://github.com/mayu-ot/ads2018",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Task-Aware Representation of Sentences for Generic Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[COLING 2020]MEISD: A Multimodal Multi-Label Emotion, Intensity and Sentiment Dialogue Dataset for Emotion\nRecognition and Sentiment Analysis in Conversations",
+            "code":"http://github.com/lowerquality/gentle",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Sentiment Analysis for Emotional Speech Synthesis in a News Dialogue System",
+            "code":"https://github.com/ku-nlp/jumanpp8",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi",
+            "code":"https://github.com/Andrews2017/KINNEWS-and-KIRNEWS-Corpus",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Go Simple and Pre-Train on Domain-Specific Corpora: On the Role of Training Data for Text Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Few-Shot Text Classification with Edge-Labeling Graph Neural Network-Based Prototypical Network",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Automatically Identifying Words That Can Serve as Labels for Few-Shot Text Classification",
+            "code":"https://github.com/timoschick/pet",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[COLING 2020]Generating Plausible Counterfactual Explanations for Deep Transformers in Financial Text\nClassification",
+            "code":"https://github.com/YangLinyi/Explainable-Financial-Text-Classification",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Text Classification by Contrastive Learning and Cross-lingual Data Augmentation for Alzheimer\u2019s\nDisease Detection",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Multilingual Epidemiological Text Classification: A Comparative Study",
+            "code":"https://github.com/NewsEye/event-detection/tree/master/event-detection-daniel",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Pointing to Select: A Fast Pointer-LSTM for Long Text Classification",
+            "code":"https://github.com/ht1221/leap-lstm",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[COLING 2020]XED: A Multilingual Dataset for Sentiment Analysis and Emotion Detection",
+            "code":"https://github.com/Helsinki-NLP/XED",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2020]Improving Document-Level Sentiment Analysis with User and Product Context",
+            "code":"https://github.com/lyuchenyang/Document-level-Sentiment-Analysis-with-User-and-Product-Context",
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[COLING 2018]RuSentiment: An Enriched Sentiment Analysis Dataset for Social Media in Russian",
+            "code":"http://text-machine.cs.uml.edu/projects/rusentiment/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]Projecting Embeddings for Domain Adaption: Joint Modeling of Sentiment Analysis in Diverse Domains",
+            "code":"https://github.com/jbarnesspain/domain_blse",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]A Lexicon-Based Supervised Attention Model for Neural Sentiment Analysis",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[COLING 2018]Encoding Sentiment Information into Word Vectors for Sentiment Analysis",
+            "code":"https://github.com/yezhejack/SentiNet",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]Bringing replication and reproduction together with generalisability in NLP: Three reproduction studies for Target Dependent Sentiment Analysis",
+            "code":"https://github.com/bluemonk482/tdparse10",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]Twitter corpus of Resource-Scarce Languages for Sentiment Analysis and MultilingualEmoji Prediction",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]A Pseudo Label based Dataless Naive Bayes Algorithm for Text Classification with Seed Words",
+            "code":"https://github.com/ly233/Seed-Guided-Topic-Model",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]Adaptive Learning of Local Semantic and Global Structure Representations for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]Learning What to Share: Leaky Multi-Task Network for Text Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich\nLanguages: A Case Study from Modern Hebrew",
+            "code":"https://github.com/omilab/",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]Expressively vulgar: The socio-dynamics of vulgarity and its effects on sentiment analysis in social\nmedia",
+            "code":"https://github.com/ericholgate/vulgartwitter",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2018]Simple Algorithms For Sentiment Analysis On Sentiment Rich, Data Poor Domains.",
+            "code":"https://github.com/yoonkim/CNN_sentence",
+            "imdb":"Yes",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[COLING 2016]A Hybrid Deep Learning Architecture for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2016]Weighted Neural Bag-of-n-grams Model: New Baselines for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2016]Robust Text Classification for Sparsely Labelled Data Using Multi-level Embeddings",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2016]Combination of Convolutional and Recurrent Neural Network for Sentiment Analysis of Short Texts",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2016]Towards Sub-Word Level Compositions for Sentiment Analysis of Hindi-English Code Mixed Text",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2016]SenticNet 4: A Semantic Resource for Sentiment Analysis Based on Conceptual Primitives",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2016]Political News Sentiment Analysis for Under-resourced Languages",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2016]Text Classification Improved by Integrating Bidirectional LSTM with Two-dimensional Max Pooling",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2014]Deep Convolutional Neural Networks for Sentiment Analysis of Short Texts",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2014]Political Tendency Identification in Twitter using Sentiment Analysis Techniques",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2014]Modeling Review Argumentation for Robust Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2014]Reducing Over-Weighting in Supervised Term Weighting for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2014]A context-based model for Sentiment Analysis in Twitter",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2012]Sentiment Analysis in Twitter with Lightweight Discourse Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2010]Enhancing Cross Document Coreference of Web Documents with Context\nSimilarity and Very Large Scale Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2008]Active Learning with Sampling by Uncertainty and Density for Word Sense\nDisambiguation and Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2004]Using Bag-of-Concepts to Improve the Performance of Support Vector Machines in Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2004]Deeper Sentiment Analysis Using Machine Translation Technology",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2004]Query Translation by Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2004]Correcting Category Errors in Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2002]Text Categorization using Feature Projections",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2002]Automatic Text Categorization using the Importance of Sentences",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[COLING 2002]Multi-Dimensional Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2020]Dataless Short Text Classification Based on Biterm Topic Model and Word Embeddings",
+            "code":"https://github.com/yumeng5/WeSTClass5",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2020]Generalized Zero-Shot Text Classification for ICD Coding",
+            "code":"https://github.com/csong27/gzsl text",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2019]Leap-LSTM: Enhancing Long Short-Term Memory for Text Categorization",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2019]Quantum-Inspired Interactive Networks for Conversational Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2019]Recurrent Neural Network for Text Classification with Hierarchical Multiscale Dense Connections",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2019]Dynamically Route Hierarchical Structure Representation to Attentive Capsule for Text\nClassification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2018]Deep Text Classification Can be Fooled",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2018]Beyond Polarity: Interpretable Financial Sentiment Analysis with Hierarchical Query-driven\nAttention",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2018]Densely Connected CNN with Multi-scale Feature Attention for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2018]Instance Weighting with Applications to Cross-domain Text Classification\nvia Trading off Sample Selection Bias and Variance",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2018]Transformable Convolutional Neural Network for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2013]Concept Learning for Cross-Domain Text Classification: A General Probabilistic Framework",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2011]Bi-Weighting Domain Adaptation for Cross-Language Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2011]Short Text Classification Improved by Learning Multi-Granularity Topics",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2005]Feature Generation for Text Categorization Using World Knowledge",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[IJCAI 2005]Beyond TFIDF Weighting for Text Categorization in the Vector Space Model",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2020] Adversarial Training Based Multi-Source Unsupervised Domain Adaptation for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2020] Word-level Contextual Sentiment Analysis with Interpretability",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2019]A Radical-Aware Attention-Based Model for Chinese Text Classification",
+            "code":"https://github.com/hqtao/A-Radical-aware-Attention-based-Model-for-Chinese-Text-Classification",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2019]Online Embedding Compression for Text Classification Using Low Rank\nMatrix Factorization",
+            "code":"https://github.com/anishacharya/Online-Embedding-Compression-AAAI-2019",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2019]Deep Short Text Classification with Knowledge Powered Attention",
+            "code":"https://github.com/AIRobotZhang/STCKA",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2019]Explicit Interaction Model towards Text Classification",
+            "code":"https://github.com/NonvolatileMemory/AAAI 2019 EXAM",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2019]Weakly-Supervised Hierarchical Text Classification",
+            "code":"https://github.com/CogComp/cogcomp-nlp/tree/master/",
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[AAAI 2019]Better Fine-Tuning via Instance Weighting for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[AAAI 2019]Adaptive Region Embedding for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"Yes"
+        },
+        {
+            "paper":"[AAAI 2019]Graph Convolutional Networks for Text Classification",
+            "code":"https://github.com/yao8839836/text gcn",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2019]Video-Based Sentiment Analysis with hvnLBP-TOP Feature and bi-LSTM",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2019]Incorporating Context-Relevant Knowledge into Convolutional Neural\nNetworks for Short Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2018]Sentiment Analysis via Deep Hybrid Textual-Crowd Learning Model",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2018]SenticNet 5: Discovering Conceptual Primitives for Sentiment Analysis by\nMeans of Context Embeddings",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2018]Cross-Lingual Propagation for Deep Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2018]Cognition-Cognizant Sentiment Analysis with Multitask Subjectivity\nSummarization Based on Annotators' Gaze Behavior",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2018]Learning Structured Representation for Text Classification via\nReinforcement Learning",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2018]Vertical Domain Text Classification: Towards Understanding IT Tickets\nUsing Deep Neural Networks",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2017]Visual Sentiment Analysis by Attending on Local Image Regions",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2017]Improving Multi-Document Summarization via Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2017]Variational Autoencoder for Semi-Supervised Text Classification",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2017]Unsupervised Sentiment Analysis with Signed Social Networks",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2017]Learning Latent Sentiment Scopes for Entity-Level Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2016]Robust Text Classification in the Presence of Confounding Bias",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2016]Semisupervised Autoencoder for Sentiment Analysis",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2016]Text Classification with Heterogeneous Information Network Kernels",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2016]Semi-Supervised Multinomial Naive Bayes for Text Classification by\nLeveraging Word-Level Statistical Constraint",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2016]Gated Neural Networks for Targeted Sentiment Analysis",
+            "code":"https://github.com/SUTDNLP/NNTargetedSentiment",
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2015]Robust Image Sentiment Analysis Using Progressively Trained and Domain\nTransferred Deep Networks",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2015]AffectiveSpace 2: Enabling Affective Intuition for Concept-Level\nSentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2015]Dataless Text Classification with Descriptive LDA",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2014]Source Free Transfer Learning for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2014]Acquiring Commonsense Knowledge for Sentiment Analysis through Human\nComputation",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2014]SenticNet 3: A Common and Common-Sense Knowledge Base for\nCognition-Driven Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2014]Adaptive Multi-Compositionality for Recursive Neural Models with\nApplications to Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2014]On Dataless Hierarchical Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2014]Semi-Supervised Matrix Completion for Cross-Lingual Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2014]SUIT: A Supervised User-Item Based Topic Model for Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2013]From Semantic to Emotional Space in Probabilistic Sense Sentiment\nAnalysis",
+            "code":null,
+            "imdb":"Yes",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2013]Exploring the Contribution of Unlabeled Data in Financial Sentiment\nAnalysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2012]Topic Correlation Analysis for Cross-Domain Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2012]Emoticon Smoothed Language Models for Twitter Sentiment Analysis",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2011]Partially Supervised Text Classification with Multi-Level Examples",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2011]Transfer Learning for Multiple-Domain Sentiment Analysis \u2014 Identifying\nDomain Dependent/Independent Word Polarity",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2011]The Stock Sonar \u2014 Sentiment Analysis of Stocks Based on a Hybrid\nApproach",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2010]Sentiment Analysis with Global Topics and Local Dependency",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2010]Sentiment Analysis with Global Topics and Local Dependency",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2008]An Effective and Robust Method for Short Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2007]Transferring Naive Bayes Classifiers for Text Classification",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        },
+        {
+            "paper":"[AAAI 2004]Text Classification by Labeling Words",
+            "code":null,
+            "imdb":"No",
+            "yelp":"No"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "desc": "Enhanced LSTM for Natural Language Inference",
+    "contributor": [
+            {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+            }
+    ]
+}

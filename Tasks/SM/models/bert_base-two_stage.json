@@ -1,0 +1,9 @@
+{
+        "desc": "BERxiT: Early Exiting for BERT withBetter Fine-Tuning and Extension to Regression",
+        "contributor": [
+                {
+                        "name": "Xingwu Hu",
+                        "github": "https://github.com/anaivebird"
+                }
+        ]
+}

@@ -1,1 +1,374 @@
-[{"name": "SNLI", "description": "The SNLI corpus (version 1.0) is a collection of 570k human-written English sentence pairs manually labeled for balanced classification with the labels entailment, contradiction, and neutral, supporting the task of natural language inference (NLI), also known as recognizing textual entailment (RTE). We aim for it to serve both as a benchmark for evaluating representational systems for text, especially including those induced by representation learning methods, as well as a resource for developing NLP models of any kind.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"], "dataset_size": 10000, "models": [{"model_name": "bert-base-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/huggingface/transformers", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 88.99}, "dockerhub_link": ""}, {"model_name": "bert-large-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/huggingface/transformers", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 89.37}, "dockerhub_link": ""}, {"model_name": "xlnet-base-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 89.45}, "dockerhub_link": ""}, {"model_name": "xlnet-large-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 90.6}, "dockerhub_link": ""}, {"model_name": "roberta-base", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/huggingface/transformers", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 89.97}, "dockerhub_link": ""}, {"model_name": "roberta-large", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/huggingface/transformers", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 90.56}, "dockerhub_link": ""}, {"model_name": "albert-base-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/huggingface/transformers", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 88.3}, "dockerhub_link": ""}, {"model_name": "albert-xxlarge-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/huggingface/transformers", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 90.19}, "dockerhub_link": ""}]}, {"name": "MNLI-m", "description": "The Multi-Genre Natural Language Inference (MultiNLI) corpus is a crowd-sourced collection of 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers a range of genres of spoken and written text, and supports a distinctive cross-genre generalization evaluation. The corpus served as the basis for the shared task of the RepEval 2017 Workshop at EMNLP in Copenhagen.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"], "dataset_size": 9815, "models": [{"model_name": "bert-base-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/huggingface/transformers", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 84.4}, "dockerhub_link": ""}, {"model_name": "bert-large-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/huggingface/transformers", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 86.18}, "dockerhub_link": ""}, {"model_name": "xlnet-base-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 86.66}, "dockerhub_link": ""}, {"model_name": "xlnet-large-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 89.03}, "dockerhub_link": ""}, {"model_name": "roberta-base", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/huggingface/transformers", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 87.54}, "dockerhub_link": ""}, {"model_name": "roberta-large", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/huggingface/transformers", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 90.6}, "dockerhub_link": ""}, {"model_name": "albert-base-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/huggingface/transformers", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 84.15}, "dockerhub_link": ""}, {"model_name": "albert-xxlarge-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/huggingface/transformers", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 89.45}, "dockerhub_link": ""}]}, {"name": "MNLI-mm", "description": "The Multi-Genre Natural Language Inference (MultiNLI) corpus is a crowd-sourced collection of 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers a range of genres of spoken and written text, and supports a distinctive cross-genre generalization evaluation. The corpus served as the basis for the shared task of the RepEval 2017 Workshop at EMNLP in Copenhagen.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"], "dataset_size": 9832, "models": [{"model_name": "bert-base-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/huggingface/transformers", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 84.42}, "dockerhub_link": ""}, {"model_name": "bert-large-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/huggingface/transformers", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 86.36}, "dockerhub_link": ""}, {"model_name": "xlnet-base-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 86.33}, "dockerhub_link": ""}, {"model_name": "xlnet-large-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 88.62}, "dockerhub_link": ""}, {"model_name": "roberta-base", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/huggingface/transformers", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 87.13}, "dockerhub_link": ""}, {"model_name": "roberta-large", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/huggingface/transformers", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 90.12}, "dockerhub_link": ""}, {"model_name": "albert-base-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/huggingface/transformers", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 84.09}, "dockerhub_link": ""}, {"model_name": "albert-xxlarge-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/huggingface/transformers", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 89.89}, "dockerhub_link": ""}]}]
+[
+    {
+        "name": "SNLI",
+        "description": "The SNLI corpus (version 1.0) is a collection of 570k human-written English sentence pairs manually labeled for balanced classification with the labels entailment, contradiction, and neutral, supporting the task of natural language inference (NLI), also known as recognizing textual entailment (RTE). We aim for it to serve both as a benchmark for evaluating representational systems for text, especially including those induced by representation learning methods, as well as a resource for developing NLP models of any kind.",
+        "available_transformation_type": [
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut"
+        ],
+        "dataset_size": 10000,
+        "models": [
+            {
+                "model_name": "bert-base-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 88.99
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NAACL-devlin2018bert/images/sha256-5f8ab1c300d06a2d319a7fccc4e4ad8272f360832104ce7ef00c04ab75147ee7?context=explore"
+            },
+            {
+                "model_name": "bert-large-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 89.37
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NAACL-devlin2018bert/images/sha256-5f8ab1c300d06a2d319a7fccc4e4ad8272f360832104ce7ef00c04ab75147ee7?context=explore"
+            },
+            {
+                "model_name": "xlnet-base-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 89.45
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NIPS-yang2019xlnet/images/sha256-7bd38741e553208f976ed4f5a03461706a33f4b5b6c1b1b37863d893224d0e8e?context=explore"
+            },
+            {
+                "model_name": "xlnet-large-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 90.6
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NIPS-yang2019xlnet/images/sha256-7bd38741e553208f976ed4f5a03461706a33f4b5b6c1b1b37863d893224d0e8e?context=explore"
+            },
+            {
+                "model_name": "roberta-base",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 89.97
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-arxiv-liu2019roberta/images/sha256-c35cceaa97483a8b664bb031e2eb857caba26a0a5108b0a8fe7dd0c74860fb03?context=explore"
+            },
+            {
+                "model_name": "roberta-large",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 90.56
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-arxiv-liu2019roberta/images/sha256-c35cceaa97483a8b664bb031e2eb857caba26a0a5108b0a8fe7dd0c74860fb03?context=explore"
+            },
+            {
+                "model_name": "albert-base-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 88.3
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ICLR-lan2019albert/images/sha256-8e64dcc8b81c6235baa59406ea26a9ced03afc7198beb3930e64877f0e90fa8d?context=explore"
+            },
+            {
+                "model_name": "albert-xxlarge-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 90.19
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ICLR-lan2019albert/images/sha256-8e64dcc8b81c6235baa59406ea26a9ced03afc7198beb3930e64877f0e90fa8d?context=explore"
+            },
+            {
+                "model_name": "Match-lstm",
+                "paper_link": "https://arxiv.org/abs/1512.08849",
+                "github_link": "https://github.com/shuohangwang/SeqMatchSeq",
+                "paper_name": "Learning Natural Language Inference with Lstm",
+                "metric": {
+                    "Accuracy": 83.22
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NAACL-wang2015learning/images/sha256-d2e3daa9c02c25d14527f230117ec7627fd74e32727437ae1d53a3799445f5c6?context=explore"
+            },
+            {
+                "model_name": "ESIM",
+                "paper_link": "https://arxiv.org/abs/1609.06038",
+                "github_link": "https://github.com/lukecq1231/nli",
+                "paper_name": "Enhanced LSTM for Natural Language Inference",
+                "metric": {
+                    "Accuracy": 85.34
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ACL-chen2016enhanced/images/sha256-c72669218b439e7b1da4d03cadc84d4ba10808cb27ae8cfea42906ae593c0309?context=explore"
+            },
+            {
+                "model_name": "RE2",
+                "paper_link": "https://aclanthology.org/P19-1465/",
+                "github_link": "https://github.com/alibaba-edu/simple-effective-text-matching-pytorch",
+                "paper_name": "Simple and Effective Text Matching with Richer Alignment Features",
+                "metric": {
+                    "Accuracy": 87.77
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ACL-yang2019simple/images/sha256-adec6437b6f3c3dae5a12bd5320d05186c601575a0e9f1977b857eeb64ac00bc?context=explore"
+            }
+        ]
+    },
+    {
+        "name": "MNLI-m",
+        "description": "The Multi-Genre Natural Language Inference (MultiNLI) corpus is a crowd-sourced collection of 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers a range of genres of spoken and written text, and supports a distinctive cross-genre generalization evaluation. The corpus served as the basis for the shared task of the RepEval 2017 Workshop at EMNLP in Copenhagen.",
+        "available_transformation_type": [
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut"
+        ],
+        "dataset_size": 9815,
+        "models": [
+            {
+                "model_name": "bert-base-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 84.4
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NAACL-devlin2018bert/images/sha256-5f8ab1c300d06a2d319a7fccc4e4ad8272f360832104ce7ef00c04ab75147ee7?context=explore"
+            },
+            {
+                "model_name": "bert-large-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 86.18
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NAACL-devlin2018bert/images/sha256-5f8ab1c300d06a2d319a7fccc4e4ad8272f360832104ce7ef00c04ab75147ee7?context=explore"
+            },
+            {
+                "model_name": "xlnet-base-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 86.66
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NIPS-yang2019xlnet/images/sha256-7bd38741e553208f976ed4f5a03461706a33f4b5b6c1b1b37863d893224d0e8e?context=explore"
+            },
+            {
+                "model_name": "xlnet-large-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 89.03
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NIPS-yang2019xlnet/images/sha256-7bd38741e553208f976ed4f5a03461706a33f4b5b6c1b1b37863d893224d0e8e?context=explore"
+            },
+            {
+                "model_name": "roberta-base",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 87.54
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-arxiv-liu2019roberta/images/sha256-c35cceaa97483a8b664bb031e2eb857caba26a0a5108b0a8fe7dd0c74860fb03?context=explore"
+            },
+            {
+                "model_name": "roberta-large",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 90.6
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-arxiv-liu2019roberta/images/sha256-c35cceaa97483a8b664bb031e2eb857caba26a0a5108b0a8fe7dd0c74860fb03?context=explore"
+            },
+            {
+                "model_name": "albert-base-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 84.15
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ICLR-lan2019albert/images/sha256-8e64dcc8b81c6235baa59406ea26a9ced03afc7198beb3930e64877f0e90fa8d?context=explore"
+            },
+            {
+                "model_name": "albert-xxlarge-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 89.45
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ICLR-lan2019albert/images/sha256-8e64dcc8b81c6235baa59406ea26a9ced03afc7198beb3930e64877f0e90fa8d?context=explore"
+            },
+            {
+                "model_name": "spanbert-base-cased",
+                "paper_link": "https://arxiv.org/abs/1907.10529",
+                "github_link": "https://github.com/facebookresearch/SpanBERT",
+                "paper_name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+                "metric": {
+                    "Accuracy": 85.16
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-TACL-joshi2020spanbert/images/sha256-343fcd3a96880da10857af170c104948485aa5381b36228df16b8937a8277d2d?context=explore"
+            },
+            {
+                "model_name": "spanbert-large-cased",
+                "paper_link": "https://arxiv.org/abs/1907.10529",
+                "github_link": "https://github.com/facebookresearch/SpanBERT",
+                "paper_name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+                "metric": {
+                    "Accuracy": 87.68
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-TACL-joshi2020spanbert/images/sha256-343fcd3a96880da10857af170c104948485aa5381b36228df16b8937a8277d2d?context=explore"
+            },
+            {
+                "model_name": "deberta-v2-xxlarge",
+                "paper_link": "https://arxiv.org/abs/2006.03654",
+                "github_link": "https://github.com/microsoft/DeBERTa",
+                "paper_name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+                "metric": {
+                    "Accuracy": 91.60
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ICLR-he2020deberta/images/sha256-ae947d20f7a2226fdec87818ce92c74aa7c241411d4ebc174f4c34c815c1e648?context=explore"
+            }
+        ]
+    },
+    {
+        "name": "MNLI-mm",
+        "description": "The Multi-Genre Natural Language Inference (MultiNLI) corpus is a crowd-sourced collection of 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers a range of genres of spoken and written text, and supports a distinctive cross-genre generalization evaluation. The corpus served as the basis for the shared task of the RepEval 2017 Workshop at EMNLP in Copenhagen.",
+        "available_transformation_type": [
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut"
+        ],
+        "dataset_size": 9832,
+        "models": [
+            {
+                "model_name": "bert-base-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 84.42
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NAACL-devlin2018bert/images/sha256-5f8ab1c300d06a2d319a7fccc4e4ad8272f360832104ce7ef00c04ab75147ee7?context=explore"
+            },
+            {
+                "model_name": "bert-large-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 86.36
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NAACL-devlin2018bert/images/sha256-5f8ab1c300d06a2d319a7fccc4e4ad8272f360832104ce7ef00c04ab75147ee7?context=explore"
+            },
+            {
+                "model_name": "xlnet-base-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 86.33
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NIPS-yang2019xlnet/images/sha256-7bd38741e553208f976ed4f5a03461706a33f4b5b6c1b1b37863d893224d0e8e?context=explore"
+            },
+            {
+                "model_name": "xlnet-large-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 88.62
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-NIPS-yang2019xlnet/images/sha256-7bd38741e553208f976ed4f5a03461706a33f4b5b6c1b1b37863d893224d0e8e?context=explore"
+            },
+            {
+                "model_name": "roberta-base",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 87.13
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-arxiv-liu2019roberta/images/sha256-c35cceaa97483a8b664bb031e2eb857caba26a0a5108b0a8fe7dd0c74860fb03?context=explore"
+            },
+            {
+                "model_name": "roberta-large",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 90.12
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-arxiv-liu2019roberta/images/sha256-c35cceaa97483a8b664bb031e2eb857caba26a0a5108b0a8fe7dd0c74860fb03?context=explore"
+            },
+            {
+                "model_name": "albert-base-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 84.09
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ICLR-lan2019albert/images/sha256-8e64dcc8b81c6235baa59406ea26a9ced03afc7198beb3930e64877f0e90fa8d?context=explore"
+            },
+            {
+                "model_name": "albert-xxlarge-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/huggingface/transformers",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 89.89
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ICLR-lan2019albert/images/sha256-8e64dcc8b81c6235baa59406ea26a9ced03afc7198beb3930e64877f0e90fa8d?context=explore"
+            },
+            {
+                "model_name": "spanbert-base-cased",
+                "paper_link": "https://arxiv.org/abs/1907.10529",
+                "github_link": "https://github.com/facebookresearch/SpanBERT",
+                "paper_name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+                "metric": {
+                    "Accuracy": 85.49
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-TACL-joshi2020spanbert/images/sha256-343fcd3a96880da10857af170c104948485aa5381b36228df16b8937a8277d2d?context=explore"
+            },
+            {
+                "model_name": "spanbert-large-cased",
+                "paper_link": "https://arxiv.org/abs/1907.10529",
+                "github_link": "https://github.com/facebookresearch/SpanBERT",
+                "paper_name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+                "metric": {
+                    "Accuracy": 87.13
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-TACL-joshi2020spanbert/images/sha256-343fcd3a96880da10857af170c104948485aa5381b36228df16b8937a8277d2d?context=explore"
+            },
+            {
+                "model_name": "deberta-v2-xxlarge",
+                "paper_link": "https://arxiv.org/abs/2006.03654",
+                "github_link": "https://github.com/microsoft/DeBERTa",
+                "paper_name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+                "metric": {
+                    "Accuracy": 91.90
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/NLI-ICLR-he2020deberta/images/sha256-ae947d20f7a2226fdec87818ce92c74aa7c241411d4ebc174f4c34c815c1e648?context=explore"
+            }
+        ]
+    }
+]

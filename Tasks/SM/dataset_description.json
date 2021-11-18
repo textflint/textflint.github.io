@@ -1,1 +1,330 @@
-[{"name": "QQP", "description": "The Quora Question Pairs2 dataset is a collection of question pairs from the community question-answering website Quora. The task is to determine whether a pair of questions are semantically equivalent.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"], "dataset_size": 40430, "models": [{"model_name": "bert-base-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/google-research/bert", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 90.91}, "dockerhub_link": ""}, {"model_name": "bert-large-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/google-research/bert", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 90.98}, "dockerhub_link": ""}, {"model_name": "xlnet-base-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 90.66}, "dockerhub_link": ""}, {"model_name": "xlnet-large-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 90.79}, "dockerhub_link": ""}, {"model_name": "roberta-base", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/pytorch/fairseq/tree/master/examples/roberta", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 91.41}, "dockerhub_link": ""}, {"model_name": "roberta-large", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/pytorch/fairseq/tree/master/examples/roberta", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 92.03}, "dockerhub_link": ""}, {"model_name": "albert-base-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/google-research/albert", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 90.73}, "dockerhub_link": ""}, {"model_name": "albert-large-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/google-research/albert", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 90.91}, "dockerhub_link": ""}, {"model_name": "albert-xxlarge-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/google-research/albert", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 92.28}, "dockerhub_link": ""}, {"model_name": "distilbert-base-cased", "paper_link": "https://arxiv.org/abs/1910.01108", "github_link": "https://github.com/huggingface/transformers/tree/master/examples/distillation", "paper_name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", "metric": {"Accuracy": 89.73}, "dockerhub_link": ""}]}, {"name": "MRPC", "description": " The Microsoft Research Paraphrase Corpus (Dolan & Brockett, 2005) is a corpus of sentence pairs automatically extracted from online news sources, with human annotations for whether the sentences in the pair are semantically equivalent.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"], "dataset_size": 1725, "models": [{"model_name": "bert-base-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/google-research/bert", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 85.78}, "dockerhub_link": ""}, {"model_name": "bert-large-uncased", "paper_link": "https://arxiv.org/abs/1810.04805", "github_link": "https://github.com/google-research/bert", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"Accuracy": 87.75}, "dockerhub_link": ""}, {"model_name": "xlnet-base-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 88.73}, "dockerhub_link": ""}, {"model_name": "xlnet-large-cased", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 88.73}, "dockerhub_link": ""}, {"model_name": "roberta-base", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/pytorch/fairseq/tree/master/examples/roberta", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 89.7}, "dockerhub_link": ""}, {"model_name": "roberta-large", "paper_link": "https://arxiv.org/abs/1907.11692", "github_link": "https://github.com/pytorch/fairseq/tree/master/examples/roberta", "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "metric": {"Accuracy": 90.9}, "dockerhub_link": ""}, {"model_name": "albert-base-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/google-research/albert", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 88.97}, "dockerhub_link": ""}, {"model_name": "albert-large-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/google-research/albert", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 90.44}, "dockerhub_link": ""}, {"model_name": "albert-xxlarge-v2", "paper_link": "https://arxiv.org/abs/1909.11942", "github_link": "https://github.com/google-research/albert", "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations", "metric": {"Accuracy": 90.68}, "dockerhub_link": ""}, {"model_name": "distilbert-base-cased", "paper_link": "https://arxiv.org/abs/1910.01108", "github_link": "https://github.com/huggingface/transformers/tree/master/examples/distillation", "paper_name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", "metric": {"Accuracy": 84.56}, "dockerhub_link": ""}]}]
+[
+    {
+        "name": "QQP",
+        "description": "The Quora Question Pairs2 dataset is a collection of question pairs from the community question-answering website Quora. The task is to determine whether a pair of questions are semantically equivalent.",
+        "available_transformation_type": [
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut"
+        ],
+        "dataset_size": 40430,
+        "models": [
+            {
+                "model_name": "bert-base-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/google-research/bert",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 90.91
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NAACL-devlin2018bert/images/sha256-86185c5af1ece9d2515620d5012bdb3234944f0c71f905d3ecc497e6e6bf7383?context=explore"
+            },
+            {
+                "model_name": "bert-large-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/google-research/bert",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 90.98
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NAACL-devlin2018bert/images/sha256-86185c5af1ece9d2515620d5012bdb3234944f0c71f905d3ecc497e6e6bf7383?context=explore"
+            },
+            {
+                "model_name": "xlnet-base-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 90.66
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NIPS-yang2019xlnet/images/sha256-c14cee8e6b798cee0890d5da78ef80e50520844131d70dea27ac4cc7262d0a8e?context=explore"
+            },
+            {
+                "model_name": "xlnet-large-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 90.79
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NIPS-yang2019xlnet/images/sha256-c14cee8e6b798cee0890d5da78ef80e50520844131d70dea27ac4cc7262d0a8e?context=explore"
+            },
+            {
+                "model_name": "roberta-base",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/pytorch/fairseq/tree/master/examples/roberta",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 91.41
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-arxiv-liu2019roberta/images/sha256-bdb919df58fb03196318f5ec55c2be1acbcdee45d05a0e4e70a0fc75666d0d92?context=explore"
+            },
+            {
+                "model_name": "roberta-large",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/pytorch/fairseq/tree/master/examples/roberta",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 92.03
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-arxiv-liu2019roberta/images/sha256-bdb919df58fb03196318f5ec55c2be1acbcdee45d05a0e4e70a0fc75666d0d92?context=explore"
+            },
+            {
+                "model_name": "albert-base-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/google-research/albert",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 90.73
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ICLR-lan2019albert/images/sha256-f7cfdbc0e680cdf62a70c0d05437b40855b7c15f8f3b741766c1e87cbe5d7ffb?context=explore"
+            },
+            {
+                "model_name": "albert-large-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/google-research/albert",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 90.91
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ICLR-lan2019albert/images/sha256-f7cfdbc0e680cdf62a70c0d05437b40855b7c15f8f3b741766c1e87cbe5d7ffb?context=explore"
+            },
+            {
+                "model_name": "albert-xxlarge-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/google-research/albert",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 92.28
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ICLR-lan2019albert/images/sha256-f7cfdbc0e680cdf62a70c0d05437b40855b7c15f8f3b741766c1e87cbe5d7ffb?context=explore"
+            },
+            {
+                "model_name": "distilbert-base-cased",
+                "paper_link": "https://arxiv.org/abs/1910.01108",
+                "github_link": "https://github.com/huggingface/transformers/tree/master/examples/distillation",
+                "paper_name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+                "metric": {
+                    "Accuracy": 89.73
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-arxiv-sanh2019distilbert/images/sha256-2d1c11bc13adb75705eb68b798f03888e268a10064d11b17ed7418a243edf211?context=explore"
+            },
+            {
+                "model_name": "electra-base",
+                "paper_link": "https://arxiv.org/abs/2003.10555",
+                "github_link": "https://github.com/google-research/electra",
+                "paper_name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+                "metric": {
+                    "Accuracy": 91.72
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ICLR-clark2020electra/images/sha256-0231b82e48b3e3a81d8132d123a64ec965491933bad011f3b107ed96d563e8f8?context=explore"
+            },
+            {
+                "model_name": "funnel-transformer-medium",
+                "paper_link": "https://arxiv.org/abs/2006.03236",
+                "github_link": "https://www.github.com/laiguokun/Funnel-Transformer",
+                "paper_name": "Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing",
+                "metric": {
+                    "Accuracy": 92.02
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NIPS-dai2020funnel/images/sha256-9b0cf89f368d55c4d611a546054605549a399d3b42f7436270fd64e277d54d36?context=explore"
+            },
+            {
+                "model_name": "spanbert-base-cased",
+                "paper_link": "https://arxiv.org/abs/1907.10529",
+                "github_link": "https://github.com/facebookresearch/SpanBERT",
+                "paper_name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+                "metric": {
+                    "Accuracy": 90.82
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ACL-joshi2020spanbert/images/sha256-8a51ae80ab9cd4ae31973fa2655b02e12f7e6614116f5e935ff378194b132c7c?context=explore"
+            },
+            {
+                "model_name": "bert_base-two_stage",
+                "paper_link": "https://aclanthology.org/2021.eacl-main.8.pdf",
+                "github_link": "hhttps://github.com/castorini/berxit",
+                "paper_name": "BERxiT: Early Exiting for BERT with Better Fine-Tuning and Extension to Regression",
+                "metric": {
+                    "Accuracy": 91.05
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ACL-xin2021berxit/images/sha256-18317b8dccebe681ff46528de2e7830455fe62c90a140bc9db9bc740d3fc99b1?context=explore"
+            },
+            {
+                "model_name": "deberta-base",
+                "paper_link": "https://arxiv.org/abs/2006.03654",
+                "github_link": "https://github.com/microsoft/DeBERTa",
+                "paper_name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+                "metric": {
+                    "Accuracy": 91.68
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-arxiv-he2020deberta/images/sha256-f13929d4973ec55c907989063699ce7f2bdcb803e91f77bc117e1395ef29dbde?context=explore"
+            }
+        ]
+    },
+    {
+        "name": "MRPC",
+        "description": " The Microsoft Research Paraphrase Corpus (Dolan & Brockett, 2005) is a corpus of sentence pairs automatically extracted from online news sources, with human annotations for whether the sentences in the pair are semantically equivalent.",
+        "available_transformation_type": [
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut"
+        ],
+        "dataset_size": 1725,
+        "models": [
+            {
+                "model_name": "bert-base-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/google-research/bert",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 85.78
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NAACL-devlin2018bert/images/sha256-86185c5af1ece9d2515620d5012bdb3234944f0c71f905d3ecc497e6e6bf7383?context=explore"
+            },
+            {
+                "model_name": "bert-large-uncased",
+                "paper_link": "https://arxiv.org/abs/1810.04805",
+                "github_link": "https://github.com/google-research/bert",
+                "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric": {
+                    "Accuracy": 87.75
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NAACL-devlin2018bert/images/sha256-86185c5af1ece9d2515620d5012bdb3234944f0c71f905d3ecc497e6e6bf7383?context=explore"
+            },
+            {
+                "model_name": "xlnet-base-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 88.73
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NIPS-yang2019xlnet/images/sha256-c14cee8e6b798cee0890d5da78ef80e50520844131d70dea27ac4cc7262d0a8e?context=explore"
+            },
+            {
+                "model_name": "xlnet-large-cased",
+                "paper_link": "https://arxiv.org/abs/1906.08237",
+                "github_link": "https://github.com/zihangdai/xlnet",
+                "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric": {
+                    "Accuracy": 88.73
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NIPS-yang2019xlnet/images/sha256-c14cee8e6b798cee0890d5da78ef80e50520844131d70dea27ac4cc7262d0a8e?context=explore"
+            },
+            {
+                "model_name": "roberta-base",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/pytorch/fairseq/tree/master/examples/roberta",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 89.7
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-arxiv-liu2019roberta/images/sha256-bdb919df58fb03196318f5ec55c2be1acbcdee45d05a0e4e70a0fc75666d0d92?context=explore"
+            },
+            {
+                "model_name": "roberta-large",
+                "paper_link": "https://arxiv.org/abs/1907.11692",
+                "github_link": "https://github.com/pytorch/fairseq/tree/master/examples/roberta",
+                "paper_name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "metric": {
+                    "Accuracy": 90.9
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-arxiv-liu2019roberta/images/sha256-bdb919df58fb03196318f5ec55c2be1acbcdee45d05a0e4e70a0fc75666d0d92?context=explore"
+            },
+            {
+                "model_name": "albert-base-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/google-research/albert",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 88.97
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ICLR-lan2019albert/images/sha256-f7cfdbc0e680cdf62a70c0d05437b40855b7c15f8f3b741766c1e87cbe5d7ffb?context=explore"
+            },
+            {
+                "model_name": "albert-large-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/google-research/albert",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 90.44
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ICLR-lan2019albert/images/sha256-f7cfdbc0e680cdf62a70c0d05437b40855b7c15f8f3b741766c1e87cbe5d7ffb?context=explore"
+            },
+            {
+                "model_name": "albert-xxlarge-v2",
+                "paper_link": "https://arxiv.org/abs/1909.11942",
+                "github_link": "https://github.com/google-research/albert",
+                "paper_name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+                "metric": {
+                    "Accuracy": 90.68
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ICLR-lan2019albert/images/sha256-f7cfdbc0e680cdf62a70c0d05437b40855b7c15f8f3b741766c1e87cbe5d7ffb?context=explore"
+            },
+            {
+                "model_name": "distilbert-base-cased",
+                "paper_link": "https://arxiv.org/abs/1910.01108",
+                "github_link": "https://github.com/huggingface/transformers/tree/master/examples/distillation",
+                "paper_name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+                "metric": {
+                    "Accuracy": 84.56
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-arxiv-sanh2019distilbert/images/sha256-2d1c11bc13adb75705eb68b798f03888e268a10064d11b17ed7418a243edf211?context=explore"
+            },
+            {
+                "model_name": "electra-base",
+                "paper_link": "https://arxiv.org/abs/2003.10555",
+                "github_link": "https://github.com/google-research/electra",
+                "paper_name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+                "metric": {
+                    "Accuracy": 87.50
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ICLR-clark2020electra/images/sha256-0231b82e48b3e3a81d8132d123a64ec965491933bad011f3b107ed96d563e8f8?context=explore"
+            },
+            {
+                "model_name": "funnel-transformer-medium",
+                "paper_link": "https://arxiv.org/abs/2006.03236",
+                "github_link": "https://www.github.com/laiguokun/Funnel-Transformer",
+                "paper_name": "Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing",
+                "metric": {
+                    "Accuracy": 86.27
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-NIPS-dai2020funnel/images/sha256-9b0cf89f368d55c4d611a546054605549a399d3b42f7436270fd64e277d54d36?context=explore"
+            },
+            {
+                "model_name": "spanbert-base-cased",
+                "paper_link": "https://arxiv.org/abs/1907.10529",
+                "github_link": "https://github.com/facebookresearch/SpanBERT",
+                "paper_name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+                "metric": {
+                    "Accuracy": 87.25
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ACL-joshi2020spanbert/images/sha256-8a51ae80ab9cd4ae31973fa2655b02e12f7e6614116f5e935ff378194b132c7c?context=explore"
+            },
+            {
+                "model_name": "bert_base-two_stage",
+                "paper_link": "https://aclanthology.org/2021.eacl-main.8.pdf",
+                "github_link": "hhttps://github.com/castorini/berxit",
+                "paper_name": "BERxiT: Early Exiting for BERT with Better Fine-Tuning and Extension to Regression",
+                "metric": {
+                    "Accuracy": 87.74
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-ACL-xin2021berxit/images/sha256-18317b8dccebe681ff46528de2e7830455fe62c90a140bc9db9bc740d3fc99b1?context=explore"
+            },
+            {
+                "model_name": "deberta-base",
+                "paper_link": "https://arxiv.org/abs/2006.03654",
+                "github_link": "https://github.com/microsoft/DeBERTa",
+                "paper_name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+                "metric": {
+                    "Accuracy": 89.95
+                },
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/SM-arxiv-he2020deberta/images/sha256-f13929d4973ec55c907989063699ce7f2bdcb803e91f77bc117e1395ef29dbde?context=explore"
+            }
+        ]
+    }
+]

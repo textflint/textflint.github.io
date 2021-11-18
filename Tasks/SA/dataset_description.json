@@ -1,1 +1,227 @@
-[{"name": "IMDB", "description": "The IMDb dataset is a binary sentiment analysis dataset consisting of 50,000 reviews from the Internet Movie Database (IMDb) labeled as positive or negative. The dataset contains an even number of positive and negative reviews. Only highly polarizing reviews are considered. A negative review has a score \u2264 4 out of 10, and a positive review has a score \u2265 7 out of 10. No more than 30 reviews are included per movie. Models are evaluated based on Accuracy.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut", "subpopulation"], "dataset_size": 25000, "models": [{"model_name": "XLNET", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 96.17}, "dockerhub_link": ""}, {"model_name": "BERT-Large-ITPT", "paper_link": "https://arxiv.org/abs/1905.05583", "github_link": "https://github.com/xuyige/BERT4doc-Classification", "paper_name": "How to Fine-Tune BERT for Text Classification?", "metric": {"Accuracy": 95.3}, "dockerhub_link": ""}, {"model_name": "ULMFIT", "paper_link": "https://arxiv.org/abs/1801.06146", "github_link": "https://github.com/fastai/fastai/blob/54a9e3cf4fd0fa11fc2453a5389cc9263f6f0d77/examples/ULMFit.ipynb", "paper_name": "Universal Language Model Fine-tuning for Text Classification", "metric": {"Accuracy": 94.6}, "dockerhub_link": ""}, {"model_name": "oh-lstm", "paper_name": "Supervised and Semi-Supervised Text Categorization using LSTM for Region Embeddings", "metric": {"Accuracy": 93.86}, "paper_link": "https://arxiv.org/abs/1602.02373", "github_link": "http://riejohnson.com/cnn_download.html", "dockerhub_link": ""}, {"model_name": "adv", "paper_name": "Adversarial Training Methods for Semi-Supervised Text Classification", "metric": {"Accuracy": 93.26}, "paper_link": "https://arxiv.org/abs/1605.07725", "github_link": "https://github.com/tensorflow/models/tree/master/research/adversarial_text", "dockerhub_link": ""}, {"model_name": "ssl", "paper_link": "https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_46.pdf", "github_link": "", "paper_name": "Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function", "metric": {"Accuracy": 93.23}, "dockerhub_link": ""}]}, {"name": "Yelp-Binary", "description": "The Yelp Review dataset consists of more than 500,000 Yelp reviews. There is both a binary and a fine-grained (five-class) version of the dataset. Models are evaluated based on error (1 - Accuracy; lower is better).", "available_transformation_type": ["ut"], "models": [{"model_name": "XLNET", "paper_link": "https://arxiv.org/abs/1906.08237", "github_link": "https://github.com/zihangdai/xlnet", "paper_name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "metric": {"Accuracy": 97.83}, "dockerhub_link": ""}, {"model_name": "BERT-Large-ITPT", "paper_link": "https://arxiv.org/abs/1905.05583", "github_link": "https://github.com/xuyige/BERT4doc-Classification", "paper_name": "How to Fine-Tune BERT for Text Classification?", "metric": {"Accuracy": 98.06}, "dockerhub_link": ""}, {"model_name": "ULMFIT", "paper_link": "https://arxiv.org/abs/1801.06146", "github_link": "https://github.com/fastai/fastai/blob/54a9e3cf4fd0fa11fc2453a5389cc9263f6f0d77/examples/ULMFit.ipynb", "paper_name": "Universal Language Model Fine-tuning for Text Classification", "metric": {"Accuracy": 97.57}, "dockerhub_link": ""}, {"model_name": "dpcnn", "paper_name": "Deep Pyramid Convolutional Neural Networks for Text Categorization", "metric": {"Accuracy": 97.34}, "paper_link": "https://www.aclweb.org/anthology/P17-1052/", "github_link": "http://riejohnson.com/cnn_download.html", "dockerhub_link": ""}, {"model_name": "adv", "paper_name": "Adversarial Training Methods for Semi-Supervised Text Classification", "metric": {"Accuracy": 96.79}, "paper_link": "https://arxiv.org/abs/1605.07725", "github_link": "https://github.com/tensorflow/models/tree/master/research/adversarial_text", "dockerhub_link": ""}, {"model_name": "ssl", "paper_link": "https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_46.pdf", "github_link": "", "paper_name": "Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function", "metric": {"Accuracy": 97.57}, "dockerhub_link": ""}]}]
+[
+    {
+        "name":"IMDB",
+        "description":"The IMDb dataset is a binary sentiment analysis dataset consisting of 50,000 reviews from the Internet Movie Database (IMDb) labeled as positive or negative. The dataset contains an even number of positive and negative reviews. Only highly polarizing reviews are considered. A negative review has a score \u2264 4 out of 10, and a positive review has a score \u2265 7 out of 10. No more than 30 reviews are included per movie. Models are evaluated based on Accuracy.",
+        "available_transformation_type":[
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut",
+            "subpopulation"
+        ],
+        "dataset_size":25000,
+        "models":[
+            {
+                "model_name":"XLNET",
+                "paper_link":"https://arxiv.org/abs/1906.08237",
+                "github_link":"https://github.com/zihangdai/xlnet",
+                "paper_name":"XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric":{
+                    "Accuracy":96.17
+                },
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-NeurIPS-yang2020xlnet/images/sha256-9e9dd84f4f888acfdd99ddc61a0bf2ceb4bef001833a58caab7240c20fc5d1e9?context=explore"
+            },
+            {
+                "model_name":"BERT-Large-ITPT",
+                "paper_link":"https://arxiv.org/abs/1905.05583",
+                "github_link":"https://github.com/xuyige/BERT4doc-Classification",
+                "paper_name":"How to Fine-Tune BERT for Text Classification?",
+                "metric":{
+                    "Accuracy":95.3
+                },
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-CCL-sun2020finetune/images/sha256-67ae76508c42d6726aea3c16245ab036175dab8155fe51752572981234e78423?context=explore"
+            },
+            {
+                "model_name":"ULMFIT",
+                "paper_link":"https://arxiv.org/abs/1801.06146",
+                "github_link":"https://github.com/fastai/fastai/blob/54a9e3cf4fd0fa11fc2453a5389cc9263f6f0d77/examples/ULMFit.ipynb",
+                "paper_name":"Universal Language Model Fine-tuning for Text Classification",
+                "metric":{
+                    "Accuracy":94.6
+                },
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-ACL-howard2018universal/images/sha256-f39e2aa11c0b5fa587170294332334e51ad73f578d5548c7695ad0f9d9d51d7a?context=explore"
+            },
+            {
+                "model_name":"oh-lstm",
+                "paper_name":"Supervised and Semi-Supervised Text Categorization using LSTM for Region Embeddings",
+                "metric":{
+                    "Accuracy":93.86
+                },
+                "paper_link":"https://arxiv.org/abs/1602.02373",
+                "github_link":"http://riejohnson.com/cnn_download.html",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-ICML-johnson2016supervised/images/sha256-81c3f41c17006788c1c206bb1422d8764636e95124f93ad83bdb6f8a2783e94f?context=explore"
+            },
+            {
+                "model_name":"adv",
+                "paper_name":"Adversarial Training Methods for Semi-Supervised Text Classification",
+                "metric":{
+                    "Accuracy":93.26
+                },
+                "paper_link":"https://arxiv.org/abs/1605.07725",
+                "github_link":"https://github.com/tensorflow/models/tree/master/research/adversarial_text",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-ICLR-miyato2016adversarial/images/sha256-ab81528cbfe66c01da4630fbc4435d54dc0ee0363eb407f6bbd8e389a5b73105?context=explore"
+            },
+            {
+                "model_name":"ssl",
+                "paper_link":"https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_46.pdf",
+                "paper_name":"Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function",
+                "metric":{
+                    "Accuracy":93.23
+                },
+                "github_link":"https://github.com/DevSinghSachan/ssl_text_classification",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-AAAI-Sachan_2019/images/sha256-42ad844d5964352d97f6777dd8af66511177b3f0afaae9d5f6b09adc829b5695?context=explore"
+            },
+            {
+                "model_name":"DistilBERT",
+                "paper_link":"https://arxiv.org/abs/1910.01108",
+                "paper_name":"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+                "metric":{
+                    "Accuracy":92.2
+                },
+                "github_link":"https://github.com/huggingface/transformers",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-AAAI-Sachan_2019/images/sha256-42ad844d5964352d97f6777dd8af66511177b3f0afaae9d5f6b09adc829b5695?context=explore"
+            },
+            {
+                "model_name":"FastText",
+                "paper_link":"https://arxiv.org/abs/1910.01108",
+                "paper_name":"Bag of Tricks for Efficient Text Classification",
+                "metric":{
+                    "Accuracy":86.3
+                },
+                "github_link":"https://github.com/facebookresearch/fastText",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-EACL-joulin2016bag/images/sha256-bdac8632886c0b8f3064c1b552a69c965ba8ce3713b64db1d5fe2493b5522eb3?context=explore"
+            },
+            {
+                "model_name":"SRNN",
+                "paper_link":"https://arxiv.org/abs/1807.02291",
+                "paper_name":"Sliced Recurrent Neural Networks",
+                "metric":{
+                    "Accuracy":89.13
+                },
+                "github_link":"https://github.com/zepingyu0512/srnn",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-COLING-yu2018sliced/images/sha256-d3e82e0a08fe49d03b3b4598fc8cb6ebf8996cc919d32eb5905932e90559d2c6?context=explore"
+            },
+            {
+                "model_name":"BPT",
+                "paper_link":"https://arxiv.org/abs/1911.04070v1",
+                "paper_name":"BP-Transformer: Modelling Long-Range Context via Binary Partitioning",
+                "metric":{
+                    "Accuracy":91.28
+                },
+                "github_link":"https://github.com/yzh119/BPT",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-arxiv-ye2019bp/images/sha256-f834a28447ed164e35f42aa69af96092bb8d3d4816933978ef2f0cd9a8a48dd5?context=explore"
+            },
+            {
+                "model_name":"DAN",
+                "paper_link":"https://people.cs.umass.edu/~miyyer/pubs/2015_acl_dan.pdf",
+                "paper_name":"Deep Unordered Composition Rivals Syntactic Methods for Text Classification",
+                "metric":{
+                    "Accuracy":88.8
+                },
+                "github_link":"http://github.com/miyyer/dan",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-ACL-iyyer2015deep/images/sha256-a7bcab2706cba6f5dd0b92d8e0ca953e36f3e1fb095926f51519db18fb24af3a?context=explore"
+            }
+
+        ]
+    },
+    {
+        "name":"Yelp-Binary",
+        "description":"The Yelp Review dataset consists of more than 500,000 Yelp reviews. There is both a binary and a fine-grained (five-class) version of the dataset. Models are evaluated based on error (1 - Accuracy; lower is better).",
+        "available_transformation_type":[
+            "ut"
+        ],
+        "models":[
+            {
+                "model_name":"XLNET",
+                "paper_link":"https://arxiv.org/abs/1906.08237",
+                "github_link":"https://github.com/zihangdai/xlnet",
+                "paper_name":"XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+                "metric":{
+                    "Accuracy":97.83
+                },
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-NeurIPS-yang2020xlnet/images/sha256-9e9dd84f4f888acfdd99ddc61a0bf2ceb4bef001833a58caab7240c20fc5d1e9?context=explore"
+            },
+            {
+                "model_name":"BERT-Large-ITPT",
+                "paper_link":"https://arxiv.org/abs/1905.05583",
+                "github_link":"https://github.com/xuyige/BERT4doc-Classification",
+                "paper_name":"How to Fine-Tune BERT for Text Classification?",
+                "metric":{
+                    "Accuracy":98.06
+                },
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-CCL-sun2020finetune/images/sha256-67ae76508c42d6726aea3c16245ab036175dab8155fe51752572981234e78423?context=explore"
+            },
+            {
+                "model_name":"ULMFIT",
+                "paper_link":"https://arxiv.org/abs/1801.06146",
+                "github_link":"https://github.com/fastai/fastai/blob/54a9e3cf4fd0fa11fc2453a5389cc9263f6f0d77/examples/ULMFit.ipynb",
+                "paper_name":"Universal Language Model Fine-tuning for Text Classification",
+                "metric":{
+                    "Accuracy":97.57
+                },
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-ACL-howard2018universal/images/sha256-f39e2aa11c0b5fa587170294332334e51ad73f578d5548c7695ad0f9d9d51d7a?context=explore"
+            },
+            {
+                "model_name":"dpcnn",
+                "paper_name":"Deep Pyramid Convolutional Neural Networks for Text Categorization",
+                "metric":{
+                    "Accuracy":97.34
+                },
+                "paper_link":"https://www.aclweb.org/anthology/P17-1052/",
+                "github_link":"http://riejohnson.com/cnn_download.html",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-ICML-johnson2016supervised/images/sha256-81c3f41c17006788c1c206bb1422d8764636e95124f93ad83bdb6f8a2783e94f?context=explore"
+            },
+            {
+                "model_name":"adv",
+                "paper_name":"Adversarial Training Methods for Semi-Supervised Text Classification",
+                "metric":{
+                    "Accuracy":96.79
+                },
+                "paper_link":"https://arxiv.org/abs/1605.07725",
+                "github_link":"https://github.com/tensorflow/models/tree/master/research/adversarial_text",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-ICLR-miyato2016adversarial/images/sha256-ab81528cbfe66c01da4630fbc4435d54dc0ee0363eb407f6bbd8e389a5b73105?context=explore"
+            },
+            {
+                "model_name":"ssl",
+                "paper_link":"https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_46.pdf",
+                "github_link":"https://github.com/DevSinghSachan/ssl_text_classification",
+                "paper_name":"Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function",
+                "metric":{
+                    "Accuracy":97.57
+                },
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-AAAI-Sachan_2019/images/sha256-42ad844d5964352d97f6777dd8af66511177b3f0afaae9d5f6b09adc829b5695?context=explore"
+            },
+            {
+                "model_name":"DistilBERT",
+                "paper_link":"https://arxiv.org/abs/1910.01108",
+                "paper_name":"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+                "metric":{
+                    "Accuracy":92.2
+                },
+                "github_link":"https://github.com/huggingface/transformers",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-AAAI-Sachan_2019/images/sha256-42ad844d5964352d97f6777dd8af66511177b3f0afaae9d5f6b09adc829b5695?context=explore"
+            },
+            {
+                "model_name":"FastText",
+                "paper_link":"https://arxiv.org/abs/1910.01108",
+                "paper_name":"Bag of Tricks for Efficient Text Classification",
+                "metric":{
+                    "Accuracy":93.4
+                },
+                "github_link":"https://github.com/facebookresearch/fastText",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-EACL-joulin2016bag/images/sha256-bdac8632886c0b8f3064c1b552a69c965ba8ce3713b64db1d5fe2493b5522eb3?context=explore"
+            },
+            {
+                "model_name":"SRNN",
+                "paper_link":"https://arxiv.org/abs/1910.01108",
+                "paper_name":"Sliced Recurrent Neural Networks",
+                "metric":{
+                    "Accuracy":96.13
+                },
+                "github_link":"https://github.com/zepingyu0512/srnn",
+                "dockerhub_link":"https://registry.hub.docker.com/layers/fudannlp/reimplement/SA-COLING-yu2018sliced/images/sha256-d3e82e0a08fe49d03b3b4598fc8cb6ebf8996cc919d32eb5905932e90559d2c6?context=explore"
+            }
+        ]
+    }
+]

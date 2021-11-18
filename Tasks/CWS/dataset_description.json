@@ -1,1 +1,143 @@
-[{"name": "CTB6", "description": "CTB6(Chinese Treebank 6.0) is the latest version produced from the Chinese Treebank project, consisting of 780,000 words (over 1.28 million Chinese characters) that are segmented, part-of-speech tagged and fully bracketed. The data sources include newswire from Xinhua News Agency, articles from Sinorama Magazine, news from the website of the Hong Kong Special Administrative Region and transcripts from various broadcast news programs.", "available_transformation_type": ["domain", "domain_domain"], "dataset_size": 2079, "models": [{"model_name": "MCCWS", "paper_link": "https://arxiv.org/abs/1906.12035", "github_link": "https://github.com/acphile/MCCWS", "paper_name": "A Concise Model for Multi-Criteria Chinese Word Segmentation with Transformer Encoder", "metric": {"Macro-F1": 93.5}, "dockerhub_link": ""}, {"model_name": "Sub-CWS", "paper_link": "https://arxiv.org/abs/1810.12594", "github_link": "https://github.com/jiesutd/SubwordEncoding-CWS", "paper_name": "Subword Encoding in Lattice LSTM for Chinese Word Segmentation", "metric": {"Macro-F1": 96.8}, "dockerhub_link": ""}, {"model_name": "GreedyCWS", "paper_link": "https://arxiv.org/abs/1704.07047", "github_link": "https://github.com/jcyk/greedyCWS", "paper_name": "Fast and Accurate Neural Word Segmentation for Chinese", "metric": {"Macro-F1": 95.1}, "dockerhub_link": ""}, {"model_name": "CWS-LSTM", "paper_link": "Long Short-Term Memory Neural Networks for Chinese Word Segmentation", "github_link": "https://github.com/FudanNLP/CWS_LSTM", "paper_name": "https://www.aclweb.org/anthology/D15-1141/", "metric": {"Macro-F1": 95.2}, "dockerhub_link": ""}, {"model_name": "CWS", "paper_link": "https://arxiv.org/abs/1606.04300", "github_link": "https://github.com/jcyk/CWS", "paper_name": "Neural Word Segmentation Learning for Chinese", "metric": {"Macro-F1": 95}, "dockerhub_link": ""}, {"model_name": "CRF", "paper_link": "", "github_link": "https://github.com/wellecks/cws", "paper_name": "", "metric": {"Macro-F1": 94.1}, "dockerhub_link": ""}, {"model_name": "FMM", "paper_link": "", "github_link": "https://github.com/minixalpha/PyCWS", "paper_name": "", "metric": {"Macro-F1": 86.5}, "dockerhub_link": ""}, {"model_name": "BMM", "paper_link": "", "github_link": "https://github.com/minixalpha/PyCWS", "paper_name": "", "metric": {"Macro-F1": 85.8}, "dockerhub_link": ""}]}]
+[
+    {
+        "name":"CTB6",
+        "description":"CTB6(Chinese Treebank 6.0) is the latest version produced from the Chinese Treebank project, consisting of 780,000 words (over 1.28 million Chinese characters) that are segmented, part-of-speech tagged and fully bracketed. The data sources include newswire from Xinhua News Agency, articles from Sinorama Magazine, news from the website of the Hong Kong Special Administrative Region and transcripts from various broadcast news programs.",
+        "available_transformation_type":[
+            "domain",
+            "domain_domain"
+        ],
+        "dataset_size":2079,
+        "models":[
+            {
+                "model_name":"MCCWS",
+                "paper_link":"https://arxiv.org/abs/1906.12035",
+                "github_link":"https://github.com/acphile/MCCWS",
+                "paper_name":"A Concise Model for Multi-Criteria Chinese Word Segmentation with Transformer Encoder",
+                "metric":{
+                    "Macro-F1":93.5
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-EMNLP-qiu2019concise/images/sha256-47601df599141df2b6c502ac775af17305a4f80890a85ed72deb749875f1475a?context=explore"
+            },
+            {
+                "model_name":"Sub-CWS",
+                "paper_link":"https://arxiv.org/abs/1810.12594",
+                "github_link":"https://github.com/jiesutd/SubwordEncoding-CWS",
+                "paper_name":"Subword Encoding in Lattice LSTM for Chinese Word Segmentation",
+                "metric":{
+                    "Macro-F1":96.8
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-NAACL-yang2018subword/images/sha256-c91b8328d07e86f5f1ae0e51e6e746b688d023e9fedece0be683951356a94062?context=explore"
+            },
+            {
+                "model_name":"GreedyCWS",
+                "paper_link":"https://arxiv.org/abs/1704.07047",
+                "github_link":"https://github.com/jcyk/greedyCWS",
+                "paper_name":"Fast and Accurate Neural Word Segmentation for Chinese",
+                "metric":{
+                    "Macro-F1":95.1
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-ACL-cai2017fast/images/sha256-05d567fbc3b47216bdf4867700f89e649264d92bb4287911a59fa8a064a8f51f?context=explore"
+            },
+            {
+                "model_name":"CWS-LSTM",
+                "paper_link":"Long Short-Term Memory Neural Networks for Chinese Word Segmentation",
+                "github_link":"https://github.com/FudanNLP/CWS_LSTM",
+                "paper_name":"https://www.aclweb.org/anthology/D15-1141/",
+                "metric":{
+                    "Macro-F1":95.2
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-EMNLP-chen2015long/images/sha256-1eda145d04e4778879903ff8af252f1d8dfb8ba04a51bda98c02446e3b40071a?context=explore"
+            },
+            {
+                "model_name":"CWS",
+                "paper_link":"https://arxiv.org/abs/1606.04300",
+                "github_link":"https://github.com/jcyk/CWS",
+                "paper_name":"Neural Word Segmentation Learning for Chinese",
+                "metric":{
+                    "Macro-F1":95
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-ACL-cai2016neural/images/sha256-020f59b13e25333808237785f9a9823eafaee161d7c40723a30f372541d3360a?context=explore"
+            },
+            {
+                "model_name":"CRF",
+                "paper_link":"",
+                "github_link":"https://github.com/wellecks/cws",
+                "paper_name":"",
+                "metric":{
+                    "Macro-F1":94.1
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-CRF/images/sha256-61dd24cd1ba2e75c0081faea3f7117a65aa0b5419c4e9d960f0ef97b86a27c26?context=explore"
+            },
+            {
+                "model_name":"FMM",
+                "paper_link":"",
+                "github_link":"https://github.com/minixalpha/PyCWS",
+                "paper_name":"",
+                "metric":{
+                    "Macro-F1":86.5
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-FMM/images/sha256-a9a9be07df40c46e6643a91dd6da70f2f3912617ef0a5072fe17b148fdf120c0?context=explore"
+            },
+            {
+                "model_name":"BMM",
+                "paper_link":"",
+                "github_link":"https://github.com/minixalpha/PyCWS",
+                "paper_name":"",
+                "metric":{
+                    "Macro-F1":85.8
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-BMM/images/sha256-85f1df66ed6a0d5559edb5f509de32eeba4e76cbe72f86e67f588ef136a0d58a?context=explore"
+            },
+            {
+                "model_name":"DictConcatModel",
+                "paper_link":"https://ojs.aaai.org/index.php/AAAI/article/view/11959",
+                "github_link":"https://github.com/CPF-NLPR/CWS_Dict",
+                "paper_name":"Neural Networks Incorporating Dictionaries for Chinese Word Segmentation",
+                "metric":{
+                    "Macro-F1":96.1
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-AAAI-zhang2018neural/images/sha256-6cb54585d74e34e1019c298c7065296d80fd1ac45be45a957b0a4a40e2dc5dfa?context=explore"
+            },
+            {
+                "model_name":"DictHyperModel",
+                "paper_link":"https://ojs.aaai.org/index.php/AAAI/article/view/11959",
+                "github_link":"https://github.com/CPF-NLPR/CWS_Dict",
+                "paper_name":"Neural Networks Incorporating Dictionaries for Chinese Word Segmentation",
+                "metric":{
+                    "Macro-F1":96.4
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-AAAI-zhang2018neural/images/sha256-6cb54585d74e34e1019c298c7065296d80fd1ac45be45a957b0a4a40e2dc5dfa?context=explore"
+            },
+            {
+                "model_name":"McASP_Bert",
+                "paper_link":"https://aclanthology.org/2020.coling-main.187/",
+                "github_link":"https://github.com/cuhksz-nlp/McASP",
+                "paper_name":"Joint Chinese Word Segmentation and Part-of-speech Tagging via Multi-channel Attention of Character N-grams",
+                "metric":{
+                    "Macro-F1":97.56
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-ACL-tian2020joint/images/sha256-25115dd4fb5d5aaecd253bb064e35b08bd0b7341d883fe37c90e14e230557c7e?context=explore"
+            },
+            {
+                "model_name":"McASP_Zen",
+                "paper_link":"https://aclanthology.org/2020.coling-main.187/",
+                "github_link":"https://github.com/cuhksz-nlp/McASP",
+                "paper_name":"Joint Chinese Word Segmentation and Part-of-speech Tagging via Multi-channel Attention of Character N-grams",
+                "metric":{
+                    "Macro-F1":97.67
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-ACL-tian2020joint/images/sha256-25115dd4fb5d5aaecd253bb064e35b08bd0b7341d883fe37c90e14e230557c7e?context=explore"
+            },
+            {
+                "model_name":"WMSeg",
+                "paper_link":"https://aclanthology.org/2020.acl-main.734/",
+                "github_link":"https://github.com/SVAIGBA/WMSeg",
+                "paper_name":"Improving Chinese Word Segmentation with Wordhood Memory Networks",
+                "metric":{
+                    "Macro-F1":97.25
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/CWS-COLING-tian2020joint/images/sha256-d6e916503a0d10cb8ec3eb2e3fadc5fc8fcc4ff0541eab261204a9608fae6767?context=explore"
+            }
+        ]
+    }
+]
