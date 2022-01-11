@@ -1,1 +1,384 @@
-[{"name": "CoNLL 2003", "description": "The CoNLL 2003 NER task consists of newswire text from the Reuters RCV1 corpus tagged with four different entity types (PER, LOC, ORG, MISC). Models are evaluated based on span-based F1 on the test set.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"], "dataset_size": 3684, "models": [{"model_name": "BiLSTM-CRF", "paper_link": "https://www.aclweb.org/anthology/N16-1030/", "github_link": "https://github.com/achernodub/targer", "paper_name": "Neural Architectures for Named Entity Recognition", "metric": {"F1": 88.48}, "dockerhub_link": ""}, {"model_name": "BiLSTM-CNN-CRF", "paper_link": "https://www.aclweb.org/anthology/P16-1101", "github_link": "https://github.com/achernodub/targer", "paper_name": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF", "metric": {"F1": 90.59}, "dockerhub_link": ""}, {"model_name": "LM-LSTM-CRF", "paper_link": "https://arxiv.org/pdf/1709.04109v4.pdf", "github_link": "https://github.com/LiyuanLucasLiu/LM-LSTM-CRF", "paper_name": "Empower Sequence Labeling with Task-Aware Neural Language Model", "metric": {"F1": 90.88}, "dockerhub_link": ""}, {"model_name": "BERT-base(cased)", "paper_link": "https://www.aclweb.org/anthology/N19-1423/", "github_link": "https://github.com/kamalkraj/BERT-NER", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"F1": 91.42}, "dockerhub_link": ""}, {"model_name": "BERT-base(uncased)", "paper_link": "https://www.aclweb.org/anthology/N19-1423/", "github_link": "https://github.com/kamalkraj/BERT-NER", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"F1": 90.4}, "dockerhub_link": ""}, {"model_name": "TENER", "paper_link": "https://arxiv.org/pdf/1911.04474v3.pdf", "github_link": "https://github.com/fastnlp/TENER", "paper_name": "TENER: Adapting Transformer Encoder for Named Entity Recognition", "metric": {"F1": 91.53}, "dockerhub_link": ""}, {"model_name": "GRN", "paper_link": "https://arxiv.org/pdf/1907.05611v2.pdf", "github_link": "https://github.com/HuiChen24/NER-GRN", "paper_name": "GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition", "metric": {"F1": 91.68}, "dockerhub_link": ""}, {"model_name": "BiLSTM-CRF+ELMo", "paper_link": "https://www.aclweb.org/anthology/N18-1202/", "github_link": "https://github.com/flairNLP/flair", "paper_name": "Deep contextualized word representations", "metric": {"F1": 91.14}, "dockerhub_link": ""}, {"model_name": "flair embeddings", "paper_link": "https://www.aclweb.org/anthology/C18-1139.pdf", "github_link": "https://github.com/flairNLP/flair", "paper_name": "Contextual String Embeddings for Sequence Labeling", "metric": {"F1": 92.25}, "dockerhub_link": ""}, {"model_name": "Flair embeddings + Pooling", "paper_link": "https://www.aclweb.org/anthology/N19-1078/", "github_link": "https://github.com/flairNLP/flair", "paper_name": "Pooled Contextualized Embeddings for Named Entity Recognition", "metric": {"F1": 91.32}, "dockerhub_link": ""}]}, {"name": "OntoNotes v5", "description": "OntoNotes Release 5.0 iis comprised of 1,745k English, 900k Chinese, and 300k Arabic text data collected from a range of sources including telephone conversations, newswire, talkshows, broadcast news, broadcast conversation, and online blogs. Entities are annotated with labels such as PERSON, ORGANIZATION, and LOCATION among others.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"], "dataset_size": 8469, "models": [{"model_name": "BiLSTM-CRF", "paper_link": "https://www.aclweb.org/anthology/N16-1030/", "github_link": "https://github.com/achernodub/targer", "paper_name": "Neural Architectures for Named Entity Recognition", "metric": {"F1": 82.31}, "dockerhub_link": ""}, {"model_name": "BiLSTM-CNN-CRF", "paper_link": "https://www.aclweb.org/anthology/P16-1101", "github_link": "https://github.com/achernodub/targer", "paper_name": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF", "metric": {"F1": 85.95}, "dockerhub_link": ""}, {"model_name": "LM-LSTM-CRF", "paper_link": "https://arxiv.org/pdf/1709.04109v4.pdf", "github_link": "https://github.com/LiyuanLucasLiu/LM-LSTM-CRF", "paper_name": "Empower Sequence Labeling with Task-Aware Neural Language Model", "metric": {"F1": 87.92}, "dockerhub_link": ""}, {"model_name": "BERT-base(cased)", "paper_link": "https://www.aclweb.org/anthology/N19-1423/", "github_link": "https://github.com/kamalkraj/BERT-NER", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"F1": 88.85}, "dockerhub_link": ""}, {"model_name": "BERT-base(uncased)", "paper_link": "https://www.aclweb.org/anthology/N19-1423/", "github_link": "https://github.com/kamalkraj/BERT-NER", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"F1": 86.85}, "dockerhub_link": ""}, {"model_name": "TENER", "paper_link": "https://arxiv.org/pdf/1911.04474v3.pdf", "github_link": "https://github.com/fastnlp/TENER", "paper_name": "TENER: Adapting Transformer Encoder for Named Entity Recognition", "metric": {"F1": 88.12}, "dockerhub_link": ""}, {"model_name": "GRN", "paper_link": "https://arxiv.org/pdf/1907.05611v2.pdf", "github_link": "https://github.com/HuiChen24/NER-GRN", "paper_name": "GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition", "metric": {"F1": 87.84}, "dockerhub_link": ""}, {"model_name": "BiLSTM-CRF+ELMo", "paper_link": "https://www.aclweb.org/anthology/N18-1202/", "github_link": "https://github.com/flairNLP/flair", "paper_name": "Deep contextualized word representations", "metric": {"F1": 85.62}, "dockerhub_link": ""}, {"model_name": "flair embeddings", "paper_link": "https://www.aclweb.org/anthology/C18-1139.pdf", "github_link": "https://github.com/flairNLP/flair", "paper_name": "Contextual String Embeddings for Sequence Labeling", "metric": {"F1": 86.91}, "dockerhub_link": ""}, {"model_name": "Flair embeddings + Pooling", "paper_link": "https://www.aclweb.org/anthology/N19-1078/", "github_link": "https://github.com/flairNLP/flair", "paper_name": "Pooled Contextualized Embeddings for Named Entity Recognition", "metric": {"F1": 85.57}, "dockerhub_link": ""}]}, {"name": "ACE 2005", "description": "ACE 2005 Multilingual Training Corpus was developed by the Linguistic Data Consortium (LDC) and contains approximately 1,800 files of mixed genre text in English, Arabic, and Chinese annotated for entities, relations, and events.", "available_transformation_type": ["domain", "ut", "domain_domain", "domain_ut", "ut_ut"], "dataset_size": 2050, "models": [{"model_name": "BiLSTM-CRF", "paper_link": "https://www.aclweb.org/anthology/N16-1030/", "github_link": "https://github.com/achernodub/targer", "paper_name": "Neural Architectures for Named Entity Recognition", "metric": {"F1": 82.94}, "dockerhub_link": ""}, {"model_name": "BiLSTM-CNN-CRF", "paper_link": "https://www.aclweb.org/anthology/P16-1101", "github_link": "https://github.com/achernodub/targer", "paper_name": "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF", "metric": {"F1": 82.08}, "dockerhub_link": ""}, {"model_name": "LM-LSTM-CRF", "paper_link": "https://arxiv.org/pdf/1709.04109v4.pdf", "github_link": "https://github.com/LiyuanLucasLiu/LM-LSTM-CRF", "paper_name": "Empower Sequence Labeling with Task-Aware Neural Language Model", "metric": {"F1": 85.14}, "dockerhub_link": ""}, {"model_name": "BERT-base(cased)", "paper_link": "https://www.aclweb.org/anthology/N19-1423/", "github_link": "https://github.com/kamalkraj/BERT-NER", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"F1": 87.27}, "dockerhub_link": ""}, {"model_name": "BERT-base(uncased)", "paper_link": "https://www.aclweb.org/anthology/N19-1423/", "github_link": "https://github.com/kamalkraj/BERT-NER", "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "metric": {"F1": 88.75}, "dockerhub_link": ""}, {"model_name": "TENER", "paper_link": "https://arxiv.org/pdf/1911.04474v3.pdf", "github_link": "https://github.com/fastnlp/TENER", "paper_name": "TENER: Adapting Transformer Encoder for Named Entity Recognition", "metric": {"F1": 84.19}, "dockerhub_link": ""}, {"model_name": "GRN", "paper_link": "https://arxiv.org/pdf/1907.05611v2.pdf", "github_link": "https://github.com/HuiChen24/NER-GRN", "paper_name": "GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition", "metric": {"F1": 84.91}, "dockerhub_link": ""}, {"model_name": "BiLSTM-CRF+ELMo", "paper_link": "https://www.aclweb.org/anthology/N18-1202/", "github_link": "https://github.com/flairNLP/flair", "paper_name": "Deep contextualized word representations", "metric": {"F1": 85.42}, "dockerhub_link": ""}, {"model_name": "flair embeddings", "paper_link": "https://www.aclweb.org/anthology/C18-1139.pdf", "github_link": "https://github.com/flairNLP/flair", "paper_name": "Contextual String Embeddings for Sequence Labeling", "metric": {"F1": 85.7}, "dockerhub_link": ""}, {"model_name": "Flair embeddings + Pooling", "paper_link": "https://www.aclweb.org/anthology/N19-1078/", "github_link": "https://github.com/flairNLP/flair", "paper_name": "Pooled Contextualized Embeddings for Named Entity Recognition", "metric": {"F1": 84.65}, "dockerhub_link": ""}]}]
+[
+    {
+        "name":"CoNLL 2003",
+        "description":"The CoNLL 2003 NER task consists of newswire text from the Reuters RCV1 corpus tagged with four different entity types (PER, LOC, ORG, MISC). Models are evaluated based on span-based F1 on the test set.",
+        "available_transformation_type":[
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut"
+        ],
+        "dataset_size":3684,
+        "models":[
+            {
+                "model_name":"BiLSTM-CRF",
+                "paper_link":"https://www.aclweb.org/anthology/N16-1030/",
+                "github_link":"https://github.com/achernodub/targer",
+                "paper_name":"Neural Architectures for Named Entity Recognition",
+                "metric":{
+                    "F1":88.48
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-lample2016neural/images/sha256-22c44713298be47439ff711fc33228b060ed32ff10d56b374ef554d831091bfd?context=explore"
+            },
+            {
+                "model_name":"BiLSTM-CNN-CRF",
+                "paper_link":"https://www.aclweb.org/anthology/P16-1101",
+                "github_link":"https://github.com/achernodub/targer",
+                "paper_name":"End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+                "metric":{
+                    "F1":90.59
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-ACL-ma2016end/images/sha256-0c5d10a8cdbeaba2027ca4cb0f43260980cce1499ef5b8858f9e1b32a1f9d73d?context=explore"
+            },
+            {
+                "model_name":"LM-LSTM-CRF",
+                "paper_link":"https://arxiv.org/pdf/1709.04109v4.pdf",
+                "github_link":"https://github.com/LiyuanLucasLiu/LM-LSTM-CRF",
+                "paper_name":"Empower Sequence Labeling with Task-Aware Neural Language Model",
+                "metric":{
+                    "F1":90.88
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-AAAI-liu2018empower/images/sha256-9fe69b6e8c833d0bd24a5afbed3d9cd30f248ad7befb930f3209bf0e94676aca?context=explore"
+            },
+            {
+                "model_name":"BERT-base(cased)",
+                "paper_link":"https://www.aclweb.org/anthology/N19-1423/",
+                "github_link":"https://github.com/kamalkraj/BERT-NER",
+                "paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric":{
+                    "F1":91.42
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-devlin2018bert/images/sha256-4fe04dd44a646ace4337a7b06849c25bbdfb139abe65602e4161b703fe7f3f24?context=explore"
+            },
+            {
+                "model_name":"BERT-base(uncased)",
+                "paper_link":"https://www.aclweb.org/anthology/N19-1423/",
+                "github_link":"https://github.com/kamalkraj/BERT-NER",
+                "paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric":{
+                    "F1":90.4
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-devlin2018bert/images/sha256-4fe04dd44a646ace4337a7b06849c25bbdfb139abe65602e4161b703fe7f3f24?context=explore"
+            },
+            {
+                "model_name":"TENER",
+                "paper_link":"https://arxiv.org/pdf/1911.04474v3.pdf",
+                "github_link":"https://github.com/fastnlp/TENER",
+                "paper_name":"TENER: Adapting Transformer Encoder for Named Entity Recognition",
+                "metric":{
+                    "F1":91.53
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-arxiv-yan2019tener/images/sha256-49fd2edf4b03c5f35f98b930575b571bcc2aeb8f8091edbe567e4ca17e9945e6?context=explore"
+            },
+            {
+                "model_name":"GRN",
+                "paper_link":"https://arxiv.org/pdf/1907.05611v2.pdf",
+                "github_link":"https://github.com/HuiChen24/NER-GRN",
+                "paper_name":"GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition",
+                "metric":{
+                    "F1":91.68
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-AAAI-Chen2019grn/images/sha256-eaf71378fc58eda338c239ebc1b04cc37c058cf58728f69526b5ec8637df39dd?context=explore"
+            },
+            {
+                "model_name":"BiLSTM-CRF+ELMo",
+                "paper_link":"https://www.aclweb.org/anthology/N18-1202/",
+                "github_link":"https://github.com/flairNLP/flair",
+                "paper_name":"Deep contextualized word representations",
+                "metric":{
+                    "F1":91.14
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-Akbik2018elmo/images/sha256-23a62a37c2e6c9fee40b3a348df5586ec1fd04680de26023c5954eb7a1f72ebe?context=explore"
+            },
+            {
+                "model_name":"flair embeddings",
+                "paper_link":"https://www.aclweb.org/anthology/C18-1139.pdf",
+                "github_link":"https://github.com/flairNLP/flair",
+                "paper_name":"Contextual String Embeddings for Sequence Labeling",
+                "metric":{
+                    "F1":92.25
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-COLING-Akbik2018Flair/images/sha256-3df9729fde2461327dd85355549118fce4949a5da0c32f3b1aac714c550c46ad?context=explore"
+            },
+            {
+                "model_name":"Flair embeddings + Pooling",
+                "paper_link":"https://www.aclweb.org/anthology/N19-1078/",
+                "github_link":"https://github.com/flairNLP/flair",
+                "paper_name":"Pooled Contextualized Embeddings for Named Entity Recognition",
+                "metric":{
+                    "F1":91.32
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-Akbik2018pooledflair/images/sha256-d036f7e5133d70d502d3c24093104c840b9059da73cc4aae4fbc835494741279?context=explore"
+            },
+            {
+                "model_name":"BARTNER",
+                "paper_link":"https://aclanthology.org/2021.acl-long.451.pdf",
+                "github_link":"https://github.com/yhcc/BARTNER",
+                "paper_name":"A Unified Generative Framework for Various NER Subtasks",
+                "metric":{
+                    "F1":92.67
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-ACL-yan2021unified/images/sha256-aa75721da3134ce7ee97e81e8240eb5f2a0d078fea5d268421a5b72f98e28679?context=explore"
+            },
+            {
+                "model_name":"UANet",
+                "paper_link":"https://aclanthology.org/2021.acl-long.451.pdf",
+                "github_link":"https://github.com/yhcc/BARTNER",
+                "paper_name":"A Unified Generative Framework for Various NER Subtasks",
+                "metric":{
+                    "F1":91.98
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-IJCAI-gui2020uncertainty/images/sha256-6c17a4e8f70cc48c3bf99c99970ae83ea22e9ddfdbfd30937781f7fc42543d87?context=explore"
+            },
+            {
+                "model_name":"S-LSTM",
+                "paper_link":"https://aclanthology.org/2021.acl-long.451.pdf",
+                "github_link":"https://github.com/yhcc/BARTNER",
+                "paper_name":"A Unified Generative Framework for Various NER Subtasks",
+                "metric":{
+                    "F1":90.17
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-ACL-zhang2018sentence/images/sha256-4b5b38c1d2d69c1e5b5b88414784e42af9faa6ee7fb786ae887d9e7f3bd5dca5?context=explore"
+            },
+            {
+                "model_name":"NAT",
+                "paper_link":"https://aclanthology.org/2021.acl-long.451.pdf",
+                "github_link":"https://github.com/yhcc/BARTNER",
+                "paper_name":"A Unified Generative Framework for Various NER Subtasks",
+                "metric":{
+                    "F1":92.04
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-ACL-namysl2020nat/images/sha256-508f9684ed67f74fd72f83ea8e08ed9021354b05c98c7275fc9af5eab8c707ab?context=explore"
+            }
+        ]
+    },
+    {
+        "name":"OntoNotes v5",
+        "description":"OntoNotes Release 5.0 iis comprised of 1,745k English, 900k Chinese, and 300k Arabic text data collected from a range of sources including telephone conversations, newswire, talkshows, broadcast news, broadcast conversation, and online blogs. Entities are annotated with labels such as PERSON, ORGANIZATION, and LOCATION among others.",
+        "available_transformation_type":[
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut"
+        ],
+        "dataset_size":8469,
+        "models":[
+            {
+                "model_name":"BiLSTM-CRF",
+                "paper_link":"https://www.aclweb.org/anthology/N16-1030/",
+                "github_link":"https://github.com/achernodub/targer",
+                "paper_name":"Neural Architectures for Named Entity Recognition",
+                "metric":{
+                    "F1":82.31
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-lample2016neural/images/sha256-22c44713298be47439ff711fc33228b060ed32ff10d56b374ef554d831091bfd?context=explore"
+            },
+            {
+                "model_name":"BiLSTM-CNN-CRF",
+                "paper_link":"https://www.aclweb.org/anthology/P16-1101",
+                "github_link":"https://github.com/achernodub/targer",
+                "paper_name":"End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+                "metric":{
+                    "F1":85.95
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-ACL-ma2016end/images/sha256-0c5d10a8cdbeaba2027ca4cb0f43260980cce1499ef5b8858f9e1b32a1f9d73d?context=explore"
+            },
+            {
+                "model_name":"LM-LSTM-CRF",
+                "paper_link":"https://arxiv.org/pdf/1709.04109v4.pdf",
+                "github_link":"https://github.com/LiyuanLucasLiu/LM-LSTM-CRF",
+                "paper_name":"Empower Sequence Labeling with Task-Aware Neural Language Model",
+                "metric":{
+                    "F1":87.92
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-AAAI-liu2018empower/images/sha256-9fe69b6e8c833d0bd24a5afbed3d9cd30f248ad7befb930f3209bf0e94676aca?context=explore"
+            },
+            {
+                "model_name":"BERT-base(cased)",
+                "paper_link":"https://www.aclweb.org/anthology/N19-1423/",
+                "github_link":"https://github.com/kamalkraj/BERT-NER",
+                "paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric":{
+                    "F1":88.85
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-devlin2018bert/images/sha256-4fe04dd44a646ace4337a7b06849c25bbdfb139abe65602e4161b703fe7f3f24?context=explore"
+            },
+            {
+                "model_name":"BERT-base(uncased)",
+                "paper_link":"https://www.aclweb.org/anthology/N19-1423/",
+                "github_link":"https://github.com/kamalkraj/BERT-NER",
+                "paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric":{
+                    "F1":86.85
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-devlin2018bert/images/sha256-4fe04dd44a646ace4337a7b06849c25bbdfb139abe65602e4161b703fe7f3f24?context=explore"
+            },
+            {
+                "model_name":"TENER",
+                "paper_link":"https://arxiv.org/pdf/1911.04474v3.pdf",
+                "github_link":"https://github.com/fastnlp/TENER",
+                "paper_name":"TENER: Adapting Transformer Encoder for Named Entity Recognition",
+                "metric":{
+                    "F1":88.12
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-arxiv-yan2019tener/images/sha256-49fd2edf4b03c5f35f98b930575b571bcc2aeb8f8091edbe567e4ca17e9945e6?context=explore"
+            },
+            {
+                "model_name":"GRN",
+                "paper_link":"https://arxiv.org/pdf/1907.05611v2.pdf",
+                "github_link":"https://github.com/HuiChen24/NER-GRN",
+                "paper_name":"GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition",
+                "metric":{
+                    "F1":87.84
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-AAAI-Chen2019grn/images/sha256-eaf71378fc58eda338c239ebc1b04cc37c058cf58728f69526b5ec8637df39dd?context=explore"
+            },
+            {
+                "model_name":"BiLSTM-CRF+ELMo",
+                "paper_link":"https://www.aclweb.org/anthology/N18-1202/",
+                "github_link":"https://github.com/flairNLP/flair",
+                "paper_name":"Deep contextualized word representations",
+                "metric":{
+                    "F1":85.62
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-Akbik2018elmo/images/sha256-23a62a37c2e6c9fee40b3a348df5586ec1fd04680de26023c5954eb7a1f72ebe?context=explore"
+            },
+            {
+                "model_name":"flair embeddings",
+                "paper_link":"https://www.aclweb.org/anthology/C18-1139.pdf",
+                "github_link":"https://github.com/flairNLP/flair",
+                "paper_name":"Contextual String Embeddings for Sequence Labeling",
+                "metric":{
+                    "F1":86.91
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-COLING-Akbik2018Flair/images/sha256-3df9729fde2461327dd85355549118fce4949a5da0c32f3b1aac714c550c46ad?context=explore"
+            },
+            {
+                "model_name":"Flair embeddings + Pooling",
+                "paper_link":"https://www.aclweb.org/anthology/N19-1078/",
+                "github_link":"https://github.com/flairNLP/flair",
+                "paper_name":"Pooled Contextualized Embeddings for Named Entity Recognition",
+                "metric":{
+                    "F1":85.57
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-Akbik2018pooledflair/images/sha256-d036f7e5133d70d502d3c24093104c840b9059da73cc4aae4fbc835494741279?context=explore"
+            }
+        ]
+    },
+    {
+        "name":"ACE 2005",
+        "description":"ACE 2005 Multilingual Training Corpus was developed by the Linguistic Data Consortium (LDC) and contains approximately 1,800 files of mixed genre text in English, Arabic, and Chinese annotated for entities, relations, and events.",
+        "available_transformation_type":[
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut"
+        ],
+        "dataset_size":2050,
+        "models":[
+            {
+                "model_name":"BiLSTM-CRF",
+                "paper_link":"https://www.aclweb.org/anthology/N16-1030/",
+                "github_link":"https://github.com/achernodub/targer",
+                "paper_name":"Neural Architectures for Named Entity Recognition",
+                "metric":{
+                    "F1":82.94
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-lample2016neural/images/sha256-22c44713298be47439ff711fc33228b060ed32ff10d56b374ef554d831091bfd?context=explore"
+            },
+            {
+                "model_name":"BiLSTM-CNN-CRF",
+                "paper_link":"https://www.aclweb.org/anthology/P16-1101",
+                "github_link":"https://github.com/achernodub/targer",
+                "paper_name":"End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+                "metric":{
+                    "F1":82.08
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-ACL-ma2016end/images/sha256-0c5d10a8cdbeaba2027ca4cb0f43260980cce1499ef5b8858f9e1b32a1f9d73d?context=explore"
+            },
+            {
+                "model_name":"LM-LSTM-CRF",
+                "paper_link":"https://arxiv.org/pdf/1709.04109v4.pdf",
+                "github_link":"https://github.com/LiyuanLucasLiu/LM-LSTM-CRF",
+                "paper_name":"Empower Sequence Labeling with Task-Aware Neural Language Model",
+                "metric":{
+                    "F1":85.14
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-AAAI-liu2018empower/images/sha256-9fe69b6e8c833d0bd24a5afbed3d9cd30f248ad7befb930f3209bf0e94676aca?context=explore"
+            },
+            {
+                "model_name":"BERT-base(cased)",
+                "paper_link":"https://www.aclweb.org/anthology/N19-1423/",
+                "github_link":"https://github.com/kamalkraj/BERT-NER",
+                "paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric":{
+                    "F1":87.27
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-devlin2018bert/images/sha256-4fe04dd44a646ace4337a7b06849c25bbdfb139abe65602e4161b703fe7f3f24?context=explore"
+            },
+            {
+                "model_name":"BERT-base(uncased)",
+                "paper_link":"https://www.aclweb.org/anthology/N19-1423/",
+                "github_link":"https://github.com/kamalkraj/BERT-NER",
+                "paper_name":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "metric":{
+                    "F1":88.75
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-devlin2018bert/images/sha256-4fe04dd44a646ace4337a7b06849c25bbdfb139abe65602e4161b703fe7f3f24?context=explore"
+            },
+            {
+                "model_name":"TENER",
+                "paper_link":"https://arxiv.org/pdf/1911.04474v3.pdf",
+                "github_link":"https://github.com/fastnlp/TENER",
+                "paper_name":"TENER: Adapting Transformer Encoder for Named Entity Recognition",
+                "metric":{
+                    "F1":84.19
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-arxiv-yan2019tener/images/sha256-49fd2edf4b03c5f35f98b930575b571bcc2aeb8f8091edbe567e4ca17e9945e6?context=explore"
+            },
+            {
+                "model_name":"GRN",
+                "paper_link":"https://arxiv.org/pdf/1907.05611v2.pdf",
+                "github_link":"https://github.com/HuiChen24/NER-GRN",
+                "paper_name":"GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition",
+                "metric":{
+                    "F1":84.91
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-AAAI-Chen2019grn/images/sha256-eaf71378fc58eda338c239ebc1b04cc37c058cf58728f69526b5ec8637df39dd?context=explore"
+            },
+            {
+                "model_name":"BiLSTM-CRF+ELMo",
+                "paper_link":"https://www.aclweb.org/anthology/N18-1202/",
+                "github_link":"https://github.com/flairNLP/flair",
+                "paper_name":"Deep contextualized word representations",
+                "metric":{
+                    "F1":85.42
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-Akbik2018elmo/images/sha256-23a62a37c2e6c9fee40b3a348df5586ec1fd04680de26023c5954eb7a1f72ebe?context=explore"
+            },
+            {
+                "model_name":"flair embeddings",
+                "paper_link":"https://www.aclweb.org/anthology/C18-1139.pdf",
+                "github_link":"https://github.com/flairNLP/flair",
+                "paper_name":"Contextual String Embeddings for Sequence Labeling",
+                "metric":{
+                    "F1":85.7
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-COLING-Akbik2018Flair/images/sha256-3df9729fde2461327dd85355549118fce4949a5da0c32f3b1aac714c550c46ad?context=explore"
+            },
+            {
+                "model_name":"Flair embeddings + Pooling",
+                "paper_link":"https://www.aclweb.org/anthology/N19-1078/",
+                "github_link":"https://github.com/flairNLP/flair",
+                "paper_name":"Pooled Contextualized Embeddings for Named Entity Recognition",
+                "metric":{
+                    "F1":84.65
+                },
+                "dockerhub_link":"https://hub.docker.com/layers/fudannlp/reimplement/NER-NAACL-Akbik2018pooledflair/images/sha256-d036f7e5133d70d502d3c24093104c840b9059da73cc4aae4fbc835494741279?context=explore"
+            }
+        ]
+    }
+]
