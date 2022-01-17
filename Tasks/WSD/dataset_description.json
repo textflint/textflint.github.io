@@ -77,6 +77,36 @@
      "F1": 78.0
     },
     "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   },
+   {
+    "model_name": "SACE",
+    "paper_link": "https://aclanthology.org/2021.acl-long.406/",
+    "github_link": "https://github.com/lwmlyy/SACE",
+    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "metric": {
+     "F1": "79.2"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-wang2021word/images/sha256-0550a1e1afcfaac1f6088a89edd3d10214c8afd4ce1c6dcefd4493b630ded0d5?context=explore"
+   },
+   {
+    "model_name": "ESR",
+    "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
+    "github_link": "https://github.com/nusnlp/esr",
+    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "metric": {
+     "F1": "79.9"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-song2021improved/images/sha256-89a36c7fc8cdfe01993f1051cfe797db1bae436440b11812a9ab8b2203194af9?context=explore"
+   },
+   {
+    "model_name": "ConSeC",
+    "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
+    "github_link": "https://github.com/SapienzaNLP/consec",
+    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "metric": {
+     "F1": "82.3"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-barba2021consec/images/sha256-4e4fbd72b4fa5b4ed4dd0bf0a05a128998f74d758695330b7f25a09a1b9203fb?context=explore"
    }
   ]
  },
@@ -158,6 +188,36 @@
      "F1": 77.3
     },
     "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   },
+   {
+    "model_name": "SACE",
+    "paper_link": "https://aclanthology.org/2021.acl-long.406/",
+    "github_link": "https://github.com/lwmlyy/SACE",
+    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "metric": {
+     "F1": "79.7"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-wang2021word/images/sha256-0550a1e1afcfaac1f6088a89edd3d10214c8afd4ce1c6dcefd4493b630ded0d5?context=explore"
+   },
+   {
+    "model_name": "ESR",
+    "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
+    "github_link": "https://github.com/nusnlp/esr",
+    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "metric": {
+     "F1": "78.4"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-song2021improved/images/sha256-89a36c7fc8cdfe01993f1051cfe797db1bae436440b11812a9ab8b2203194af9?context=explore"
+   },
+   {
+    "model_name": "ConSeC",
+    "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
+    "github_link": "https://github.com/SapienzaNLP/consec",
+    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "metric": {
+     "F1": "79.6"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-barba2021consec/images/sha256-4e4fbd72b4fa5b4ed4dd0bf0a05a128998f74d758695330b7f25a09a1b9203fb?context=explore"
    }
   ]
  },
@@ -239,6 +299,36 @@
      "F1": 68.4
     },
     "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   },
+   {
+    "model_name": "SACE",
+    "paper_link": "https://aclanthology.org/2021.acl-long.406/",
+    "github_link": "https://github.com/lwmlyy/SACE",
+    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "metric": {
+     "F1": "71.9"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-wang2021word/images/sha256-0550a1e1afcfaac1f6088a89edd3d10214c8afd4ce1c6dcefd4493b630ded0d5?context=explore"
+   },
+   {
+    "model_name": "ESR",
+    "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
+    "github_link": "https://github.com/nusnlp/esr",
+    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "metric": {
+     "F1": "74.9"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-song2021improved/images/sha256-89a36c7fc8cdfe01993f1051cfe797db1bae436440b11812a9ab8b2203194af9?context=explore"
+   },
+   {
+    "model_name": "ConSeC",
+    "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
+    "github_link": "https://github.com/SapienzaNLP/consec",
+    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "metric": {
+     "F1": "77.6"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-barba2021consec/images/sha256-4e4fbd72b4fa5b4ed4dd0bf0a05a128998f74d758695330b7f25a09a1b9203fb?context=explore"
    }
   ]
  },
@@ -320,6 +410,36 @@
      "F1": 76.1
     },
     "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   },
+   {
+    "model_name": "SACE",
+    "paper_link": "https://aclanthology.org/2021.acl-long.406/",
+    "github_link": "https://github.com/lwmlyy/SACE",
+    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "metric": {
+     "F1": "78.7"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-wang2021word/images/sha256-0550a1e1afcfaac1f6088a89edd3d10214c8afd4ce1c6dcefd4493b630ded0d5?context=explore"
+   },
+   {
+    "model_name": "ESR",
+    "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
+    "github_link": "https://github.com/nusnlp/esr",
+    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "metric": {
+     "F1": "80.0"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-song2021improved/images/sha256-89a36c7fc8cdfe01993f1051cfe797db1bae436440b11812a9ab8b2203194af9?context=explore"
+   },
+   {
+    "model_name": "ConSeC",
+    "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
+    "github_link": "https://github.com/SapienzaNLP/consec",
+    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "metric": {
+     "F1": "83.2"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-barba2021consec/images/sha256-4e4fbd72b4fa5b4ed4dd0bf0a05a128998f74d758695330b7f25a09a1b9203fb?context=explore"
    }
   ]
  },
@@ -401,6 +521,36 @@
      "F1": 76.8
     },
     "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   },
+   {
+    "model_name": "SACE",
+    "paper_link": "https://aclanthology.org/2021.acl-long.406/",
+    "github_link": "https://github.com/lwmlyy/SACE",
+    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "metric": {
+     "F1": "83.7"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-wang2021word/images/sha256-0550a1e1afcfaac1f6088a89edd3d10214c8afd4ce1c6dcefd4493b630ded0d5?context=explore"
+   },
+   {
+    "model_name": "ESR",
+    "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
+    "github_link": "https://github.com/nusnlp/esr",
+    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "metric": {
+     "F1": "82.0"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-song2021improved/images/sha256-89a36c7fc8cdfe01993f1051cfe797db1bae436440b11812a9ab8b2203194af9?context=explore"
+   },
+   {
+    "model_name": "ConSeC",
+    "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
+    "github_link": "https://github.com/SapienzaNLP/consec",
+    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "metric": {
+     "F1": "85.1"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-barba2021consec/images/sha256-4e4fbd72b4fa5b4ed4dd0bf0a05a128998f74d758695330b7f25a09a1b9203fb?context=explore"
    }
   ]
  },
@@ -482,6 +632,36 @@
      "F1": 76.6
     },
     "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-berend2020sparsity/images/sha256-5e946fb2f42fec97e4cf1fd56a8e445166fc42def4a5c86fc7d004098dcd4e48?context=explore"
+   },
+   {
+    "model_name": "SACE",
+    "paper_link": "https://aclanthology.org/2021.acl-long.406/",
+    "github_link": "https://github.com/lwmlyy/SACE",
+    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "metric": {
+     "F1": "79.9"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-ACL-wang2021word/images/sha256-0550a1e1afcfaac1f6088a89edd3d10214c8afd4ce1c6dcefd4493b630ded0d5?context=explore"
+   },
+   {
+    "model_name": "ESR",
+    "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
+    "github_link": "https://github.com/nusnlp/esr",
+    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "metric": {
+     "F1": "80.0"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-song2021improved/images/sha256-89a36c7fc8cdfe01993f1051cfe797db1bae436440b11812a9ab8b2203194af9?context=explore"
+   },
+   {
+    "model_name": "ConSeC",
+    "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
+    "github_link": "https://github.com/SapienzaNLP/consec",
+    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "metric": {
+     "F1": "81.9"
+    },
+    "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/WSD-EMNLP-barba2021consec/images/sha256-4e4fbd72b4fa5b4ed4dd0bf0a05a128998f74d758695330b7f25a09a1b9203fb?context=explore"
    }
   ]
  }

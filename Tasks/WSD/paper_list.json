@@ -83,6 +83,24 @@
    "code": "https://github.com/nusnlp/contextemb-wsd",
    "SensEval+SemEval": "Yes",
    "WiC-TSV": "No"
-  }
+  },
+  {
+    "paper": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "code": "https://github.com/lwmlyy/SACE",
+    "SensEval+SemEval": "Yes",
+    "WiC-TSV": "No"
+   },
+   {
+    "paper": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "code": "https://github.com/nusnlp/esr",
+    "SensEval+SemEval": "Yes",
+    "WiC-TSV": "No"
+   },
+   {
+    "paper": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "code": "https://github.com/SapienzaNLP/consec",
+    "SensEval+SemEval": "Yes",
+    "WiC-TSV": "No"
+   }
  ]
 }
