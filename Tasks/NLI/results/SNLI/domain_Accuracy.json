@@ -1,1 +1,464 @@
-[{"model": "bert-large-uncased", "attack_results": {"AddSent": {"ori": 89.37, "trans": 58.34, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 90.63097514340345, "trans": 94.83747609942638, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 91.66666666666666, "trans": 67.5925925925926, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "roberta-large", "attack_results": {"AddSent": {"ori": 90.56, "trans": 46.22, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 92.73422562141491, "trans": 95.41108986615679, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 93.51851851851852, "trans": 55.55555555555556, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "roberta-base", "attack_results": {"AddSent": {"ori": 89.97, "trans": 76.28, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 92.73422562141491, "trans": 95.41108986615679, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 89.81481481481481, "trans": 56.481481481481474, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "Match-lstm", "attack_results": {"AddSent": {"ori": 83.22, "trans": 58.64, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 90.24856596558317, "trans": 77.24665391969407, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 84.25925925925925, "trans": 0.0, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "xlnet-large-cased", "attack_results": {"AddSent": {"ori": 90.60000000000001, "trans": 72.97, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 91.01338432122371, "trans": 95.79349904397706, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 91.66666666666666, "trans": 62.96296296296296, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "albert-base-v2", "attack_results": {"AddSent": {"ori": 88.31, "trans": 45.17, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 91.77820267686424, "trans": 96.36711281070745, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 89.81481481481481, "trans": 58.333333333333336, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "ESIM", "attack_results": {"AddSent": {"ori": 85.34, "trans": 64.0, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 91.39579349904398, "trans": 95.21988527724665, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 85.18518518518519, "trans": 25.925925925925924, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "albert-xxlarge-v2", "attack_results": {"AddSent": {"ori": 90.19, "trans": 54.72, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 90.43977055449331, "trans": 96.17590822179733, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 93.51851851851852, "trans": 50.92592592592593, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "RE2", "attack_results": {"AddSent": {"ori": 87.77000000000001, "trans": 42.08, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 92.54302103250478, "trans": 94.45506692160612, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 89.81481481481481, "trans": 34.25925925925926, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "bert-base-uncased", "attack_results": {"AddSent": {"ori": 88.99000000000001, "trans": 79.66, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 91.58699808795411, "trans": 94.83747609942638, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 91.66666666666666, "trans": 58.333333333333336, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}, {"model": "xlnet-base-cased", "attack_results": {"AddSent": {"ori": 89.45, "trans": 44.96, "sample_num": 10000, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "SwapAnt": {"ori": 91.96940726577438, "trans": 95.41108986615679, "sample_num": 523, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}, "NumWord": {"ori": 88.88888888888889, "trans": 50.92592592592593, "sample_num": 108, "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json", "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json", "contributor": {"name": "Bolin zhu", "github": "https://github.com/blzhu0823"}}}}]
+[
+    {
+        "model": "bert-large-uncased",
+        "attack_results": {
+            "AddSent": {
+                "ori": 89.37,
+                "trans": 58.34,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 90.63097514340345,
+                "trans": 94.83747609942638,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 91.66666666666666,
+                "trans": 67.5925925925926,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "roberta-large",
+        "attack_results": {
+            "AddSent": {
+                "ori": 90.56,
+                "trans": 46.22,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 92.73422562141491,
+                "trans": 95.41108986615679,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 93.51851851851852,
+                "trans": 55.55555555555556,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "roberta-base",
+        "attack_results": {
+            "AddSent": {
+                "ori": 89.97,
+                "trans": 76.28,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 92.73422562141491,
+                "trans": 95.41108986615679,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 89.81481481481481,
+                "trans": 56.481481481481474,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "Match-lstm",
+        "attack_results": {
+            "AddSent": {
+                "ori": 83.22,
+                "trans": 58.64,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 90.24856596558317,
+                "trans": 77.24665391969407,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 84.25925925925925,
+                "trans": 0.0,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "xlnet-large-cased",
+        "attack_results": {
+            "AddSent": {
+                "ori": 90.60000000000001,
+                "trans": 72.97,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 91.01338432122371,
+                "trans": 95.79349904397706,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 91.66666666666666,
+                "trans": 62.96296296296296,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "albert-base-v2",
+        "attack_results": {
+            "AddSent": {
+                "ori": 88.31,
+                "trans": 45.17,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 91.77820267686424,
+                "trans": 96.36711281070745,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 89.81481481481481,
+                "trans": 58.333333333333336,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "ESIM",
+        "attack_results": {
+            "AddSent": {
+                "ori": 85.34,
+                "trans": 64.0,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 91.39579349904398,
+                "trans": 95.21988527724665,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 85.18518518518519,
+                "trans": 25.925925925925924,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "albert-xxlarge-v2",
+        "attack_results": {
+            "AddSent": {
+                "ori": 90.19,
+                "trans": 54.72,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 90.43977055449331,
+                "trans": 96.17590822179733,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 93.51851851851852,
+                "trans": 50.92592592592593,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "RE2",
+        "attack_results": {
+            "AddSent": {
+                "ori": 87.77000000000001,
+                "trans": 42.08,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 92.54302103250478,
+                "trans": 94.45506692160612,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 89.81481481481481,
+                "trans": 34.25925925925926,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "bert-base-uncased",
+        "attack_results": {
+            "AddSent": {
+                "ori": 88.99000000000001,
+                "trans": 79.66,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 91.58699808795411,
+                "trans": 94.83747609942638,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 91.66666666666666,
+                "trans": 58.333333333333336,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "xlnet-base-cased",
+        "attack_results": {
+            "AddSent": {
+                "ori": 89.45,
+                "trans": 44.96,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "SwapAnt": {
+                "ori": 91.96940726577438,
+                "trans": 95.41108986615679,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            },
+            "NumWord": {
+                "ori": 88.88888888888889,
+                "trans": 50.92592592592593,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": {
+                    "name": "Bolin zhu",
+                    "github": "https://github.com/blzhu0823"
+                }
+            }
+        }
+    },
+    {
+        "model": "DictSKB-LSTM-cell",
+        "attack_results": {
+            "AddSent": {
+                "ori": 79.8,
+                "trans": 45.4,
+                "sample_num": 10000,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
+                "contributor": [
+                    {
+                            "name": "Hongwei liu",
+                            "github": "https://github.com/liushz"
+                    }
+            ]
+            },
+            "SwapAnt": {
+                "ori": 82.98279158699809,
+                "trans": 89.48374760994264,
+                "sample_num": 523,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
+                "contributor": [
+                    {
+                            "name": "Hongwei liu",
+                            "github": "https://github.com/liushz"
+                    }
+            ]
+            },
+            "NumWord": {
+                "ori": 81.48148148148148,
+                "trans": 3.7037037037037037,
+                "sample_num": 108,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
+                "contributor": [
+                    {
+                            "name": "Hongwei liu",
+                            "github": "https://github.com/liushz"
+                    }
+            ]
+            }
+        }
+    }
+]
