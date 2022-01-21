@@ -1,0 +1,34 @@
+{
+  "header": [
+    "paper",
+    "code",
+    "TACRED",
+    "NYT"
+  ],
+  "content": [
+    {
+      "paper": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+      "code": "https://github.com/pytorch/fairseq",
+      "TACRED": "Yes",
+      "NYT": "No"
+    },
+    {
+      "paper": "[EMNLP 2021] Learning from Noisy Labels for Entity-Centric Information Extraction",
+      "code": "https://github.com/wzhouad/NLL-IE",
+      "TACRED": "Yes",
+      "NYT": "No"
+    },
+    {
+      "paper": "[ACL 2021] ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning",
+      "code": "https://github.com/thunlp/ERICA",
+      "TACRED": "Yes",
+      "NYT": "No"
+    },
+    {
+      "paper": "[ACL 2019] Matching the Blanks: Distributional Similarity for Relation Learning",
+      "code": " ",
+      "TACRED": "Yes",
+      "NYT": "No"
+    }
+  ]
+}
