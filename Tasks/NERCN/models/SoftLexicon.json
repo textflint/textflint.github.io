@@ -1,0 +1,4 @@
+{
+    "desc":" a simple but effective method for incorporating the word lexicon into the character representations. This method avoids designing a complicated sequence modeling architecture, and for any neural NER model, it requires only subtle adjustment of the character representation layer to introduce the lexicon information. ", 
+    "contributor":[{"name":"Jinzhu Lu", "github":"https://github.com/thejacoblu"}]
+}

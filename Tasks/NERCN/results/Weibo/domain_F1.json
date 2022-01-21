@@ -1,0 +1,161 @@
+[
+    {
+        "model": "LGN",
+        "attack_results": {
+            "OOV": {
+                "sample_num": 159,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_OOV.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_OOV.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.6186,
+                "trans": 0.1867
+            },
+            "SwapLonger": {
+                "sample_num": 7,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_SwapLonger.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_SwapLonger.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.6538,
+                "trans": 0.4082
+            },
+            "EntTypos": {
+                "sample_num": 123,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_EntTypos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_EntTypos.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.6013,
+                "trans": 0.3031
+            },
+            "ConcatSent": {
+                "sample_num": 265,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_ConcatSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_ConcatSent.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.603,
+                "trans": 0.5604
+            }
+        }
+    },
+    {
+        "model": "SANER",
+        "attack_results": {
+            "OOV": {
+                "sample_num": 159,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_OOV.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_OOV.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.5209,
+                "trans": 0
+            },
+            "SwapLonger": {
+                "sample_num": 7,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_SwapLonger.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_SwapLonger.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.2564,
+                "trans": 0.1053
+            },
+            "EntTypos": {
+                "sample_num": 123,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_EntTypos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_EntTypos.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.4733,
+                "trans": 0.35
+            },
+            "ConcatSent": {
+                "sample_num": 265,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_ConcatSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_ConcatSent.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.5573,
+                "trans": 0
+            }
+        }
+    },
+    {
+        "model": "SoftLexicon",
+        "attack_results": {
+            "OOV": {
+                "sample_num": 159,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_OOV.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_OOV.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.7063,
+                "trans": 0.2844
+            },
+            "SwapLonger": {
+                "sample_num": 7,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_SwapLonger.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_SwapLonger.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.6792,
+                "trans": 0.5098
+            },
+            "EntTypos": {
+                "sample_num": 123,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_EntTypos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_EntTypos.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.6958,
+                "trans": 0.4875
+            },
+            "ConcatSent": {
+                "sample_num": 265,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/ori_ConcatSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/Weibo/trans_ConcatSent.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.695,
+                "trans": 0.6718
+            }
+        }
+    }
+]

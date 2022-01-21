@@ -1,0 +1,4 @@
+{
+    "desc":"a neural-based approach to NER for social media texts where both local (from running text) and augmented semantics are taken into account. In particular, we obtain the augmented semantic information from a large-scale corpus, and propose an attentive semantic augmentation module and a gate module to encode and aggregate such information, respectively.", 
+    "contributor":[{"name":"Jinzhu Lu", "github":"https://github.com/thejacoblu"}]
+}
