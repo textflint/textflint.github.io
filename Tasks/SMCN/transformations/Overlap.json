@@ -1,0 +1,35 @@
+{
+        "desc": "This method generate some data by some template, whose hypotheis and sentence1 have many overlap but different meaning.",
+        "examples": [
+                {
+                        "ori": {
+                                "sentence1": null,
+                                "sentence2": null,
+                                "label": null
+                        },
+                        "trans": {
+                                "sentence1": "裁判们支持参议员。"
+                                "sentence2": "参议员"支持裁判们。"
+                                "label": "0"
+                        }
+                },
+                {
+                        "ori": {
+                                "sentence1": null,
+                                "sentence2": null,
+                                "label": null
+                        },
+                        "trans": {
+                                "sentence1": "裁判们支持参议员。",
+                                "sentence2": "裁判们支持参议员和律师。",
+                                "label": "1"
+                        }
+                }
+        ],
+        "contributor": [
+                {
+                        "name": "lin zhang",
+                        "github": "https://github.com/duojiaconghua"
+                }
+        ]
+}
