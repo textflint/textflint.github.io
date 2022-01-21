@@ -1,0 +1,9 @@
+{
+  "desc": "Standard BERT large model for wsc.",
+  "contributor": [
+    {
+      "name": "vid-koci",
+      "github": "https://github.com/vid-koci"
+    }
+  ]
+}

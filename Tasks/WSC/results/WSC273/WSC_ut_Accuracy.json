@@ -1,0 +1,467 @@
+[
+  {
+    "model": "HNN",
+    "attack_results": {
+      "Tense": {
+        "ori": 75.1,
+        "trans": 68.6,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Tense.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Tense.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "WordCase": {
+        "ori": 75.1,
+        "trans": 74.4,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_WordCase.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_WordCase.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Ocr": {
+        "ori": 75.1,
+        "trans": 53.7,
+        "sample_num": 147,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Ocr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Ocr.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapSynWordNet": {
+        "ori": 75.1,
+        "trans": 62.2,
+        "sample_num": 230,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapSynWordNet.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapSynWordNet.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Keyboard": {
+        "ori": 75.1,
+        "trans": 57.3,
+        "sample_num": 150,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Keyboard.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Keyboard.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "TwitterType": {
+        "ori": 75.1,
+        "trans": 68.4,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_TwitterType.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_TwitterType.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SpellingError": {
+        "ori": 75.1,
+        "trans": 52.7,
+        "sample_num": 110,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SpellingError.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 75.1,
+        "trans": 58.3,
+        "sample_num": 151,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_MLMSuggestion.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  },
+  {
+    "model": "BERT_Wiki_wscr",
+    "attack_results": {
+      "Tense": {
+        "ori": 71.8,
+        "trans": 68.9,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Tense.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Tense.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "WordCase": {
+        "ori": 71.8,
+        "trans": 69.8,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_WordCase.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_WordCase.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Ocr": {
+        "ori": 71.8,
+        "trans": 61.9,
+        "sample_num": 147,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Ocr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Ocr.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapSynWordNet": {
+        "ori": 71.8,
+        "trans": 66.5,
+        "sample_num": 230,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapSynWordNet.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapSynWordNet.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Keyboard": {
+        "ori": 71.8,
+        "trans": 58.0,
+        "sample_num": 150,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Keyboard.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Keyboard.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "TwitterType": {
+        "ori": 71.8,
+        "trans": 72.9,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_TwitterType.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_TwitterType.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SpellingError": {
+        "ori": 71.8,
+        "trans": 57.3,
+        "sample_num": 110,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SpellingError.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 71.8,
+        "trans": 64.2,
+        "sample_num": 151,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_MLMSuggestion.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  },
+  {
+    "model": "BERT_base",
+    "attack_results": {
+      "Tense": {
+        "ori": 56.0,
+        "trans": 56.5,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Tense.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Tense.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "WordCase": {
+        "ori": 56.0,
+        "trans": 55.8,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_WordCase.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_WordCase.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Ocr": {
+        "ori": 56.0,
+        "trans": 59.2,
+        "sample_num": 147,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Ocr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Ocr.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapSynWordNet": {
+        "ori": 56.0,
+        "trans": 56.5,
+        "sample_num": 230,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapSynWordNet.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapSynWordNet.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Keyboard": {
+        "ori": 56.0,
+        "trans": 56.0,
+        "sample_num": 150,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Keyboard.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Keyboard.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "TwitterType": {
+        "ori": 56.0,
+        "trans": 56.1,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_TwitterType.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_TwitterType.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SpellingError": {
+        "ori": 56.0,
+        "trans": 44.5,
+        "sample_num": 110,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SpellingError.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 56.0,
+        "trans": 58.3,
+        "sample_num": 151,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_MLMSuggestion.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  },
+  {
+    "model": "BERT_large",
+    "attack_results": {
+      "Tense": {
+        "ori": 61.9,
+        "trans": 61.5,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Tense.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Tense.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "WordCase": {
+        "ori": 61.9,
+        "trans": 61.4,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_WordCase.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_WordCase.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Ocr": {
+        "ori": 61.9,
+        "trans": 58.5,
+        "sample_num": 147,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Ocr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Ocr.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapSynWordNet": {
+        "ori": 61.9,
+        "trans": 61.3,
+        "sample_num": 230,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapSynWordNet.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapSynWordNet.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Keyboard": {
+        "ori": 61.9,
+        "trans": 53.3,
+        "sample_num": 150,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Keyboard.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Keyboard.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "TwitterType": {
+        "ori": 61.9,
+        "trans": 61.0,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_TwitterType.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_TwitterType.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SpellingError": {
+        "ori": 61.9,
+        "trans": 52.7,
+        "sample_num": 110,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SpellingError.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 61.9,
+        "trans": 58.9,
+        "sample_num": 151,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_MLMSuggestion.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  },
+  {
+    "model": "BERT_wiki",
+    "attack_results": {
+      "Tense": {
+        "ori": 63.4,
+        "trans": 61.5,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Tense.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Tense.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "WordCase": {
+        "ori": 63.4,
+        "trans": 62.8,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_WordCase.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_WordCase.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Ocr": {
+        "ori": 63.4,
+        "trans": 58.5,
+        "sample_num": 147,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Ocr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Ocr.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapSynWordNet": {
+        "ori": 63.4,
+        "trans": 60.9,
+        "sample_num": 230,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapSynWordNet.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapSynWordNet.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "Keyboard": {
+        "ori": 63.4,
+        "trans": 54.7,
+        "sample_num": 150,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_Keyboard.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_Keyboard.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "TwitterType": {
+        "ori": 63.4,
+        "trans": 62.1,
+        "sample_num": 285,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_TwitterType.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_TwitterType.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SpellingError": {
+        "ori": 63.4,
+        "trans": 49.1,
+        "sample_num": 110,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SpellingError.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 63.4,
+        "trans": 56.3,
+        "sample_num": 151,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_MLMSuggestion.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  }
+]

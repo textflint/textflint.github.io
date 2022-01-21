@@ -1,0 +1,7 @@
+{
+  "name": "WSC",
+  "full_name": "The Winograd Schema Challenge",
+  "description": "A Winograd schema is a pair of sentences that differ in only one or two words and that contain an ambiguity that is resolved in opposite ways in the two sentences and requires the use of world knowledge and reasoning for its resolution. ",
+  "available_domain": [ "InsertRelativeClause", "SwapGender", "SwapNames", "SwitchVoice" ],
+  "available_ut": [ "Tense", "WordCase", "Ocr", "SwapSynWordNet", "Keyboard", "TwitterType", "SpellingError", "MLMSuggestion" ]
+}
