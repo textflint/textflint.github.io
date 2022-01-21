@@ -426,12 +426,10 @@
                 "sample_num": 10000,
                 "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_AddSent.json",
                 "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_AddSent.json",
-                "contributor": [
-                    {
-                            "name": "Hongwei liu",
-                            "github": "https://github.com/liushz"
-                    }
-            ]
+                "contributor": {
+                    "name": "Hongwei liu",
+                    "github": "https://github.com/liushz"
+                }
             },
             "SwapAnt": {
                 "ori": 82.98279158699809,
@@ -439,12 +437,10 @@
                 "sample_num": 523,
                 "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_SwapAnt.json",
                 "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_SwapAnt.json",
-                "contributor": [
-                    {
-                            "name": "Hongwei liu",
-                            "github": "https://github.com/liushz"
-                    }
-            ]
+                "contributor": {
+                    "name": "Hongwei liu",
+                    "github": "https://github.com/liushz"
+                }
             },
             "NumWord": {
                 "ori": 81.48148148148148,
@@ -452,12 +448,10 @@
                 "sample_num": 108,
                 "ori_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/ori_NumWord.json",
                 "trans_download_link": "https://www.textflint.com/static/Tasks/NLI/trans_dataset/SNLI/trans_NumWord.json",
-                "contributor": [
-                    {
-                            "name": "Hongwei liu",
-                            "github": "https://github.com/liushz"
-                    }
-            ]
+                "contributor": {
+                    "name": "Hongwei liu",
+                    "github": "https://github.com/liushz"
+                }
             }
         }
     }
