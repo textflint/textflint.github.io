@@ -1,0 +1,4 @@
+{
+    "desc":"A larger but more thoroughly regularized parser than other BiLSTM-based approaches",
+    "contributor":[{"name":"xin zhao", "github":"https://github.com/XinZhao0211"}]
+}

@@ -1,0 +1,4 @@
+{
+    "desc":"A probabilistic parsing model that defines a proper conditional probability distribution over nonprojective dependency trees for a given sentence, using neural representations as inputs.",
+    "contributor":[{"name":"xin zhao", "github":"https://github.com/XinZhao0211"}]
+}
