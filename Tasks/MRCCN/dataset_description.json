@@ -14,7 +14,7 @@
         "paper_name": "Pre-Training with Whole Word Masking for Chinese BERT",
         "metric":
         {
-          "EM": 58.986
+          "EM": 60.986
         }
       },
 
@@ -26,7 +26,7 @@
         "paper_name": "ChineseBERT: Chinese Pretraining Enhanced by Glyph and Pinyin Information",
         "metric":
         {
-          "EM": 60.833
+          "EM": 62.833
         }
       },
 
@@ -38,7 +38,7 @@
         "paper_name": "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation",
         "metric":
         {
-          "EM": 61.816
+          "EM": 63.816
         }
       },
 
@@ -50,7 +50,7 @@
         "paper_name": "Pre-Training with Whole Word Masking for Chinese BERT",
         "metric":
         {
-        "EM":60.54
+        "EM":62.54
         }
       },
       {
@@ -61,7 +61,7 @@
         "paper_name": "Revisiting Pre-Trained Models for Chinese Natural Language Processing",
         "metric":
         {
-          "EM": 59.402
+          "EM": 61.402
         }
       },
 
