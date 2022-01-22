@@ -1,0 +1,19 @@
+{
+  "desc": "SwapGender: Swap the gender of a person in the sentence.",
+  "examples": [
+    {
+      "ori": "Joan made sure to thank Susan for all the help she had recieved.",
+      "trans": "John made sure to thank Bill for all the help he had received ."
+    },
+    {
+      "ori": "Pete envies Martin although he is very successful.",
+      "trans": "Anna envies Emma although she is very successful ."
+    }
+  ],
+  "contributor": [
+    {
+      "name": "xuanting chen",
+      "github": "https://github.com/chenxuantt"
+    }
+  ]
+}

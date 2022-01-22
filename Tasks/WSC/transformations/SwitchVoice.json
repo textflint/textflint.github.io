@@ -1,0 +1,19 @@
+{
+  "desc": "SwitchVoice: Change the active or passive voice of the sentence",
+  "examples": [
+    {
+      "ori": "The city councilmen refused the demonstrators a permit because they feared violence.",
+      "trans": "The demonstrators were refused a permit by the city councilmen because they feared violence ."
+    },
+    {
+      "ori": "Paul tried to call George on the phone, but he wasn't successful.",
+      "trans": "George was tried on the phone by Paul , but he wasn't successful ."
+    }
+  ],
+  "contributor": [
+    {
+      "name": "xuanting chen",
+      "github": "https://github.com/chenxuantt"
+    }
+  ]
+}

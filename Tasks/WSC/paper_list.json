@@ -1,0 +1,121 @@
+{
+  "header": [
+    "paper",
+    "code",
+    "WSC273"
+  ],
+
+  "content": [
+    {
+      "paper": "It's All in the Heads: Using Attention Heads as a Baseline for Cross-Lingual Transfer in Commonsense Reasoning",
+      "code": null,
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "Prompting Contrastive Explanations for Commonsense Reasoning Tasks",
+      "code": null,
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "Attention-based Contrastive Learning for WinogradSchemas",
+      "code": null,
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "Towards Zero-shot Commonsense Reasoning with Self-supervised Refinement of Language Models",
+      "code": "https://github.com/SAP-samples/emnlp2021-contrastive-refinement/",
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "On Generalization in Coreference Resolution",
+      "code": "https://github.com/shtoshni92/fast-coref",
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "Attention-based Contrastive Learning for Winograd Schemas",
+      "code": "https://github.com/sap-samples/emnlp2021-attention-contrastive-learning",
+      "WSC273": "No"
+    },
+    {
+      "paper": "Improving and Simplifying Pattern Exploiting Training",
+      "code": "https://github.com/rrmenon10/ADAPET",
+      "WSC273": "No"
+    },
+    {
+      "paper": "An Analysis of Dataset Overlap on Winograd-Style Tasks",
+      "code": null,
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners",
+      "code": "https://github.com/timoschick/pet",
+      "WSC273": "No"
+    },
+    {
+      "paper": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+      "code": "https://github.com/microsoft/DeBERTa",
+      "WSC273": "No"
+    },
+    {
+      "paper": "Coreferential Reasoning Learning for Language Representation",
+      "code": "https://github.com/thunlp/CorefBERT",
+      "WSC273": "No"
+    },
+    {
+      "paper": "Precise Task Formalization Matters in Winograd Schema Evaluations",
+      "code": "https://github.com/nyu-mll/wsc-formalizations/tree/code_release",
+      "WSC273": null
+    },
+    {
+      "paper": "WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge",
+      "code": "https://github.com/HKUST-KnowComp/WinoWhy",
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "WINOGRANDE:\nAn Adversarial Winograd Schema Challenge at Scale",
+      "code": "https://github.com/allenai/winogrande",
+      "WSC273": "No"
+    },
+    {
+      "paper": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "code": "https://github.com/google-research/text-to-text-transfer-transformer",
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "Does the Objective Matter? Comparing Training Objectives for Pronoun Resolution",
+      "code": "https://github.com/YDYordanov/WS-training-objectives",
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "The Sensitivity of Language Models and Humans to Winograd Schema Perturbations",
+      "code": "https://github.com/mhany90/enhanced_wsc",
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "A Hybrid Neural Network Model for Commonsense Reasoning",
+      "code": "https://github.com/namisan/mt-dnn",
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "A Surprisingly Robust Trick for Winograd Schema Challenge",
+      "code": "https://github.com/vid-koci/bert-commonsense",
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "Language Models are Unsupervised Multitask Learners",
+      "code": null,
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "A Simple Method for Commonsense Reasoning",
+      "code": null,
+      "WSC273": "Yes"
+    },
+    {
+      "paper": "Combing Context and Commonsense Knowledge Through Neural Networks for Solving Winograd Schema Problems",
+      "code": null,
+      "WSC273": "Yes"
+    }
+  ]
+
+}

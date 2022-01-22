@@ -1,0 +1,60 @@
+[
+  {
+    "name": "The Winograd Schema Challenge",
+    "description": " A Winograd schema is a pair of sentences that differ only in one or two words and that contain a referential ambiguity that is re-solved in opposite directions in the two sentences.",
+    "available_transformation_type": [ "domain", "ut", "domain_domain", "domain_ut", "ut_ut" ],
+    "dataset_size": 285,
+    "models": [
+      {
+        "model_name": "BERT_base_uncased",
+        "paper_link": "https://arxiv.org/pdf/1810.04805",
+        "github_link": "https://github.com/vid-koci/bert-commonsense",
+        "dockerhub_link": "https://registry.hub.docker.com/layers/fudannlp/reimplement/WSC-ACL-kocijan2019surprisingly/images/sha256-c5c4d54ef4fcd46cc7da95023db48237b0a0de4dc7215d94629074b030d6cc61?context=explore",
+        "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "metric": {
+          "Accuracy": 56.00
+        }
+      },
+      {
+        "model_name": "BERT_large_uncased",
+        "paper_link": "https://arxiv.org/pdf/1810.04805",
+        "github_link": "https://github.com/vid-koci/bert-commonsense",
+        "dockerhub_link": "https://registry.hub.docker.com/layers/fudannlp/reimplement/WSC-ACL-kocijan2019surprisingly/images/sha256-c5c4d54ef4fcd46cc7da95023db48237b0a0de4dc7215d94629074b030d6cc61?context=explore",
+        "paper_name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "metric": {
+          "Accuracy": 61.90
+        }
+      },
+      {
+        "model_name": "BERT_wiki",
+        "paper_link": "https://arxiv.org/abs/1905.06290",
+        "github_link": "https://github.com/vid-koci/bert-commonsense",
+        "dockerhub_link": "https://registry.hub.docker.com/layers/fudannlp/reimplement/WSC-ACL-kocijan2019surprisingly/images/sha256-c5c4d54ef4fcd46cc7da95023db48237b0a0de4dc7215d94629074b030d6cc61?context=explore",
+        "paper_name": "A Surprisingly Robust Trick for Winograd Schema Challenge",
+        "metric": {
+          "Accuracy": 63.40
+        }
+      },
+      {
+        "model_name": "BERT_wiki_wscr",
+        "paper_link": "https://arxiv.org/abs/1905.06290",
+        "github_link": "https://github.com/vid-koci/bert-commonsense",
+        "dockerhub_link": "https://registry.hub.docker.com/layers/fudannlp/reimplement/WSC-ACL-kocijan2019surprisingly/images/sha256-c5c4d54ef4fcd46cc7da95023db48237b0a0de4dc7215d94629074b030d6cc61?context=explore",
+        "paper_name": "A Surprisingly Robust Trick for Winograd Schema Challenge",
+        "metric": {
+          "Accuracy": 71.80
+        }
+      },
+      {
+        "model_name": "HNN",
+        "paper_link": "https://arxiv.org/abs/1907.11983",
+        "github_link": "https://github.com/namisan/mt-dnn",
+        "dockerhub_link": "https://registry.hub.docker.com/layers/fudannlp/reimplement/WSC-arxiv-he2019hybrid/images/sha256-3bc75a53777ff864d0e9acd377e6c55842eaeea9ec75b182ef35194237f7005e?context=explore",
+        "paper_name": "Hybrid Neural Network Model for Commonsense Reasoning",
+        "metric": {
+          "Accuracy": 75.10
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "desc": "InsertRelativeClause: Insert a relative clause after the first referent",
+  "examples": [
+    {
+      "ori": "The city councilmen refused the demonstrators a permit because they feared violence.",
+      "trans": "The city councilmen , whom you had seen with the journalists , refused the demonstrators a permit because they feared violence ."
+    },
+    {
+      "ori": "Paul tried to call George on the phone, but he wasn't successful.",
+      "trans": "Paul , whom we know from tom's yoga class , tried to call george on the phone , but he wasn't successful ."
+    }
+  ],
+  "contributor": [
+    {
+      "name": "xuanting chen",
+      "github": "https://github.com/chenxuantt"
+    }
+  ]
+}
