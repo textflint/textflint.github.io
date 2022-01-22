@@ -1,0 +1,19 @@
+{
+  "desc":"PerturbAnswer: this transformation transforms the sentence with golden answer based on specific rules.",
+  "examples":[
+    {
+      "ori":"楼曾瑞（Lour Tsang Tsay Lawrence），籍贯上海，是日台湾英语中学联会主席",
+      "trans":"楼曾瑞（Lour Tsang Tsay Lawrence），籍贯北京，是日台湾英语中学联会主席"
+    },
+    {
+      "ori":"徐晓飞（）是中国足球运动员，司职中场，曾经在日本大学生联赛和低级别球队效力？",
+      "trans":"徐晓飞（）是北京足球运动员，司职中场，曾经在台湾大学生联赛和低级别联赛效力"
+    }
+  ],
+  "contributor":[
+    {
+      "name":"Weikang Zhou",
+      "github":"https://github.com/nitwtog"
+    }
+  ]
+}

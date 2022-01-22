@@ -1,0 +1,4 @@
+{
+  "desc":"Model adapt whole word masking in Chinese text, that masking the whole word instead of masking Chinese characters, which could bring another challenge in Masked Language Model (MLM) pre-training task.",
+  "contributor":[{"name":"Yiming Cui", "github":"https://github.com/ymcui/Chinese-BERT-wwm"}]
+}

@@ -1,0 +1,747 @@
+[
+  {
+    "model": "Bert",
+    "attack_results": {
+      "AppendIrr": {
+        "ori": 58.986,
+        "trans": 58.147,
+        "sample_num": 3216,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_AppendIrr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_AppendIrr.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnAntonym": {
+        "ori": 58.885,
+        "trans": 57.662,
+        "sample_num": 2943,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnAntonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnAntonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnDigit2Char": {
+        "ori": 59.468,
+        "trans": 59.801,
+        "sample_num": 1806,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnDigit2Char.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnDigit2Char.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnHomophones": {
+        "ori": 58.336,
+        "trans": 56.745,
+        "sample_num": 3017,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnHomophones.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnHomophones.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnPunctuation": {
+        "ori": 59.095,
+        "trans": 59.126,
+        "sample_num": 3205,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnPunctuation.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnPunctuation.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSpellingError": {
+        "ori": 59.052,
+        "trans": 56.532,
+        "sample_num": 3016,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSpellingError.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNamedEnt": {
+        "ori": 60.189,
+        "trans": 57.207,
+        "sample_num": 2012,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNamedEnt.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNamedEnt.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNum": {
+        "ori": 59.47,
+        "trans": 59.194,
+        "sample_num": 1811,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNum.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNum.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapSynWordEmbedding": {
+        "ori": 58.713,
+        "trans": 57.12,
+        "sample_num": 3076,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapSynWordEmbedding.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapSynWordEmbedding.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSynonym": {
+        "ori": 58.857,
+        "trans": 57.336,
+        "sample_num": 2958,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSynonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSynonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "InsertAdv": {
+        "ori": 62.533,
+        "trans": 58.667,
+        "sample_num": 1500,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_InsertAdv.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_InsertAdv.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 58.538,
+        "trans": 57.948,
+        "sample_num": 3051,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_MLMSuggestion.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      }
+    }
+  },
+  {
+    "model": "MacBert",
+    "attack_results": {
+      "AppendIrr": {
+        "ori": 59.204,
+        "trans": 58.893,
+        "sample_num": 3216,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_AppendIrr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_AppendIrr.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnAntonym": {
+        "ori": 58.716,
+        "trans": 58.138,
+        "sample_num": 2943,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnAntonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnAntonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnDigit2Char": {
+        "ori": 59.579,
+        "trans": 59.69,
+        "sample_num": 1806,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnDigit2Char.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnDigit2Char.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnHomophones": {
+        "ori": 58.634,
+        "trans": 56.712,
+        "sample_num": 3017,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnHomophones.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnHomophones.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnPunctuation": {
+        "ori": 59.282,
+        "trans": 60.031,
+        "sample_num": 3205,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnPunctuation.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnPunctuation.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSpellingError": {
+        "ori": 59.052,
+        "trans": 56.996,
+        "sample_num": 3016,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSpellingError.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNamedEnt": {
+        "ori": 60.338,
+        "trans": 57.604,
+        "sample_num": 2012,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNamedEnt.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNamedEnt.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNum": {
+        "ori": 59.58,
+        "trans": 59.525,
+        "sample_num": 1811,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNum.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNum.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapSynWordEmbedding": {
+        "ori": 59.07,
+        "trans": 57.77,
+        "sample_num": 3076,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapSynWordEmbedding.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapSynWordEmbedding.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSynonym": {
+        "ori": 58.925,
+        "trans": 58.08,
+        "sample_num": 2958,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSynonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSynonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "InsertAdv": {
+        "ori": 63.133,
+        "trans": 61.133,
+        "sample_num": 1500,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_InsertAdv.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_InsertAdv.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 58.899,
+        "trans": 58.01,
+        "sample_num": 3051,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_MLMSuggestion.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      }
+    }
+  },
+  {
+    "model": "RoBerta",
+    "attack_results": {
+      "AppendIrr": {
+        "ori": 60.541,
+        "trans": 59.173,
+        "sample_num": 3216,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_AppendIrr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_AppendIrr.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnAntonym": {
+        "ori": 60.143,
+        "trans": 58.478,
+        "sample_num": 2943,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnAntonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnAntonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnDigit2Char": {
+        "ori": 61.13,
+        "trans": 60.853,
+        "sample_num": 1806,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnDigit2Char.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnDigit2Char.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnHomophones": {
+        "ori": 59.96,
+        "trans": 57.64,
+        "sample_num": 3017,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnHomophones.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnHomophones.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnPunctuation": {
+        "ori": 60.655,
+        "trans": 60.967,
+        "sample_num": 3205,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnPunctuation.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnPunctuation.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSpellingError": {
+        "ori": 60.312,
+        "trans": 57.493,
+        "sample_num": 3016,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSpellingError.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNamedEnt": {
+        "ori": 61.431,
+        "trans": 58.35,
+        "sample_num": 2012,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNamedEnt.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNamedEnt.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNum": {
+        "ori": 61.126,
+        "trans": 60.906,
+        "sample_num": 1811,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNum.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNum.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapSynWordEmbedding": {
+        "ori": 60.241,
+        "trans": 57.737,
+        "sample_num": 3076,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapSynWordEmbedding.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapSynWordEmbedding.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSynonym": {
+        "ori": 60.345,
+        "trans": 58.722,
+        "sample_num": 2958,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSynonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSynonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "InsertAdv": {
+        "ori": 64.8,
+        "trans": 61.333,
+        "sample_num": 1500,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_InsertAdv.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_InsertAdv.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 60.013,
+        "trans": 58.637,
+        "sample_num": 3051,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_MLMSuggestion.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      }
+    }
+  },
+  {
+    "model": "ChineseBert",
+    "attack_results": {
+      "AppendIrr": {
+        "ori": 60.833,
+        "trans": 60.23,
+        "sample_num": 3216,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_AppendIrr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_AppendIrr.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnAntonym": {
+        "ori": 60.72,
+        "trans": 59.599,
+        "sample_num": 2943,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnAntonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnAntonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnDigit2Char": {
+        "ori": 61.96,
+        "trans": 61.517,
+        "sample_num": 1806,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnDigit2Char.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnDigit2Char.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnHomophones": {
+        "ori": 60.292,
+        "trans": 58.237,
+        "sample_num": 3017,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnHomophones.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnHomophones.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnPunctuation": {
+        "ori": 60.967,
+        "trans": 61.061,
+        "sample_num": 3205,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnPunctuation.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnPunctuation.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSpellingError": {
+        "ori": 60.378,
+        "trans": 58.621,
+        "sample_num": 3016,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSpellingError.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNamedEnt": {
+        "ori": 63.817,
+        "trans": 59.891,
+        "sample_num": 2012,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNamedEnt.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNamedEnt.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNum": {
+        "ori": 61.955,
+        "trans": 61.734,
+        "sample_num": 1811,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNum.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNum.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapSynWordEmbedding": {
+        "ori": 60.728,
+        "trans": 58.192,
+        "sample_num": 3076,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapSynWordEmbedding.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapSynWordEmbedding.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSynonym": {
+        "ori": 60.514,
+        "trans": 58.925,
+        "sample_num": 2958,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSynonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSynonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "InsertAdv": {
+        "ori": 65.333,
+        "trans": 63.667,
+        "sample_num": 1500,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_InsertAdv.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_InsertAdv.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 60.472,
+        "trans": 59.62,
+        "sample_num": 3051,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_MLMSuggestion.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      }
+    }
+  },
+  {
+    "model": "CPT",
+    "attack_results": {
+      "AppendIrr": {
+        "ori": 61.816,
+        "trans": 61.256,
+        "sample_num": 3216,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_AppendIrr.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_AppendIrr.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnAntonym": {
+        "ori": 61.434,
+        "trans": 60.245,
+        "sample_num": 2943,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnAntonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnAntonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnDigit2Char": {
+        "ori": 62.126,
+        "trans": 61.739,
+        "sample_num": 1806,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnDigit2Char.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnDigit2Char.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnHomophones": {
+        "ori": 60.921,
+        "trans": 58.9,
+        "sample_num": 3017,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnHomophones.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnHomophones.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnPunctuation": {
+        "ori": 61.872,
+        "trans": 61.622,
+        "sample_num": 3205,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnPunctuation.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnPunctuation.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSpellingError": {
+        "ori": 61.373,
+        "trans": 58.786,
+        "sample_num": 3016,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSpellingError.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSpellingError.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNamedEnt": {
+        "ori": 64.066,
+        "trans": 60.636,
+        "sample_num": 2012,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNamedEnt.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNamedEnt.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapNum": {
+        "ori": 62.12,
+        "trans": 61.844,
+        "sample_num": 1811,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapNum.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapNum.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSwapSynWordEmbedding": {
+        "ori": 61.573,
+        "trans": 58.843,
+        "sample_num": 3076,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSwapSynWordEmbedding.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSwapSynWordEmbedding.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "CnSynonym": {
+        "ori": 61.528,
+        "trans": 60.277,
+        "sample_num": 2958,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_CnSynonym.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_CnSynonym.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "InsertAdv": {
+        "ori": 66.2,
+        "trans": 64.267,
+        "sample_num": 1500,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_InsertAdv.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_InsertAdv.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      },
+      "MLMSuggestion": {
+        "ori": 61.39,
+        "trans": 60.275,
+        "sample_num": 3051,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/ori_MLMSuggestion.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/MRCCN/trans_dataset/CMRC2018/trans_MLMSuggestion.json",
+        "contributor": {
+          "weikang zhou": {
+            "github": "https://github.com/nitwtog"
+          }
+        }
+      }
+    }
+  }
+]

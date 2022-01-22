@@ -1,0 +1,34 @@
+{
+  "header": [
+    "paper",
+    "code",
+    "CMRC2018"
+  ],
+  "content": [
+    {
+      "paper": "Pre-Training with Whole Word Masking for Chinese BERT",
+      "code": "https://github.com/ymcui/Chinese-BERT-wwm",
+      "CMRC2018": "Yes"
+    },
+    {
+      "paper": "TextBrewer: An Open-Source Knowledge Distillation Toolkit for Natural Language Processing",
+      "code": "https://github.com/airaria/TextBrewer",
+      "CMRC2018": "Yes"
+    },
+    {
+      "paper": "Revisiting Pre-Trained Models for Chinese Natural Language Processing",
+      "code": "https://github.com/ymcui/MacBERT",
+      "CMRC2018": "Yes"
+    },
+    {
+      "paper": "ChineseBERT: Chinese Pretraining Enhanced by Glyph and Pinyin Information",
+      "code": "https://github.com/ShannonAI/ChineseBert",
+      "CMRC2018": "Yes"
+    },
+    {
+      "paper": "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation",
+      "code": "https://github.com/fastnlp/cpt",
+      "CMRC2018": "Yes"
+    }
+  ]
+}

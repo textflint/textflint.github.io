@@ -1,0 +1,4 @@
+{
+  "desc":"MacBERT that mitigate the gapbetween the pre-training and fine-tuning stage by masking the word with its similar word",
+  "contributor":[{"name":"Yiming Cui", "github":"https://github.com/ymcui/MacBERT"}]
+}

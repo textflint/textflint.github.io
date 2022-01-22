@@ -1,0 +1,4 @@
+{
+  "desc":"The ChineseBERT, which incorporates both the glyph and pinyin information of Chinese characters into language model pretraining",
+  "contributor":[{"name":"Zijun Sun", "github":"https://github.com/ShannonAI/ChineseBert"}]
+}
