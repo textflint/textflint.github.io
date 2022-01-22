@@ -1,0 +1,24 @@
+{
+        "name": "SMCN",
+        "full_name": "Chinese Semantic Matching",
+        "description": "This task need model to identify whether two sentences express the same meaning.",
+        "available_domain": [
+                "SwapWord",
+                "SwapNum",
+                "Overlap"
+        ],
+        "available_ut": [
+                "AppendIrr",
+    		"BackTrans",
+   		 "CnSwapSynWordEmbedding",
+    		"InsertAdv",
+    		"CnSwapNum",
+    		"CnSwapNamedEnt",
+   		 "CnSpellingError",
+    		"CnPunctuation",
+    		"CnPrejudice",
+    		"CnDigit2Char",
+    		"CnHomophones",
+    		"CnSynonym"
+        ]
+}
