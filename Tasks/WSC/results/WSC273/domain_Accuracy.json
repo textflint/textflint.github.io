@@ -1,0 +1,247 @@
+[
+  {
+    "model": "HNN",
+    "attack_results": {
+      "SwitchVoice": {
+        "ori": 75.1,
+        "trans": 67.7,
+        "sample_num": 218,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwitchVoice.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwitchVoice.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapNames": {
+        "ori": 75.1,
+        "trans": 69.6,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapNames.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapNames.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "InsertRelativeClause": {
+        "ori": 75.1,
+        "trans": 67.5,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_InsertRelativeClause.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_InsertRelativeClause.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapGender": {
+        "ori": 75.1,
+        "trans": 27.1,
+        "sample_num": 155,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapGender.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapGender.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  },
+  {
+    "model": "BERT_Wiki_wscr",
+    "attack_results": {
+      "SwitchVoice": {
+        "ori": 71.8,
+        "trans": 65.5,
+        "sample_num": 218,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwitchVoice.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwitchVoice.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapNames": {
+        "ori": 71.8,
+        "trans": 70.3,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapNames.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapNames.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "InsertRelativeClause": {
+        "ori": 71.8,
+        "trans": 66.4,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_InsertRelativeClause.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_InsertRelativeClause.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapGender": {
+        "ori": 71.8,
+        "trans": 29.03,
+        "sample_num": 155,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapGender.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapGender.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  },
+  {
+    "model": "BERT_base",
+    "attack_results": {
+      "SwitchVoice": {
+        "ori": 56.0,
+        "trans": 57.7,
+        "sample_num": 218,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwitchVoice.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwitchVoice.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapNames": {
+        "ori": 56.0,
+        "trans": 52.7,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapNames.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapNames.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "InsertRelativeClause": {
+        "ori": 56.0,
+        "trans": 57.6,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_InsertRelativeClause.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_InsertRelativeClause.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapGender": {
+        "ori": 56.0,
+        "trans": 46.45,
+        "sample_num": 155,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapGender.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapGender.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  },
+  {
+    "model": "BERT_large",
+    "attack_results": {
+      "SwitchVoice": {
+        "ori": 61.9,
+        "trans": 60.9,
+        "sample_num": 218,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwitchVoice.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwitchVoice.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapNames": {
+        "ori": 61.9,
+        "trans": 56.5,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapNames.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapNames.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "InsertRelativeClause": {
+        "ori": 61.9,
+        "trans": 59.1,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_InsertRelativeClause.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_InsertRelativeClause.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapGender": {
+        "ori": 61.9,
+        "trans": 41.94,
+        "sample_num": 155,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapGender.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapGender.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  },
+  {
+    "model": "BERT_wiki",
+    "attack_results": {
+      "SwitchVoice": {
+        "ori": 63.4,
+        "trans": 62.3,
+        "sample_num": 218,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwitchVoice.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwitchVoice.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapNames": {
+        "ori": 63.4,
+        "trans": 61.5,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapNames.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapNames.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "InsertRelativeClause": {
+        "ori": 63.4,
+        "trans": 62.2,
+        "sample_num": 283,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_InsertRelativeClause.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_InsertRelativeClause.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      },
+      "SwapGender": {
+        "ori": 63.4,
+        "trans": 40.0,
+        "sample_num": 155,
+        "ori_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/ori_SwapGender.json",
+        "trans_download_link": "https://www.textflint.com/static/Tasks/WSC/trans_dataset/WSC273/trans_SwapGender.json",
+        "contributor": {
+          "name": "xuanting chen",
+          "github": "https://github.com/chenxuantt"
+        }
+      }
+    }
+  }
+]

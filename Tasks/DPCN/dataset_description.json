@@ -1,0 +1,62 @@
+[
+	{
+		"name": "CTB5",
+		"description": "CTB5(Chinese Treebank 5.0) was developed by the Linguistic Data Consortium (LDC) contains approximately 500,000 words of Chinese newswire text annotated in the manner of the Penn English Treebank.",
+		"available_transformation_type": ["ut"],
+		"dataset_size": 890,
+		"models": 
+        [
+            {
+				"model_name": "DeepBiaf",
+				"paper_link": "https://arxiv.org/pdf/1611.01734.pdf",
+				"github_link": "https://github.com/XuezheMax/NeuroNLP2",
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/CNDP-ICLR-dozat2016deep/images/sha256-c478f2d362a7a0d744f6a4e99ac42f0352e16c96532586f8c4b9e78a04f725aa?context=explore",
+				"paper_name": "Deep Biaffine Attention for Neural Dependency Parsing",
+				"metric": 
+                {
+                    "UAS": 91.78,
+                    "LAS": 90.48
+                }
+			},
+
+			{
+				"model_name": "Neuromst",
+				"paper_link": "https://arxiv.org/pdf/1701.00874.pdf",
+				"github_link": "https://github.com/XuezheMax/NeuroNLP2",
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/CNDP-IJCNLP-ma2017neural/images/sha256-89e58d62dcfccb28a3ef20554fb0647a94c324014160d509944dd5cfe72e25a4?context=explore",
+				"paper_name": "Neural Probabilistic Model for Non-projective MST Parsing",
+				"metric": 
+                {
+                    "UAS": 91.61,
+                    "LAS": 90.38
+                }
+			},
+
+			{
+				"model_name": "StackPtr",
+				"paper_link": "https://arxiv.org/pdf/1805.01087.pdf",
+				"github_link": "https://github.com/XuezheMax/NeuroNLP2",
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/CNDP-ACL-ma2018stack/images/sha256-5e9989fdaadda8f9f0bf4e7d8d479022cc2344c584a2bf5b1a759199c92398f1?context=explore",
+				"paper_name": "Stack-Pointer Networks for Dependency Parsing",
+				"metric": 
+                {
+                    "UAS": 92.00,
+                    "LAS": 90.92
+                }
+			},
+
+			{
+				"model_name": "MRCforDP",
+				"paper_link": "https://arxiv.org/pdf/2105.07654.pdf",
+				"github_link": "https://github.com/ShannonAI/mrc-for-dependency-parsing",
+                "dockerhub_link": "https://hub.docker.com/layers/fudannlp/reimplement/CNDP-arXiv-gan2021dependency/images/sha256-5dd0b5aa25edd7e14c31a101d1bc5c3e90c1cef30d185127b304662fc1d43e1c?context=explore",
+				"paper_name": "Dependency Parsing as MRC-based Span-Span Prediction",
+				"metric": 
+                {
+                    "UAS": 93.17,
+                    "LAS": 91.67
+                }
+			}
+        ]
+    }
+]

@@ -1,1 +1,1444 @@
-{"header": ["paper", "code", "ONTONOTES", "ACE (ACE-2/ACE03/ACE04/ACE05)", "MUC (MUC-6/MUC-7)", "Others", "note"], "content": [{"paper": "[ACL 2020] CorefQA: Coreference Resolution as Query-based Span Prediction", "code": "https://github.com/ShannonAI/CorefQA", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[TACL 2020] SpanBERT: Improving Pre-training by Representing and Predicting Spans", "code": "https://github.com/mandarjoshi90/coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[IJCNLP 2019] BERT for Coreference Resolution: Baselines and Analysis", "code": "https://github.com/mandarjoshi90/coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2018] Higher-order Coreference Resolution with Coarse-to-fine Inference", "code": "https://github.com/kentonl/e2e-coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2017] End-to-end Neural Coreference Resolution", "code": "https://github.com/kentonl/e2e-coref/releases/tag/e2e", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2019] Coreference Resolution with Entity Equalization", "code": "https://github.com/kkjawz/coref-ee", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[LREC 2020] A Cluster Ranking Model for Full Anaphora Resolution", "code": "https://github.com/juntaoy/dali-full-anaphora", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2020]Active Learning for Coreference Resolution using Discrete Annotation", "code": "https://github.com/belindal/discrete-active-learning-coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL-NUSE 2020]New Insights into Cross-Document Event Coreference: Systematic Comparison and a Simplified Approach", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[COLING 2020]Enhanced Labelling in Active Learning for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP-CODI 2020] Using Type Information to Improve Entity Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "LitBank, EmailCoref, WikiCoref", "note": null}, {"paper": "[EMNLP-CODI 2020] Evaluation of Coreference Resolution Systems Under Adversarial Attacks", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2019]Using Automatically Extracted Minimum Spans to Disentangle Coreference Evaluation from Boundary Detection", "code": "https://github.com/ns-moosavi/coval ", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "WikiCoref", "note": null}, {"paper": "[ACL 2019] End-to-end deep reinforcement learning based coreference resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2018] PreCo: A Large-scale Dataset in Preschool Vocabulary for Coreference Resolution", "code": "https://preschool-lab.github.io/PreCo/", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "PreCo", "note": null}, {"paper": "[EMNLP 2018] Learning Word Representations with Cross-Sentence Dependency for End-to-End Co-reference Resolution", "code": "https://github.com/luohongyin/coatt-coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2016] Learning Global Features for Coreference Resolution", "code": "https://github.com/swiseman/nn_coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2015] Learning Anaphoricity and Antecedent Ranking Features for Coreference Resolution", "code": "https://github.com/swiseman/nn_coref/tree/acl15", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2016] Deep Reinforcement Learning for Mention-Ranking Coreference Models", "code": "https://github.com/clarkkev/deep-coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2016] Improving Coreference Resolution by Learning Entity-Level Distributed Representations", "code": "https://github.com/clarkkev/deep-coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2019] Knowledge-aware Pronoun Coreference Resolution", "code": "https://github.com/HKUST-KnowComp/Pronoun-Coref-KG", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "i2b2", "note": null}, {"paper": "[ACL 2019] Using Automatically Extracted Minimum Spans to Disentangle Coreference Evaluation from Boundary Detection", "code": "https://github.com/ns-moosavi/coval", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2019]Incorporating Context and External Knowledge for Pronoun Coreference Resolution", "code": "https://github. com/HKUST-KnowComp/Pronoun-Coref.", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2018] Neural Coreference Resolution with Deep Biaffine Attention by Joint Mention Detection and Mention Clustering", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2017] Revisiting Selectional Preferences for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2017] Don\u2019t understand a measure? Learn it: Structured Prediction for Coreference Resolution optimizing its measures", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2016] Improving Coreference Resolution by Learning Entity-Level Distributed Representations", "code": "https://github.com/clarkkev/deep-coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2016] Using Mention Accessibility to Improve Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[CONLL 2017] Collaborative Partitioning for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[CONLL 2017] Optimizing Differentiable Relaxations of Coreference Evaluation Metrics", "code": "https://github.com/lephong/diffmetric_coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2020] Revealing the Myth of Higher-Order Inference in Coreference Resolution", "code": "https://github.com/lxucs/coref-hoi", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2020] Incremental Neural Coreference Resolution in Constant Memory", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2020] Exploring Span Representations in Neural Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2018] Using Linguistic Features to Improve the Generalization Capability of Neural Coreference Resolvers", "code": "https://github.com/ns-moosavi/epm", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2017] Revisiting Selectional Preferences for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2016] Search Space Pruning: A Simple Solution for Better Coreference Resolvers", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[AAAI 2015]Joint Anaphoricity Detection and Coreference Resolution with Constrained Latent Structures", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[EMNLP 2020] Learning to Ignore: Long Document Coreference with Bounded Memory Neural Networks", "code": "https://github.com/shtoshni92/long-doc-coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2018] Deep contextualized word representations", "code": "https://github.com/flairNLP/flair", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[COLING 2018]Triad-based Neural Network for Coreference Resoluation", "code": "https://github.com/text-machine-lab/entity-coref", "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2016]Unsupervised Ranking Model for Entity Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2016]Learning Global Features for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2014] Learning Structured Perceptrons for Coreference Resolution with Latent Antecedents and Non-local Features", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[TACL 2015] Latent Structures for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2013] A Constrained Latent Variable Model for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2015] Entity-Centric Coreference Resolution with Model Stacking", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[CoNLL 2015] A Joint Framework for Coreference Resolution and Mention Head Detection", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2013] The Life and Death of Discourse Entities: Identifying Singleton Mentions", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2012]Active Learning for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[CoNLL 2011] Stanford\u2019s Multi-Pass Sieve Coreference Resolution System at the CoNLL-2011 Shared Task", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[CL 2013] Deterministic Coreference Resolution Based on Entity-Centric, Precision-Ranked Rules", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[EMNLP 2012] Latent Structure Perceptron with Feature Induction for Unrestricted Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[CoNLL 2012] Data-driven Multilingual Coreference Resolution using Resolver Stacking", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2012]Translation-Based Projection for Multilingual Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "SemEval-2010", "note": null}, {"paper": "[EMNLP 2014] Prune-and-score: Learning for greedy coreference resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2014] Recall Error Analysis for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[COLING 2014]Limited memory incremental coreference resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[COLING 2014]Unsupervised Coreference Resolution by Utilizing the Most Informative Relations", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2013] Error-Driven Analysis of Challenges in Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2013] Easy victories and uphill battles in coreference resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2013] Joint Coreference Resolution and Named-Entity Linking with Multi-Pass Sieves", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2013] Decentralized Entity-Level Modeling for Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2012] Joint Learning for Coreference Resolution with Markov Logic", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[COLING 2012]Coreference Resolution with ILP-based Weighted Abduction", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[IJCAI 2019]Incorporating Structural Information for Better Coreference Resolution", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2011] Bootstrapping coreference resolution using word associations", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2011] Coreference Resolution with World Knowledge", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2010] Coreference Resolution across Corpora: Languages, Coding Schemes, and Preprocessing Information", "code": null, "ONTONOTES": "Yes", "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2020] Toward Gender-Inclusive Coreference Resolution", "code": "https://github.com/TristaCao/into_inclusivecoref", "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "MAP, GICoref", "note": null}, {"paper": "[ACL 2019] Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution", "code": "https://github.com/shanybar/event_entity_coref_ecb_plus", "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "ECB+", "note": null}, {"paper": "[EMNLP finding 2020] Adapting Coreference Resolution to Twitter Conversations", "code": "https://github.com/verosol/e2e-coref-to-Twitter", "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "Twitter Conversation", "note": null}, {"paper": "[COLING 2020] Sequence to Sequence Coreference Resolution", "code": "https://github.com/gorka96/text2cor", "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "ARRAU", "note": null}, {"paper": "[COLING 2020]A Benchmark of Rule-Based and Neural Coreference Resolution in Dutch Novels and News", "code": "https://github.com/andreasvc/crac2020", "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "SoNaR-1, RiddleCoref", "note": null}, {"paper": "[COLING 2020]Event Coreference Resolution with their Paraphrases and Argument-aware Embeddings", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "ECB+ ", "note": null}, {"paper": "[ACL 2019] Interconnected Question Generation with Coreference Alignment and Conversation Flow Modeling", "code": "https://github.com/Evan-Gao/conversational-QG", "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "CoQA", "note": null}, {"paper": "[ACL 2019]The KnowRef Coreference Corpus: Removing Gender and Number Cues for Difficult Pronominal Anaphora Resolution", "code": "https://github.com/aemami1/KnowRef", "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "GAP", "note": null}, {"paper": "[ACL 2019] On GAP coreference resolution shared task: insights from the 3rd place solution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "GAP", "note": null}, {"paper": "[EMNLP 2019] WikiCREM: A Large Unsupervised Corpus for Coreference Resolution", "code": "https://github.com/vid-koci/bert-commonsense", "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "GAP, DPR, PDP, WikiCREM", "note": null}, {"paper": "[EMNLP 2019] Coreference Resolution in Full Text Articles with BERT and Syntax-based Mention Filtering", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "CRAFT", "note": null}, {"paper": "[NAACL 2019]Improving Event Coreference Resolution by Learning Argument Compatibility from Unlabeled Data", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "KBP 2017", "note": null}, {"paper": "[ACL 2018] Neural Cross-Lingual Coreference Resolution And Its Application To Entity Linking", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "TAC 2015", "note": null}, {"paper": "[ACL 2018] Investigating Domain-Specific Information for Neural Coreference Resolution on Biomedical Texts", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "BioNLP, CRAFT", "note": null}, {"paper": "[ACL 2018] Improving Event Coreference Resolution by Modeling Correlations between Event Coreference Chains and Document Topic Structures", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "KBP", "note": null}, {"paper": "[COLING 2018]Graph Based Decoding for Event Sequencing and Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "TAC-KBP 2017", "note": null}, {"paper": "[ACL 2017] Joint Learning for Event Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "KBP", "note": null}, {"paper": "[EMNLP 2017] Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "ECB+", "note": null}, {"paper": "[COLING 2016]Evaluating anaphora and coreference resolution to improve automatic keyphrase extraction", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "SEMEVAL 2010", "note": null}, {"paper": "[CONLL 2016] Coreference in Wikipedia: Main Concept Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "WikiCoref", "note": null}, {"paper": "[EMNLP 2015] Adapting Coreference Resolution for Narrative Processing", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "UMIREC, N2", "note": null}, {"paper": "[NAACL 2015]Sampling Techniques for Streaming Cross Document Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "Tweets", "note": null}, {"paper": "[EMNLP 2019 workshop] Coreference Resolution in Full Text Articles with BERT and Syntax-based Mention Filtering", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "CRAFT", "note": null}, {"paper": "[IJCAI 2013] End-to-End Coreference Resolution for Clinical Narratives", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "i2b2", "note": null}, {"paper": "[COLING 2014] Cross-lingual Coreference Resolution of Pronouns", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "PCEDT", "note": null}, {"paper": "[EMNLP 2012] Joint Entity and Event Coreference Resolution across Documents", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "ECB", "note": null}, {"paper": "[COLING 2012]Easy-first Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[EMNLP 2012] Domain Adaptation for Coreference Resolution: An Adaptive Ensemble Approach", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[IJCAI 2011]Ensemble-Based Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[AAAI 2016]Joint Inference over a Lightly Supervised Information Extraction Pipeline: Towards Event Coreference Resolution for Resource-Scarce Languages", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[COLING 2016]Joint Inference for Event Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": "KBP", "note": null}, {"paper": "[EMNLP 2015] Joint Event Trigger Identification and Event Coreference Resolution with Structured Perceptron", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2010] A Multi-Pass Sieve for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[ACL 2010] Unsupervised Event Coreference Resolution with Rich Linguistic Features", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": "ECB", "note": null}, {"paper": "[COLING 2010]Maximum Metric Score Training for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[COLING 2010]Dependency-driven Anaphoricity Determination for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[COLING 2010]End-to-End Coreference Resolution via Hypergraph Partitioning", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[NAACL 2010]Coreference Resolution in a Modular, Entity-Centered Model", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2009]Graph-Cut-Based Anaphoricity Determination for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2009] Conundrums in Noun Phrase Coreference Resolution: Making Sense of the State-of-the-Art", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[EMNLP 2009] Accurate Semantic Class Classifier for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2009] Global Learning of Noun Phrase Anaphoricity in Coreference Resolution via Label Propagation", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2009] Simple Coreference Resolution with Rich Syntactic and Semantic Features", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[EMNLP 2008] Specialized Models and Ranking for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2008] Joint Unsupervised Coreference Resolution with Markov Logic", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2008] Understanding the Value of Features for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2007]Joint Determination of Anaphoricity and Coreference Resolution using Integer Programming", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2007]First-Order Probabilistic Models for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2007]Coreference or Not: A Twin Model for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2007]Structured Local Training and Biased Potential Functions for Conditional Random Fields with Application to Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": "Yes", "Others": "MPQA", "note": null}, {"paper": "[CL 2001] A Machine Learning Approach to Coreference Resolution of Noun Phrases", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[ACL 2002] Improving Machine Learning Approaches to Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[EMNLP 2009] Supervised Models for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2008] Unsupervised Models for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2008] An Entity-Mention Model for Coreference Resolution with Inductive Logic Programming", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[ACL 2007] Unsupervised Coreference Resolution in a Nonparametric Bayesian Model", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[ACL 2007] Coreference Resolution Using Semantic Relatedness Information from Automatically Discovered Patterns", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2007] Semantic Class Induction and Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[NAACL 2007] Joint Determination of Anaphoricity and Coreference Resolution using Integer Programming", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2005]Multi-Lingual Coreference Resolution With Syntactic Features", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[EMNLP 2005]On Coreference Resolution Performance Metrics", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2004] A Mention-Synchronous Coreference Resolution Algorithm Based on the Bell Tree", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[NIPS 2004] Conditional Models of Identity Uncertainty with Application to Noun Coreference", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[NAACL 2004]Unsupervised Learning of Contextual Role Knowledge for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[ACL 2003] Coreference Resolution Using Competition Learning Approach", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[NAACL 2001] Text and Knowledge Mining for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[NAACL 2006] Exploiting Semantic Role Labeling, WordNet and Wikipedia for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[EMNLP 2006]BESTCUT: A Graph Algorithm for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[HLT-EMNLP 2005] Using Semantic Relations to Refine Coreference Decisions", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2007] Coreference Resolution Using Semantic Relatedness Information from Automatically Discovered Patterns", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2005] Machine Learning for Coreference Resolution: From Local Classification to Global Ranking", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": null, "Others": null, "note": null}, {"paper": "[ACL 2008] Enforcing Transitivity in Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes", "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[COLING 2004]A High-Performance Coreference Resolution System using a Constraint-based Multi-Agent Strategy", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[COLING 2002]Identifying Anaphoric and Non-Anaphoric Noun Phrases to Improve Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": "Yes", "Others": null, "note": null}, {"paper": "[CoNLL 2005] An Expectation Maximization Approach to Pronoun Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "AQUAINT QA", "note": null}, {"paper": "[EMNLP 2006]Partially Supervised Coreference Resolution for Opinion Summarization through Structured Rule Learning", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "MPQA", "note": null}, {"paper": "[NAACL 2004] Unsupervised Learning of Contextual Role Knowledge for Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "MUC-4, Reuters", "note": null}, {"paper": "[COLING 2004]An NP-Cluster Based Approach to Coreference Resolution", "code": null, "ONTONOTES": null, "ACE (ACE-2/ACE03/ACE04/ACE05)": null, "MUC (MUC-6/MUC-7)": null, "Others": "MEDLINE", "note": null}]}
+{
+    "header": [
+     "paper",
+     "code",
+     "ONTONOTES",
+     "ACE (ACE-2/ACE03/ACE04/ACE05)",
+     "MUC (MUC-6/MUC-7)",
+     "Others",
+     "note"
+    ],
+    "content": [
+     {
+      "paper": "[ACL 2020] CorefQA: Coreference Resolution as Query-based Span Prediction",
+      "code": "https://github.com/ShannonAI/CorefQA",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[TACL 2020] SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+      "code": "https://github.com/mandarjoshi90/coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[IJCNLP 2019] BERT for Coreference Resolution: Baselines and Analysis",
+      "code": "https://github.com/mandarjoshi90/coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2018] Higher-order Coreference Resolution with Coarse-to-fine Inference",
+      "code": "https://github.com/kentonl/e2e-coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2017] End-to-end Neural Coreference Resolution",
+      "code": "https://github.com/kentonl/e2e-coref/releases/tag/e2e",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2019] Coreference Resolution with Entity Equalization",
+      "code": "https://github.com/kkjawz/coref-ee",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[LREC 2020] A Cluster Ranking Model for Full Anaphora Resolution",
+      "code": "https://github.com/juntaoy/dali-full-anaphora",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2020]Active Learning for Coreference Resolution using Discrete Annotation",
+      "code": "https://github.com/belindal/discrete-active-learning-coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL-NUSE 2020]New Insights into Cross-Document Event Coreference: Systematic Comparison and a Simplified Approach",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2020]Enhanced Labelling in Active Learning for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP-CODI 2020] Using Type Information to Improve Entity Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "LitBank, EmailCoref, WikiCoref",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP-CODI 2020] Evaluation of Coreference Resolution Systems Under Adversarial Attacks",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2019]Using Automatically Extracted Minimum Spans to Disentangle Coreference Evaluation from Boundary Detection",
+      "code": "https://github.com/ns-moosavi/coval ",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "WikiCoref",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2019] End-to-end deep reinforcement learning based coreference resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2018] PreCo: A Large-scale Dataset in Preschool Vocabulary for Coreference Resolution",
+      "code": "https://preschool-lab.github.io/PreCo/",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "PreCo",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2018] Learning Word Representations with Cross-Sentence Dependency for End-to-End Co-reference Resolution",
+      "code": "https://github.com/luohongyin/coatt-coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2016] Learning Global Features for Coreference Resolution",
+      "code": "https://github.com/swiseman/nn_coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2015] Learning Anaphoricity and Antecedent Ranking Features for Coreference Resolution",
+      "code": "https://github.com/swiseman/nn_coref/tree/acl15",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2016] Deep Reinforcement Learning for Mention-Ranking Coreference Models",
+      "code": "https://github.com/clarkkev/deep-coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2016] Improving Coreference Resolution by Learning Entity-Level Distributed Representations",
+      "code": "https://github.com/clarkkev/deep-coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2019] Knowledge-aware Pronoun Coreference Resolution",
+      "code": "https://github.com/HKUST-KnowComp/Pronoun-Coref-KG",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "i2b2",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2019] Using Automatically Extracted Minimum Spans to Disentangle Coreference Evaluation from Boundary Detection",
+      "code": "https://github.com/ns-moosavi/coval",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2019]Incorporating Context and External Knowledge for Pronoun Coreference Resolution",
+      "code": "https://github. com/HKUST-KnowComp/Pronoun-Coref.",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2018] Neural Coreference Resolution with Deep Biaffine Attention by Joint Mention Detection and Mention Clustering",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2017] Revisiting Selectional Preferences for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2017] Don\u2019t understand a measure? Learn it: Structured Prediction for Coreference Resolution optimizing its measures",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2016] Improving Coreference Resolution by Learning Entity-Level Distributed Representations",
+      "code": "https://github.com/clarkkev/deep-coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2016] Using Mention Accessibility to Improve Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[CONLL 2017] Collaborative Partitioning for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[CONLL 2017] Optimizing Differentiable Relaxations of Coreference Evaluation Metrics",
+      "code": "https://github.com/lephong/diffmetric_coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2020] Revealing the Myth of Higher-Order Inference in Coreference Resolution",
+      "code": "https://github.com/lxucs/coref-hoi",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2020] Incremental Neural Coreference Resolution in Constant Memory",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2020] Exploring Span Representations in Neural Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2018] Using Linguistic Features to Improve the Generalization Capability of Neural Coreference Resolvers",
+      "code": "https://github.com/ns-moosavi/epm",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2017] Revisiting Selectional Preferences for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2016] Search Space Pruning: A Simple Solution for Better Coreference Resolvers",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[AAAI 2015]Joint Anaphoricity Detection and Coreference Resolution with Constrained Latent Structures",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2020] Learning to Ignore: Long Document Coreference with Bounded Memory Neural Networks",
+      "code": "https://github.com/shtoshni92/long-doc-coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2018] Deep contextualized word representations",
+      "code": "https://github.com/flairNLP/flair",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2018]Triad-based Neural Network for Coreference Resoluation",
+      "code": "https://github.com/text-machine-lab/entity-coref",
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2016]Unsupervised Ranking Model for Entity Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2016]Learning Global Features for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2014] Learning Structured Perceptrons for Coreference Resolution with Latent Antecedents and Non-local Features",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[TACL 2015] Latent Structures for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2013] A Constrained Latent Variable Model for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2015] Entity-Centric Coreference Resolution with Model Stacking",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[CoNLL 2015] A Joint Framework for Coreference Resolution and Mention Head Detection",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2013] The Life and Death of Discourse Entities: Identifying Singleton Mentions",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2012]Active Learning for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[CoNLL 2011] Stanford\u2019s Multi-Pass Sieve Coreference Resolution System at the CoNLL-2011 Shared Task",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[CL 2013] Deterministic Coreference Resolution Based on Entity-Centric, Precision-Ranked Rules",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2012] Latent Structure Perceptron with Feature Induction for Unrestricted Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[CoNLL 2012] Data-driven Multilingual Coreference Resolution using Resolver Stacking",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2012]Translation-Based Projection for Multilingual Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "SemEval-2010",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2014] Prune-and-score: Learning for greedy coreference resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2014] Recall Error Analysis for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2014]Limited memory incremental coreference resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2014]Unsupervised Coreference Resolution by Utilizing the Most Informative Relations",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2013] Error-Driven Analysis of Challenges in Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2013] Easy victories and uphill battles in coreference resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2013] Joint Coreference Resolution and Named-Entity Linking with Multi-Pass Sieves",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2013] Decentralized Entity-Level Modeling for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2012] Joint Learning for Coreference Resolution with Markov Logic",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2012]Coreference Resolution with ILP-based Weighted Abduction",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[IJCAI 2019]Incorporating Structural Information for Better Coreference Resolution",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2011] Bootstrapping coreference resolution using word associations",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2011] Coreference Resolution with World Knowledge",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2010] Coreference Resolution across Corpora: Languages, Coding Schemes, and Preprocessing Information",
+      "code": null,
+      "ONTONOTES": "Yes",
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2020] Toward Gender-Inclusive Coreference Resolution",
+      "code": "https://github.com/TristaCao/into_inclusivecoref",
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "MAP, GICoref",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2019] Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution",
+      "code": "https://github.com/shanybar/event_entity_coref_ecb_plus",
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "ECB+",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP finding 2020] Adapting Coreference Resolution to Twitter Conversations",
+      "code": "https://github.com/verosol/e2e-coref-to-Twitter",
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "Twitter Conversation",
+      "note": null
+     },
+     {
+      "paper": "[COLING 2020] Sequence to Sequence Coreference Resolution",
+      "code": "https://github.com/gorka96/text2cor",
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "ARRAU",
+      "note": null
+     },
+     {
+      "paper": "[COLING 2020]A Benchmark of Rule-Based and Neural Coreference Resolution in Dutch Novels and News",
+      "code": "https://github.com/andreasvc/crac2020",
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "SoNaR-1, RiddleCoref",
+      "note": null
+     },
+     {
+      "paper": "[COLING 2020]Event Coreference Resolution with their Paraphrases and Argument-aware Embeddings",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "ECB+ ",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2019] Interconnected Question Generation with Coreference Alignment and Conversation Flow Modeling",
+      "code": "https://github.com/Evan-Gao/conversational-QG",
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "CoQA",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2019]The KnowRef Coreference Corpus: Removing Gender and Number Cues for Difficult Pronominal Anaphora Resolution",
+      "code": "https://github.com/aemami1/KnowRef",
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "GAP",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2019] On GAP coreference resolution shared task: insights from the 3rd place solution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "GAP",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2019] WikiCREM: A Large Unsupervised Corpus for Coreference Resolution",
+      "code": "https://github.com/vid-koci/bert-commonsense",
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "GAP, DPR, PDP, WikiCREM",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2019] Coreference Resolution in Full Text Articles with BERT and Syntax-based Mention Filtering",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "CRAFT",
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2019]Improving Event Coreference Resolution by Learning Argument Compatibility from Unlabeled Data",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "KBP 2017",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2018] Neural Cross-Lingual Coreference Resolution And Its Application To Entity Linking",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "TAC 2015",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2018] Investigating Domain-Specific Information for Neural Coreference Resolution on Biomedical Texts",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "BioNLP, CRAFT",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2018] Improving Event Coreference Resolution by Modeling Correlations between Event Coreference Chains and Document Topic Structures",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "KBP",
+      "note": null
+     },
+     {
+      "paper": "[COLING 2018]Graph Based Decoding for Event Sequencing and Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "TAC-KBP 2017",
+      "note": null
+     },
+     {
+      "paper": "[ACL 2017] Joint Learning for Event Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "KBP",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2017] Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "ECB+",
+      "note": null
+     },
+     {
+      "paper": "[COLING 2016]Evaluating anaphora and coreference resolution to improve automatic keyphrase extraction",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "SEMEVAL 2010",
+      "note": null
+     },
+     {
+      "paper": "[CONLL 2016] Coreference in Wikipedia: Main Concept Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "WikiCoref",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2015] Adapting Coreference Resolution for Narrative Processing",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "UMIREC, N2",
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2015]Sampling Techniques for Streaming Cross Document Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "Tweets",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2019 workshop] Coreference Resolution in Full Text Articles with BERT and Syntax-based Mention Filtering",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "CRAFT",
+      "note": null
+     },
+     {
+      "paper": "[IJCAI 2013] End-to-End Coreference Resolution for Clinical Narratives",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "i2b2",
+      "note": null
+     },
+     {
+      "paper": "[COLING 2014] Cross-lingual Coreference Resolution of Pronouns",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "PCEDT",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2012] Joint Entity and Event Coreference Resolution across Documents",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "ECB",
+      "note": null
+     },
+     {
+      "paper": "[COLING 2012]Easy-first Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2012] Domain Adaptation for Coreference Resolution: An Adaptive Ensemble Approach",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[IJCAI 2011]Ensemble-Based Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[AAAI 2016]Joint Inference over a Lightly Supervised Information Extraction Pipeline: Towards Event Coreference Resolution for Resource-Scarce Languages",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2016]Joint Inference for Event Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "KBP",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2015] Joint Event Trigger Identification and Event Coreference Resolution with Structured Perceptron",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2010] A Multi-Pass Sieve for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2010] Unsupervised Event Coreference Resolution with Rich Linguistic Features",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "ECB",
+      "note": null
+     },
+     {
+      "paper": "[COLING 2010]Maximum Metric Score Training for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2010]Dependency-driven Anaphoricity Determination for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2010]End-to-End Coreference Resolution via Hypergraph Partitioning",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2010]Coreference Resolution in a Modular, Entity-Centered Model",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2009]Graph-Cut-Based Anaphoricity Determination for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2009] Conundrums in Noun Phrase Coreference Resolution: Making Sense of the State-of-the-Art",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2009] Accurate Semantic Class Classifier for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2009] Global Learning of Noun Phrase Anaphoricity in Coreference Resolution via Label Propagation",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2009] Simple Coreference Resolution with Rich Syntactic and Semantic Features",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2008] Specialized Models and Ranking for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2008] Joint Unsupervised Coreference Resolution with Markov Logic",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2008] Understanding the Value of Features for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2007]Joint Determination of Anaphoricity and Coreference Resolution using Integer Programming",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2007]First-Order Probabilistic Models for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2007]Coreference or Not: A Twin Model for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2007]Structured Local Training and Biased Potential Functions for Conditional Random Fields with Application to Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": "MPQA",
+      "note": null
+     },
+     {
+      "paper": "[CL 2001] A Machine Learning Approach to Coreference Resolution of Noun Phrases",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2002] Improving Machine Learning Approaches to Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2009] Supervised Models for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2008] Unsupervised Models for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2008] An Entity-Mention Model for Coreference Resolution with Inductive Logic Programming",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2007] Unsupervised Coreference Resolution in a Nonparametric Bayesian Model",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2007] Coreference Resolution Using Semantic Relatedness Information from Automatically Discovered Patterns",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2007] Semantic Class Induction and Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2007] Joint Determination of Anaphoricity and Coreference Resolution using Integer Programming",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2005]Multi-Lingual Coreference Resolution With Syntactic Features",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2005]On Coreference Resolution Performance Metrics",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2004] A Mention-Synchronous Coreference Resolution Algorithm Based on the Bell Tree",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NIPS 2004] Conditional Models of Identity Uncertainty with Application to Noun Coreference",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2004]Unsupervised Learning of Contextual Role Knowledge for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2003] Coreference Resolution Using Competition Learning Approach",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2001] Text and Knowledge Mining for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2006] Exploiting Semantic Role Labeling, WordNet and Wikipedia for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2006]BESTCUT: A Graph Algorithm for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[HLT-EMNLP 2005] Using Semantic Relations to Refine Coreference Decisions",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2007] Coreference Resolution Using Semantic Relatedness Information from Automatically Discovered Patterns",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2005] Machine Learning for Coreference Resolution: From Local Classification to Global Ranking",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[ACL 2008] Enforcing Transitivity in Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2004]A High-Performance Coreference Resolution System using a Constraint-based Multi-Agent Strategy",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[COLING 2002]Identifying Anaphoric and Non-Anaphoric Noun Phrases to Improve Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": "Yes",
+      "Others": null,
+      "note": null
+     },
+     {
+      "paper": "[CoNLL 2005] An Expectation Maximization Approach to Pronoun Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "AQUAINT QA",
+      "note": null
+     },
+     {
+      "paper": "[EMNLP 2006]Partially Supervised Coreference Resolution for Opinion Summarization through Structured Rule Learning",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "MPQA",
+      "note": null
+     },
+     {
+      "paper": "[NAACL 2004] Unsupervised Learning of Contextual Role Knowledge for Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "MUC-4, Reuters",
+      "note": null
+     },
+     {
+      "paper": "[COLING 2004]An NP-Cluster Based Approach to Coreference Resolution",
+      "code": null,
+      "ONTONOTES": null,
+      "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+      "MUC (MUC-6/MUC-7)": null,
+      "Others": "MEDLINE",
+      "note": null
+     },
+     {
+        "paper": "[ACL 2021] Coreference Reasoning in Machine Reading Comprehension",
+        "code": "https://github.com/UKPLab/coref-reasoning-in-qa",
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "Quoref/MultiRC",
+        "note": null
+       },
+       {
+        "paper": "[ACL 2021] End-to-End AMR Corefencence Resolution",
+        "code": "https://github.com/Sean-Blank/AMRcoref",
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "MS-AMR",
+        "note": null
+       },
+       {
+        "paper": "[ACL 2021] Exploiting Document Structures and Cluster Consistencies for Event Coreference Resolution",
+        "code": null,
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "KBP",
+        "note": null
+       },
+       {
+        "paper": "[ACL 2021] Benchmarking Scalable Methods for Streaming Cross Document Entity Coreference",
+        "code": "https://github.com/rloganiv/streaming-cdc",
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "AIDACoNLL-YAGO/MedMentions/Zeshel",
+        "note": null
+       },
+       {
+        "paper": "[ACL 2021] Coreference Resolution without Span Representations",
+        "code": "https://github.com/yuvalkirstain/s2e-coref",
+        "ONTONOTES": "Yes",
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "GAP",
+        "note": null
+       },
+       {
+        "paper": "[ACL 2021] Scaling Within Document Coreference to Long Texts",
+        "code": "https://github.com/raghavlite/Scalable-Coreference (is empty)",
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "CoNLL-2012 Shared Task",
+        "note": null
+       },
+       {
+        "paper": "[ACL 2021] Injecting Knowledge Base Information into End-to-End Joint Entity and Relation Extraction and Coreference Resolution",
+        "code": "https://github.com/klimzaporojets/e2e-kb-ie",
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "DWIE/DocRED",
+        "note": null
+       },
+       {
+        "paper": "[EMNLP 2021] Focus on what matters: Applying Discourse Coherence Theory to Cross Document Coreference",
+        "code": "https://github.com/Helw150/event_entity_coref_ecb_plus",
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "ECB+/GVC/FCC/Harmonic Mean",
+        "note": null
+       },
+       {
+        "paper": "[EMNLP 2021] Wino-X: Multilingual Winograd Schemas for Commonsense Reasoning and Coreference Resolution",
+        "code": "https://github.com/demelin/Wino-X",
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "MT-Wino-X dataset",
+        "note": null
+       },
+       {
+        "paper": "[EMNLP 2021] Event Coreference Data (Almost) for Free: Mining Hyperlinks from Online News",
+        "code": "https://github.com/UKPLab/emnlp2021-hypercoref-cdcr",
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "ECB+/GVC/FCC/Harmonic Mean",
+        "note": null
+       },
+       {
+        "paper": "[EMNLP 2021] Moving on from OntoNotes: Coreference Resolution Model Transfer",
+        "code": "https://github.com/pitrack/incremental-coref/",
+        "ONTONOTES": "Yes",
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "PreCo/LitBank/QBCoref/ARRAU/SARA/Semeval",
+        "note": null
+       },
+       {
+        "paper": "[EMNLP 2021] Exophoric Pronoun Resolution in Dialogues with Topic Regularization",
+        "code": "https://github.com/HKUST-KnowComp/Exo-PCR",
+        "ONTONOTES": null,
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": null,
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "VisPro",
+        "note": null
+       },
+       {
+        "paper": "[EMNLP 2021] Conundrums in Event Coreference Resolution: Making Sense of the State of the Art",
+        "code": null,
+        "ONTONOTES": "Yes",
+        "ACE (ACE-2/ACE03/ACE04/ACE05)": "Yes",
+        "MUC (MUC-6/MUC-7)": null,
+        "Others": "KBP",
+        "note": null
+       }
+    ]
+   }

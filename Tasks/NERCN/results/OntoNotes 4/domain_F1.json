@@ -1,0 +1,126 @@
+[
+    {
+        "model": "LGN",
+        "attack_results": {
+            "OOV": {
+                "sample_num": 3022,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_OOV.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_OOV.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.7628,
+                "trans": 0.5487
+            },
+            "SwapLonger": {
+                "sample_num": 864,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_SwapLonger.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_SwapLonger.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.7956,
+                "trans": 0.6348
+            },
+            "EntTypos": {
+                "sample_num": 2573,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_EntTypos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_EntTypos.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.7651,
+                "trans": 0.4377
+            },
+            "ConcatSent": {
+                "sample_num": 4345,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_ConcatSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_ConcatSent.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.7489,
+                "trans": 0.7465
+            }
+        }
+    },
+    {
+        "model": "AESINER",
+        "attack_results": {
+            "OOV": {
+                "sample_num": 3022,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_OOV.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_OOV.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.7858,
+                "trans": 0.2288
+            },
+            "SwapLonger": {
+                "sample_num": 864,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_SwapLonger.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_SwapLonger.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.8206,
+                "trans": 0.1154
+            },
+            "EntTypos": {
+                "sample_num": 2573,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_EntTypos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_EntTypos.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.7965,
+                "trans": 0.6963
+            },
+            "ConcatSent": {
+                "sample_num": 4345,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_ConcatSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_ConcatSent.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.7744,
+                "trans": 0
+            }
+        }
+    },
+    {
+        "model": "SoftLexicon",
+        "attack_results": {
+            "OOV": {
+                "sample_num": 3022,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_OOV.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_OOV.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.8363,
+                "trans": 0.7015
+            },
+            "SwapLonger": {
+                "sample_num": 864,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_SwapLonger.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_SwapLonger.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.8642,
+                "trans": 0.8313
+            },
+            "EntTypos": {
+                "sample_num": 2573,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_EntTypos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_EntTypos.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.8366,
+                "trans": 0.7112
+            },
+            "ConcatSent": {
+                "sample_num": 4345,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/ori_ConcatSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/OntoNotes 4/trans_ConcatSent.json",
+                "contributor": {"Jinzhu Lu": {"github": "https://github.com/thejacoblu"}
+                },
+                "ori": 0.8208,
+                "trans": 0.8265
+            }
+        }
+    }
+    
+]

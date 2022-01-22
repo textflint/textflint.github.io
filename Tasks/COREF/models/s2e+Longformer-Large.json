@@ -1,0 +1,9 @@
+{
+    "desc": "introduce a lightweight coreference model that removes the dependency on span representations, handcrafted features, and heuristics.",
+    "contributor": [
+     {
+      "name": "jingyi liu",
+      "github": "https://github.com/Jeansix"
+     }
+    ]
+   }

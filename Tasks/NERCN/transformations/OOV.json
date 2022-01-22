@@ -1,0 +1,17 @@
+{
+    "desc":"Entity Swap by OOV entities.",
+    "examples":[
+        {
+            "ori":"重视传统家庭观念的希腊人，对瓦西里斯幸福的家庭充满赞誉。",
+            "trans":"重视传统家庭观念的北京人，对万毅幸福的家庭充满赞誉"
+        },
+        {
+            "ori":"孙燕姿走的是中性风格，加上清新的形象，在台湾一战成名。",
+            "trans":"苏洋走的是中性风格，加上清新的形象，在长春一战成名。"
+        }
+    ],
+    "contributor":[{"name":"Jinzhu Lu", "github":"https://github.com/thejacoblu"}]
+}
+
+
+

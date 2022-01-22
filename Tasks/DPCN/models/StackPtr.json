@@ -1,0 +1,4 @@
+{
+    "desc":"Combining pointer networks with an internal stack, the proposed model first reads and encodes the whole sentence, then builds the dependency tree top-down (from root-to-leaf) in a depth-first fashion.",
+    "contributor":[{"name":"xin zhao", "github":"https://github.com/XinZhao0211"}]
+}

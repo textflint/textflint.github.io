@@ -1,0 +1,406 @@
+[
+    {
+        "model": "Neuromst",
+        "attack_results": {
+            "CnNasal": {
+                "ori": 90.38,
+                "trans": 88.09,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnAntonym": {
+                "ori": 89.96,
+                "trans": 89.25,
+                "sample_num": 282,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnDigit2Char": {
+                "ori": 94.39,
+                "trans": 94.39,
+                "sample_num": 7,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnHomophones": {
+                "ori": 90.38,
+                "trans": 84.96,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSpellingError": {
+                "ori": 90.38,
+                "trans": 88.43,
+                "sample_num": 339,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSwapNum": {
+                "ori": 94.39,
+                "trans": 94.39,
+                "sample_num": 7,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSwapSynWordEmbedding": {
+                "ori": 90.38,
+                "trans": 88.69,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSynonym": {
+                "ori": 90.38,
+                "trans": 88.91,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "model": "StackPtr",
+        "attack_results": {
+            "CnNasal": {
+                "ori": 90.92,
+                "trans": 88.47,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnAntonym": {
+                "ori": 90.52,
+                "trans": 88.91,
+                "sample_num": 282,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnDigit2Char": {
+                "ori": 95.79,
+                "trans": 95.79,
+                "sample_num": 7,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnHomophones": {
+                "ori": 90.92,
+                "trans": 85.42,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSpellingError": {
+                "ori": 90.87,
+                "trans": 88.07,
+                "sample_num": 339,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSwapNum": {
+                "ori": 95.79,
+                "trans": 96.73,
+                "sample_num": 7,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSwapSynWordEmbedding": {
+                "ori": 90.92,
+                "trans": 88.54,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSynonym": {
+                "ori": 90.92,
+                "trans": 89.37,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "model": "DeepBiaf",
+        "attack_results": {
+            "CnNasal": {
+                "ori": 90.48,
+                "trans": 88.23,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnAntonym": {
+                "ori": 90.06,
+                "trans": 89.17,
+                "sample_num": 282,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnDigit2Char": {
+                "ori": 94.39,
+                "trans": 94.39,
+                "sample_num": 7,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnHomophones": {
+                "ori": 90.48,
+                "trans": 85.25,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSpellingError": {
+                "ori": 90.46,
+                "trans": 88.31,
+                "sample_num": 339,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSwapNum": {
+                "ori": 94.39,
+                "trans": 94.39,
+                "sample_num": 7,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSwapSynWordEmbedding": {
+                "ori": 90.48,
+                "trans": 88.56,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSynonym": {
+                "ori": 90.48,
+                "trans": 89.23,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "model": "MRCforDP",
+        "attack_results": {
+            "CnNasal": {
+                "ori": 91.67,
+                "trans": 86.0,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnAntonym": {
+                "ori": 91.4,
+                "trans": 89.58,
+                "sample_num": 282,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnDigit2Char": {
+                "ori": 93.26,
+                "trans": 92.75,
+                "sample_num": 7,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnHomophones": {
+                "ori": 91.67,
+                "trans": 76.97,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSpellingError": {
+                "ori": 91.71,
+                "trans": 86.69,
+                "sample_num": 339,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSwapNum": {
+                "ori": 93.26,
+                "trans": 92.23,
+                "sample_num": 7,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSwapSynWordEmbedding": {
+                "ori": 91.67,
+                "trans": 86.86,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            },
+            "CnSynonym": {
+                "ori": 91.67,
+                "trans": 89.85,
+                "sample_num": 347,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {
+                    "xin zhao": {
+                        "github": "https://github.com/XinZhao0211"
+                    }
+                }
+            }
+        }
+    }
+]

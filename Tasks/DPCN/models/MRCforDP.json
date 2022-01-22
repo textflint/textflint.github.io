@@ -1,0 +1,4 @@
+{
+    "desc":"The proposed method constructs dependency trees by directly modeling span-span (in other words, subtreesubtree) relations.",
+    "contributor":[{"name":"xin zhao", "github":"https://github.com/XinZhao0211"}]
+}

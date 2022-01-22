@@ -1,0 +1,16 @@
+{
+    "desc":"Substitute short entities to longer ones.",
+    "examples":[
+        {
+            "ori":"新华社北京二月十一日电（记者唐虹）",
+            "trans":"新华通讯社北京二月十一日电（记者唐虹）"
+        },
+        {
+            "ori":"二月七日，事件已发生三个礼拜，环保署成立紧急应变小组，署长林俊义南下现勘。",
+            "trans":"二月七日，事件已发生三个礼拜，环境保护署成立紧急应变小组，署长林俊义南下现勘。"
+        }
+    ],
+    "contributor":[{"name":"Jinzhu Lu", "github":"https://github.com/thejacoblu"}]
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "desc": "fine-tuning the BERT language model both on the introduced and on the WikiCREM datasets.",
+  "contributor": [
+    {
+      "name": "vid-koci",
+      "github": "https://github.com/vid-koci"
+    }
+  ]
+}
