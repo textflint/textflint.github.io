@@ -1,0 +1,14 @@
+{
+    "desc":"Swap/replace character for entities",
+    "examples":[
+        {
+            "ori":"新华社北京二月十一日电（记者唐虹）",
+            "trans":"新社华北经二月十一日电（记者唐虹）"
+        },
+        {
+            "ori":"孙燕姿走的是中性风格，加上清新的形象，在台湾一战成名。",
+            "trans":"孙姿燕走的是中性风格，加上清新的形象，在台湾一战成名。"
+        }
+    ],
+    "contributor":[{"name":"Jinzhu Lu", "github":"https://github.com/thejacoblu"}]
+}

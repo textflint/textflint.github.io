@@ -1,0 +1,4 @@
+{
+    "desc":"In this work, we try to alleviate this problem by introducing a lexicon-based graph neural network with global semantics, in which lexicon knowledge is used to connect characters to capture the local composition, while a global relay node can capture global sentence semantics and longrange dependency. ", 
+    "contributor":[{"name":"Jinzhu Lu", "github":"https://github.com/thejacoblu"}]
+}

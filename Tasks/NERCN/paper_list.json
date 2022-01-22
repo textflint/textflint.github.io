@@ -1,0 +1,39 @@
+{
+    "header":[
+        "paper",
+        "code",
+        "Weibo",
+        "OntoNotes 4",
+        "MSRA"
+    ],
+    "content":[
+        {
+            "paper":"[ACL 2019] A Lexicon-Based Graph Neural Network for Chinese NER",
+            "code":"https://github.com/RowitZou/LGN",
+            "Weibo":"Yes",
+            "OntoNotes 4":"Yes",
+            "MSRA":"Yes"
+        },
+        {
+            "paper":"[ACL 2020] Simplify the Usage of Lexicon in Chinese NER",
+            "code":"https://github.com/v-mipeng/LexiconAugmentedNER",
+            "Weibo":"Yes",
+            "OntoNotes 4":"Yes",
+            "MSRA":"Yes"
+        } ,
+        {
+            "paper":"[EMNLP 2020] Named Entity Recognition for Social Media Texts with Semantic Augmentation",
+            "code":"https://github.com/cuhksz-nlp/SANER",
+            "Weibo":"Yes",
+            "OntoNotes 4":"No",
+            "MSRA":"No"
+        } ,
+        {
+            "paper":"[EMNLP 2020] Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information",
+            "code":"https://github.com/cuhksz-nlp/AESINER",
+            "Weibo":"No",
+            "OntoNotes 4":"Yes",
+            "MSRA":"Yes"
+        }
+    ]
+}

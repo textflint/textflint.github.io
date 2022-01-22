@@ -1,0 +1,4 @@
+{
+    "desc":"we improve NER by leveraging different types of syntactic information through attentive ensemble, which functionalizes by the proposed key-value memory networks, syntax attention, and the gate mechanism for encoding, weighting and aggregating such syntactic information, respectively", 
+    "contributor":[{"name":"Jinzhu Lu", "github":"https://github.com/thejacoblu"}]
+}

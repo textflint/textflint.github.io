@@ -1,0 +1,123 @@
+[
+	{
+		"name": "Weibo",
+		"description": "Named Entity Recognition (NER) for Chinese Social Media (Weibo). This dataset contains messages selected from Weibo and annotated according to the DEFT ERE annotation guidelines. Annotations include both name and nominal mentions. The corpus contains 1,890 messages sampled from Weibo between November 2013 and December 2014.",
+		"available_transformation_type": ["domain", "ut"],
+		"dataset_size": 1890,
+		"models": 
+        [
+            {
+				"model_name": "LGN",
+				"paper_link": "https://aclanthology.org/D19-1096.pdf",
+				"github_link": "https://github.com/RowitZou/LGN",
+                "dockerhub_link":"", 
+				"paper_name": "A Lexicon-Based Graph Neural Network for Chinese NER",
+				"metric": 
+                        {
+                            "Precision": 65.71,
+                            "Macro-F1": 60.21
+                        }
+			},
+            {
+				"model_name": "SoftLexicon",
+				"paper_link": "https://arxiv.org/pdf/1908.05969.pdf",
+				"github_link": "https://github.com/v-mipeng/LexiconAugmentedNER",
+                "dockerhub_link":"", 
+				"paper_name": "Simplify the Usage of Lexicon in Chinese NER",
+				"metric": 
+                        {
+                            "Macro-F1": 70.50
+                        }
+			},
+            {
+				"model_name": "SANER",
+				"paper_link": "https://arxiv.org/pdf/2010.15458.pdf",
+				"github_link": "https://github.com/cuhksz-nlp/SANER",
+                "dockerhub_link":"", 
+				"paper_name": "Named Entity Recognition for Social Media Texts with Semantic Augmentation",
+				"metric": 
+                        {
+                            "Macro-F1": 67.38
+                        }
+			}
+
+
+        ]
+    },
+    {
+		"name": "OntoNotes 4",
+		"description": "A large corpus comprising various genres of text (news, conversational telephone speech, weblogs, usenet newsgroups, broadcast, talk shows) in Chinese language",
+		"available_transformation_type": ["domain", "ut"],
+		"dataset_size": 15724,
+		"models": 
+        [
+            {
+				"model_name": "LGN",
+				"paper_link": "https://aclanthology.org/D19-1096.pdf",
+				"github_link": "https://github.com/RowitZou/LGN",
+                "dockerhub_link":"", 
+				"paper_name": "A Lexicon-Based Graph Neural Network for Chinese NER",
+				"metric": 
+                        {
+                            "Precision": 76.13,
+                            "Macro-F1": 74.89
+                        }
+			},
+            {
+				"model_name": "SoftLexicon",
+				"paper_link": "https://arxiv.org/pdf/1908.05969.pdf",
+				"github_link": "https://github.com/v-mipeng/LexiconAugmentedNER",
+                "dockerhub_link":"", 
+				"paper_name": "Simplify the Usage of Lexicon in Chinese NER",
+				"metric": 
+                        {
+                            "Macro-F1": 82.81
+                        }
+			},
+            {
+				"model_name": "AESINER",
+				"paper_link": "https://arxiv.org/pdf/2010.15466.pdf",
+				"github_link": "https://github.com/cuhksz-nlp/AESINER",
+                "dockerhub_link":"", 
+				"paper_name": "Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information",
+				"metric": 
+                        {
+                            "Macro-F1": 81.05
+                        }
+			}
+        ]
+        
+    },
+    {
+		"name": "MSRA",
+		"description": "Provided by Microsoft Research Asia, A set of manually annotated Chinese named entity recognition data and specifications for training and testing a Chinese named entity recognition system for research purposes. ",
+		"available_transformation_type": ["domain", "ut"],
+		"dataset_size": 50729,
+		"models": 
+        [
+            {
+				"model_name": "LGN",
+				"paper_link": "https://aclanthology.org/D19-1096.pdf",
+				"github_link": "https://github.com/RowitZou/LGN",
+                "dockerhub_link":"", 
+				"paper_name": "A Lexicon-Based Graph Neural Network for Chinese NER",
+				"metric": 
+                        {
+                            "Precision": 94.19,
+                            "Macro-F1": 93.46
+                        }
+			},
+            {
+				"model_name": "SoftLexicon",
+				"paper_link": "https://arxiv.org/pdf/1908.05969.pdf",
+				"github_link": "https://github.com/v-mipeng/LexiconAugmentedNER",
+                "dockerhub_link":"", 
+				"paper_name": "Simplify the Usage of Lexicon in Chinese NER",
+				"metric": 
+                        {
+                            "Macro-F1": 95.42
+                        }
+			}
+        ]
+    }
+]
