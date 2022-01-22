@@ -1,0 +1,9 @@
+{
+ "desc": "convert the nearly isolated decisions into interrelated ones by exposing senses in context when learning sense embeddings in a similarity-based Sense Aware Context Exploitation (SACE) architecture",
+ "contributor": [
+  {
+   "name": "jingyi liu",
+   "github": "https://github.com/Jeansix"
+  }
+ ]
+}
