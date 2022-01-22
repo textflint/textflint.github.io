@@ -1,0 +1,130 @@
+{
+	"header":[
+		"paper",
+		"code",
+		"imdb",
+		"yelp"
+	],
+	"content":[
+	    {
+	        "paper": "A Graph-based Model for Joint Chinese Word Segmentation and Dependency Parsing",
+	        "code": "https://github.com/fastnlp/JointCwsParser",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Dependency Parsing as MRC-based Span-Span Prediction",
+	        "code": "https://github.com/ShannonAI/mrc-for-dependency-parsing",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Deep Biaffine Attention for Neural Dependency Parsing",
+	        "code": "https://github.com/XuezheMax/NeuroNLP2",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Stack-Pointer Networks for Dependency Parsing",
+	        "code": "https://github.com/XuezheMax/NeuroNLP2",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Neural Probabilistic Model for Non-projective MST Parsing",
+	        "code": "https://github.com/XuezheMax/NeuroNLP2",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations",
+	        "code": "https://github.com/elikip/bist-parser",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Headed Span-Based Projective Dependency Parsing",
+	        "code": "https://github.com/sustcsonglin/span-based-dependency-parsing",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Randomized Greedy Inference for Joint Segmentation, POS Tagging and Dependency Parsing",
+	        "code": "https://github.com/yuanzh/SegParser",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "RNN-Based Sequence-Preserved Attention for Dependency Parsing",
+	        "code": "https://github.com/dugu9sword/spa-dp",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Second-Order Neural Dependency Parsing with Message Passing and End-to-End Training",
+	        "code": "https://github.com/wangxinyu0922/Second_Order_Parsing",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Hybrid Oracle: Making Use of Ambiguity in Transition-based Chinese Dependency Parsing",
+	        "code": "https://github.com/lancopku/nndep",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Distilling an Ensemble of Greedy Dependency Parsers into One MST Parser",
+	        "code": "https://github.com/adhigunasurya/distillation_parser",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Bi-directional Attention with Agreement for Dependency Parsing",
+	        "code": "https://github.com/hao-cheng/biattdp",
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Incremental Joint Approach to Word Segmentation, POS Tagging, and Dependency Parsing in Chinese",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Probabilistic Models for Action-Based Chinese Dependency Parsing",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Incremental Joint POS Tagging and Dependency Parsing in Chinese",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Joint Optimization for Chinese POS Tagging and Dependency Parsing",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Joint Models for Chinese POS Tagging and Dependency Parsing",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Feature Embedding for Dependency Parsing",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Easy-First Dependency Parsing with Hierarchical Tree LSTMs",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Stacking Heterogeneous Joint Models of Chinese POS Tagging and Dependency Parsing",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Chinese Dependency Parsing with Large Scale Automatically Constructed Case Structures",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Neural joint model for transition-based Chinese syntactic analysis",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	    {
+	        "paper": "Graph-based Dependency Parsing with Bidirectional LSTM",
+	        "code": null,
+	        "ctb5": "Yes"
+	    },
+	]
+}

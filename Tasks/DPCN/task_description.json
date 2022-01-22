@@ -1,0 +1,7 @@
+{
+	"name":"DPCN",
+	"full_name":"Chinese Dependency Parsing",
+	"description":"Dependency parsing is the task of extracting a dependency parse of a sentence that represents its grammatical structure and defines the relationships between “head” words and words, which modify those heads.",
+	"available_domain":[],
+	"available_ut":["CnNasal", "CnSwapSynWordEmbedding", "CnSwapNum", "CnSpellingError", "CnDigit2Char", "CnHomophones", "CnSynonym", "CnAntonym"]
+}
