@@ -14,8 +14,7 @@
 				"paper_name": "A Lexicon-Based Graph Neural Network for Chinese NER",
 				"metric": 
                         {
-                            "Precision": 65.71,
-                            "Macro-F1": 60.21
+                            "F1": 60.21
                         }
 			},
             {
@@ -26,7 +25,7 @@
 				"paper_name": "Simplify the Usage of Lexicon in Chinese NER",
 				"metric": 
                         {
-                            "Macro-F1": 70.50
+                            "F1": 70.50
                         }
 			},
             {
@@ -37,7 +36,7 @@
 				"paper_name": "Named Entity Recognition for Social Media Texts with Semantic Augmentation",
 				"metric": 
                         {
-                            "Macro-F1": 67.38
+                            "F1": 67.38
                         }
 			}
 
@@ -59,8 +58,7 @@
 				"paper_name": "A Lexicon-Based Graph Neural Network for Chinese NER",
 				"metric": 
                         {
-                            "Precision": 76.13,
-                            "Macro-F1": 74.89
+                            "F1": 74.89
                         }
 			},
             {
@@ -71,7 +69,7 @@
 				"paper_name": "Simplify the Usage of Lexicon in Chinese NER",
 				"metric": 
                         {
-                            "Macro-F1": 82.81
+                            "F1": 82.81
                         }
 			},
             {
@@ -82,7 +80,7 @@
 				"paper_name": "Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information",
 				"metric": 
                         {
-                            "Macro-F1": 81.05
+                            "F1": 81.05
                         }
 			}
         ]
@@ -103,8 +101,7 @@
 				"paper_name": "A Lexicon-Based Graph Neural Network for Chinese NER",
 				"metric": 
                         {
-                            "Precision": 94.19,
-                            "Macro-F1": 93.46
+                            "F1": 93.46
                         }
 			},
             {
@@ -115,7 +112,7 @@
 				"paper_name": "Simplify the Usage of Lexicon in Chinese NER",
 				"metric": 
                         {
-                            "Macro-F1": 95.42
+                            "F1": 95.42
                         }
 			}
         ]
