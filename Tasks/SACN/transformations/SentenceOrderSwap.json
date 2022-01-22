@@ -1,0 +1,19 @@
+{
+    "desc":"SentenceOrderSwap is a task-specific transformation of chinese sentiment analysis, this transformation will swap different sub-sentences in a long sentence",
+    "examples":[
+        {
+            "ori":"拿房时没大床房了，给我们免费升成套房，这点还蛮满意的。酒店大致不错，有国内五星水准。比国际品牌的要差一点。酒店有点年纪了，维修要加强，比如我们浴室的下水就堵塞不通，这些在客人入住前就该发觉修好。其它都还可以。",
+            "trans":"比国际品牌的要差一点。维修要加强，其它都还可以。比如我们浴室的下水就堵塞不通，给我们免费升成套房，拿房时没大床房了，酒店大致不错，有国内五星水准，这点还蛮满意的。酒店有点年纪了，这些在客人入住前就该发觉修好。"
+        },
+        {
+            "ori":"对当地的酒店做了实地比较，这里硬件还算好的，装修比较新但实在不能给分太高。住的是套房，但卧室里没有电视，宽带不能用，说是在维修！",
+            "trans":"对当地的酒店做了实地比较,装修比较新但实在不能给分太高。住的是套房,说是在维修！但卧室里没有电视，宽带不能用，这里硬件还算好的"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"SongYang Gao",
+            "github":"https://github.com/Wizardcoast"
+        }
+    ]
+}

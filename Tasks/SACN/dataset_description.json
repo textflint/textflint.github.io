@@ -1,0 +1,44 @@
+[
+    {
+        "name":"ChnSentiCorp",
+        "description":"The ChnSentiCorp dataset is a binary chinese sentiment analysis dataset consisting of 12000 reviews labeled as positive or negative. The dataset contains an even number of positive and negative reviews. Models are evaluated based on Accuracy and F1 score.",
+        "available_transformation_type":[
+            "domain",
+            "ut",
+            "subpopulation"
+        ],
+        "dataset_size":12000,
+        "models":[
+            {
+                "model_name":"Chnbert",
+                "paper_link":"https://arxiv.org/abs/1906.08101",
+                "github_link":"https://github.com/ymcui/Chinese-BERT-wwm",
+                "paper_name":"Pre-Training with Whole Word Masking for Chinese BERT",
+                "metric":{
+                    "Accuracy":93.9
+                },
+                "dockerhub_link":"To be announced"
+            },
+            {
+                "model_name":"ERNIE1.0",
+                "paper_link":"https://arxiv.org/abs/1904.09223",
+                "github_link":"https://github.com/PaddlePaddle/ERNIE",
+                "paper_name":"ERNIE: Enhanced Representation through Knowledge Integration",
+                "metric":{
+                    "Accuracy":93.9
+                },
+                "dockerhub_link":"To be announced"
+            },
+            {
+                "model_name":"ZEN",
+                "paper_link":"https://arxiv.org/abs/1911.00720",
+                "github_link":"https://github.com/sinovation/ZEN",
+                "paper_name":"ZEN: Pre-trainingChinese Text Encoder Enhanced by N-gram Representations",
+                "metric":{
+                    "Accuracy":95.7
+                },
+                "dockerhub_link":"To be announced"
+            }
+        ]
+    }
+]

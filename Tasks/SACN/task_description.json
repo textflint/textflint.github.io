@@ -1,0 +1,10 @@
+
+{
+    "name":"SACN",
+    "full_name":"Chinese Sentiment Analysis",
+    "description":"Chinese Sentiment analysis is the task of classifying the polarity of a given text.",
+    "available_domain":["SentenceOrderSwap", "ExtentAdjust", "CNDoubleDenial"],
+    "available_ut":["AppendIrr", "CnSwapSynWordEmbedding", "CnSwapNum", "CnSwapNamedEnt", "CnSpellingError", "CnPunctuation", "CnHomophones", "CnSynonym"]
+    }
+    
+    

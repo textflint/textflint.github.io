@@ -1,0 +1,19 @@
+{
+    "desc":"ExtentAdjust is a task-specific transformation of chinese sentiment analysis, this transformation will add adjusts at the front of specific POS-tagging words",
+    "examples":[
+        {
+            "ori":"地理位置好，环境可接受，房间很大，但是早餐不如过去丰盛。",
+            "trans":"地理位置非常坏，环境可接受，房间比较大，但是早餐远远不如过去丰盛。"
+        },
+        {
+            "ori":"电脑用起来流畅",
+            "trans":"电脑用起来极其流畅"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"SongYang Gao",
+            "github":"https://github.com/Wizardcoast"
+        }
+    ]
+}
