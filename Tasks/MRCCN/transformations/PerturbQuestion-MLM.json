@@ -1,0 +1,19 @@
+{
+    "desc":"PerturbQuestion: perturb question",
+    "examples":[
+        {
+            "ori":"苏镜宇的原名叫什么",
+            "trans":"苏镜宇的本字是什么"
+        },
+        {
+            "ori":"苏镜宇什么时候首次登上中超赛场？",
+            "trans":"苏镜宇，何可会首次登上中超赛场？"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"Weikang Zhou",
+            "github":"https://github.com/nitwtog"
+        }
+    ]
+}

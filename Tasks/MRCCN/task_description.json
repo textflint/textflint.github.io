@@ -1,0 +1,7 @@
+{
+  "name":"MRCCN",
+  "full_name":"Chinese Machine Reading Comprehension",
+  "description":"The purpose of chinese machine reading comprehension (CMRC) is to understand the content of a given text and to answer questions about it",
+  "available_domain":["ModifyPos", "PerturbAnswer", "PerturbQuestion"],
+  "available_ut":["AppendIrr","BackTrans","CnNasal","CnSwapSynWordEmbedding","InsertAdv","MLMSuggestion", "CnSwapNum","CnSwapNamedEnt","CnSpellingError","CnPunctuation","CnPrejudice", "CnDigit2Char", "CnHomophones","CnSynonym", "CnAntonym"]
+}

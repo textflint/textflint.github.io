@@ -1,0 +1,4 @@
+{
+  "desc":"CPT is designed for both natural language understanding (NLU) and natural language generation (NLG) tasks. CPT consists of three parts: a shared encoder, an understanding decoder, and a generation decoder.",
+  "contributor":[{"name":"Yunfan Shao", "github":"https://github.com/fastnlp/cpt"}]
+}

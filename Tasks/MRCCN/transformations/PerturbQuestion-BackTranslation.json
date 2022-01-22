@@ -1,0 +1,19 @@
+{
+    "desc":"PerturbQuestion: perturb question",
+    "examples":[
+        {
+            "ori":"《战国无双3》是由哪两个公司合作开发的？",
+            "trans":"哪些两家公司合作开发了战争王国第3号?"
+        },
+        {
+            "ori":"赵鹏在2014年下半赛季没有出场的原因是什么？",
+            "trans":"赵彭为什么没有在2014年下半季出现?"
+        }
+    ],
+    "contributor":[
+        {
+            "name":"Weikang Zhou",
+            "github":"https://github.com/nitwtog"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "CMRC2018",
+    "description": "The standard CRMC2018 dataset consists of 10,142 training, 3,219 development, and 1,002 test Chinese questions and more than 3000 paragraphs. Our task-specfic transformations are based on CMRC2018 Dev. The dev set of CMRC2018 owns 848 different paragraphs.",
+    "available_transformation_type": ["domain", "ut"],
+    "dataset_size": 3219,
+    "models":
+    [
+      {
+        "model_name": "Chinese-BERT-wwm",
+        "paper_link": "https://arxiv.org/pdf/1906.08101.pdf",
+        "github_link": "https://github.com/ymcui/Chinese-BERT-wwm",
+        "dockerhub_link":"",
+        "paper_name": "Pre-Training with Whole Word Masking for Chinese BERT",
+        "metric":
+        {
+          "EM": 58.986
+        }
+      },
+
+      {
+        "model_name": "ChineseBERT",
+        "paper_link": "https://arxiv.org/pdf/2106.16038.pdf",
+        "github_link": "https://github.com/ShannonAI/ChineseBert",
+        "dockerhub_link":"",
+        "paper_name": "ChineseBERT: Chinese Pretraining Enhanced by Glyph and Pinyin Information",
+        "metric":
+        {
+          "EM": 60.833
+        }
+      },
+
+      {
+        "model_name": "CPT",
+        "paper_link": "https://arxiv.org/pdf/2109.05729.pdf",
+        "github_link": "https://github.com/fastnlp/cpt",
+        "dockerhub_link":"",
+        "paper_name": "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation",
+        "metric":
+        {
+          "EM": 61.816
+        }
+      },
+
+      {
+        "model_name": "RoBERTA",
+        "paper_link": "https://arxiv.org/pdf/1906.08101.pdf",
+        "github_link": "https://github.com/ymcui/Chinese-BERT-wwm",
+        "dockerhub_link":"",
+        "paper_name": "Pre-Training with Whole Word Masking for Chinese BERT",
+        "metric":
+        {
+        "EM":60.54
+        }
+      },
+      {
+        "model_name": "MacBERT",
+        "paper_link": "https://arxiv.org/pdf/2004.13922.pdf",
+        "github_link": "https://github.com/ymcui/MacBERT",
+        "dockerhub_link":"",
+        "paper_name": "Revisiting Pre-Trained Models for Chinese Natural Language Processing",
+        "metric":
+        {
+          "EM": 59.402
+        }
+      },
+
+      }
+    ]
+  }
+]
