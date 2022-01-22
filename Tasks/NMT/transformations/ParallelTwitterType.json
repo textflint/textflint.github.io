@@ -1,0 +1,26 @@
+{
+    "desc": "This transformation parallelly add twitter type text to samples(source and target data).", 
+    "examples":[
+        {
+            "ori": {
+                "source": "The school yard renovation was originally planned back in 2008/2009, however, high unplanned expenses meant that the work had to be pushed back.",
+                "target": "Ursprünglich war die Schulhofsanierung sogar schon in den Jahren 2008/2009 geplant, doch hohe unplanmäßige Ausgaben brachten eine Verschiebung."
+            },
+            "trans": {
+                "source": "https://knVi.zA9h/MH9c The school yard renovation was originally planned back in 2008/2009, however, high unplanned expenses meant that the work had to be pushed back.",
+                "target": "https://knVi.zA9h/MH9c Ursprünglich war die Schulhofsanierung sogar schon in den Jahren 2008/2009 geplant, doch hohe unplanmäßige Ausgaben brachten eine Verschiebung."
+            }
+        },
+        {
+            "ori": {
+                "source": "Consequently, they will be particularly motivated playing against their former coach.",
+                "target": "Von daher werden sie gegen ihren Ex-Coach sicher ganz besonders motiviert sein."
+            },
+            "trans": {
+                "source": "Consequently, they will be particularly motivated playing against their former coach. https://7a.NO/6F",
+                "target": "Von daher werden sie gegen ihren Ex-Coach sicher ganz besonders motiviert sein. https://7a.NO/6F"
+            }
+        }
+    ],
+    "contributor": [{"name": "wenbin lai", "github": "https://github.com/Ancrilin"}]
+}

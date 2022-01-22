@@ -1,0 +1,26 @@
+{
+    "desc": "This transformation parallelly swap same word in samples(source and target data).", 
+    "examples":[
+        {
+            "ori": {
+                "source": "One of the festival's biggest draws will be an interview: David Steinberg talking to Larry David.",
+                "target": "Zu den größten Besuchermagneten des Festivals gehört ein Interview: David Steinberg spricht mit Larry David."
+            },
+            "trans": {
+                "source": "One of the festival's biggest draws will be an interview: Zmymt Steinberg talking to Larry David.",
+                "target": "Zu den größten Besuchermagneten des Festivals gehört ein Interview: Zmymt Steinberg spricht mit Larry David."
+            }
+        },
+        {
+            "ori": {
+                "source": "Check out the ASCOVIME website and see how to help.",
+                "target": "Besuchen Sie die Website von ASCOVIME und erfahren Sie, wie Sie helfen können."
+            },
+            "trans": {
+                "source": "Check out the TJIBZU website and see how to help.",
+                "target": "Besuchen Sie die Website von TJIBZU und erfahren Sie, wie Sie helfen können."
+            }
+        }
+    ],
+    "contributor": [{"name": "wenbin lai", "github": "https://github.com/Ancrilin"}]
+}

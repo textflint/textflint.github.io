@@ -1,0 +1,81 @@
+[
+    {
+        "name": "WMT-14 English-German (En-De)",
+        "description": "This dataset has 4.5M sentence pairs, which is tokenized and split using byte pair encoded (BPE) with 32K(option) merge operations and a shared vocabulary(option) for English and GermanWe use newstest2013 as the validation set and newstest2014 as the test set, which contain 3000 and 3003 sentences, respectively. Models are evaluated based on BLEU.",
+        "available_transformation_type":[
+            "domain",
+            "ut",
+            "domain_domain",
+            "domain_ut",
+            "ut_ut",
+            "subpopulation"
+        ],
+        "dataset_size": "4.5M",
+        "models": [
+            {
+                "model_name": "transformer",
+                "paper_link": "https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf",
+                "paper_name": "Attention is all you need.",
+                "github_link": "",
+                "metric": {"BLEU": 27.27},
+                "dockerhub_link": ""
+            },
+            {
+                "model_name": "LSTM-attention",
+                "paper_link": "https://nlp.stanford.edu/pubs/emnlp15_attn.pdf",
+                "paper_name": "Effective Approaches to Attention-based Neural Machine Translation.",
+                "github_link": "",
+                "metric": {"BLEU": 23.37},
+                "dockerhub_link": ""
+            },
+            {
+                "model_name": "CNN",
+                "paper_link": "https://proceedings.mlr.press/v70/gehring17a/gehring17a.pdf",
+                "paper_name": "Convolutional Sequence to Sequence Learning.",
+                "github_link": "",
+                "metric": {"BLEU": 23.90},
+                "dockerhub_link": ""
+            },
+            {
+                "model_name": "scaling",
+                "paper_link": "https://aclanthology.org/W18-6301.pdf",
+                "paper_name": "Scaling Neural Machine Translation.",
+                "github_link": "https://github.com/pytorch/fairseq/blob/main/examples/scaling_nmt/README.md",
+                "metric": {"BLEU": 28.28},
+                "dockerhub_link": ""
+            },
+            {
+                "model_name": "joint_alignment",
+                "paper_link": "https://aclanthology.org/D19-1453.pdf",
+                "paper_name": "Jointly Learning to Align and Translate with Transformer Models.",
+                "github_link": "https://github.com/pytorch/fairseq/blob/main/examples/joint_alignment_translation/README.md",
+                "metric": {"BLEU": 27.96},
+                "dockerhub_link": ""
+            },
+            {
+                "model_name": "Batch-level Selection",
+                "paper_link": "https://aclanthology.org/2021.acl-long.504.pdf",
+                "paper_name": "Selective Knowledge Distillation for Neural Machine Translation.",
+                "github_link": "https://github.com/LeslieOverfitting/selective_distillation",
+                "metric": {"BLEU": 27.99},
+                "dockerhub_link": ""
+            },
+            {
+                "model_name": "Global-level Selection",
+                "paper_link": "https://aclanthology.org/2021.acl-long.504.pdf",
+                "paper_name": "Selective Knowledge Distillation for Neural Machine Translation.",
+                "github_link": "https://github.com/LeslieOverfitting/selective_distillation",
+                "metric": {"BLEU": 28.00},
+                "dockerhub_link": ""
+            },
+            {
+                "model_name": "VOLT-transformer",
+                "paper_link": "https://aclanthology.org/2021.acl-long.571.pdf",
+                "paper_name": "Vocabulary Learning via Optimal Transport for Neural Machine Translation.",
+                "github_link": "https://github.com/Jingjing-NLP/VOLT",
+                "metric": {"BLEU": 27.89},
+                "dockerhub_link": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "desc": "Transformation that simulate ocr error by random values in source data.", 
+    "examples":[
+        {
+            "ori": {
+                "source": "Gutach: Increased safety for pedestrians",
+                "target": "Gutach: Noch mehr Sicherheit für Fußgänger"
+            },
+            "trans": {
+                "source": "Gutach: Inckeased safety for pedestrians",
+                "target": "Gutach: Noch mehr Sicherheit für Fußgänger"
+            }
+        },
+        {
+            "ori": {
+                "source": "This year, sexy inanimate objects are all the rage.",
+                "target": "In diesem Jahr sind aufreizende unbelebte Gegenstände der letzte Schrei."
+            },
+            "trans": {
+                "source": "This yeak, sexy inanimate objects are all the kage.",
+                "target": "In diesem Jahr sind aufreizende unbelebte Gegenstände der letzte Schrei."
+            }
+        }
+    ],
+    "contributor": [{"name": "wenbin lai", "github": "https://github.com/Ancrilin"}]
+}

@@ -1,0 +1,26 @@
+{
+    "desc": "Transformation that simulate typo error by random values in source data.", 
+    "examples":[
+        {
+            "ori": {
+                "source": "Tomorrow he will attempt to train with the team.",
+                "target": "Morgen wird er versuchen, mit der Mannschaft zu trainieren."
+            },
+            "trans": {
+                "source": "Tomorrow he will Xttempt to train witt the team.",
+                "target": "Morgen wird er versuchen, mit der Mannschaft zu trainieren."
+            }
+        },
+        {
+            "ori": {
+                "source": "There is going to be a change in how we pay these taxes.",
+                "target": "Die Art und Weise, wie wir diese Steuern zahlen, wird sich verändern."
+            },
+            "trans": {
+                "source": "There is goong to be a chaJge in how we pay these taxes.",
+                "target": "Die Art und Weise, wie wir diese Steuern zahlen, wird sich verändern."
+            }
+        }
+    ],
+    "contributor": [{"name": "wenbin lai", "github": "https://github.com/Ancrilin"}]
+}

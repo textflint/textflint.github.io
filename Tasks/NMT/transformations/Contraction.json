@@ -1,0 +1,26 @@
+{
+    "desc": "Transforms input by common abbreviations in source data.", 
+    "examples":[
+        {
+            "ori": {
+                "source": "Yet there is an interesting point lost in this retelling of a whiskery old tale.",
+                "target": "Dabei geht ein interessanter Punkt beim ständigen Wiederholen dieser uralten Geschichte verloren."
+            },
+            "trans": {
+                "source": "Yet there's an interesting point lost in this retelling of a whiskery old tale.",
+                "target": "Dabei geht ein interessanter Punkt beim ständigen Wiederholen dieser uralten Geschichte verloren."
+            }
+        },
+        {
+            "ori": {
+                "source": "Airbus offers a 10-abreast A350 but says it has not yet sold it.",
+                "target": "Airbus bietet einen A350 mit zehnsitzigen Reihen, hat aber laut eigener Aussage noch keinen verkauft."
+            },
+            "trans": {
+                "source": "Airbus offers a 10-abreast A350 but says it hasn't yet sold it.",
+                "target": "Airbus bietet einen A350 mit zehnsitzigen Reihen, hat aber laut eigener Aussage noch keinen verkauft."
+            }
+        }
+    ],
+    "contributor": [{"name": "wenbin lai", "github": "https://github.com/Ancrilin"}]
+}
