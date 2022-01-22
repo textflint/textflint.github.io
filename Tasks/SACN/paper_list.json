@@ -1,0 +1,59 @@
+{
+    "header":[
+        "paper",
+        "code",
+        "ChnSentiCorp"
+    ],
+    "content":[
+        {
+            "paper":"Pre-Training with Whole Word Masking for Chinese BERT",
+            "code":"https://github.com/ymcui/Chinese-BERT-wwm",
+            "ChnSentiCorp":"Yes"
+        },
+        {
+            "paper":"[LREC 2019] SiBert:EnhancedChinesePre-trainedLanguageModelwithSentenceInsertion",
+            "code":null,
+            "ChnSentiCorp":"Yes"
+        },
+        {
+            "paper":"ERNIE: Enhanced Representation through Knowledge Integration",
+            "code":"https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE",
+            "ChnSentiCorp":"Yes"
+        },
+        {
+            "paper":"[EMNLP 2020] ZEN: Pre-trainingChinese Text Encoder Enhanced by N-gram Representations",
+            "code":"https://github.com/sinovation/ZEN",
+            "ChnSentiCorp":"Yes"
+        },
+        {
+            "paper":"[JIS 2013] A weakly supervised approach to Chinese sentiment classification using partitioned self-training: ",
+            "code":null,
+            "ChnSentiCorp":"Yes"
+        },
+        {
+            "paper":"Exploiting Effective Representations for Chinese Sentiment Analysis Using a Multi-Channel Convolutional Neural Network",
+            "code":null,
+            "ChnSentiCorp":"Yes"
+        },
+        {
+            "paper":"[IJCNLP 2015] A joint model for chinese microblog sentiment analysis",
+            "code":null,
+            "ChnSentiCorp":"NO"
+        },
+        {
+            "paper":"[IJCNLP 2015] An combined sentiment classification system for sighan-8",
+            "code":null,
+            "ChnSentiCorp":"NO"
+        },
+        {
+            "paper":"[IEEE 2018] Chinese Weibo sentiment analysis based on character embedding with dual-channel convolutional neural network",
+            "code":null,
+            "ChnSentiCorp":"NO"
+        },
+        {
+            "paper":"[LREC 2020] Target-based Sentiment Annotation in Chinese Financial News",
+            "code":"https://github.com/bbruceyuan/FiTSA",
+            "ChnSentiCorp":"NO"
+        }
+    ]
+}
