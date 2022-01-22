@@ -1,7 +1,7 @@
 [
 	{
-		"name": "Chinese Treebank 5.0",
-		"description": "Chinese Treebank 5.0 was developed by the Linguistic Data Consortium (LDC) contains approximately 500,000 words of Chinese newswire text annotated in the manner of the Penn English Treebank.",
+		"name": "CTB5",
+		"description": "CTB5(Chinese Treebank 5.0) was developed by the Linguistic Data Consortium (LDC) contains approximately 500,000 words of Chinese newswire text annotated in the manner of the Penn English Treebank.",
 		"available_transformation_type": ["ut"],
 		"dataset_size": 890,
 		"models": 
@@ -15,7 +15,7 @@
 				"metric": 
                 {
                     "UAS": 91.78,
-                    "LAS": 90.48,
+                    "LAS": 90.48
                 }
 			},
 
@@ -28,7 +28,7 @@
 				"metric": 
                 {
                     "UAS": 91.61,
-                    "LAS": 90.38,
+                    "LAS": 90.38
                 }
 			},
 
@@ -41,7 +41,7 @@
 				"metric": 
                 {
                     "UAS": 92.00,
-                    "LAS": 90.92,
+                    "LAS": 90.92
                 }
 			},
 
@@ -54,9 +54,9 @@
 				"metric": 
                 {
                     "UAS": 93.17,
-                    "LAS": 91.67,
+                    "LAS": 91.67
                 }
-			},
+			}
         ]
     }
 ]
