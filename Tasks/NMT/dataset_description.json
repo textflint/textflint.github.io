@@ -1,6 +1,6 @@
 [
     {
-        "name": "WMT-14 English-German (En-De)",
+        "name": "WMT-14(En-De)",
         "description": "This dataset has 4.5M sentence pairs, which is tokenized and split using byte pair encoded (BPE) with 32K(option) merge operations and a shared vocabulary(option) for English and GermanWe use newstest2013 as the validation set and newstest2014 as the test set, which contain 3000 and 3003 sentences, respectively. Models are evaluated based on BLEU.",
         "available_transformation_type":[
             "domain",
