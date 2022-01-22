@@ -1,7 +1,7 @@
 [
   {
-    "name": "The Winograd Schema Challenge",
-    "description": " A Winograd schema is a pair of sentences that differ only in one or two words and that contain a referential ambiguity that is re-solved in opposite directions in the two sentences.",
+    "name": "WSC273",
+    "description": "WSC273 is a common sense reasoning benchmark that requires the system to read a sentence with an ambiguous pronoun and select the referent of that pronoun from two choices. It contains the first 273 examples from the Winograd Schema Challenge. A Winograd schema is a pair of sentences that differ in only one or two words and that contain an ambiguity that is resolved in opposite ways in the two sentences and requires the use of world knowledge and reasoning for its resolution.",
     "available_transformation_type": [ "domain", "ut", "domain_domain", "domain_ut", "ut_ut" ],
     "dataset_size": 285,
     "models": [
