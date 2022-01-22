@@ -1,0 +1,746 @@
+[
+    {
+        "model": "transformer",
+        "attack_results": {
+            "Contraction":{
+                "ori": 27.60,
+                "trans": 27.28,
+                "sample_num": 502,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Keyboard":{
+                "ori": 27.13,
+                "trans": 13.52,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Ocr":{
+                "ori": 27.13,
+                "trans": 14.08,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Punctuation":{
+                "ori": 27.13,
+                "trans": 20.06,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SpellingError":{
+                "ori": 27.13,
+                "trans": 11.72,
+                "sample_num": 2994,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordEmbedding":{
+                "ori": 27.06,
+                "trans": 21.71,
+                "sample_num": 2964,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordNet":{
+                "ori": 27.09,
+                "trans": 21.82,
+                "sample_num": 2999,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Typos":{
+                "ori": 27.13,
+                "trans": 11.36,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-upper":{
+                "ori": 27.13,
+                "trans": 4.96,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-lower":{
+                "ori": 27.13,
+                "trans": 20.47,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-title":{
+                "ori": 27.13,
+                "trans": 7.67,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            }
+        }
+    },
+    {
+        "model": "LSTM-attention",
+        "attack_results": {
+            "Contraction":{
+                "ori": 24.49,
+                "trans": 24.14,
+                "sample_num": 502,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Keyboard":{
+                "ori": 23.36,
+                "trans": 11.77,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Ocr":{
+                "ori": 23.36,
+                "trans": 12.17,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Punctuation":{
+                "ori": 23.36,
+                "trans": 17.57,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SpellingError":{
+                "ori": 23.36,
+                "trans": 10.38,
+                "sample_num": 2994,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordEmbedding":{
+                "ori": 23.30,
+                "trans": 18.64,
+                "sample_num": 2964,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordNet":{
+                "ori": 23.32,
+                "trans": 18.55,
+                "sample_num": 2999,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Typos":{
+                "ori": 23.36,
+                "trans": 9.72,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-upper":{
+                "ori": 23.36,
+                "trans": 4.34,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-lower":{
+                "ori": 23.36,
+                "trans": 17.08,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-title":{
+                "ori": 23.36,
+                "trans": 4.54,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            }
+        }
+    },
+    {
+        "model": "CNN",
+        "attack_results": {
+            "Contraction":{
+                "ori": 24.38,
+                "trans": 23.11,
+                "sample_num": 502,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Keyboard":{
+                "ori": 23.90,
+                "trans": 11.65,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Ocr":{
+                "ori": 23.90,
+                "trans": 11.91,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Punctuation":{
+                "ori": 23.90,
+                "trans": 17.96,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SpellingError":{
+                "ori": 23.91,
+                "trans": 9.67,
+                "sample_num": 2994,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordEmbedding":{
+                "ori": 23.87,
+                "trans": 18.38,
+                "sample_num": 2964,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordNet":{
+                "ori": 23.87,
+                "trans": 18.38,
+                "sample_num": 2999,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Typos":{
+                "ori": 23.90,
+                "trans": 9.98,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-upper":{
+                "ori": 23.90,
+                "trans": 4.26,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-lower":{
+                "ori": 23.90,
+                "trans": 17.51,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-title":{
+                "ori": 23.90,
+                "trans": 5.63,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            }
+        }
+    },
+    {
+        "model": "scaling",
+        "attack_results": {
+            "Contraction":{
+                "ori": 27.77,
+                "trans": 28.18,
+                "sample_num": 502,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Keyboard":{
+                "ori": 28.28,
+                "trans": 14.77,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Ocr":{
+                "ori": 28.28,
+                "trans": 15.49,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Punctuation":{
+                "ori": 28.28,
+                "trans": 21.54,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SpellingError":{
+                "ori": 28.27,
+                "trans": 12.86,
+                "sample_num": 2994,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordEmbedding":{
+                "ori": 28.22,
+                "trans": 22.77,
+                "sample_num": 2964,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordNet":{
+                "ori": 28.24,
+                "trans": 22.81,
+                "sample_num": 2999,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Typos":{
+                "ori": 28.28,
+                "trans": 12.96,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-upper":{
+                "ori": 28.28,
+                "trans": 4.66,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-lower":{
+                "ori": 28.28,
+                "trans": 22.42,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-title":{
+                "ori": 28.28,
+                "trans": 10.84,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            }
+        }
+    },
+    {
+        "model": "joint_alignment",
+        "attack_results": {
+            "Contraction":{
+                "ori": 27.75,
+                "trans": 27.39,
+                "sample_num": 502,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Keyboard":{
+                "ori": 27.96,
+                "trans": 13.77,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Ocr":{
+                "ori": 27.96,
+                "trans": 14.23,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Punctuation":{
+                "ori": 27.96,
+                "trans": 20.93,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SpellingError":{
+                "ori": 27.96,
+                "trans": 12.11,
+                "sample_num": 2994,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordEmbedding":{
+                "ori": 27.90,
+                "trans": 22.40,
+                "sample_num": 2964,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordNet":{
+                "ori": 27.92,
+                "trans": 22.34,
+                "sample_num": 2999,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Typos":{
+                "ori": 27.96,
+                "trans": 11.78,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-upper":{
+                "ori": 27.96,
+                "trans": 4.70,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-lower":{
+                "ori": 27.96,
+                "trans": 20.87,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-title":{
+                "ori": 27.96,
+                "trans": 7.50,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            }
+        }
+    },
+    {
+        "model": "Batch-level Selection",
+        "attack_results": {
+            "Contraction":{
+                "ori": 27.55,
+                "trans": 27.26,
+                "sample_num": 502,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Keyboard":{
+                "ori": 27.99,
+                "trans": 13.48,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Ocr":{
+                "ori": 27.99,
+                "trans": 14.26,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Punctuation":{
+                "ori": 27.99,
+                "trans": 21.70,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SpellingError":{
+                "ori": 28.00,
+                "trans": 12.33,
+                "sample_num": 2994,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordEmbedding":{
+                "ori": 27.93,
+                "trans": 22.19,
+                "sample_num": 2964,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordNet":{
+                "ori": 27.95,
+                "trans": 22.34,
+                "sample_num": 2999,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Typos":{
+                "ori": 27.99,
+                "trans": 11.56,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-upper":{
+                "ori": 27.99,
+                "trans": 5.22,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-lower":{
+                "ori": 27.99,
+                "trans": 20.53,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-title":{
+                "ori": 27.99,
+                "trans": 8.06,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            }
+        }
+    },
+    {
+        "model": "Global-level Selection",
+        "attack_results": {
+            "Contraction":{
+                "ori": 27.79,
+                "trans": 27.53,
+                "sample_num": 502,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Keyboard":{
+                "ori": 28.00,
+                "trans": 13.59,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Ocr":{
+                "ori": 28.00,
+                "trans": 13.92,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Punctuation":{
+                "ori": 28.00,
+                "trans": 21.45,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SpellingError":{
+                "ori": 28.00,
+                "trans": 12.17,
+                "sample_num": 2994,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordEmbedding":{
+                "ori": 27.94,
+                "trans": 22.07,
+                "sample_num": 2964,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordNet":{
+                "ori": 27.97,
+                "trans": 22.26,
+                "sample_num": 2999,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Typos":{
+                "ori": 28.00,
+                "trans": 11.46,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-upper":{
+                "ori": 28.00,
+                "trans": 5.47,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-lower":{
+                "ori": 28.00,
+                "trans": 20.34,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-title":{
+                "ori": 28.00,
+                "trans": 7.62,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            }
+        }
+    },
+    {
+        "model": "VOLT-transformer",
+        "attack_results": {
+            "Contraction":{
+                "ori": 28.04,
+                "trans": 28.09,
+                "sample_num": 502,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Keyboard":{
+                "ori": 27.89,
+                "trans": 15.53,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Ocr":{
+                "ori": 27.89,
+                "trans": 16.50,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Punctuation":{
+                "ori": 27.89,
+                "trans": 21.42,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SpellingError":{
+                "ori": 27.90,
+                "trans": 15.27,
+                "sample_num": 2994,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordEmbedding":{
+                "ori": 27.84,
+                "trans": 22.45,
+                "sample_num": 2964,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "SwapSynWordNet":{
+                "ori": 27.85,
+                "trans": 22.64,
+                "sample_num": 2999,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "Typos":{
+                "ori": 27.89,
+                "trans": 14.82,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-upper":{
+                "ori": 27.89,
+                "trans": 4.99,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-lower":{
+                "ori": 27.89,
+                "trans": 21.60,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            },
+            "WordCase-title":{
+                "ori": 27.89,
+                "trans": 15.89,
+                "sample_num": 3003,
+                "ori_download_link": "",
+                "trans_download_link": "",
+                "contributor": {"wenbin lai":{"github": "https://github.com/Ancrilin"}}
+            }
+        }
+    }
+]

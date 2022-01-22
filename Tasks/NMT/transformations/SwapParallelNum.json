@@ -1,0 +1,26 @@
+{
+    "desc": "This transformation parallelly add twitter type text to samples(source and target data).", 
+    "examples":[
+        {
+            "ori": {
+                "source": "A \"genuineness\" test for foreign workers on 457 visas is being considered by the government as it contemplates expanding a crackdown.",
+                "target": "Die Regierung denkt im Rahmen erweiterter Maßnahmen über einen „Echtheitstest“ für ausländische Arbeitnehmer mit 457-Visum nach."
+            },
+            "trans": {
+                "source": "A \"genuineness\" test for foreign workers on 228 visas is being considered by the government as it contemplates expanding a crackdown.",
+                "target": "Die Regierung denkt i m Rahmen erweiterter Maßnahmen über einen „ Echtheitstest “ für ausländische Arbeitnehmer mit 228-Visum nach."
+            }
+        },
+        {
+            "ori": {
+                "source": "Experts say violence that left 14 adults and seven children dead is nothing more than random chance, not a sign of growing violence in America.",
+                "target": "Experten sagen, dass das Gewaltverbrechen, bei dem 14 Erwachsene und sieben Kinder starben, nichts als reiner Zufall sei und kein Zeichen für wachsende Gewalt in Amerika."
+            },
+            "trans": {
+                "source": "Experts say violence that left 9 adults and seven children dead is nothing more than random chance, not a sign of growing violence in America.",
+                "target": "Experten sagen, dass das Gewaltverbrechen, bei dem 9 Erwachsene und sieben Kinder starben, nichts als reiner Zufall sei und kein Zeichen für wachsende Gewalt in Amerika."
+            }
+        }
+    ],
+    "contributor": [{"name": "wenbin lai", "github": "https://github.com/Ancrilin"}]
+}

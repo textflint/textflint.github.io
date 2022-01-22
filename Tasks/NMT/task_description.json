@@ -1,0 +1,7 @@
+{
+    "name":"NMT",
+    "full_name":"Neural Machine Translation",
+    "description":"Neural Machine Translation is a state-of-the-art machine translation approach that utilizes neural network techniques to translate one language into another.",
+    "available_domain":["ParallelTwitterType", "SwapParallelNum", "SwapParallelSameWord"],
+    "available_ut":["Typos", "Ocr", "Keyboard", "SwapSyn-WordNet", "SwapSyn-WordEmbedding", "SpellingError", "Contraction", "WordCase-upper", "WordCase-lower", "WordCase-title", "Punctuation"]
+}

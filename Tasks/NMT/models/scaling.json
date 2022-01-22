@@ -1,0 +1,4 @@
+{
+    "desc":"The key idea of these proposals are to reduced precision and large batch training can speedup training.",
+    "contributor":[{"name":"wenbin lai", "github":"https://github.com/Ancrilin"}]
+}

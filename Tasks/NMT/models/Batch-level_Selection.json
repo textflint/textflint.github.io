@@ -1,0 +1,4 @@
+{
+    "desc":"The key idea of these proposal is to train a NMT model by batch-level selective knowledge distillation.",
+    "contributor":[{"name":"wenbin lai", "github":"https://github.com/Ancrilin"}]
+}

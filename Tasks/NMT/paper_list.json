@@ -1,0 +1,44 @@
+{
+    "header":[
+        "paper",
+        "code",
+        "WMT-14 English-German (En-De)"
+    ],
+    "content":[
+        {
+            "paper":"[NIPS 2017] Attention is all you need.",
+            "code":"",
+            "WMT-14 English-German (En-De)": "Yes"
+        },
+        {
+            "paper":"[EMNLP 2015] Effective Approaches to Attention-based Neural Machine Translation",
+            "code":"",
+            "WMT-14 English-German (En-De)": "Yes"
+        },
+        {
+            "paper":"[ICML 2017] Convolutional Sequence to Sequence Learning",
+            "code":"",
+            "WMT-14 English-German (En-De)": "Yes"
+        },
+        {
+            "paper":"[WMT 2018] Scaling Neural Machine Translation",
+            "code":"https://github.com/pytorch/fairseq/blob/main/examples/scaling_nmt/README.md",
+            "WMT-14 English-German (En-De)": "Yes"
+        },
+        {
+            "paper":"[EMNLP 2019] Jointly Learning to Align and Translate with Transformer Models",
+            "code":"https://github.com/pytorch/fairseq/blob/main/examples/joint_alignment_translation/README.md",
+            "WMT-14 English-German (En-De)": "Yes"
+        },
+        {
+            "paper":"[ACL 2021] Selective Knowledge Distillation for Neural Machine Translation",
+            "code":"https://github.com/LeslieOverfitting/selective_distillation",
+            "WMT-14 English-German (En-De)": "Yes"
+        },
+        {
+            "paper":"[ACL 2021] Vocabulary Learning via Optimal Transport for Neural Machine Translation",
+            "code":"https://github.com/Jingjing-NLP/VOLT",
+            "WMT-14 English-German (En-De)": "Yes"
+        }
+    ]
+}

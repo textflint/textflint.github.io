@@ -1,0 +1,4 @@
+{
+    "desc":"The paper presents an approach to train a Transformer model to produce both accurate translations and alignments.",
+    "contributor":[{"name":"wenbin lai", "github":"https://github.com/Ancrilin"}]
+}
