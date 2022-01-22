@@ -5,9 +5,6 @@
         "available_transformation_type":[
             "domain",
             "ut",
-            "domain_domain",
-            "domain_ut",
-            "ut_ut",
             "subpopulation"
         ],
         "dataset_size":12000,
