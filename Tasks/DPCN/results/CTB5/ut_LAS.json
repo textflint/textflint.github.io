@@ -3,8 +3,8 @@
         "model": "Neuromst",
         "attack_results": {
             "CnNasal": {
-                "ori": 91.61,
-                "trans": 89.91,
+                "ori": 90.38,
+                "trans": 88.09,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -15,8 +15,8 @@
                 }
             },
             "CnAntonym": {
-                "ori": 91.19,
-                "trans": 90.61,
+                "ori": 89.96,
+                "trans": 89.25,
                 "sample_num": 282,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -27,8 +27,8 @@
                 }
             },
             "CnDigit2Char": {
-                "ori": 94.86,
-                "trans": 94.86,
+                "ori": 94.39,
+                "trans": 94.39,
                 "sample_num": 7,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -39,8 +39,8 @@
                 }
             },
             "CnHomophones": {
-                "ori": 91.61,
-                "trans": 86.9,
+                "ori": 90.38,
+                "trans": 84.96,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -51,8 +51,8 @@
                 }
             },
             "CnSpellingError": {
-                "ori": 91.59,
-                "trans": 89.9,
+                "ori": 90.38,
+                "trans": 88.43,
                 "sample_num": 339,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -63,8 +63,8 @@
                 }
             },
             "CnSwapNum": {
-                "ori": 94.86,
-                "trans": 94.86,
+                "ori": 94.39,
+                "trans": 94.39,
                 "sample_num": 7,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -75,8 +75,8 @@
                 }
             },
             "CnSwapSynWordEmbedding": {
-                "ori": 91.61,
-                "trans": 90.16,
+                "ori": 90.38,
+                "trans": 88.69,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -87,8 +87,8 @@
                 }
             },
             "CnSynonym": {
-                "ori": 91.61,
-                "trans": 90.37,
+                "ori": 90.38,
+                "trans": 88.91,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -104,8 +104,8 @@
         "model": "StackPtr",
         "attack_results": {
             "CnNasal": {
-                "ori": 91.99,
-                "trans": 90.12,
+                "ori": 90.92,
+                "trans": 88.47,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -116,8 +116,8 @@
                 }
             },
             "CnAntonym": {
-                "ori": 91.6,
-                "trans": 90.21,
+                "ori": 90.52,
+                "trans": 88.91,
                 "sample_num": 282,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -128,8 +128,8 @@
                 }
             },
             "CnDigit2Char": {
-                "ori": 96.26,
-                "trans": 96.26,
+                "ori": 95.79,
+                "trans": 95.79,
                 "sample_num": 7,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -140,8 +140,8 @@
                 }
             },
             "CnHomophones": {
-                "ori": 91.99,
-                "trans": 87.26,
+                "ori": 90.92,
+                "trans": 85.42,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -152,8 +152,8 @@
                 }
             },
             "CnSpellingError": {
-                "ori": 91.96,
-                "trans": 89.44,
+                "ori": 90.87,
+                "trans": 88.07,
                 "sample_num": 339,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -164,8 +164,8 @@
                 }
             },
             "CnSwapNum": {
-                "ori": 96.26,
-                "trans": 97.2,
+                "ori": 95.79,
+                "trans": 96.73,
                 "sample_num": 7,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -176,8 +176,8 @@
                 }
             },
             "CnSwapSynWordEmbedding": {
-                "ori": 91.99,
-                "trans": 89.94,
+                "ori": 90.92,
+                "trans": 88.54,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -188,8 +188,8 @@
                 }
             },
             "CnSynonym": {
-                "ori": 91.99,
-                "trans": 90.62,
+                "ori": 90.92,
+                "trans": 89.37,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -202,11 +202,11 @@
         }
     },
     {
-        "model": "Deep Biaffine",
+        "model": "DeepBiaf",
         "attack_results": {
             "CnNasal": {
-                "ori": 91.78,
-                "trans": 89.99,
+                "ori": 90.48,
+                "trans": 88.23,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -217,8 +217,8 @@
                 }
             },
             "CnAntonym": {
-                "ori": 91.37,
-                "trans": 90.55,
+                "ori": 90.06,
+                "trans": 89.17,
                 "sample_num": 282,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -229,8 +229,8 @@
                 }
             },
             "CnDigit2Char": {
-                "ori": 94.86,
-                "trans": 94.86,
+                "ori": 94.39,
+                "trans": 94.39,
                 "sample_num": 7,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -241,8 +241,8 @@
                 }
             },
             "CnHomophones": {
-                "ori": 91.78,
-                "trans": 87.15,
+                "ori": 90.48,
+                "trans": 85.25,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -253,8 +253,8 @@
                 }
             },
             "CnSpellingError": {
-                "ori": 91.76,
-                "trans": 89.81,
+                "ori": 90.46,
+                "trans": 88.31,
                 "sample_num": 339,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -265,8 +265,8 @@
                 }
             },
             "CnSwapNum": {
-                "ori": 94.86,
-                "trans": 94.86,
+                "ori": 94.39,
+                "trans": 94.39,
                 "sample_num": 7,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -277,8 +277,8 @@
                 }
             },
             "CnSwapSynWordEmbedding": {
-                "ori": 91.78,
-                "trans": 90.13,
+                "ori": 90.48,
+                "trans": 88.56,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -289,8 +289,8 @@
                 }
             },
             "CnSynonym": {
-                "ori": 91.78,
-                "trans": 90.64,
+                "ori": 90.48,
+                "trans": 89.23,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -303,11 +303,11 @@
         }
     },
     {
-        "model": "MRC for DP",
+        "model": "MRCforDP",
         "attack_results": {
             "CnNasal": {
-                "ori": 93.17,
-                "trans": 87.85,
+                "ori": 91.67,
+                "trans": 86.0,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -318,8 +318,8 @@
                 }
             },
             "CnAntonym": {
-                "ori": 92.9,
-                "trans": 91.05,
+                "ori": 91.4,
+                "trans": 89.58,
                 "sample_num": 282,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -330,8 +330,8 @@
                 }
             },
             "CnDigit2Char": {
-                "ori": 95.34,
-                "trans": 95.34,
+                "ori": 93.26,
+                "trans": 92.75,
                 "sample_num": 7,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -342,8 +342,8 @@
                 }
             },
             "CnHomophones": {
-                "ori": 93.17,
-                "trans": 78.82,
+                "ori": 91.67,
+                "trans": 76.97,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -354,8 +354,8 @@
                 }
             },
             "CnSpellingError": {
-                "ori": 93.21,
-                "trans": 88.44,
+                "ori": 91.71,
+                "trans": 86.69,
                 "sample_num": 339,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -366,8 +366,8 @@
                 }
             },
             "CnSwapNum": {
-                "ori": 95.34,
-                "trans": 94.82,
+                "ori": 93.26,
+                "trans": 92.23,
                 "sample_num": 7,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -378,8 +378,8 @@
                 }
             },
             "CnSwapSynWordEmbedding": {
-                "ori": 93.17,
-                "trans": 88.4,
+                "ori": 91.67,
+                "trans": 86.86,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
@@ -390,8 +390,8 @@
                 }
             },
             "CnSynonym": {
-                "ori": 93.17,
-                "trans": 91.35,
+                "ori": 91.67,
+                "trans": 89.85,
                 "sample_num": 347,
                 "ori_download_link": "",
                 "trans_download_link": "",
