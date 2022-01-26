@@ -1,0 +1,108 @@
+[
+    {
+        "model": "LGN",
+        "attack_results": {
+            "OOV": {
+                "sample_num": 2399,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_OOV.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_OOV.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9382,
+                "trans": 0.3208
+            },
+            "SwapLonger": {
+                "sample_num": 700,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_SwapLonger.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_SwapLonger.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9687,
+                "trans": 0.9056
+            },
+            "EntTypos": {
+                "sample_num": 1979,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_EntTypos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_EntTypos.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9366,
+                "trans": 0.5792
+            },
+            "ConcatSent": {
+                "sample_num": 4364,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_ConcatSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_ConcatSent.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9345,
+                "trans": 0.9289
+            }
+        }
+    },
+    {
+        "model": "SoftLexicon",
+        "attack_results": {
+            "OOV": {
+                "sample_num": 2399,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_OOV.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_OOV.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9535,
+                "trans": 0.3735
+            },
+            "SwapLonger": {
+                "sample_num": 700,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_SwapLonger.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_SwapLonger.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9783,
+                "trans": 0.9214
+            },
+            "EntTypos": {
+                "sample_num": 1979,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_EntTypos.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_EntTypos.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9522,
+                "trans": 0.7517
+            },
+            "ConcatSent": {
+                "sample_num": 4364,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_ConcatSent.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_ConcatSent.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9513,
+                "trans": 0.9539
+            }
+        }
+    }
+]

@@ -8,8 +8,8 @@
                                 "label": null
                         },
                         "trans": {
-                                "sentence1": "裁判们支持参议员。"
-                                "sentence2": "参议员"支持裁判们。"
+                                "sentence1": "裁判们支持参议员。",
+                                "sentence2": "参议员支持裁判们。",
                                 "label": "0"
                         }
                 },

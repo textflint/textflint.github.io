@@ -1,0 +1,132 @@
+[
+    {
+        "model": "LGN",
+        "attack_results": {
+            "CnSwapSynWordEmbedding": {
+                "sample_num": 2345,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnSwapSynWordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnSwapSynWordEmbedding.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9311,
+                "trans": 0.8135
+            },
+            "CnSpellingError": {
+                "sample_num": 3712,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnSpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnSpellingError.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9345,
+                "trans": 0.8471
+            },
+            "CnHomophones": {
+                "sample_num": 4188,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnHomophones.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnHomophones.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9351,
+                "trans": 0.7833
+            },
+            "CnSynonym": {
+                "sample_num": 1869,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnSynonym.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnSynonym.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9351,
+                "trans": 0.8763
+            },
+            "CnAntonym": {
+                "sample_num": 3528,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnAntonym.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnAntonym.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9392,
+                "trans": 0.9244
+            }
+        }
+    },
+    {
+        "model": "SoftLexicon",
+        "attack_results": {
+            "CnSwapSynWordEmbedding": {
+                "sample_num": 2346,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnSwapSynWordEmbedding.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnSwapSynWordEmbedding.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9558,
+                "trans": 0.8393
+            },
+            "CnSpellingError": {
+                "sample_num": 3714,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnSpellingError.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnSpellingError.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9546,
+                "trans": 0.8951
+            },
+            "CnHomophones": {
+                "sample_num": 4190,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnHomophones.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnHomophones.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9558,
+                "trans": 0.8298
+            },
+            "CnSynonym": {
+                "sample_num": 1869,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnSynonym.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnSynonym.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9571,
+                "trans": 0.9094
+            },
+            "CnAntonym": {
+                "sample_num": 3530,
+                "ori_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/ori_CnAntonym.json",
+                "trans_download_link": "https://www.textflint.com/static/Tasks/NERCN/trans_dataset/MSRA/trans_CnAntonym.json",
+                "contributor": {
+                    "Jinzhu Lu": {
+                        "github": "https://github.com/thejacoblu"
+                    }
+                },
+                "ori": 0.9568,
+                "trans": 0.9466
+            }
+        }
+    }
+]
