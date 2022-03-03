@@ -55,7 +55,7 @@
     "model_name": "s2e+Longformer-Large",
     "paper_link": "https://arxiv.org/abs/2101.00434",
     "github_link": "https://github.com/yuvalkirstain/s2e-coref",
-    "paper_name": "[ACL 2021] Coreference Resolution without Span Representations",
+    "paper_name": "Coreference Resolution without Span Representations",
     "metric": {
      "Accuracy": 80.4
     },
@@ -65,7 +65,7 @@
     "model_name": "ICOREF",
     "paper_link": "https://arxiv.org/abs/2104.08457",
     "github_link": "https://github.com/pitrack/incremental-coref/",
-    "paper_name": "[EMNLP 2021] Moving on from OntoNotes: Coreference Resolution Model Transfer",
+    "paper_name": "Moving on from OntoNotes: Coreference Resolution Model Transfer",
     "metric": {
      "Accuracy": 78.8
     },

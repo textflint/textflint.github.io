@@ -62,7 +62,7 @@
     "model_name": "SemCor+WNGC,hypernyms",
     "paper_link": "https://arxiv.org/abs/1905.05677",
     "github_link": "https://github.com/getalp/disambiguate",
-    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "paper_name":  "Sense Vocabulary Compression through the Semantic Knowledge of WordNet for Neural Word Sense Disambiguation",
     "metric": {
      "F1": 79.7
     },
@@ -82,7 +82,7 @@
     "model_name": "SACE",
     "paper_link": "https://aclanthology.org/2021.acl-long.406/",
     "github_link": "https://github.com/lwmlyy/SACE",
-    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "paper_name": "Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
     "metric": {
      "F1": 79.2
     },
@@ -92,7 +92,7 @@
     "model_name": "ESR",
     "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
     "github_link": "https://github.com/nusnlp/esr",
-    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "paper_name": "Improved Word Sense Disambiguation with Enhanced Sense Representations",
     "metric": {
      "F1": 79.9
     },
@@ -102,7 +102,7 @@
     "model_name": "ConSeC",
     "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
     "github_link": "https://github.com/SapienzaNLP/consec",
-    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "paper_name": "ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
     "metric": {
      "F1": 82.3
     },
@@ -173,7 +173,7 @@
     "model_name": "SemCor+WNGC,hypernyms",
     "paper_link": "https://arxiv.org/abs/1905.05677",
     "github_link": "https://github.com/getalp/disambiguate",
-    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "paper_name":  "Sense Vocabulary Compression through the Semantic Knowledge of WordNet for Neural Word Sense Disambiguation",
     "metric": {
      "F1": 77.8
     },
@@ -193,7 +193,7 @@
     "model_name": "SACE",
     "paper_link": "https://aclanthology.org/2021.acl-long.406/",
     "github_link": "https://github.com/lwmlyy/SACE",
-    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "paper_name": "Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
     "metric": {
      "F1": 79.7
     },
@@ -203,7 +203,7 @@
     "model_name": "ESR",
     "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
     "github_link": "https://github.com/nusnlp/esr",
-    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "paper_name": "Improved Word Sense Disambiguation with Enhanced Sense Representations",
     "metric": {
      "F1": 78.4
     },
@@ -213,7 +213,7 @@
     "model_name": "ConSeC",
     "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
     "github_link": "https://github.com/SapienzaNLP/consec",
-    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "paper_name": "ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
     "metric": {
      "F1": 79.6
     },
@@ -284,7 +284,7 @@
     "model_name": "SemCor+WNGC,hypernyms",
     "paper_link": "https://arxiv.org/abs/1905.05677",
     "github_link": "https://github.com/getalp/disambiguate",
-    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "paper_name":  "Sense Vocabulary Compression through the Semantic Knowledge of WordNet for Neural Word Sense Disambiguation",
     "metric": {
      "F1": 73.4
     },
@@ -304,7 +304,7 @@
     "model_name": "SACE",
     "paper_link": "https://aclanthology.org/2021.acl-long.406/",
     "github_link": "https://github.com/lwmlyy/SACE",
-    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "paper_name": "Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
     "metric": {
      "F1": 71.9
     },
@@ -314,7 +314,7 @@
     "model_name": "ESR",
     "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
     "github_link": "https://github.com/nusnlp/esr",
-    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "paper_name": "Improved Word Sense Disambiguation with Enhanced Sense Representations",
     "metric": {
      "F1": 74.9
     },
@@ -324,7 +324,7 @@
     "model_name": "ConSeC",
     "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
     "github_link": "https://github.com/SapienzaNLP/consec",
-    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "paper_name": "ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
     "metric": {
      "F1": 77.6
     },
@@ -395,7 +395,7 @@
     "model_name": "SemCor+WNGC,hypernyms",
     "paper_link": "https://arxiv.org/abs/1905.05677",
     "github_link": "https://github.com/getalp/disambiguate",
-    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "paper_name":  "Sense Vocabulary Compression through the Semantic Knowledge of WordNet for Neural Word Sense Disambiguation",
     "metric": {
      "F1": 78.7
     },
@@ -415,7 +415,7 @@
     "model_name": "SACE",
     "paper_link": "https://aclanthology.org/2021.acl-long.406/",
     "github_link": "https://github.com/lwmlyy/SACE",
-    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "paper_name": "Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
     "metric": {
      "F1": 78.7
     },
@@ -425,7 +425,7 @@
     "model_name": "ESR",
     "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
     "github_link": "https://github.com/nusnlp/esr",
-    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "paper_name": "Improved Word Sense Disambiguation with Enhanced Sense Representations",
     "metric": {
      "F1": 80.0
     },
@@ -435,7 +435,7 @@
     "model_name": "ConSeC",
     "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
     "github_link": "https://github.com/SapienzaNLP/consec",
-    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "paper_name": "ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
     "metric": {
      "F1": 83.2
     },
@@ -506,7 +506,7 @@
     "model_name": "SemCor+WNGC,hypernyms",
     "paper_link": "https://arxiv.org/abs/1905.05677",
     "github_link": "https://github.com/getalp/disambiguate",
-    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "paper_name":  "Sense Vocabulary Compression through the Semantic Knowledge of WordNet for Neural Word Sense Disambiguation",
     "metric": {
      "F1": 82.6
     },
@@ -526,7 +526,7 @@
     "model_name": "SACE",
     "paper_link": "https://aclanthology.org/2021.acl-long.406/",
     "github_link": "https://github.com/lwmlyy/SACE",
-    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "paper_name": "Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
     "metric": {
      "F1": 83.7
     },
@@ -536,7 +536,7 @@
     "model_name": "ESR",
     "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
     "github_link": "https://github.com/nusnlp/esr",
-    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "paper_name": "Improved Word Sense Disambiguation with Enhanced Sense Representations",
     "metric": {
      "F1": 82.0
     },
@@ -546,7 +546,7 @@
     "model_name": "ConSeC",
     "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
     "github_link": "https://github.com/SapienzaNLP/consec",
-    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "paper_name": "ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
     "metric": {
      "F1": 85.1
     },
@@ -617,7 +617,7 @@
     "model_name": "SemCor+WNGC,hypernyms",
     "paper_link": "https://arxiv.org/abs/1905.05677",
     "github_link": "https://github.com/getalp/disambiguate",
-    "paper_name": "https://arxiv.org/abs/1905.05677",
+    "paper_name":  "Sense Vocabulary Compression through the Semantic Knowledge of WordNet for Neural Word Sense Disambiguation",
     "metric": {
      "F1": 79.0
     },
@@ -637,7 +637,7 @@
     "model_name": "SACE",
     "paper_link": "https://aclanthology.org/2021.acl-long.406/",
     "github_link": "https://github.com/lwmlyy/SACE",
-    "paper_name": "[ACL 2021] Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
+    "paper_name": "Word Sense Disambiguation: Towards Interactive Context Exploitation from Both Word and Sense Perspectives",
     "metric": {
      "F1": 79.9
     },
@@ -647,7 +647,7 @@
     "model_name": "ESR",
     "paper_link": "https://aclanthology.org/2021.findings-emnlp.365/",
     "github_link": "https://github.com/nusnlp/esr",
-    "paper_name": "[EMNLP 2021] Improved Word Sense Disambiguation with Enhanced Sense Representations",
+    "paper_name": "Improved Word Sense Disambiguation with Enhanced Sense Representations",
     "metric": {
      "F1": 80.0
     },
@@ -657,7 +657,7 @@
     "model_name": "ConSeC",
     "paper_link": "https://aclanthology.org/2021.emnlp-main.112/",
     "github_link": "https://github.com/SapienzaNLP/consec",
-    "paper_name": "[EMNLP 2021] ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
+    "paper_name": "ConSeC: Word Sense Disambiguation as Continuous Sense Comprehension",
     "metric": {
      "F1": 81.9
     },
