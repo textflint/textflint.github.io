@@ -123,9 +123,9 @@
             },
             {
                 "model_name":"UANet",
-                "paper_link":"https://aclanthology.org/2021.acl-long.451.pdf",
-                "github_link":"https://github.com/yhcc/BARTNER",
-                "paper_name":"A Unified Generative Framework for Various NER Subtasks",
+                "paper_link":"https://arxiv.org/pdf/2012.10608.pdf",
+                "github_link":"https://github.com/jiacheng-ye/UANet",
+                "paper_name":"Uncertainty-Aware Label Reﬁnement for Sequence Labeling",
                 "metric":{
                     "F1":91.98
                 },
@@ -133,9 +133,9 @@
             },
             {
                 "model_name":"S-LSTM",
-                "paper_link":"https://aclanthology.org/2021.acl-long.451.pdf",
-                "github_link":"https://github.com/yhcc/BARTNER",
-                "paper_name":"A Unified Generative Framework for Various NER Subtasks",
+                "paper_link":"https://arxiv.org/pdf/1805.02474.pdf",
+                "github_link":"https://github.com/leuchine/S-LSTM",
+                "paper_name":"Sentence-State LSTM for Text Representation",
                 "metric":{
                     "F1":90.17
                 },
@@ -143,9 +143,9 @@
             },
             {
                 "model_name":"NAT",
-                "paper_link":"https://aclanthology.org/2021.acl-long.451.pdf",
-                "github_link":"https://github.com/yhcc/BARTNER",
-                "paper_name":"A Unified Generative Framework for Various NER Subtasks",
+                "paper_link":"https://arxiv.org/pdf/2005.07162.pdf",
+                "github_link":"https://github.com/mnamysl/nat-acl2020",
+                "paper_name":"NAT: Noise-Aware Training for Robust Neural Sequence Labeling",
                 "metric":{
                     "F1":92.04
                 },
